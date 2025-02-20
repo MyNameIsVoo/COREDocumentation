@@ -1,0 +1,4 @@
+var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions_1_1_active_transition_state =
+[
+    [ "ActiveTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions_1_1_active_transition_state.html#afd3f46a3690634ff0f223901365e8996", null ]
+];

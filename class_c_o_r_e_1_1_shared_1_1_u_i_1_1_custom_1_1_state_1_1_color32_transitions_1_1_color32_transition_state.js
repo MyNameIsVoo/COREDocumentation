@@ -1,0 +1,4 @@
+var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions_1_1_color32_transition_state =
+[
+    [ "Color32TransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions_1_1_color32_transition_state.html#ab0e18e5c0f3dc4590e144f30893c7188", null ]
+];

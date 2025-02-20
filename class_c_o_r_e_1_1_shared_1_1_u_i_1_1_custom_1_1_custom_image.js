@@ -1,0 +1,27 @@
+var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image =
+[
+    [ "AddQuad", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a12ebfd03d73af46e611ee645670c0334", null ],
+    [ "AssignSpriteSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a74c6df6980f53e098010a146f36ded6c", null ],
+    [ "DoValidation", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#acda5df0d56c619b9c08899c5b25acb93", null ],
+    [ "GenerateSimpleSprite", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a5e574244e364814214d34fc284b19e2a", null ],
+    [ "GenerateSlicedSprite", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#ab199f37c4967ad33781bac91c654db5e", null ],
+    [ "GenerateTiledSprite", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a03ba96810781b6b197c16b6a1fffafa0", null ],
+    [ "GetAdjustedBorders", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#ae74997c748cc6775eb69e135b80604d2", null ],
+    [ "GetDrawingRect", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#ab87cab6920e6cf98ddd4bc789d0a77b5", null ],
+    [ "OnEnable", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a39abb2a8690808273d33c1a49dc399ef", null ],
+    [ "OnPopulateMesh", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a4f022ad8cc2c22b0da52f558156c93ed", null ],
+    [ "PreserveSpriteAspectRatio", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#ae958ba3536e16a9cc76054d91a1c88fd", null ],
+    [ "_colorMode", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a0800b8ff14aac2ec438b83f5eb63ca05", null ],
+    [ "_fallbackSpriteSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#acf8fbee82f264eda663290b06ec661e2", null ],
+    [ "_keepBorderAspectRatio", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a71891215cfc8dffac7e987cddc3ac880", null ],
+    [ "_secondColor", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#aa1f34904427a1c3c1829dcc1cbb62e05", null ],
+    [ "_uvScratch", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a30cf2b35705766f6b82b8f5b8c9bb266", null ],
+    [ "_vertScratch", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a73de7f981e09bc6bb158720a15adcf5d", null ],
+    [ "_activeSprite", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a4b6a5edeeb0405feb90375ffd7a3be21", null ],
+    [ "color", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a6f318e6d5c45f3eae1d689a2928136d6", null ],
+    [ "ColoringMode", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a8676920c6b5da9628e7e521879bb0448", null ],
+    [ "CurrentSpriteSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a2e7125bd4e0337652b3699b8c359e72f", null ],
+    [ "KeepBorderAspectRatio", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a8282ca709969a04a3ad55e80d9a99c05", null ],
+    [ "SecondColor", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#a6a182e863036a3c90c815e888b2b4c6c", null ],
+    [ "sprite", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html#ab0ead52784c8be776518168b2f0dd100", null ]
+];

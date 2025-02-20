@@ -1,0 +1,4 @@
+var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_swap_transitions_1_1_sprite_swap_transition_state =
+[
+    [ "SpriteSwapTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_swap_transitions_1_1_sprite_swap_transition_state.html#aafafba72ef6431525a4bb1fea57137d5", null ]
+];

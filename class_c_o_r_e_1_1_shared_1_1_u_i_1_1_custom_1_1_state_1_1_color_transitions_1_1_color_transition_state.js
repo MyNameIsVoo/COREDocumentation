@@ -1,0 +1,4 @@
+var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions_1_1_color_transition_state =
+[
+    [ "ColorTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions_1_1_color_transition_state.html#ad372fe9a9b76d72f3df8226d09cb9cf2", null ]
+];
