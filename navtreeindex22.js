@@ -143,6 +143,7 @@ var NAVTREEINDEX22 =
 "index.html#autotoc_md41":[0,6],
 "index.html#autotoc_md42":[0,7],
 "index.html#autotoc_md43":[0,8],
+"index.html#autotoc_md44":[0,9],
 "index.html#autotoc_md5":[0,1,1,0],
 "index.html#autotoc_md6":[0,1,1,1],
 "index.html#autotoc_md7":[0,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#aa7fbf678b1a59e1b1d05bee16ba54916":[2,0,0,2,14,22,0],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#ab7021569ec7e2bedd63c1aedf4954fbb":[1,0,0,2,14,23,1],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#ab7021569ec7e2bedd63c1aedf4954fbb":[2,0,0,2,14,22,1],
-"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[1,0,0,2,14,23,2],
-"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[2,0,0,2,14,22,2]
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[1,0,0,2,14,23,2]
 };

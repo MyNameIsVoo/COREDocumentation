@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[2,0,0,2,14,22,2],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html":[1,0,0,2,14,24],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html":[2,0,0,2,14,23],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html#a06ae62c289bc2d512993898ffbc2c862":[1,0,0,2,14,24,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514":[1,0,0,2,2,8,2],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514":[2,0,0,2,2,8,2],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b":[1,0,0,2,2,8,5],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b":[2,0,0,2,2,8,5],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a9ad7e712457ef01d6f62a6d0739a73eb":[1,0,0,2,2,8,1]
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b":[2,0,0,2,2,8,5]
 };

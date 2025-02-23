@@ -45,8 +45,9 @@ var index =
       ] ],
       [ "Game Mods for Example", "index.html#autotoc_md39", null ]
     ] ],
-    [ "Tutorials TODO", "index.html#autotoc_md40", null ],
-    [ "TODO", "index.html#autotoc_md41", null ],
-    [ "CONTACTS", "index.html#autotoc_md42", null ],
-    [ "REFUND POLICY", "index.html#autotoc_md43", null ]
+    [ "Build Project", "index.html#autotoc_md40", null ],
+    [ "Tutorials TODO", "index.html#autotoc_md41", null ],
+    [ "TODO", "index.html#autotoc_md42", null ],
+    [ "CONTACTS", "index.html#autotoc_md43", null ],
+    [ "REFUND POLICY", "index.html#autotoc_md44", null ]
 ];

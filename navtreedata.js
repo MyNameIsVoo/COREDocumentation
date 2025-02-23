@@ -82,7 +82,7 @@ var NAVTREEINDEX =
 "class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#aaf90bae7a36dd541d803df76b19cf8b7",
 "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#a0877b8c74c45b07179556ce9b77fe70f",
 "functions_e.html",
-"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html",
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe",
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a9ad7e712457ef01d6f62a6d0739a73eb"
 ];
 
