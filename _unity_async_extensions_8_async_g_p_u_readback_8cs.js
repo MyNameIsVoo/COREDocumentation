@@ -1,5 +1,0 @@
-var _unity_async_extensions_8_async_g_p_u_readback_8cs =
-[
-    [ "Cysharp.Threading.Tasks.UnityAsyncExtensions", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions" ],
-    [ "Cysharp.Threading.Tasks.UnityAsyncExtensions.AsyncGPUReadbackRequestAwaiterConfiguredSource", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source" ]
-];

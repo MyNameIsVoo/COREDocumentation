@@ -1,4 +1,0 @@
-var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_collision_exit_handler =
-[
-    [ "OnCollisionExitAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_collision_exit_handler.html#a2088d253ed8fab1db99c82f799a4392d", null ]
-];

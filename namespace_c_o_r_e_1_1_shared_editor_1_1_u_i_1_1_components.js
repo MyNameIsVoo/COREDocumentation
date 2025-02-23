@@ -1,7 +1,0 @@
-var namespace_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components =
-[
-    [ "CustomUIGraphicComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_custom_u_i_graphic_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_custom_u_i_graphic_component_editor" ],
-    [ "ImageComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_image_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_image_component_editor" ],
-    [ "RawImageComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_raw_image_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_raw_image_component_editor" ],
-    [ "TextComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_text_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_text_component_editor" ]
-];

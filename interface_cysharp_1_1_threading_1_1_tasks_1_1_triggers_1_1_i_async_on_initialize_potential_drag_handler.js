@@ -1,4 +1,0 @@
-var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_initialize_potential_drag_handler =
-[
-    [ "OnInitializePotentialDragAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_initialize_potential_drag_handler.html#a95a38722e684a89cab8cf4376ca740b3", null ]
-];

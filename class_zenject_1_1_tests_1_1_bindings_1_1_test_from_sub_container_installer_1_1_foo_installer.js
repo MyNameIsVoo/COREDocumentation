@@ -1,4 +1,0 @@
-var class_zenject_1_1_tests_1_1_bindings_1_1_test_from_sub_container_installer_1_1_foo_installer =
-[
-    [ "InstallBindings", "class_zenject_1_1_tests_1_1_bindings_1_1_test_from_sub_container_installer_1_1_foo_installer.html#a69e2ded75f56933c4de79dbac19bee3b", null ]
-];

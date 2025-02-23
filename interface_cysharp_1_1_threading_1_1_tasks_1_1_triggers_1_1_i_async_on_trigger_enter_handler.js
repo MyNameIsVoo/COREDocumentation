@@ -1,4 +1,0 @@
-var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_enter_handler =
-[
-    [ "OnTriggerEnterAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_enter_handler.html#aad1188c1a5077818e255c4472f60e37b", null ]
-];

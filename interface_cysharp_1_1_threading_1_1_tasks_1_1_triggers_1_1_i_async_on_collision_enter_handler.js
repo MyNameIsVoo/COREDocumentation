@@ -1,4 +1,0 @@
-var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_collision_enter_handler =
-[
-    [ "OnCollisionEnterAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_collision_enter_handler.html#a8f85bc5743429a846ce06a04c05456b3", null ]
-];

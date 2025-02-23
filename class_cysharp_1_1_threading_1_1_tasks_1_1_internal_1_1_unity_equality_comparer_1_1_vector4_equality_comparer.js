@@ -1,5 +1,0 @@
-var class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_unity_equality_comparer_1_1_vector4_equality_comparer =
-[
-    [ "Equals", "class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_unity_equality_comparer_1_1_vector4_equality_comparer.html#a84615c86137695aa3c2ae4dde4afcf06", null ],
-    [ "GetHashCode", "class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_unity_equality_comparer_1_1_vector4_equality_comparer.html#aa4285a5046e96708ef87652b8e73e14c", null ]
-];

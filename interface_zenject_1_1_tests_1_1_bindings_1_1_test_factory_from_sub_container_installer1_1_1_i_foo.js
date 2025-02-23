@@ -1,4 +1,0 @@
-var interface_zenject_1_1_tests_1_1_bindings_1_1_test_factory_from_sub_container_installer1_1_1_i_foo =
-[
-    [ "Value", "interface_zenject_1_1_tests_1_1_bindings_1_1_test_factory_from_sub_container_installer1_1_1_i_foo.html#a093ffff62405510c7aff828d3076b71c", null ]
-];

@@ -1,5 +1,0 @@
-var _a_b_data_source_8cs =
-[
-    [ "CORE.AssetBundleBrowser.AssetBundleDataSource.ABBuildInfo", "class_c_o_r_e_1_1_asset_bundle_browser_1_1_asset_bundle_data_source_1_1_a_b_build_info.html", "class_c_o_r_e_1_1_asset_bundle_browser_1_1_asset_bundle_data_source_1_1_a_b_build_info" ],
-    [ "CORE.AssetBundleBrowser.AssetBundleDataSource.ABDataSource", "interface_c_o_r_e_1_1_asset_bundle_browser_1_1_asset_bundle_data_source_1_1_a_b_data_source.html", "interface_c_o_r_e_1_1_asset_bundle_browser_1_1_asset_bundle_data_source_1_1_a_b_data_source" ]
-];

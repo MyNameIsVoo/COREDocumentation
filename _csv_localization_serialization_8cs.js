@@ -1,4 +1,0 @@
-var _csv_localization_serialization_8cs =
-[
-    [ "GameToolkit.Localization.Editor.Serialization.CsvLocalizationSerialization", "class_game_toolkit_1_1_localization_1_1_editor_1_1_serialization_1_1_csv_localization_serialization.html", "class_game_toolkit_1_1_localization_1_1_editor_1_1_serialization_1_1_csv_localization_serialization" ]
-];

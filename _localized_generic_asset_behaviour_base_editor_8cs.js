@@ -1,4 +1,0 @@
-var _localized_generic_asset_behaviour_base_editor_8cs =
-[
-    [ "GameToolkit.Localization.Editor.LocalizedGenericAssetBehaviourBaseEditor", "class_game_toolkit_1_1_localization_1_1_editor_1_1_localized_generic_asset_behaviour_base_editor.html", "class_game_toolkit_1_1_localization_1_1_editor_1_1_localized_generic_asset_behaviour_base_editor" ]
-];
