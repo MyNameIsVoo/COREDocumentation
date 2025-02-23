@@ -10,7 +10,6 @@ var searchData=
   ['directory_7',['Directory',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data.html#af876b06992426f44ce93fdad3cdd179b',1,'CORE.Shared.Utils.AssemblyData.Directory'],['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_scriptable_object_attribute.html#a56bf907c42c68628077b4ec26f71f228',1,'CORE.Shared.Utils.SingletonScriptableObjectAttribute.Directory']]],
   ['directorysavepath_8',['DirectorySavePath',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a37de40c2f45cd3c69dbb938b7883a5a9',1,'CORE::Shared::Utils::Resources::ResourceSettings::AssetData']]],
   ['display_9',['Display',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#ad4f3be60a5798910eaf49802ae5b8a88',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
-  ['displayname_10',['DisplayName',['../class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_package_selector_1_1_package_item.html#a02b9f3a6e1f6fde91a6a09f6f5b620e8',1,'CORE::ModTool::Editor::PackageSelector::PackageItem']]],
-  ['dllpath_11',['DLLPath',['../class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_step.html#af81f379c584a8ed9a86b0037941172e3',1,'CORE::ModTool::Editor::Exporting::ExportStep']]],
-  ['dropdown_12',['Dropdown',['../class_c_o_r_e_1_1_examples_1_1_custom_u_i_example.html#a92826bb86df3cb4246b04fdd997187f5',1,'CORE::Examples::CustomUIExample']]]
+  ['dllpath_10',['DLLPath',['../class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_step.html#af81f379c584a8ed9a86b0037941172e3',1,'CORE::ModTool::Editor::Exporting::ExportStep']]],
+  ['dropdown_11',['Dropdown',['../class_c_o_r_e_1_1_examples_1_1_custom_u_i_example.html#a92826bb86df3cb4246b04fdd997187f5',1,'CORE::Examples::CustomUIExample']]]
 ];

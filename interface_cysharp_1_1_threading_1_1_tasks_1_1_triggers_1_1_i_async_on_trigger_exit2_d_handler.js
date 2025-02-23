@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_exit2_d_handler =
+[
+    [ "OnTriggerExit2DAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_exit2_d_handler.html#a9765ed1cde66cfbde429f16ed82f10fa", null ]
+];

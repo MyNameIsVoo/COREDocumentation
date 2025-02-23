@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_pointer_enter_handler =
+[
+    [ "OnPointerEnterAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_pointer_enter_handler.html#a725355df48c11ede690b72693eb95e3e", null ]
+];

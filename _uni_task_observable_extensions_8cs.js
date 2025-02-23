@@ -1,0 +1,9 @@
+var _uni_task_observable_extensions_8cs =
+[
+    [ "Cysharp.Threading.Tasks.UniTaskObservableExtensions", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions" ],
+    [ "Cysharp.Threading.Tasks.UniTaskObservableExtensions.ToUniTaskObserver< T >", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_to_uni_task_observer-1-g.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_to_uni_task_observer-1-g" ],
+    [ "Cysharp.Threading.Tasks.UniTaskObservableExtensions.FirstValueToUniTaskObserver< T >", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_first_value_to_uni_task_observer-1-g.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_first_value_to_uni_task_observer-1-g" ],
+    [ "Cysharp.Threading.Tasks.UniTaskObservableExtensions.ReturnObservable< T >", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_return_observable-1-g.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_return_observable-1-g" ],
+    [ "Cysharp.Threading.Tasks.UniTaskObservableExtensions.ThrowObservable< T >", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_throw_observable-1-g.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_observable_extensions_1_1_throw_observable-1-g" ],
+    [ "Cysharp.Threading.Tasks.Internal.AsyncSubject< T >.Subscription", "class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_async_subject-1-g_1_1_subscription.html", null ]
+];

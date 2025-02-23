@@ -13,10 +13,9 @@ var searchData=
   ['resolvedreferences_10',['ResolvedReferences',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#a30f6ca56e1c1732b246d21830d8d2b82',1,'CORE::Shared::Configs::ConfigReferenceResolver']]],
   ['resource_11',['Resource',['../class_c_o_r_e_1_1_mod_tool_1_1_mod_1_1_mod_resources_data.html#a51ffd5afe5210f1237be5edcad3e47e2',1,'CORE::ModTool::Mod::ModResourcesData']]],
   ['resourcedatas_12',['ResourceDatas',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_player_resource_settings.html#a7db0e9c21ff9b8fbb9551e7f2fd3b5c5',1,'CORE.Shared.Utils.Resources.PlayerResourceSettings.ResourceDatas'],['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#a859c30313e977250b47cba90adfadb7a',1,'CORE.Shared.Utils.Resources.ResourceSettings.ResourceDatas']]],
-  ['resourcesdata_13',['ResourcesData',['../class_c_o_r_e_1_1_editor_1_1_data_1_1_game_window_data_editor.html#a555954d47ca1d3c228b262910d155790',1,'CORE::Editor::Data::GameWindowDataEditor']]],
-  ['restrictionmode_14',['restrictionMode',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_restriction.html#a4f59ea3c1640f4e906d63c53d62b5fad',1,'CORE::ModTool::Shared::Verification::Restriction']]],
-  ['rootnamespace_15',['rootNamespace',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data.html#a93c02170a054e0c878bef610a7b5a909',1,'CORE::Shared::Utils::AssemblyData']]],
-  ['rootspawngameobject_16',['RootSpawnGameObject',['../class_c_o_r_e_1_1_examples_1_1_load_unload_resources_example.html#a6130cc965de65659f14e4ef2e14b7b5e',1,'CORE::Examples::LoadUnloadResourcesExample']]],
-  ['rowcount_17',['RowCount',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon.html#a5d6e943ab9d0c5c56326d40f1de86a40',1,'CORE::Shared::UI::Other::LoadingIcon']]],
-  ['rownumber_18',['RowNumber',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon.html#ab1796972da60f8c56ba4ce7b90c5e8a3',1,'CORE::Shared::UI::Other::LoadingIcon']]]
+  ['restrictionmode_13',['restrictionMode',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_restriction.html#a4f59ea3c1640f4e906d63c53d62b5fad',1,'CORE::ModTool::Shared::Verification::Restriction']]],
+  ['rootnamespace_14',['rootNamespace',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data.html#a93c02170a054e0c878bef610a7b5a909',1,'CORE::Shared::Utils::AssemblyData']]],
+  ['rootspawngameobject_15',['RootSpawnGameObject',['../class_c_o_r_e_1_1_examples_1_1_load_unload_resources_example.html#a6130cc965de65659f14e4ef2e14b7b5e',1,'CORE::Examples::LoadUnloadResourcesExample']]],
+  ['rowcount_16',['RowCount',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon.html#a5d6e943ab9d0c5c56326d40f1de86a40',1,'CORE::Shared::UI::Other::LoadingIcon']]],
+  ['rownumber_17',['RowNumber',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon.html#ab1796972da60f8c56ba4ce7b90c5e8a3',1,'CORE::Shared::UI::Other::LoadingIcon']]]
 ];

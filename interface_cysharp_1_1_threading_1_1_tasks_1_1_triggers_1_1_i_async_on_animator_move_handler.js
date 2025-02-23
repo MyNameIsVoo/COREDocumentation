@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_animator_move_handler =
+[
+    [ "OnAnimatorMoveAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_animator_move_handler.html#aaba508817ba066047875071e5116cf94", null ]
+];

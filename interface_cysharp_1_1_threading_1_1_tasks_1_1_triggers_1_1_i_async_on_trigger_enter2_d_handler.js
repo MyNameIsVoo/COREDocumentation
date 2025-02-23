@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_enter2_d_handler =
+[
+    [ "OnTriggerEnter2DAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_enter2_d_handler.html#a9b74381737e9fcbdb46c52397d4ce898", null ]
+];

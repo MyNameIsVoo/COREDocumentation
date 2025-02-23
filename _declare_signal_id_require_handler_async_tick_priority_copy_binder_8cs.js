@@ -1,0 +1,4 @@
+var _declare_signal_id_require_handler_async_tick_priority_copy_binder_8cs =
+[
+    [ "Zenject.DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder", "class_zenject_1_1_declare_signal_id_require_handler_async_tick_priority_copy_binder.html", "class_zenject_1_1_declare_signal_id_require_handler_async_tick_priority_copy_binder" ]
+];

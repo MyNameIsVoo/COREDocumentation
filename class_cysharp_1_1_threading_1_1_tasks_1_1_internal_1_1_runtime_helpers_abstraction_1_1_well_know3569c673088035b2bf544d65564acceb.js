@@ -1,0 +1,5 @@
+var class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_runtime_helpers_abstraction_1_1_well_know3569c673088035b2bf544d65564acceb =
+[
+    [ "WellKnownNoReferenceContainsType", "class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_runtime_helpers_abstraction_1_1_well_know3569c673088035b2bf544d65564acceb.html#af2c92c5056a99f02004780d5f9d87dc0", null ],
+    [ "IsWellKnownType", "class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_runtime_helpers_abstraction_1_1_well_know3569c673088035b2bf544d65564acceb.html#a6366c1995e57e08f753e93337175a887", null ]
+];

@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_pointer_exit_handler =
+[
+    [ "OnPointerExitAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_pointer_exit_handler.html#a784d6f8053a73cd6e120354807388167", null ]
+];

@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_collision_stay2_d_handler =
+[
+    [ "OnCollisionStay2DAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_collision_stay2_d_handler.html#af12b76d37cc846a3dc0fa0b6c0241742", null ]
+];

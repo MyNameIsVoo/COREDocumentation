@@ -1,0 +1,10 @@
+var _google_translator_8cs =
+[
+    [ "GameToolkit.Localization.Utilities.GoogleTranslator", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator.html", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator" ],
+    [ "GameToolkit.Localization.Utilities.GoogleTranslator.JsonResponse", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_response.html", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_response" ],
+    [ "GameToolkit.Localization.Utilities.GoogleTranslator.JsonData", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_data.html", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_data" ],
+    [ "GameToolkit.Localization.Utilities.GoogleTranslator.JsonError", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_error.html", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_error" ],
+    [ "GameToolkit.Localization.Utilities.GoogleTranslator.JsonTranslation", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_translation.html", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_google_translator_1_1_json_translation" ],
+    [ "GameToolkit.Localization.Utilities.TranslationCompletedEventArgs", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_translation_completed_event_args.html", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_translation_completed_event_args" ],
+    [ "GameToolkit.Localization.Utilities.TranslationErrorEventArgs", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_translation_error_event_args.html", "class_game_toolkit_1_1_localization_1_1_utilities_1_1_translation_error_event_args" ]
+];

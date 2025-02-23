@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CORE Game Developers Toolkit: Main Page</title>
+<title>CORE Game Developers Toolkit: C.O.R.E. - Game Developer&#39;s Toolkit</title>
 <link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -104,10 +104,644 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">CORE Game Developers Toolkit Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">C.O.R.E. - Game Developer's Toolkit </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md__main_page_2_r_e_a_d_m_e"></a></p>
+<blockquote class="doxtable">
+<p><a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E. - Game Developer's Toolkit</a> — is a comprehensive set of tools designed to simplify the game development process. This asset provides developers with all the necessary components to quickly and efficiently create games, regardless of their experience level. </p>
+</blockquote>
+<div class="image">
+<img src="COREHello_0.png" alt=""/>
+</div>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Why choose <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E. - Game Developer's Toolkit</a>?</h1>
+<p>With <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> you will get:</p>
+<ul>
+<li>Wide range of tools: everything you need to create games, from resource management to a system for saving and loading scenes.</li>
+<li>Support for beginners: intuitive interfaces and documentation will help you quickly master all the tools.</li>
+<li>Professional approach: developed taking into account the best practices of the industry to ensure high quality and performance.</li>
+<li>Documentation</li>
+</ul>
+<p>Don't miss out on the opportunity to simplify your project work! Get <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> today and start creating your games with ease!</p>
+<p>So <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E. - Game Developer's Toolkit</a> offers developers a powerful set of tools that simplifies game creation and increases development efficiency. This asset includes all the necessary components so that you can focus on the creative process, not on routine tasks.</p>
+<div class="image">
+<img src="CoreLogo.png" alt=""/>
+</div>
+<ul>
+<li><b>C</b> – Creation (Tools for quickly creating game objects and levels)</li>
+<li><b>O</b> – Organization (Simplifying the organization of files and resources in a project)</li>
+<li><b>R</b> – Rapid Development (Features that speed up the game development process)</li>
+<li><b>E</b> – Extensibility (Support for mods and the ability to add new features)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Aspects</h1>
+<ol type="1">
+<li><b>Resource Manager</b> A convenient tool for managing all the resources of your project. Allows you to easily add, remove and organize textures, models, audio files and other resources.</li>
+<li><b>Mods Support</b> Integrating mod support allows players to expand your game with new features and content, increasing its replayability and appeal.</li>
+<li><b>Config System</b> Flexible configuration system for storing game settings and parameters. Allows you to easily change settings without having to edit code.</li>
+<li><b>Code Generator</b> A utility for automatic code generation that speeds up the development process and minimizes errors.</li>
+<li><b>Model</b> This is a single system that stores data about the player and other objects.</li>
+<li><b>Save System</b> A reliable system for saving player progress with the ability to create backups and restore data.</li>
+<li><b>Scene Loader</b> An efficient scene loader that optimizes transitions between levels and minimizes loading time.</li>
+<li><b>Visual View Model</b> A visual interface for working with view models <b>(View Models)</b>, which simplifies the setup and management of objects in the game.</li>
+<li><b>Color Library</b> A color library with preset palettes and the ability to create custom color schemes for your project.</li>
+<li><b>Mouse Manager</b> Convenient mouse control with support for various events and interactions to improve the gameplay.</li>
+<li><b>Global Updater</b> A global update system that allows you to manage updates to the game state and objects in real time.</li>
+<li><b>Time Manager</b> A utility for managing time in the game, including pauses, timers, and other time mechanics.</li>
+<li><b>Input System</b> A flexible input system that supports various input devices (keyboard, mouse) with the ability to customize.</li>
+<li><b>Audio System</b> A fully functional audio system for managing sound effects and music in the game with the ability to customize volume and effects. In the future, we plan to switch to <a href="https://www.fmod.com/unity">FMod</a>.</li>
+<li><b>Game Settings</b> A user-friendly interface for customizing game parameters, allowing players to change the settings to suit their preferences.</li>
+<li><b>Custom UI Elements</b> A set of custom interface elements <b>(UI)</b> that can be easily integrated into your project to improve the user experience.</li>
+<li><b>Third Party Assets</b> Support for third-party assets to expand the functionality of your project without having to write code from scratch.</li>
+<li><b>Utils</b> Useful utilities and functions to simplify development and improve project performance.</li>
+<li><b>Localization</b> Full-featured support for localization of text, images, etc. Loading localization keys from configs and using them in the game.</li>
+</ol>
+<div class="image">
+<img src="COREGameWindow_0.png" alt=""/>
+</div>
+<h2><a class="anchor" id="autotoc_md3"></a>
+Resource Manager</h2>
+<p><b>Resource Manager</b> is a powerful tool that provides convenient loading and unloading of prefabs, scenes, images and other resources of your project. It supports working with <b>Asset Bundles</b> and <b>Streaming Assets</b> folder, which allows you to effectively manage resources in the game. With <b>Resource Manager</b>, you get fast and convenient access to project files through code, which greatly simplifies the development process. This tool tightly integrates with <b>Code Generator</b> and <b>Mods Support</b>, allowing developers to easily add new features and content to their games. The main functions of <b>Resource Manager</b> include:</p><ul>
+<li>Loading and unloading of various types of resources (prefabs, scenes, images, etc.).</li>
+<li>Support for <b>Asset Bundles</b> for effective resource management.</li>
+<li>Working with <b>Streaming Assets</b> folder to store and load data available at runtime.</li>
+<li>Convenient access to resources through code for quick interaction.</li>
+<li>Integration with <b>Code Generator</b> and <b>Mods Support</b> for extensibility of functionality.</li>
+</ul>
+<p>As already mentioned, <b>Resource Manager</b> is used to load and unload assets in the project. Loading and unloading is very easy:</p>
+<div class="image">
+<img src="COREResourceManager_0.png" alt=""/>
+</div>
+<p>Let's figure out which fields are responsible for what:</p>
+<p><b>Resource Datas</b> - All internal resources that do not follow the general rules of code generation, such as Localization keys, which must be consistent throughout the entire project. In essence, <b>Resource Datas</b> generates enumerations for each of the lists. To add your resource to the list, you must first write a rule by which the enumerations will be generated.</p><ol type="1">
+<li><b>Type</b> - resource type (<em>string</em>) or its name, must be unique</li>
+<li><b>Paths</b> - paths where the resources are located</li>
+</ol>
+<p><b>Bundle Datas</b> - a list of all bundles in the game that will be collected. There is no need to manually set the bundle to which each asset belongs. All assets that are inside the folder will be automatically included in the bundle!</p><ol type="1">
+<li><b>Name</b> - the name of the bundle, must be unique</li>
+<li><b>Variant</b> - the variant of the bundle, must be unique in the bundle</li>
+<li><b>Paths</b> - the paths where the resources are located. It is enough to specify the root folder with the resources</li>
+</ol>
+<p><b>Asset Datas</b> - resources for which enumerations and data for accessing them via <b>Asset Bundles</b> should be generated</p><ol type="1">
+<li><b>Name</b> - unique resource name</li>
+<li><b>Bundle</b> - bundle to which the resource belongs</li>
+<li><b>Paths</b> - paths where resources are located</li>
+<li><b>Name Regex</b> - Works in conjunction with <b>Enum Values</b>, at the moment you can specify <b>maximum 2 Regex values</b>. Leave the field blank if you want the resource name to be taken in full. For example, you have resources with the names <em>UI_Player_Bob.png</em>, <em>UI_Player_Tom.png</em>, <em>UI_Enemy_Bill.png</em> and you want to divide them into groups and names, for this you need to write <b>Regex</b>, which will take the necessary strings from the name, in this case <b>Regex</b> will look like this <em>"UI_(.+?)_(.+?)$"</em>. This means that we will take <em>Player</em> and <em>Enemy</em> from the name and create an enumeration with the name <b>Group</b>, then we will take <em>Bob</em>, <em>Tom</em>, <em>Bill</em> from the name and create an enumeration with the name <b>Name</b>. The example below shows that we take two parameters from the name and create enumerations from them. All the rules for constructing enumerations are specified in the <b>Enum Values</b> fields, where each list element corresponds to one <b>Regex</b> value. <div class="image">
+<img src="COREResourceManager_2.png" alt=""/>
+</div>
+ For a more in-depth understanding, please check out <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">Example</a>.</li>
+<li><b>Type</b> - resource type. For example, localization keys or sprites.</li>
+<li><b>Directory Save Path</b> - path to generate resources. Leave the field empty if you want the resources to be generated in a common folder</li>
+<li><b>Enum Values</b> - rules for constructing enumerations. It is important to remember that the <b>Enum</b> field has priority - if you specify both <b>Name</b> and <b>Enum</b> fields, then the <b>Enum</b> field will ultimately be taken as a more valid rule.</li>
+</ol>
+<ul>
+<li><b>Name</b> - any enumeration name, may not be unique, for example, <em>size</em>, <em>value</em>, <em>name</em>, etc.</li>
+<li><b>Enum</b> - any existing enumeration. for example, <em>UnityEngine.KeyCode</em>. It is important to specify the full path to this enumeration, with all <b>Namespaces</b></li>
+<li><b>To Upper</b> - indicates that the enumeration should be written in uppercase <em>Assets/COREToolkit/Scripts/Shared/Generated</em></li>
+</ul>
+<p>Example of use:</p>
+<div class="image">
+<img src="COREResourceManager_1.png" alt=""/>
+</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="comment">// Load Visual from Bundles</span></div>
+<div class="line">ResourceComponent visualRC = ResourcesPlayerGenerated.LoadGameObjectExamples(<span class="keyword">new</span> EnumData&lt;ResourcesPlayerGenerated.ExamplesGameObjects&gt;(ResourcesPlayerGenerated.ExamplesGameObjects.UI_ExampleGameObject, <span class="keyword">null</span>), RootSpawnGameObject);</div>
+<div class="line"><span class="comment">// Unload Visual from Memory</span></div>
+<div class="line">ResourcesPlayerGenerated.UnloadSpriteExamples(ResourcesPlayerGenerated.ExamplesSprites.UI_ExampleIcon_0);</div>
+</div><!-- fragment --><p>Before you start working with resources:</p><ol type="1">
+<li>In the <em>Resources</em> folder, create <b>Create/CORE/PlayerResources</b></li>
+<li>Study <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">Example</a> - see the following sections for how to install the example</li>
+</ol>
+<dl class="section warning"><dt>Warning</dt><dd>All custom resources must be <b>stored</b> in <b>PlayerResources</b>!</dd></dl>
+<p>If you do not plan to update to the latest version of <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> then there is no need to use <b>PlayerResources</b>. These resources were created for one purpose only - to separate the tool and user (i.e. developer) resources to be independent of each other. This rule does not apply to <b>ColorLibrary</b> since <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> is slightly dependent on them.</p>
+<p>All bundles are built using the resources that you specified in the <b>PlayerResources</b> settings.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Bundle names must be unique, just like resource names!</dd></dl>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Mods Support</h2>
+<p><b>Mods Support</b> is a powerful tool that simplifies the process of generating and packaging mods for your game. It allows developers or users to easily create and integrate custom modifications, which greatly expands the possibilities of the gameplay and increases replayability. The main features of <b>Mods Support</b> include:</p><ul>
+<li>Convenient mod generation: The tool allows you to quickly create and pack mods, which can then be easily integrated into the game.</li>
+<li>Project assembly: Based on the use of <b>Assembly Definition</b> and <b>Asset Bundles</b>, which ensures reliable and efficient operation of mods.</li>
+<li>Export window for modders: A special interface for exporting mods that simplifies the process of creating and managing custom content.</li>
+<li>Setting code restrictions: The ability to set restrictions for code, which allows you to control the functionality of mods and prevent possible conflicts.</li>
+<li>Additional materials: Developers can supply additional materials along with the tool, which makes the integration process more convenient.</li>
+<li>Starting point for mods: The tool provides a single place to start and stop all mods, making them easier to manage.</li>
+<li>Change tracking: The system tracks the addition and removal of mods from the <b>Mods</b> folder, ensuring that the content in the game is up to date.</li>
+<li>Compatibility with the engine version: All mods must match the engine version used in the game, which guarantees stability and performance.</li>
+</ul>
+<p>With <b>Mods Support</b>, you can easily extend the functionality of your game and give players the ability to create and share their own modifications. <a href="https://github.com/Hello-Meow/ModTool">ModTool</a> was taken as a basis and completely redesigned for its own needs.</p>
+<p>Working with mods comes down to a few rules:</p><ul>
+<li>You need the <a class="el" href="namespace_c_o_r_e.html">CORE</a> Mod tool</li>
+<li>You need Documentation of your project</li>
+</ul>
+<p>To create your own mod you only need to study the API of the project, create a mod, and then export and add it to the game. Everything else will be done for you <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a>.</p>
+<h3><a class="anchor" id="autotoc_md5"></a>
+Mod Examples</h3>
+<p>For modders, you must provide all the tools they need to develop and integrate their add-ons into your product. For easy customization and export of the mod, <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> provides a powerful tool for assembling custom mods. To do this, modders just need to open the mod export window <em>Tools/ModTool/Export Mod</em> and fill in all the fields.</p>
+<div class="image">
+<img src="COREModsSupport_0.png" alt=""/>
+</div>
+<p>To start learning the tool, you need to do the following:</p><ol type="1">
+<li>Create a new empty Unity project of the same version and with the same settings as your main application</li>
+<li>Export the modding tool to your mod project</li>
+<li>Download <a href="https://drive.google.com/file/d/1ATzY0QnivLHAsahvzn5dI7lONuMbsA-2/view?usp=drive_link">CORE Game Developers Toolkit Mod Examples.unitypackage</a></li>
+<li>Using <em>Unity/Assets/Import Packages/Custom Package</em> unzip it into the project</li>
+<li>Install the <b>com.unity.nuget.newtonsoft-json</b> plugin via the Package Manager window</li>
+<li>In the <em>Assets/Resources</em> folder, you will find two text files, these are the mod preset settings. Move these two files to the <em>../ProjectName/Library/</em> folder</li>
+<li>Open the Mod Exporter window and make sure that all the settings are applied correctly. Otherwise, click the <b>Load</b> button to try to load the settings</li>
+<li>Click the <b>Prepare</b> button in the <b>Mod Exporter</b> window to set up resources such as color palette, etc.</li>
+</ol>
+<dl class="section warning"><dt>Warning</dt><dd>⚠️ Important! You will not be able to test your mods outside of your project. In order to test them, you must first export them and add them to the mods folder.</dd></dl>
+<h3><a class="anchor" id="autotoc_md6"></a>
+Mod Tool Exporter</h3>
+<div class="image">
+<img src="COREModsSupport_2.png" alt=""/>
+</div>
+<p><b>Common Settings</b></p><ol type="1">
+<li><b>Refresh Instances</b> - recreates all <b>ScriptableObjectSingletones</b></li>
+<li><b>Enable Steam</b> - initializes Steam before launching the game. To initialize Steam, you must have <b>SteamAppId</b>. In the root of the project, create a text file named <em>steam_appid.txt</em> and add your application id in Steam to it. <dl class="section warning"><dt>Warning</dt><dd>⚠️ Important! To successfully initialize the application, Steam must be enabled! <div class="image">
+<img src="COREEnableSteam_0.png" alt=""/>
+</div>
+</dd></dl>
+</li>
+<li><b>Load Bundles</b> - <a href="https://drive.google.com/file/d/1ATzY0QnivLHAsahvzn5dI7lONuMbsA-2/view?usp=drive_link">CORE Game Developers Toolkit Mod Examples.unitypackage</a> will attempt to load resources from bundles. To use this option, you must first build the bundles.</li>
+</ol>
+<p><b>Resources</b></p><ol type="1">
+<li><b>Generate</b> - resource file generation. Usage example: you added a new localization key and in order to be able to use it through the <a href="https://drive.google.com/file/d/1ATzY0QnivLHAsahvzn5dI7lONuMbsA-2/view?usp=drive_link">CORE Game Developers Toolkit Mod Examples.unitypackage</a> tools, you first need to generate resources so that this localization key is added to the list. After that, you can select it from the drop-down menu. The same applies to bundle resources, so that the tool can find them, you need to generate resources, they will be added to the list and then the tool will be able to use them.</li>
+</ol>
+<p><b>Mod Tool</b></p><ol type="1">
+<li><b>State</b> - development state. If you are actively developing the application, leave this option at <b>Debug</b> so that the tool is not exported with each application build.</li>
+<li><b>Version</b> - current version of the tool</li>
+<li><b>Supported Platforms</b> - all supported platforms</li>
+<li><b>Supported Content</b> - all supported content for mods. Example: if you remove scene support, modders will not be able to add new scenes</li>
+<li><b>Log Level</b> - mod logging level</li>
+<li><b>Shared DLLs</b> - libraries that will be supplied with the tool. All libraries are located at <em>ProjectName/Library/ScriptAssemblies/</em></li>
+<li><b>Shared Settings</b> - additional settings that will be supplied with the tool</li>
+<li><b>Shared Assets</b> - additional resources that will be supplied with the tool</li>
+<li><b>Shared Packages</b> - additional plugins that will be supplied with the tool</li>
+<li><b>Output Directory</b> - directory where the tool will be exported</li>
+<li><b>Inheritance Restrictions</b> - restrictions related to inheritance of Types inside Mod Assemblies</li>
+<li><b>Member Restrictions</b> - restrictions related to the use of fields, properties and methods from other types</li>
+<li><b>Type Restrictions</b> - restrictions related to the use of entire namespaces</li>
+<li><b>Namespace Restrictions</b> - restrictions related to the use of Types for fields and properties</li>
+</ol>
+<p><b>Asset Bundles</b></p><ol type="1">
+<li><b>Buld Target</b> - the platform for which the bundles are built</li>
+<li><b>Output Path</b> - the directory where the built bundles will be placed</li>
+<li><b>Clear Folder</b> - will wipe out all contents of build directory as well as <em>StreamingAssets/AssetBundles</em> if you are choosing to copy build there</li>
+<li><b>Build</b> - build bundles</li>
+<li><b>Clear Bundle Names/Cash</b> - deletes all bundle names in the project and clears the cache of bundles</li>
+</ol>
+<p>Exporting the <b>CoreModTool</b> tool for modders:</p><ol type="1">
+<li>In your main project, open the game window (it is located at <em>Windows/CORE/Game Window</em>) and find the <b>Mod Tool</b> section, then click the <b>Create Exporter</b> button. <div class="image">
+<img src="COREGameWindow_1.png" alt=""/>
+</div>
+</li>
+<li>After exporting the tool, a folder with the exported tool will open, you need to copy the entire <em>CoreModTool</em> folder to the mod project and place it inside the <em>Assets</em> folder</li>
+<li>After compiling all the assemblies, the errors should go away (if there were any)</li>
+</ol>
+<h3><a class="anchor" id="autotoc_md7"></a>
+How to create your own mod</h3>
+<p>In order to create your own mod you need:</p>
+<ol type="1">
+<li>Export the <b>CoreModTool</b> tool to an empty <b>Unity</b> project.</li>
+<li>After exporting the tool, open the <em>Tools/ModTool/Export Mod</em> window</li>
+<li>Enter the mod name</li>
+<li>Click the <b>Prepare</b> button and 2 files <b><a class="el" href="_boot_8cs.html">Boot.cs</a></b> and **{ModName}_AD.asmdef** will be generated in your project <div class="image">
+<img src="COREModsSupport_3.png" alt=""/>
+</div>
+</li>
+</ol>
+<p>The structure of the <b><a class="el" href="_boot_8cs.html">Boot.cs</a></b> file is:</p>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_c_o_r_e_1_1_mod_tool.html">CORE.ModTool</a>;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_c_o_r_e_1_1_mod_tool_1_1_tool_1_1_mod.html">CORE.ModTool.Tool.Mod</a>;</div>
+<div class="line"><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">namespace </span>ModExampleTestMod</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">class </span>Boot : <a class="code hl_class" href="class_c_o_r_e_1_1_mod_tool_1_1_mod_handler.html">ModHandler</a></div>
+<div class="line">    {</div>
+<div class="line">        <span class="keyword">private</span> <span class="keyword">static</span> Boot _instance;</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// This is where the mod is initialized, we load it</span></div>
+<div class="line">        [ModOnLoaded]</div>
+<div class="line">        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> ModOnLoaded(<a class="code hl_class" href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">Mod</a> mod)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordflow">if</span> (mod == <span class="keyword">null</span>)</div>
+<div class="line">            {</div>
+<div class="line">                Debug.Log($<span class="stringliteral">&quot;The mod [{mod.Name}] has not been loaded!&quot;</span>);</div>
+<div class="line">                <span class="keywordflow">return</span>;</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            _instance = Create&lt;Boot&gt;(mod);</div>
+<div class="line">            Debug.Log($<span class="stringliteral">&quot;The mod [{mod.Name}] has been loaded!&quot;</span>);</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// The mod is being unloaded here, all resources and memory must be freed</span></div>
+<div class="line">        [ModOnUnloaded]</div>
+<div class="line">        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> ModOnUnloaded(Mod mod)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordflow">if</span> (mod == <span class="keyword">null</span>)</div>
+<div class="line">            {</div>
+<div class="line">                <a class="code hl_enumvalue" href="namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a971c1922ab03684e96f259a04d1b435aaa603905470e2a5b8c13e96b579ef0dba">Debug</a>.Log($<span class="stringliteral">&quot;The mod [{mod.Name}] has not been unloaded correctly!&quot;</span>);</div>
+<div class="line">                <span class="keywordflow">return</span>;</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            <span class="keywordflow">if</span> (_instance != <span class="keyword">null</span> &amp;&amp; _instance.gameObject != <span class="keyword">null</span>)</div>
+<div class="line">                GameObject.Destroy(_instance.gameObject);</div>
+<div class="line">            _instance = <span class="keyword">null</span>;</div>
+<div class="line">            <a class="code hl_enumvalue" href="namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a971c1922ab03684e96f259a04d1b435aaa603905470e2a5b8c13e96b579ef0dba">Debug</a>.Log($<span class="stringliteral">&quot;The mod [{mod.Name}] has been unloaded!&quot;</span>);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_c_o_r_e_1_1_mod_tool_1_1_mod_handler_html"><div class="ttname"><a href="class_c_o_r_e_1_1_mod_tool_1_1_mod_handler.html">CORE.ModTool.ModHandler</a></div><div class="ttdef"><b>Definition</b> ModHandler.cs:9</div></div>
+<div class="ttc" id="aclass_c_o_r_e_1_1_mod_tool_1_1_mod_html"><div class="ttname"><a href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">CORE.ModTool.Mod</a></div><div class="ttdef"><b>Definition</b> Mod.cs:23</div></div>
+<div class="ttc" id="anamespace_c_o_r_e_1_1_mod_tool_1_1_shared_html_a971c1922ab03684e96f259a04d1b435aaa603905470e2a5b8c13e96b579ef0dba"><div class="ttname"><a href="namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a971c1922ab03684e96f259a04d1b435aaa603905470e2a5b8c13e96b579ef0dba">CORE.ModTool.Shared.ModToolStates.Debug</a></div><div class="ttdeci">@ Debug</div><div class="ttdef"><b>Definition</b> ModEnums.cs:13</div></div>
+<div class="ttc" id="anamespace_c_o_r_e_1_1_mod_tool_1_1_tool_1_1_mod_html"><div class="ttname"><a href="namespace_c_o_r_e_1_1_mod_tool_1_1_tool_1_1_mod.html">CORE.ModTool.Tool.Mod</a></div><div class="ttdef"><b>Definition</b> StartupAttributes.cs:7</div></div>
+<div class="ttc" id="anamespace_c_o_r_e_1_1_mod_tool_html"><div class="ttname"><a href="namespace_c_o_r_e_1_1_mod_tool.html">CORE.ModTool</a></div><div class="ttdef"><b>Definition</b> Asset.cs:10</div></div>
+</div><!-- fragment --><p>After that you can export your mod and add it to the <em>Mods</em> folder of your project for testing. Read more about the mod export window in the corresponding section.</p>
+<h4><a class="anchor" id="autotoc_md8"></a>
+Mod Settings</h4>
+<div class="image">
+<img src="COREModsSupport_0.png" alt=""/>
+</div>
+<p><b>Info</b></p><ol type="1">
+<li>Version - current version of the mod</li>
+<li>Author - the author of the mod in one or more languages</li>
+<li>Description - in one or more languages</li>
+</ol>
+<p><b>Settings</b></p><ol type="1">
+<li>Platforms - platforms for which the mod is available (currently only Windows is available)</li>
+<li>Content - the contents of the mod. It doesn't matter if you specified all the points, the main thing is not to forget about it, because eventually some resources will not be placed in the mod. This setting simplifies and in some cases speeds up the process of assembling the mod.</li>
+<li>Log Level - depending on the level, logs such as <b>Debug.Log()</b>, <b>Debug.Error()</b>, etc. will be written to the console</li>
+<li>Output Directory - the directory where the mod will be saved after export</li>
+</ol>
+<p><b>Extra Settings</b></p><ol type="1">
+<li>Required reboot - indicates that after enabling or disabling the mod, you must reboot the game</li>
+<li>Load order - the order in the queue when loading the mod</li>
+</ol>
+<p><b>Images</b></p><ol type="1">
+<li>Icon - the main icon of the mod, size NxN.</li>
+<li>Images - accompanying pictures of the mod, which represent it. Inside you specify the image itself and a description for it in one or more languages.</li>
+</ol>
+<dl class="section warning"><dt>Warning</dt><dd>⚠️ Important! You will not be able to set the mod icon from the default editor or tool icons!</dd></dl>
+<p><b>Assets</b></p><ol type="1">
+<li>Scripts Directory - path to the mod scripts.</li>
+<li>Assets - all exported resources that the mod uses. It is a good practice to put everything in one folder.</li>
+</ol>
+<p><b>Controls</b></p><ol type="1">
+<li>Mod Preset - you can develop several mods in one project, so each mod has its own settings. Switch between them and export the settings you need.</li>
+<li>Save/Load - save and load preset settings. If your settings are lost or something goes wrong, try loading the settings from a file.</li>
+<li>Prepare - prepares the project and creates the necessary files for the mod</li>
+<li>Verify - checks the mod for restrictions. You will not be able to export the mod if it contains errors.</li>
+<li>Export Mod - build and export the mod</li>
+</ol>
+<h4><a class="anchor" id="autotoc_md9"></a>
+Adding a mod to the game</h4>
+<p>After you have exported the mod, add it to the <em>Mods</em> folder of your project and run the game. <b>ModsManager</b> will automatically add it to the mods window.</p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Config System</h2>
+<p><b>Config System</b> is a powerful tool for managing game data that allows you to store and load all the necessary information in separate files with the .json extension. This provides convenience and flexibility in working with configurations, and also simplifies the process of editing and updating them. The main functions of <b>Config System</b> include:</p><ul>
+<li>Data storage in <b>.json</b>: All game data is stored in a convenient <b>.json</b> format, which makes it easier to edit and integrate.</li>
+<li>Convenient loading of configs: Quick loading of configuration files is carried out simply by specifying the path to the file, which saves the developer's time.</li>
+<li>Two types of configs: &ndash; Singleton: A configuration that is present in a single copy.</li>
+<li>List: A configuration that can store multiple arrays of user data, which allows you to organize information more efficiently.</li>
+<li>Nested configs: Configs can contain other configs inside themselves, which allows you to create complex data structures. Once deserialized, they can be accessed as full-fledged objects, not just strings.</li>
+<li>Validation stage: All configs are checked for errors. If an error is found during validation, it will be displayed <b>in the Unity console</b> with an indication of the conflicting element, which simplifies debugging.</li>
+<li>Flexible data storage: Configurations can store keys for other configs, localization, images and much more, which makes the system universal and multifunctional.</li>
+<li>Convenience for game designers: Game designers will find it easy to work with configurations thanks to the intuitive <b>.json</b> format. They can quickly edit game parameters without having to interact with the code, which significantly speeds up the process of testing and adjusting game mechanics.</li>
+</ul>
+<p>With <b>Config System</b> you can easily manage all aspects of your game data, keeping it flexible and editable. Configs are just a text file in <b>.json</b> format (or some other format, but <b>Config System</b> uses them). An example of what list configs might look like: </p><div class="fragment"><div class="line">{</div>
+<div class="line">    &quot;test_0&quot;: // IdKey</div>
+<div class="line">    {</div>
+<div class="line">        &quot;SomeParameter&quot;: true,</div>
+<div class="line">    },</div>
+<div class="line">    &quot;test_1&quot;:</div>
+<div class="line">    {</div>
+<div class="line">        &quot;SomeParameter&quot;: false,</div>
+<div class="line">    },</div>
+<div class="line">}</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
+Code Generator</h2>
+<p><b>Code Generator</b> is an additional tool that works exclusively <b>in the editor</b> and greatly simplifies the process of obtaining game data. This tool allows developers to generate code quickly and efficiently, which saves time and reduces the likelihood of errors. The main functions of <b>Code Generator</b> include:</p><ul>
+<li>Code generation: Includes the ability to generate lists for various resources, such as colors, sprites, video and audio clips, prefabs, visual elements and localization, etc. This allows developers to easily manage resources.</li>
+<li>Custom generation: You can easily add your own generation or use ready-made templates. To do this, just create a new rule specifying the list, path and name of the resource - the program will perform all the necessary actions automatically.</li>
+<li>Lists and access methods: Code generation creates lists and methods for accessing game resources, which simplifies the integration and use of data in the project. - Storing file information: Some lists store the file name and path to it, allowing you to load assets using <b>Asset Bundles</b>.</li>
+<li>Generated files: Generated files have the ***.g.cs** designation, allowing you to easily identify and manage them.</li>
+</ul>
+<div class="image">
+<img src="CORECodeGenerator_0.png" alt=""/>
+</div>
+<p>С помощью <b>Code Generator</b> разработчики могут существенно ускорить процесс создания и управления кодом, позволяя сосредоточиться на более творческих аспектах разработки игр.</p>
+<dl class="section warning"><dt>Warning</dt><dd>⚠️ Usually code generation serves to assist development and does not require outside intervention, so try not to change them yourself, because during subsequent generation they will return to the default "state".</dd></dl>
+<h2><a class="anchor" id="autotoc_md12"></a>
+Model</h2>
+<p><b>Model</b> is a unified player data system that collects all session and player information in one place. It is a static class that stores data about the player and other objects, such as the state of scene transitions, making it an indispensable tool for managing game data. The main functions of <b>Model</b> include:</p><ul>
+<li>Unified data system: Consolidates all session and player information, allowing access to data from any part of the game.</li>
+<li>Static class: Stores data in a static class, allowing easy access to information without having to create class instances.</li>
+<li>Scene transitions: Stores information about the state of objects and scene transitions, ensuring smooth gameplay.</li>
+<li>Save to disk: The model is saved to disk and loaded on application startup, allowing the player's progress to be saved and its state restored upon restart.</li>
+<li>Data validation: After loading, the model goes through a validation step, which ensures the integrity and correctness of the data, preventing possible errors during gameplay.</li>
+</ul>
+<p>With <b>Model</b> you can efficiently manage player data and game state, ensuring a stable and continuous gameplay experience.</p>
+<p>The player model is stored at <em>Application.PersistentDataPath/UserData</em></p>
+<h2><a class="anchor" id="autotoc_md13"></a>
+Save System</h2>
+<p><b>Save System</b> is a save system that is an advanced and convenient tool for quickly saving and loading your game data. All save files are stored in the <b>.json</b> format. This system is adapted and configured for efficient data management, allowing developers to focus on creating game content. The main features of <b>Save System</b> include:</p><ul>
+<li>Quick save and load data: Simply add the save component to an object, and you can be sure that the data will be saved and loaded the next time the game is launched.</li>
+<li>Developer-friendly: Game designers can easily manage the save process without the need for deep technical knowledge. The save component can be simply added to game objects, which simplifies integration.</li>
+<li>Data validation: After loading, data is validated, which ensures its integrity and prevents possible errors during the game.</li>
+<li>Auto-save data: Simply set a timer after which all data will be saved.</li>
+</ul>
+<p>With <b>Save System</b>, you can easily manage the saving of player progress, providing a reliable and efficient way to store data. This will allow players to continue playing where they left off, improving the overall gaming experience.</p>
+<p>Player saves are stored at <em>Application.PersistentDataPath/Saves/...</em></p>
+<h2><a class="anchor" id="autotoc_md14"></a>
+Scene Loader</h2>
+<p><b>Scene Loader</b> is a convenient interface for loading and transitioning between scenes in your game, which includes functions for handling events and managing the progress of scene transitions. This tool ensures a smooth and efficient loading process, which improves the overall gaming experience. The main features of <b>Scene Loader</b> include:</p><ul>
+<li>User-friendly interface: Allows developers to easily manage scene loading and transitions, simplifying the integration process. Although this is not required.</li>
+<li>Event handling: Supports handling of events related to scene loading, which allows for various scenarios of interaction with the player during transitions.</li>
+<li>Loading progress: Includes functions for displaying loading progress, which informs players about the loading status and makes the process more transparent.</li>
+<li>Transition flexibility: Allows you to configure various types of transitions between scenes.</li>
+<li>Integration with other systems: <b>Scene Loader</b> can work in conjunction with other asset components, such as <b>Model</b> and <b>Save System</b>, ensuring data integrity during transitions.</li>
+<li>Asynchronous Loading Support: The ability to load scenes asynchronously avoids the game freezing during loading, ensuring a smooth gaming experience.</li>
+</ul>
+<p>With <b>Scene Loader</b>, you can easily manage scene transitions, improving player interaction and creating a more dynamic gaming experience.</p>
+<h2><a class="anchor" id="autotoc_md15"></a>
+Visual View Model</h2>
+<p><b>Visual View Model</b> (VVM)** is a simplified version of the <b>MVC</b> pattern designed to make it easier to work with data in games. This approach is based on the principle of closed data handling, where all data is processed in the <b>View</b>, stored in the <b>Model</b>, and visualized using <b>Visual</b> components. The main features of the <b>Visual View Model</b> include:</p><ul>
+<li>Simplified architectural pattern: <b>VVM</b> offers a lighter and more accessible way to organize code compared to classic <b>MVC</b>, which makes it ideal for game developers.</li>
+<li>Data closedness: All data is processed in the <b>View</b> component, which allows you to separate the presentation logic from the business logic and improve the manageability of the code.</li>
+<li>Inheritance from the <b>Visual</b> component: All user interface <b>(UI)</b> elements must inherit from the <b>Visual</b> component, which ensures uniformity in handling events, such as the <b>Update</b> or <b>Awake</b> methods. This simplifies the management of events and interactions.</li>
+<li>Flexible usage: <b>VVM</b> is not a strict rule, but rather a recommendation. Developers can choose to use <b>VVM</b> or their own system, allowing them to tailor the architecture to the specific needs of the project.</li>
+<li>Developer-friendly: Thanks to the <b>VVM</b> structure, developers can integrate and test UI elements faster, which contributes to a more efficient development process.</li>
+<li>Support for reactive programming: <b>VVM</b> can be easily adapted to work with reactive data, allowing the UI to update in real time when the model state changes.</li>
+</ul>
+<p>With <b>Visual View Model</b>, you will get a powerful tool for organizing code and managing the UI in your games, which will make the development process easier and more intuitive.</p>
+<h2><a class="anchor" id="autotoc_md16"></a>
+Color Library</h2>
+<p><b>Color Library</b> is a single place to store all the colors used in your project. This tool provides easy access to colors and simplifies their management, making development more efficient and organized. Key features of <b>Color Library</b> include:</p><ul>
+<li>Centralized color storage: All project colors are stored in one place, making them easy to find and use in code.</li>
+<li>Unique codes for colors: Each color has its own unique code, making it easy to find and use in different parts of the project.</li>
+<li>Automatic code generation: The code for each color is generated automatically. After adding a new color, it is important to regenerate the resources so that it is available in the code.</li>
+<li>Ease of updating: To change a color in the game, just change it in one place. All references to this color will be automatically updated, which avoids errors and simplifies the editing process.</li>
+<li>Intuitive interface: A user-friendly interface allows developers to quickly find the colors they need and manage them without unnecessary effort.</li>
+</ul>
+<p>With the <b>Color Library</b> you can effectively manage colors in your project, ensuring consistency and ease of work with the visual elements of the game. This greatly simplifies the development process and allows you to focus on the creative aspects of game development.</p>
+<h2><a class="anchor" id="autotoc_md17"></a>
+Mouse Manager</h2>
+<p><b>Mouse Manager</b> is a simple and convenient tool for controlling the mouse cursor state in your game. It allows you to easily change the cursor state and icon when hovering over objects, which improves user interaction and makes the gameplay more intuitive. The main features of <b>Mouse Manager</b> include:</p><ul>
+<li>Cursor state control: Allows you to change the cursor state depending on interaction with game objects, which helps players understand when they can interact with interface elements.</li>
+<li>Changing cursor icon: When hovering over objects, the cursor can change its icon, which visually signals to the player about available actions, such as selecting or interacting with the object.</li>
+<li>Ease of integration: The tool is easy to integrate into existing projects, allowing developers to quickly customize cursor control without the need for deep changes to the code.</li>
+<li>Event handling: <b>Mouse Manager</b> can handle hover and click events, which allows you to create more complex mechanics for interacting with game elements.</li>
+<li>Customization flexibility: Developers can customize different cursor states and their corresponding icons, which allows you to tailor the interface to the specific needs of the game.</li>
+</ul>
+<p>With <b>Mouse Manager</b> you can improve the user interface of your game, providing a smoother and more intuitive interaction with players. This tool makes cursor control simple and efficient, which will positively impact the overall gaming experience.</p>
+<h2><a class="anchor" id="autotoc_md18"></a>
+Audio Manager</h2>
+<p><b>Audio Manager</b> is a system for controlling the sounds in your game, providing management of all audio clips and their playback. This tool allows developers to easily integrate audio into gameplay and manage it with a high degree of flexibility. The main features of <b>Audio Manager</b> include:</p><ul>
+<li>Storage of audio clip references: All audio clips are stored in one place, making them easy to use and manage.</li>
+<li>Automatic code generation: After adding a new audio clip, it is important to regenerate the resources so that it is available in the code. This avoids errors and ensures that all clips are correctly integrated into the project.</li>
+<li>Volume control: <b>Audio Manager</b> allows you to adjust the volume of sounds in the game, providing the ability to adjust the sound level for different situations.</li>
+<li>Channelization: Sounds are divided into several channels:</li>
+<li>Main channel: For the main sounds of the game. &ndash; UI channel: For user interface sounds. &ndash; Effects channel: For sound effects. &ndash; Music channel: For background music.</li>
+<li>Playing background music: <b>Audio Manager</b> can play a background music track, creating an atmosphere and improving the gaming experience.</li>
+<li>Managing the volume of individual tracks: Allows you to adjust the volume for each track separately, allowing you to create more subtle sound settings.</li>
+</ul>
+<p>With <b>Audio Manager</b>, you can effectively manage the sound of your game, ensuring high-quality sound and convenience for players. This tool helps create an immersive audiovisual experience that greatly enriches the gaming process.</p>
+<dl class="section warning"><dt>Warning</dt><dd>⚠️ Important! In the future, I plan to switch to <a href="https://www.fmod.com/unity">FMod</a> because this will greatly simplify the development of the game.</dd></dl>
+<h2><a class="anchor" id="autotoc_md19"></a>
+Input Manager</h2>
+<p><b>Input Manager</b> is a layer on top of the core <b>Unity</b> input system that provides easy access to all in-game events. This tool allows developers to easily manage keyboard and mouse input, as well as control player interactions with game objects. Key features of <b>Input Manager</b> include:</p><ul>
+<li>Easy Event Access: Allows developers to easily handle input events, making it easier to create interactive gameplay.</li>
+<li>Input Disable: Ability to temporarily disable keyboard or mouse input during cutscenes or other important moments in the game, improving the user experience.</li>
+<li>Subscription-based: <b>Input Manager</b> works on the principle of subscribing to events, which allows for efficient management of input processing. Remember to unsubscribe from events to avoid memory leaks or unexpected application behavior.</li>
+<li>Key and Icon Storage: All keys and their corresponding icons are stored in the system, making it easy to manage control settings and allowing players to easily see available actions.</li>
+<li>Customizable: Developers can customize various input axes and actions, allowing them to tailor controls to specific game requirements.</li>
+</ul>
+<p>With <b>Input Manager</b>, you can effectively manage input in your game, creating an intuitive interface for players and improving overall gameplay. This tool makes interaction with the game smoother and more responsive, which will positively impact the user experience.</p>
+<h2><a class="anchor" id="autotoc_md20"></a>
+Global Updater</h2>
+<p><b>Global Updater</b> is a system that is responsible for updating all user interfaces <b>(UI)</b> in the game. It works in conjunction with <b>Time Manager</b>, ensuring that the interface state is synchronized with current game events. The main functions of <b>Global Updater</b> include:</p><ul>
+<li>User Interface Updater: Allows automatic updating of all <b>custom UI</b> elements, ensuring that they are up-to-date and consistent with the current game state.</li>
+<li>Pause System Integration: <b>Global Updater</b> can pause or resume UI updates depending on the game state, avoiding unnecessary updates during pauses.</li>
+<li>Game Time Sync: The system manages updates according to game time, making the user experience smoother and more responsive.</li>
+<li>Customizable: Developers can easily customize which UI elements should be updated and how often.</li>
+</ul>
+<p>With <b>Global Updater</b> you can effectively manage the state of your UI, ensuring it is up-to-date and improving player experience. This tool will be an essential element in creating a high-quality and responsive gaming experience.</p>
+<h2><a class="anchor" id="autotoc_md21"></a>
+Time Manager</h2>
+<p><b>Time Manager</b> is a utility designed to manage the timing mechanics of a game. It provides developers with tools to work with pauses, timers, and other timing aspects, allowing for more dynamic and interactive gameplay. Key features of <b>Time Manager</b> include:</p><ul>
+<li>Pause System: Includes functions for pausing and resuming the game, allowing players to take breaks without losing progress.</li>
+<li>Timers and Delays: Developers can set timers for various game events, such as countdowns or delays before certain actions begin.</li>
+<li>Synchronization with other systems: <b>Time Manager</b> can work in conjunction with other asset components, such as <b>Global Updater</b> and <b>Audio Manager</b>, ensuring timing events are consistent.</li>
+<li>Customizable: Developers can customize timing parameters to suit the specific needs of the game, allowing for unique interaction mechanics.</li>
+</ul>
+<p>With <b>Time Manager</b> you can effectively manage the time aspects of your game, creating a more engaging and interactive gaming experience. This tool will be an indispensable assistant for developers who want to create a high-quality and dynamic gaming experience.</p>
+<h2><a class="anchor" id="autotoc_md22"></a>
+Game Settings</h2>
+<p><b>Game Settings</b> is a user-friendly interface for customizing game settings, allowing players to customize settings to suit their preferences. This tool provides flexibility and a personalized approach to gameplay, which improves the overall user experience. Key features of <b>Game Settings</b> include:</p><ul>
+<li>Intuitive Interface: The user-friendly and intuitive interface allows players to easily find and change settings such as controls, graphics, and audio.</li>
+<li>Control Settings: Players can customize controls to suit their preferences, including remapping keys.</li>
+<li>Graphics Settings: Ability to change graphics settings such as resolution, texture quality, and effects. Supports: &ndash; <b>Build-in Render Pipeline</b> - default &ndash; <b>Universal Render Pipeline (URP).</b> &ndash; <b>High Definition Render Pipeline (HDRP).</b></li>
+<li>Audio Settings: Players can adjust the volume of music, sound effects, and interface, creating a comfortable audio environment.</li>
+<li>Saving and loading settings: All changes are saved to disk and can be loaded the next time the game is launched, which allows players to avoid repeating the settings each time.</li>
+<li>Data validation: When changing settings, data validation occurs, which ensures the correctness of the entered values and prevents possible errors.</li>
+<li>Flexibility and extensibility: Developers can easily add new parameters and settings to the system, which allows them to adapt it to the specific needs of the project.</li>
+</ul>
+<p>With <b>Game Settings</b>, you can give players the ability to customize the gameplay to their preferences, which will significantly increase their satisfaction and engagement. This tool will become an important element in creating a high-quality user experience.</p>
+<h2><a class="anchor" id="autotoc_md23"></a>
+Custom UI Elements</h2>
+<p><b>Custom UI Elements</b> are a custom set of user interface elements such as buttons, toggles, and sliders that extend the functionality of the standard <b>Unity</b> elements. These elements are designed to improve player interaction and provide more flexible options for UI customization. Key features of <b>Custom UI Elements</b> include:</p><ul>
+<li>Expanded functionality of standard elements: Custom elements offer additional capabilities compared to the default <b>UI</b> components, allowing you to create more complex and interactive interfaces.</li>
+<li>State Machine: Each element has a built-in state machine that manages various aspects such as color, position, and activity. This allows the appearance and behavior of elements to dynamically change depending on game events.</li>
+<li>Intuitive interaction: Elements are easy to customize and integrate into a project, allowing developers to quickly create intuitive interfaces.</li>
+<li>Event support: Custom elements can handle various interaction events such as clicks and hovers, making the interface more responsive and engaging for players.</li>
+<li>Customizable: Developers can easily modify or add new elements to the set, allowing them to tailor the interface to the specific needs of the game.</li>
+</ul>
+<p>With <b>Custom UI Elements</b>, you can create a richer and more interactive user interface that will improve player interaction and enhance the overall quality of the gameplay. This tool will become an important part of your asset, allowing you to create unique and attractive interfaces.</p>
+<div class="image">
+<img src="CORECustomUI_0.png" alt=""/>
+</div>
+<p>All custom elements are available from the quick commands menu:</p>
+<div class="image">
+<img src="CORECustomUI_5.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md24"></a>
+Custom Button</h3>
+<div class="image">
+<img src="CORECustomUI_1.png" alt=""/>
+</div>
+<dl class="section warning"><dt>Warning</dt><dd>When you subscribe to events, do not forget to unsubscribe to avoid unwanted results of the program's work! <div class="fragment"><div class="line">//C#</div>
+<div class="line">// Awake</div>
+<div class="line">Button.EventClick += OnButtonClicked;</div>
+<div class="line">// Sleep</div>
+<div class="line">Button.EventClick -= OnButtonClicked;</div>
+</div><!-- fragment --></dd></dl>
+<div class="image">
+<img src="CORECustomUI_2.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md25"></a>
+Custom Dropdown</h3>
+<div class="image">
+<img src="CORECustomUI_3.png" alt=""/>
+</div>
+<p>To create <b>Custom Dropdown</b> options, you must first create <b>DropdownOptionData</b> elements and add them to the list. Example of creating from 10 elements: </p><div class="fragment"><div class="line">// C#</div>
+<div class="line">Sprite defaultIcon = ResourcesGenerated.LoadSpriteDefault(ResourcesGenerated.DefaultSprites.DefaultWIP);</div>
+<div class="line">List&lt;DropdownOptionData&gt; items = new List&lt;DropdownOptionData&gt;(10);</div>
+<div class="line">for (int i = 0; i &lt; 10; i++)</div>
+<div class="line">    items.Add(new DropdownOptionData($&quot;Item {i}&quot;, defaultIcon, ColorLibrary.GetRandomColor().MainColor));</div>
+<div class="line">Dropdown.ClearOptions(); // Clear old options before add new, if required</div>
+<div class="line">Dropdown.AddOptions(items);</div>
+</div><!-- fragment --><div class="image">
+<img src="CORECustomUI_4.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md26"></a>
+Custom Image (RawImage) With Image Component</h3>
+<div class="image">
+<img src="CORECustomUI_6.png" alt=""/>
+</div>
+<ul>
+<li><b>Is Override Color</b> - override the color of the image, now you can assign it a color from the library</li>
+<li><b>Color Tag</b> - color tag in color library</li>
+<li><b>Is Overrride Alpha</b> - ability to override alpha color channel</li>
+<li><b>Overrride Alpha</b> - overridden color alpha channel value</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md27"></a>
+Custom Input Field</h3>
+<div class="image">
+<img src="CORECustomUI_7.png" alt=""/>
+</div>
+<p>The <b>Custom Input Field</b> works basically the same as the others, except for the state machine.</p>
+<div class="image">
+<img src="CORECustomUI_8.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md28"></a>
+Custom Slider</h3>
+<div class="image">
+<img src="CORECustomUI_9.png" alt=""/>
+</div>
+<ul>
+<li><b>Output Value Format</b> - number of decimal places</li>
+<li><b>Value Localization Postfix</b> - localization key of the text that will be displayed after the values ​​in the slider</li>
+<li><b>Value Postfix</b> - the text that will be displayed after the values ​​in the slider</li>
+</ul>
+<div class="image">
+<img src="CORECustomUI_10.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md29"></a>
+Custom Tabs</h3>
+<div class="image">
+<img src="CORECustomUI_11.png" alt=""/>
+</div>
+<ul>
+<li><b>States</b> - state machine</li>
+<li><b>Reset Active Page On Enable</b> - resets content to default state, for this one of <b>Items</b> must have <b>IsActive</b> option</li>
+<li><b>Items</b> - bookmark content</li>
+</ul>
+<div class="image">
+<img src="CORECustomUI_12.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md30"></a>
+Custom Text</h3>
+<ul>
+<li><b>Localization Tag</b> - localization key of the text. In order for the key to be included in the list, it is necessary to regenerate the resources! Leave the field as <em>NONE</em>, so as not to use the localization key. In this case, you will be able to assign the text in the <b>TMPro</b> component yourself.</li>
+</ul>
+<div class="image">
+<img src="CORECustomUI_13.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md31"></a>
+Custom Toggle</h3>
+<div class="image">
+<img src="CORECustomUI_14.png" alt=""/>
+</div>
+<p><b>Custom Toggle</b> works no differently from other similar elements, except for the presence of a state machine.</p>
+<div class="image">
+<img src="CORECustomUI_15.png" alt=""/>
+</div>
+<h2><a class="anchor" id="autotoc_md32"></a>
+Utils</h2>
+<p><b>Utils</b> is a set of tools designed to make developers' work easier. These utilities help automate routine tasks, simplify the development process, and increase overall project efficiency. With <b>Utils</b>, you can optimize various aspects of development, allowing you to focus on more creative and complex tasks, improving the quality of your game product.</p>
+<h2><a class="anchor" id="autotoc_md33"></a>
+Localization</h2>
+<p><b>Localization</b> - With <b>Asset Localization</b> you can easily localize your built-in <b>Unity</b> game assets. You can also create custom localizable asset functionality for your custom assets. You can load localization keys directly from configs. All localization keys are checked before loading. Convenient work with text localization in the editor via the drop-down menu.</p>
+<h1><a class="anchor" id="autotoc_md34"></a>
+How To Use</h1>
+<p>In this section I will tell and show how to use <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> and its aspects.</p>
+<h1><a class="anchor" id="autotoc_md35"></a>
+Dependencies</h1>
+<p>For correct operation <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> uses the following plugins:</p>
+<ul>
+<li><a href="https://github.com/yasirkula/UnityIngameDebugConsole">In-game Debug Console</a></li>
+<li><a href="https://github.com/Cysharp/UniTask">UniTask</a></li>
+<li><a href="https://github.com/starikcetin/Extenject">Zenject (extenject)</a></li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@3.2/manual/index.html">Newtonsoft Json</a> - com.unity.nuget.newtonsoft-json</li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html">TextMeshPro</a></li>
+<li><a href="https://github.com/rpgmaker/Mono.Cecil">MonoCecil</a></li>
+<li><a href="https://github.com/ibrahimpenekli/GameToolkit-Localization">GameToolkit-Localization</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md36"></a>
+Examples</h1>
+<p>You can download and unzip the examples for <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> to understand and learn how to work with the tool.</p>
+<blockquote class="doxtable">
+<p>In order to respect all rights to third-party resources, I separated the examples from the main tool, leaving only basic examples. </p>
+</blockquote>
+<h2><a class="anchor" id="autotoc_md37"></a>
+Game Example</h2>
+<p>An example game that was written using <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> can be found here <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">Example</a></p>
+<div class="image">
+<img src="COREExample_3.png" alt=""/>
+</div>
+<ol type="1">
+<li>Create an empty <b>Unity</b> project or make sure you have a <b>clean</b> version of <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a>. "Clean" means that you have not made any changes to the <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> code, have not generated any assets, and have the latest version of the tool installed. 2. Download <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">CORE Game Developers Toolkit Example.unitypackage</a> and, using <em>Unity/Assets/Import Packages/Custom Package</em>, unzip it into a project with <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> replacing all the suggested files.</li>
+<li>After the import is complete, open the <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> game window (it is located at <em>Windows/CORE/Game Window</em>). In this window, find the <b>Resources</b> section and click the <b>Generate</b> button. Your project resources should be regenerated, and there should be no errors in the console. <div class="image">
+<img src="COREGameWindow_1.png" alt=""/>
+</div>
+</li>
+<li>Open <b>Build Settings</b> and add scenes to <b>Scene In Build</b> so that <b>Scene Loader</b> works correctly. Then go to the <b>Boot</b> scene and run it. The scenes that need to be added are located along the path <em>Assets/Example/Scenes</em>. It is important to keep the numbering! <div class="image">
+<img src="COREModsSupport_4.png" alt=""/>
+</div>
+ <blockquote class="doxtable">
+<p>A little life hack - just select all the scenes and drag them into this window. </p>
+</blockquote>
+</li>
+<li>Open the <b>Boot</b> scene and run the game</li>
+</ol>
+<dl class="section warning"><dt>Warning</dt><dd>⚠️ Important! Make sure you have the latest version of [C.O.R.E.](Chttps://assetstore.unity.com/packages/slug/311902 installed in your project and the latest version of the example downloaded!</dd></dl>
+<div class="image">
+<img src="COREExample_0.png" alt=""/>
+</div>
+ <div class="image">
+<img src="COREExample_1.png" alt=""/>
+</div>
+<h3><a class="anchor" id="autotoc_md38"></a>
+Try working with <b>Asset Bundles</b></h3>
+<ol type="1">
+<li>Open the <b>Game Window</b></li>
+<li>In the <b>Asset Bundles</b> section, make sure that you have the correct bundle export path set (example for the <b>Windows</b> platform - <em>Assets/StreamingAssets/Bundles/StandaloneWindows</em>)</li>
+<li>Click the <b>Build</b> button and wait for the bundles to finish building</li>
+<li>After building, you will have a <em>StreamingAssets</em> folder with the assembled bundles</li>
+<li>In the <b>Game Window</b>, enable the <b>Load Bundles</b> option - now all resources will be loaded from bundles</li>
+<li>Run the game and make sure everything works correctly</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md39"></a>
+Game Mods for Example</h2>
+<div class="image">
+<img src="COREExample_2.png" alt=""/>
+</div>
+<p>To add ready-made mods for the example described above, you need to do the following:</p><ol type="1">
+<li>Download the archive <a href="https://drive.google.com/file/d/1DKovlFFOImK3BFR53cNo6Qyw7Yv-u17d/view?usp=drive_link">Mods.rar</a></li>
+<li>In the root with the <b>Unity</b> project, create a <em>Mods</em> folder next to the <em>Assets</em> folder, you should get something like this <em>D:/UserPath.../ProjectName/Mods</em></li>
+<li>Unzip the mods into this folder and run the <b>Boot</b> scene. In the mods window, you should see the added mods.</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md40"></a>
+Tutorials TODO</h2>
+<h2><a class="anchor" id="autotoc_md41"></a>
+CONTACTS</h2>
+<p>E-mail: <a href="#" onclick="location.href='mai'+'lto:'+'cho'+'co'+'.16'+'ma'+'il@'+'ma'+'il.'+'ru'; return false;">choco<span class="obfuscator">.nosp@m.</span>.16m<span class="obfuscator">.nosp@m.</span>ail@m<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>ru</a> </p>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_stay2_d_handler =
+[
+    [ "OnTriggerStay2DAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_trigger_stay2_d_handler.html#a469311aecf1f9acdaf2266a3484ffbfb", null ]
+];

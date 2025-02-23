@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_joint_break2_d_handler =
+[
+    [ "OnJointBreak2DAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_joint_break2_d_handler.html#ac391d93bdf4ae2d1e1a5d186dfdb5ff8", null ]
+];

@@ -1,0 +1,25 @@
+var class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise_2_g =
+[
+    [ "Create", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a2dab1172be2a215057f480a902d5ea43", null ],
+    [ "GetResult", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#add3dd293c0db444f248624de4b671f72", null ],
+    [ "GetResult", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a53d28dd9c1fad164cb4fe9b3605d7d38", null ],
+    [ "GetStatus", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#abc3bf2f812b12157897f0ce965ee916c", null ],
+    [ "MoveNext", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a926d5f765720da051938b00c46f44b13", null ],
+    [ "OnCompleted", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#ab505f5ca97044d6bf8480693b0a0684d", null ],
+    [ "TryReturn", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#ad9d82c04773a7d21c41b51f7065b2fd1", null ],
+    [ "UnsafeGetStatus", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a1e2611c51661c6a14fe0a2101086275d", null ],
+    [ "WaitUntilValueChangedUnityObjectPromise", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#ab51acdbd7f333980f394bb0f1ecf1cad", null ],
+    [ "WaitUntilValueChangedUnityObjectPromise", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a20bcfa7356f470436c24acf70e99b05c", null ],
+    [ "cancelImmediately", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a73389edd6a12b5470cb7619de395d796", null ],
+    [ "cancellationToken", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a8ff98f201d20c81dbbdbd20e59043107", null ],
+    [ "cancellationTokenRegistration", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a9d731f23a885abfe4e11556f0501dcbf", null ],
+    [ "core", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#aee7f82d4da5504763f98b63e0f6880fd", null ],
+    [ "currentValue", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a277b07617c2610af59a91c53cd2099ad", null ],
+    [ "equalityComparer", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a0418afd1db332f4424ed5e2441a55f03", null ],
+    [ "monitorFunction", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a00044abb98651cd7e306605039c58046", null ],
+    [ "nextNode", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a942b89279e9627185b0424c05a40023a", null ],
+    [ "pool", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#aa278ec144365c4a3485b1efd6195650e", null ],
+    [ "target", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#afa49e7d168c71850da3af52cd3bb40f4", null ],
+    [ "targetAsUnityObject", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a1f20cea58ec9deb4d2a5a0106071a5fa", null ],
+    [ "NextNode", "class_cysharp_1_1_threading_1_1_tasks_1_1_uni_task_1_1_wait_until_value_changed_unity_object_promise-2-g.html#a0d4d604360644b03aaff433e89128fc1", null ]
+];

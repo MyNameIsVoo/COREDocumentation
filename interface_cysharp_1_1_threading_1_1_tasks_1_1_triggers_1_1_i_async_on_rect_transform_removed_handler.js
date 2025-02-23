@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_rect_transform_removed_handler =
+[
+    [ "OnRectTransformRemovedAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_rect_transform_removed_handler.html#ac4f7c31669ec59831d48e330b9b2c078", null ]
+];

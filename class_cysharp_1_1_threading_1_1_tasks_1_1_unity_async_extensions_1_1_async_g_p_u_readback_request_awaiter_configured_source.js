@@ -1,0 +1,21 @@
+var class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source =
+[
+    [ "AsyncGPUReadbackRequestAwaiterConfiguredSource", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#abb62f1df1a2778db6b1a7826615f9bb6", null ],
+    [ "AsyncGPUReadbackRequestAwaiterConfiguredSource", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a43a59077f8833647441f277f8fb873e1", null ],
+    [ "Create", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a56209f9b6b1549248aa78279a7aadf55", null ],
+    [ "GetResult", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a3ae32325e13a8e58d4038abbdee9c0b8", null ],
+    [ "GetResult", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a93e8e360988d5f23038f4373c81fb18e", null ],
+    [ "GetStatus", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#aa449e9b3b55046b35f50e2068c3719f8", null ],
+    [ "MoveNext", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#af5dff72713c303e8db461c0d0b9fb3ea", null ],
+    [ "OnCompleted", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a0849af723fc1265818d202aa862db260", null ],
+    [ "TryReturn", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#ac0a60779343db923a2d2c4c20f174cb0", null ],
+    [ "UnsafeGetStatus", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a29c096f78d393fe8606ebab9c3db6059", null ],
+    [ "asyncOperation", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a7bea278a75bb1bba55166962b052216e", null ],
+    [ "cancelImmediately", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#ae288d0c413ca7a5af382f2bfc77252f0", null ],
+    [ "cancellationToken", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a9c9658c769b6359c098af8214c53b1b9", null ],
+    [ "cancellationTokenRegistration", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a56e80d6af957f4881fd1e7f2b7f82256", null ],
+    [ "core", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a4ab76cca2eb338954e88622c326a3b44", null ],
+    [ "nextNode", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#ac9b84458148bbb8e862c6e896c68fa13", null ],
+    [ "pool", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#a8dc277e29bccb71b54776ad9df0f217c", null ],
+    [ "NextNode", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_g_p_u_readback_request_awaiter_configured_source.html#aed157aaf809c07227c24899dce4c37a0", null ]
+];

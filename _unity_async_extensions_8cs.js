@@ -1,0 +1,8 @@
+var _unity_async_extensions_8cs =
+[
+    [ "Cysharp.Threading.Tasks.UnityAsyncExtensions", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions" ],
+    [ "Cysharp.Threading.Tasks.UnityAsyncExtensions.AsyncOperationAwaiter", "struct_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_operation_awaiter.html", "struct_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_operation_awaiter" ],
+    [ "Cysharp.Threading.Tasks.UnityAsyncExtensions.AsyncOperationConfiguredSource", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_operation_configured_source.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_async_operation_configured_source" ],
+    [ "Cysharp.Threading.Tasks.UnityAsyncExtensions.ResourceRequestAwaiter", "struct_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_awaiter.html", "struct_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_awaiter" ],
+    [ "Cysharp.Threading.Tasks.UnityAsyncExtensions.ResourceRequestConfiguredSource", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source" ]
+];

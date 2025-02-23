@@ -1,0 +1,5 @@
+var namespace_game_toolkit_1_1_localization_1_1_editor_1_1_serialization =
+[
+    [ "CsvLocalizationSerialization", "class_game_toolkit_1_1_localization_1_1_editor_1_1_serialization_1_1_csv_localization_serialization.html", "class_game_toolkit_1_1_localization_1_1_editor_1_1_serialization_1_1_csv_localization_serialization" ],
+    [ "ILocalizationSerialization", "interface_game_toolkit_1_1_localization_1_1_editor_1_1_serialization_1_1_i_localization_serialization.html", "interface_game_toolkit_1_1_localization_1_1_editor_1_1_serialization_1_1_i_localization_serialization" ]
+];

@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_server_initialized_handler =
+[
+    [ "OnServerInitializedAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_server_initialized_handler.html#a5400d964006bfb7d765cdde0f2e5d759", null ]
+];

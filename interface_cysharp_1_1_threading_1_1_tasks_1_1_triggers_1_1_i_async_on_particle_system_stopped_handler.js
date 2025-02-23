@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_particle_system_stopped_handler =
+[
+    [ "OnParticleSystemStoppedAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_particle_system_stopped_handler.html#a3a00156d6e2c0c6a3955476a99fb2f2d", null ]
+];

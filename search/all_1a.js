@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['z_0',['Z',['../struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector3.html#aafee37688230c52f133978a9b26013ed',1,'CORE.Shared.Utils.HelperSaveData.SerializableVector3.Z'],['../struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector4.html#aec0f2bf212991f6d3f82375ec2b39696',1,'CORE.Shared.Utils.HelperSaveData.SerializableVector4.Z']]]
+  ['y_0',['Y',['../struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#a4aca3b2cf03c5263277edc5f5eda3524',1,'CORE.Shared.Utils.HelperSaveData.SerializableVector2.Y'],['../struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2_int.html#a46559be4d9286425996f44c88dd99197',1,'CORE.Shared.Utils.HelperSaveData.SerializableVector2Int.Y'],['../struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector3.html#af7f7feed7fb37804c698ac16917c8817',1,'CORE.Shared.Utils.HelperSaveData.SerializableVector3.Y'],['../struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector4.html#ab1bcdccaf2363a558dcd642155a5ca00',1,'CORE.Shared.Utils.HelperSaveData.SerializableVector4.Y']]],
+  ['your_20own_20mod_1',['How to create your own mod',['../index.html#autotoc_md7',1,'']]]
 ];

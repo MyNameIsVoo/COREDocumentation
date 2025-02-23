@@ -1,0 +1,25 @@
+var class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source =
+[
+    [ "ResourceRequestConfiguredSource", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#af364394fbe625840d875a19bb3ce8ddf", null ],
+    [ "ResourceRequestConfiguredSource", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a18964c099a2686d2b7ed0dcadef8346e", null ],
+    [ "Continuation", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a92ef2040ad8abae830612dd0089a26b4", null ],
+    [ "Create", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#ab48c6eb4286037e6755583f6e4ae6418", null ],
+    [ "GetResult", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#afd0cd9e0eed163715d22aed1ea00be08", null ],
+    [ "GetResult", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#ad4ebc09388696c4414e88d72ae157fe7", null ],
+    [ "GetStatus", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#af5f66b2bc2087d5715227cb5f2da653f", null ],
+    [ "MoveNext", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a6394fd6a1b52825f0783a55d1f0b40e8", null ],
+    [ "OnCompleted", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a3327a55b8e702a35699065d86b17b63d", null ],
+    [ "TryReturn", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a8c2f60d95a4c8a5a7ea8d657de51a6a9", null ],
+    [ "UnsafeGetStatus", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a6374a9ec59fefe6678fef0bcf7cf3db0", null ],
+    [ "asyncOperation", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#af3270b6084c6e2cc4de55b025eef3eb5", null ],
+    [ "cancelImmediately", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a1cd1abd47e1b8058c9d54ff77c116c61", null ],
+    [ "cancellationToken", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a8602003f7ee5a0ae295251ebd48d8883", null ],
+    [ "cancellationTokenRegistration", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#ae33163f9066f37832a64b73fee1adda0", null ],
+    [ "completed", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#adb128af34fb10f79bee7307aa96c1b7c", null ],
+    [ "continuationAction", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a6e7a8d7d963c678cb5512f3db2ddb05e", null ],
+    [ "core", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a93269342cf61fb0abd6c0c234369e272", null ],
+    [ "nextNode", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#a270e9cdfd911ba52a683a51eee373ed7", null ],
+    [ "pool", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#aff8f3310f5a88e0af30f073fb2877c3f", null ],
+    [ "progress", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#acd1c935ee024d4ba0aa22d5a2e713dad", null ],
+    [ "NextNode", "class_cysharp_1_1_threading_1_1_tasks_1_1_unity_async_extensions_1_1_resource_request_configured_source.html#acd5827554cd80516f182116c24619355", null ]
+];

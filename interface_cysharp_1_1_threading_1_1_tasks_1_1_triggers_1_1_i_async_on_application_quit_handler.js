@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_application_quit_handler =
+[
+    [ "OnApplicationQuitAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_application_quit_handler.html#a4c1273d7205811c68777f18aef0b61e0", null ]
+];

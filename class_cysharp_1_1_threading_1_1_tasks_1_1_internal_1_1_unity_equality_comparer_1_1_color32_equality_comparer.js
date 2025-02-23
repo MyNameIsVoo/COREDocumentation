@@ -1,0 +1,5 @@
+var class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_unity_equality_comparer_1_1_color32_equality_comparer =
+[
+    [ "Equals", "class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_unity_equality_comparer_1_1_color32_equality_comparer.html#aecc4efb89eea2a944d3fa402b7ba45a3", null ],
+    [ "GetHashCode", "class_cysharp_1_1_threading_1_1_tasks_1_1_internal_1_1_unity_equality_comparer_1_1_color32_equality_comparer.html#afc7f8acb3ce69620096ae72fb4e51cc6", null ]
+];

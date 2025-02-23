@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_particle_collision_handler =
+[
+    [ "OnParticleCollisionAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_particle_collision_handler.html#ad8dd08dd38cd6419b77d2f382618d44d", null ]
+];

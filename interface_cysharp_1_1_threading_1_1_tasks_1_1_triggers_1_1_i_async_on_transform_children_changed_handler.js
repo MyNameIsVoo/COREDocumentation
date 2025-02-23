@@ -1,0 +1,4 @@
+var interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_transform_children_changed_handler =
+[
+    [ "OnTransformChildrenChangedAsync", "interface_cysharp_1_1_threading_1_1_tasks_1_1_triggers_1_1_i_async_on_transform_children_changed_handler.html#a0d1d7ba89ef7cf3e5a37a774856986f2", null ]
+];

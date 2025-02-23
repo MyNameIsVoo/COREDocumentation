@@ -1,23 +1,6 @@
 var annotated_dup =
 [
     [ "CORE", "namespace_c_o_r_e.html", [
-      [ "Editor", "namespace_c_o_r_e_1_1_editor.html", [
-        [ "Data", "namespace_c_o_r_e_1_1_editor_1_1_data.html", [
-          [ "AssetBundlesDataEditor", "class_c_o_r_e_1_1_editor_1_1_data_1_1_asset_bundles_data_editor.html", "class_c_o_r_e_1_1_editor_1_1_data_1_1_asset_bundles_data_editor" ],
-          [ "AssetExporterWindowDataEditor", "class_c_o_r_e_1_1_editor_1_1_data_1_1_asset_exporter_window_data_editor.html", null ],
-          [ "GameWindowDataEditor", "class_c_o_r_e_1_1_editor_1_1_data_1_1_game_window_data_editor.html", "class_c_o_r_e_1_1_editor_1_1_data_1_1_game_window_data_editor" ],
-          [ "ModToolDataEditor", "class_c_o_r_e_1_1_editor_1_1_data_1_1_mod_tool_data_editor.html", "class_c_o_r_e_1_1_editor_1_1_data_1_1_mod_tool_data_editor" ],
-          [ "ResourcesDataEditor", "class_c_o_r_e_1_1_editor_1_1_data_1_1_resources_data_editor.html", "class_c_o_r_e_1_1_editor_1_1_data_1_1_resources_data_editor" ]
-        ] ],
-        [ "Helper", "namespace_c_o_r_e_1_1_editor_1_1_helper.html", [
-          [ "IGameHelperEditor", "interface_c_o_r_e_1_1_editor_1_1_helper_1_1_i_game_helper_editor.html", "interface_c_o_r_e_1_1_editor_1_1_helper_1_1_i_game_helper_editor" ]
-        ] ],
-        [ "Utils", "namespace_c_o_r_e_1_1_editor_1_1_utils.html", [
-          [ "AssetDatabaseHelper", "class_c_o_r_e_1_1_editor_1_1_utils_1_1_asset_database_helper.html", null ],
-          [ "CodeGenerator", "class_c_o_r_e_1_1_editor_1_1_utils_1_1_code_generator.html", "class_c_o_r_e_1_1_editor_1_1_utils_1_1_code_generator" ],
-          [ "ComponentCreator", "class_c_o_r_e_1_1_editor_1_1_utils_1_1_component_creator.html", "class_c_o_r_e_1_1_editor_1_1_utils_1_1_component_creator" ]
-        ] ]
-      ] ],
       [ "Examples", "namespace_c_o_r_e_1_1_examples.html", [
         [ "UI", "namespace_c_o_r_e_1_1_examples_1_1_u_i.html", [
           [ "ExamplesView", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_examples_view.html", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_examples_view" ],
@@ -54,20 +37,12 @@ var annotated_dup =
             [ "Asset", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_asset.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_asset" ],
             [ "EditorModPlatformExtensions", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_editor_mod_platform_extensions.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_editor_mod_platform_extensions" ],
             [ "ExportData", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_data.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_data" ],
-            [ "ExporterEditorWindow", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_exporter_editor_window.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_exporter_editor_window" ],
             [ "ExportSettings", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_settings.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_settings" ],
-            [ "ExportSettingsEditor", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_settings_editor.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_settings_editor" ],
             [ "ExportStep", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_step.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_step" ],
             [ "FilteredEnumMaskField", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_filtered_enum_mask_field.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_filtered_enum_mask_field" ],
             [ "ModExporter", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_mod_exporter.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_mod_exporter" ],
             [ "PackageInstaller", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_package_installer.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_package_installer" ]
-          ] ],
-          [ "AssetSelector", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_asset_selector.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_asset_selector" ],
-          [ "CodeSettingsEditor", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_code_settings_editor.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_code_settings_editor" ],
-          [ "ExporterCreator", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporter_creator.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporter_creator" ],
-          [ "ModToolSettingsEditor", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_mod_tool_settings_editor.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_mod_tool_settings_editor" ],
-          [ "PackageSelector", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_package_selector.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_package_selector" ],
-          [ "SelectionWindow< T >", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_selection_window-1-g.html", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_selection_window-1-g" ]
+          ] ]
         ] ],
         [ "Shared", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html", [
           [ "Data", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data.html", [
@@ -296,14 +271,11 @@ var annotated_dup =
             [ "CustomToggle", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle" ],
             [ "CustomToggleGroup", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle_group.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle_group" ],
             [ "DefaultStatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_states_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_states_attribute" ],
-            [ "FloatProperty", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_float_property.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_float_property" ],
             [ "ImageAppearanceProviderHelper", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_appearance_provider_helper.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_appearance_provider_helper" ],
             [ "ListPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g" ],
             [ "ObjectPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g" ],
-            [ "Property< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property-1-g" ],
             [ "PropertyConfiguration", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration" ],
-            [ "StatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute" ],
-            [ "VertexMaterialData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_vertex_material_data.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_vertex_material_data" ]
+            [ "StatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute" ]
           ] ],
           [ "Modal", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal.html", [
             [ "ConfirmationModalViewData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_confirmation_modal_view_data.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_confirmation_modal_view_data" ],
@@ -416,50 +388,6 @@ var annotated_dup =
         [ "GlobalUpdater", "class_c_o_r_e_1_1_shared_1_1_global_updater.html", "class_c_o_r_e_1_1_shared_1_1_global_updater" ],
         [ "PauseSystem", "class_c_o_r_e_1_1_shared_1_1_pause_system.html", "class_c_o_r_e_1_1_shared_1_1_pause_system" ],
         [ "UpdateData", "struct_c_o_r_e_1_1_shared_1_1_update_data.html", "struct_c_o_r_e_1_1_shared_1_1_update_data" ]
-      ] ],
-      [ "SharedEditor", "namespace_c_o_r_e_1_1_shared_editor.html", [
-        [ "UI", "namespace_c_o_r_e_1_1_shared_editor_1_1_u_i.html", [
-          [ "Components", "namespace_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components.html", [
-            [ "CustomUIGraphicComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_custom_u_i_graphic_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_custom_u_i_graphic_component_editor" ],
-            [ "ImageComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_image_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_image_component_editor" ],
-            [ "RawImageComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_raw_image_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_raw_image_component_editor" ],
-            [ "TextComponentEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_text_component_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_components_1_1_text_component_editor" ]
-          ] ],
-          [ "Elements", "namespace_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements.html", [
-            [ "CustomButtonEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_button_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_button_editor" ],
-            [ "CustomImageEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_image_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_image_editor" ],
-            [ "CustomRawImageEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_raw_image_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_raw_image_editor" ],
-            [ "CustomScrollbarEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_scrollbar_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_scrollbar_editor" ],
-            [ "CustomScrollRectEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_scroll_rect_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_scroll_rect_editor" ],
-            [ "CustomSelectableEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_selectable_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_selectable_editor" ],
-            [ "CustomSliderEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_slider_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_slider_editor" ],
-            [ "CustomToggleEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_toggle_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_custom_toggle_editor" ],
-            [ "ImageAppearanceProviderEditorHelper", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_image_appearance_provider_editor_helper.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_elements_1_1_image_appearance_provider_editor_helper" ]
-          ] ],
-          [ "Helper", "namespace_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper.html", [
-            [ "CustomElementHelper< T >", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_custom_element_helper-1-g.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_custom_element_helper-1-g" ],
-            [ "SerializedPropertyExtensions", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_serialized_property_extensions.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_serialized_property_extensions" ],
-            [ "TransitionCollectionDrawer", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_transition_collection_drawer.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_transition_collection_drawer" ],
-            [ "TransitionsDrawer", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_transitions_drawer.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_helper_1_1_transitions_drawer" ]
-          ] ],
-          [ "Properties", "namespace_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_properties.html", [
-            [ "DropdownOptionDataListDrawerEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_properties_1_1_dropdown_option_data_list_drawer_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_properties_1_1_dropdown_option_data_list_drawer_editor" ]
-          ] ],
-          [ "CustomDropdownEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_dropdown_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_dropdown_editor" ],
-          [ "CustomEnumPopupDrawer", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_enum_popup_drawer.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_enum_popup_drawer" ],
-          [ "CustomEnumPopupWindow", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_enum_popup_window.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_enum_popup_window" ],
-          [ "CustomInputFieldEditor", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_input_field_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_custom_input_field_editor" ],
-          [ "SingleEnumName", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_single_enum_name.html", "class_c_o_r_e_1_1_shared_editor_1_1_u_i_1_1_single_enum_name" ]
-        ] ],
-        [ "Utils", "namespace_c_o_r_e_1_1_shared_editor_1_1_utils.html", [
-          [ "Attributes", "namespace_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_attributes.html", [
-            [ "ReadOnlyAttributeDrawer", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_attributes_1_1_read_only_attribute_drawer.html", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_attributes_1_1_read_only_attribute_drawer" ]
-          ] ],
-          [ "DefineSymbols", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_define_symbols.html", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_define_symbols" ],
-          [ "Extensions", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_extensions.html", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_extensions" ],
-          [ "WindowUtilsEditor", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_window_utils_editor.html", "class_c_o_r_e_1_1_shared_editor_1_1_utils_1_1_window_utils_editor" ]
-        ] ],
-        [ "EditorHelper", "class_c_o_r_e_1_1_shared_editor_1_1_editor_helper.html", "class_c_o_r_e_1_1_shared_editor_1_1_editor_helper" ]
       ] ]
     ] ]
 ];
