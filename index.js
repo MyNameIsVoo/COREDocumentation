@@ -43,9 +43,9 @@ var index =
       [ "Game Example", "index.html#autotoc_md37", [
         [ "Try working with Asset Bundles", "index.html#autotoc_md38", null ]
       ] ],
-      [ "Game Mods for Example", "index.html#autotoc_md39", null ],
-      [ "Tutorials TODO", "index.html#autotoc_md40", null ]
+      [ "Game Mods for Example", "index.html#autotoc_md39", null ]
     ] ],
+    [ "Tutorials TODO", "index.html#autotoc_md40", null ],
     [ "TODO", "index.html#autotoc_md41", null ],
     [ "CONTACTS", "index.html#autotoc_md42", null ],
     [ "REFUND POLICY", "index.html#autotoc_md43", null ]
