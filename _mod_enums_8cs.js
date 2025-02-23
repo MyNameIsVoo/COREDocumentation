@@ -37,7 +37,8 @@ var _mod_enums_8cs =
       [ "CORE.ModTool.Shared.ModPlatform.Windows", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599baaea23489ce3aa9b6406ebb28e0cda430", null ],
       [ "CORE.ModTool.Shared.ModPlatform.Linux", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599baedc9f0a5a5d57797bf68e37364743831", null ],
       [ "CORE.ModTool.Shared.ModPlatform.OSX", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599ba4893fb6eaf52350ba9ac82d34d329603", null ],
-      [ "CORE.ModTool.Shared.ModPlatform.Android", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599bae84e30b9390cdb64db6db2c9ab87846d", null ]
+      [ "CORE.ModTool.Shared.ModPlatform.Android", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599bae84e30b9390cdb64db6db2c9ab87846d", null ],
+      [ "CORE.ModTool.Shared.ModPlatform.WebGL", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599ba4423e67d47682f902b06a8c211e7a7db", null ]
     ] ],
     [ "CORE.ModTool.Shared.ModToolStates", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a971c1922ab03684e96f259a04d1b435a", [
       [ "CORE.ModTool.Shared.ModToolStates.Debug", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a971c1922ab03684e96f259a04d1b435aaa603905470e2a5b8c13e96b579ef0dba", null ],

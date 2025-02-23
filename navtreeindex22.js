@@ -1,13 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"dir_f8217f7849e5e1b0d2015807f75be179.html":[3,0,0,0,2,0,2,0],
-"files.html":[3,0],
-"functions.html":[2,3,0],
-"functions.html":[2,3,0,0],
-"functions_a.html":[2,3,0,1],
-"functions_b.html":[2,3,0,2],
-"functions_c.html":[2,3,0,3],
-"functions_d.html":[2,3,0,4],
 "functions_e.html":[2,3,0,5],
 "functions_enum.html":[2,3,3],
 "functions_evnt.html":[2,3,5],
@@ -148,7 +140,9 @@ var NAVTREEINDEX22 =
 "index.html#autotoc_md39":[0,4,1],
 "index.html#autotoc_md4":[0,1,1],
 "index.html#autotoc_md40":[0,4,2],
-"index.html#autotoc_md41":[0,4,3],
+"index.html#autotoc_md41":[0,5],
+"index.html#autotoc_md42":[0,6],
+"index.html#autotoc_md43":[0,7],
 "index.html#autotoc_md5":[0,1,1,0],
 "index.html#autotoc_md6":[0,1,1,1],
 "index.html#autotoc_md7":[0,1,1,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX22 =
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#af716357d0d50c32d22ca1dbc5a099e3e":[1,0,0,2,14,22,1],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#af716357d0d50c32d22ca1dbc5a099e3e":[2,0,0,2,14,21,1],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html":[1,0,0,2,14,23],
-"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html":[2,0,0,2,14,22]
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html":[2,0,0,2,14,22],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#aa7fbf678b1a59e1b1d05bee16ba54916":[1,0,0,2,14,23,0],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#aa7fbf678b1a59e1b1d05bee16ba54916":[2,0,0,2,14,22,0],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#ab7021569ec7e2bedd63c1aedf4954fbb":[1,0,0,2,14,23,1],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#ab7021569ec7e2bedd63c1aedf4954fbb":[2,0,0,2,14,22,1],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[1,0,0,2,14,23,2],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[2,0,0,2,14,22,2]
 };

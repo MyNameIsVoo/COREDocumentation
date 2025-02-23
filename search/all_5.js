@@ -47,7 +47,7 @@ var searchData=
   ['dictionaryconverter_2d2_2dg_44',['DictionaryConverter-2-g',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html',1,'CORE::Shared::Configs::Converters']]],
   ['dictionaryconverter_2ecs_45',['DictionaryConverter.cs',['../_dictionary_converter_8cs.html',1,'']]],
   ['didawake_46',['DidAwake',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html#a79cd870e002194df7bc3d7f4b605af8b',1,'CORE::Shared::UI::VisualView::Visual']]],
-  ['dir_47',['@@dir',['../F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/README.md#autotoc_md42',1,'']]],
+  ['dir_47',['@@dir',['../F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/README.md#autotoc_md44',1,'']]],
   ['direction_48',['Direction',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_data.html#aa868223a8764e6d9853a24aee89912d9',1,'CORE::Shared::Utils::Timer::TimerData']]],
   ['directory_49',['Directory',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data.html#af876b06992426f44ce93fdad3cdd179b',1,'CORE.Shared.Utils.AssemblyData.Directory'],['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_scriptable_object_attribute.html#a56bf907c42c68628077b4ec26f71f228',1,'CORE.Shared.Utils.SingletonScriptableObjectAttribute.Directory']]],
   ['directorycopy_50',['DirectoryCopy',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_manager.html#ae1b7eb47355eb75e4bb82c20bec605f7',1,'CORE::Shared::Utils::FileManager']]],
