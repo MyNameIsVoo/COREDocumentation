@@ -30,7 +30,7 @@ var hierarchy =
     [ "CORE.Shared.Generated.Color.ColorCustomGenerated", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html", null ],
     [ "CORE.Shared.Colors.ColorLibrary", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.html", null ],
     [ "CORE.Shared.Console.CommonConsoleCommands", "class_c_o_r_e_1_1_shared_1_1_console_1_1_common_console_commands.html", null ],
-    [ "CORE.Shared.Configs.ConfigStatic", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_static.html", null ],
+    [ "CORE.Shared.Configs.ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", null ],
     [ "CORE.Shared.UI.Custom.Settings.CustomElementSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_custom_element_settings.html", [
       [ "CORE.Shared.UI.Custom.Settings.SpriteSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_sprite_settings.html", null ],
       [ "CORE.Shared.UI.Custom.Settings.TextureSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_texture_settings.html", null ]
@@ -120,7 +120,7 @@ var hierarchy =
       [ "CORE.Shared.Configs.Settings.Data.ControlInputSetting", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting.html", null ]
     ] ],
     [ "CORE.Shared.Utils.IFixedUpdateListiner", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html", null ],
-    [ "CORE.Shared.UI.Custom.Interfaces.IImageAppearanceProvider", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_appearance_provider.html", [
+    [ "CORE.Shared.UI.Custom.Interfaces.IImageModifier", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_modifier.html", [
       [ "CORE.Shared.UI.Custom.CustomImage", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html", null ],
       [ "CORE.Shared.UI.Custom.CustomRawImage", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_raw_image.html", null ]
     ] ],
@@ -128,8 +128,8 @@ var hierarchy =
     [ "Image", null, [
       [ "CORE.Shared.UI.Custom.CustomImage", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html", null ]
     ] ],
-    [ "CORE.Shared.UI.Custom.ImageAppearanceProviderHelper", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_appearance_provider_helper.html", null ],
     [ "CORE.ModTool.Shared.Data.ModData.ImageData", "struct_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data_1_1_image_data.html", null ],
+    [ "CORE.Shared.UI.Custom.ImageModifier", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_modifier.html", null ],
     [ "CORE.Shared.UI.Custom.Interfaces.IMaskableHelper", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html", [
       [ "CORE.Shared.UI.Custom.CustomButton", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_button.html", null ],
       [ "CORE.Shared.UI.Custom.CustomDropdown", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html", null ],
@@ -227,7 +227,7 @@ var hierarchy =
     ] ],
     [ "JsonConverter", null, [
       [ "CORE.Shared.Configs.Converters.ColorConverter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter.html", null ],
-      [ "CORE.Shared.Configs.Converters.DictionaryConverter< T, V >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html", null ],
+      [ "CORE.Shared.Configs.Converters.DictionaryConverter< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html", null ],
       [ "CORE.Shared.Configs.Converters.ReferenceConverter< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g.html", null ]
     ] ],
     [ "CORE.Shared.Configs.InputConfig.KeyData", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config_1_1_key_data.html", null ],
@@ -421,30 +421,30 @@ var hierarchy =
     [ "CORE.Shared.UI.Custom.State.TransitionCoroutines< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_coroutines-1-g.html", null ],
     [ "CORE.Shared.UI.Custom.State.Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html", null ],
     [ "CORE.Shared.UI.Custom.State.TransitionStates< TState, TObject >.TransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_states-2-g_1_1_transition_state.html", [
-      [ "CORE.Shared.UI.Custom.State.AlphaTransitions.AlphaTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_alpha_transitions_1_1_alpha_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.AnimationTransitions.AnimationTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions_1_1_animation_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.Color32Transitions.Color32TransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions_1_1_color32_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.ColorTransitions.ColorTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions_1_1_color_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.CustomTransitions.CustomTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_custom_transitions_1_1_custom_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.GameObjectActiveTransitions.ActiveTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions_1_1_active_transition_state.html", null ],
+      [ "CORE.Shared.UI.Custom.State.GraphicAlphaTransitions.AlphaTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions_1_1_alpha_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.RectTransformTransition.RectTransformTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition_1_1_rect_transform_transition_state.html", null ],
-      [ "CORE.Shared.UI.Custom.State.SpriteSwapTransitions.SpriteSwapTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_swap_transitions_1_1_sprite_swap_transition_state.html", null ]
+      [ "CORE.Shared.UI.Custom.State.SpriteTransitions.SpriteSwapTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions_1_1_sprite_swap_transition_state.html", null ]
     ] ],
     [ "CORE.Shared.UI.Custom.State.TransitionStateCollection.TransitionStateBase", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection_1_1_transition_state_base.html", null ],
     [ "CORE.Shared.UI.Custom.State.TransitionStateCollection", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection.html", [
       [ "CORE.Shared.UI.Custom.State.TransitionStates< TState, TObject >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_states-2-g.html", [
-        [ "CORE.Shared.UI.Custom.State.AlphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_alpha_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.AnimationTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.Color32Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.ColorTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.CustomTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_custom_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.GameObjectActiveTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions.html", null ],
+        [ "CORE.Shared.UI.Custom.State.GraphicAlphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.RectTransformTransition", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html", null ],
-        [ "CORE.Shared.UI.Custom.State.SpriteSwapTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_swap_transitions.html", null ]
+        [ "CORE.Shared.UI.Custom.State.SpriteTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions.html", null ]
       ] ]
     ] ],
     [ "UnityEvent", null, [
-      [ "CORE.Shared.UI.Custom.FloatTween.FloatTweenCallback", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_float_tween_1_1_float_tween_callback.html", null ]
+      [ "CORE.Shared.UI.Custom.DefaultTween.DefaultTweenCallback", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_tween_1_1_default_tween_callback.html", null ]
     ] ],
     [ "UnityEvent", null, [
       [ "CORE.Shared.UI.Custom.CustomDropdown.DropdownEvent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown_1_1_dropdown_event.html", null ]

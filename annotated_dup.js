@@ -107,7 +107,7 @@ var annotated_dup =
         [ "Configs", "namespace_c_o_r_e_1_1_shared_1_1_configs.html", [
           [ "Converters", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_converters.html", [
             [ "ColorConverter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter" ],
-            [ "DictionaryConverter< T, V >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g" ],
+            [ "DictionaryConverter< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g" ],
             [ "ReferenceConverter< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g" ]
           ] ],
           [ "Data", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_data.html", [
@@ -135,7 +135,7 @@ var annotated_dup =
           [ "ConfigDictionary< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_dictionary-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_dictionary-1-g" ],
           [ "ConfigReferenceResolver", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver" ],
           [ "ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g" ],
-          [ "ConfigStatic", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_static.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_static" ],
+          [ "ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system" ],
           [ "EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g" ],
           [ "GlobalConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config" ],
           [ "IConfigVaidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator" ],
@@ -220,7 +220,7 @@ var annotated_dup =
             ] ],
             [ "Interfaces", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces.html", [
               [ "ICustomTransitionUiElement", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_custom_transition_ui_element.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_custom_transition_ui_element" ],
-              [ "IImageAppearanceProvider", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_appearance_provider.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_appearance_provider" ],
+              [ "IImageModifier", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_modifier.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_modifier" ],
               [ "IMaskableHelper", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper" ]
             ] ],
             [ "PopUpEnum", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_pop_up_enum.html", [
@@ -232,15 +232,15 @@ var annotated_dup =
               [ "TextureSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_texture_settings.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_texture_settings" ]
             ] ],
             [ "State", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state.html", [
-              [ "AlphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_alpha_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_alpha_transitions" ],
               [ "AnimationTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions" ],
               [ "Color32Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions" ],
               [ "ColorTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions" ],
               [ "CoroutineTransitionComponent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_coroutine_transition_component.html", null ],
               [ "CustomTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_custom_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_custom_transitions" ],
               [ "GameObjectActiveTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions" ],
+              [ "GraphicAlphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions" ],
               [ "RectTransformTransition", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition" ],
-              [ "SpriteSwapTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_swap_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_swap_transitions" ],
+              [ "SpriteTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions" ],
               [ "States", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_states.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_states" ],
               [ "TransitionCoroutines< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_coroutines-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_coroutines-1-g" ],
               [ "Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions" ],
@@ -271,7 +271,7 @@ var annotated_dup =
             [ "CustomToggle", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle" ],
             [ "CustomToggleGroup", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle_group.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle_group" ],
             [ "DefaultStatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_states_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_states_attribute" ],
-            [ "ImageAppearanceProviderHelper", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_appearance_provider_helper.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_appearance_provider_helper" ],
+            [ "ImageModifier", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_modifier.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_modifier" ],
             [ "ListPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g" ],
             [ "ObjectPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g" ],
             [ "PropertyConfiguration", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration" ],

@@ -23,7 +23,7 @@ var namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom =
     [ "CustomToggle", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle" ],
     [ "CustomToggleGroup", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle_group.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle_group" ],
     [ "DefaultStatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_states_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_states_attribute" ],
-    [ "ImageAppearanceProviderHelper", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_appearance_provider_helper.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_appearance_provider_helper" ],
+    [ "ImageModifier", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_modifier.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_image_modifier" ],
     [ "ListPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g" ],
     [ "ObjectPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g" ],
     [ "PropertyConfiguration", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration" ],

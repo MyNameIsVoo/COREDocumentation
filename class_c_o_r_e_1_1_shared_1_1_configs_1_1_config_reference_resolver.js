@@ -7,7 +7,7 @@ var class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver =
     [ "ResolveReference", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#a7b1104ac1bf643c61011b72f5a5ddfb6", null ],
     [ "Validate", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#a412c3f20fdf106d94975d88c33158a84", null ],
     [ "Path", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#acd99416e85ea92bf5f61f384a0c67806", null ],
-    [ "RequiredCheckReferences", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#ab5b137753a591e980692d042b9ed12d6", null ],
-    [ "ResolvedReferences", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#a30f6ca56e1c1732b246d21830d8d2b82", null ],
-    [ "UnresolvedReferences", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#aef24e800df19fd78cb6a3fbbe8fc1c92", null ]
+    [ "RequiredCheck", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#a0e9f46fd1ad483825e2de0e1708d8225", null ],
+    [ "Resolved", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#ac02a35d8d9f466d9e56e2b6d8080d58a", null ],
+    [ "Unresolved", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html#a44d142e3a5bd8d5b3900d310cc16a89a", null ]
 ];

@@ -141,14 +141,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aef24e800df19fd78cb6a3fbbe8fc1c92" id="r_aef24e800df19fd78cb6a3fbbe8fc1c92"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt;(Type Type, string Key), List&lt; string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef24e800df19fd78cb6a3fbbe8fc1c92">UnresolvedReferences</a> = new()</td></tr>
-<tr class="separator:aef24e800df19fd78cb6a3fbbe8fc1c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30f6ca56e1c1732b246d21830d8d2b82" id="r_a30f6ca56e1c1732b246d21830d8d2b82"><td class="memItemLeft" align="right" valign="top">readonly HashSet&lt;(Type Type, string Key)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f6ca56e1c1732b246d21830d8d2b82">ResolvedReferences</a> = new()</td></tr>
-<tr class="separator:a30f6ca56e1c1732b246d21830d8d2b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd99416e85ea92bf5f61f384a0c67806" id="r_acd99416e85ea92bf5f61f384a0c67806"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd99416e85ea92bf5f61f384a0c67806">Path</a></td></tr>
 <tr class="separator:acd99416e85ea92bf5f61f384a0c67806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b137753a591e980692d042b9ed12d6" id="r_ab5b137753a591e980692d042b9ed12d6"><td class="memItemLeft" align="right" valign="top">readonly bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5b137753a591e980692d042b9ed12d6">RequiredCheckReferences</a></td></tr>
-<tr class="separator:ab5b137753a591e980692d042b9ed12d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d142e3a5bd8d5b3900d310cc16a89a" id="r_a44d142e3a5bd8d5b3900d310cc16a89a"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt;(Type Type, string Key), List&lt; string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44d142e3a5bd8d5b3900d310cc16a89a">Unresolved</a> = new()</td></tr>
+<tr class="separator:a44d142e3a5bd8d5b3900d310cc16a89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac02a35d8d9f466d9e56e2b6d8080d58a" id="r_ac02a35d8d9f466d9e56e2b6d8080d58a"><td class="memItemLeft" align="right" valign="top">readonly HashSet&lt;(Type Type, string Key)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac02a35d8d9f466d9e56e2b6d8080d58a">Resolved</a> = new()</td></tr>
+<tr class="separator:ac02a35d8d9f466d9e56e2b6d8080d58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e9f46fd1ad483825e2de0e1708d8225" id="r_a0e9f46fd1ad483825e2de0e1708d8225"><td class="memItemLeft" align="right" valign="top">readonly bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e9f46fd1ad483825e2de0e1708d8225">RequiredCheck</a></td></tr>
+<tr class="separator:a0e9f46fd1ad483825e2de0e1708d8225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for finding dependencies in configs. </p>
@@ -292,42 +292,42 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab5b137753a591e980692d042b9ed12d6" name="ab5b137753a591e980692d042b9ed12d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5b137753a591e980692d042b9ed12d6">&#9670;&#160;</a></span>RequiredCheckReferences</h2>
+<a id="a0e9f46fd1ad483825e2de0e1708d8225" name="a0e9f46fd1ad483825e2de0e1708d8225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9f46fd1ad483825e2de0e1708d8225">&#9670;&#160;</a></span>RequiredCheck</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">readonly bool CORE.Shared.Configs.ConfigReferenceResolver.RequiredCheckReferences</td>
+          <td class="memname">readonly bool CORE.Shared.Configs.ConfigReferenceResolver.RequiredCheck</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a30f6ca56e1c1732b246d21830d8d2b82" name="a30f6ca56e1c1732b246d21830d8d2b82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30f6ca56e1c1732b246d21830d8d2b82">&#9670;&#160;</a></span>ResolvedReferences</h2>
+<a id="ac02a35d8d9f466d9e56e2b6d8080d58a" name="ac02a35d8d9f466d9e56e2b6d8080d58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac02a35d8d9f466d9e56e2b6d8080d58a">&#9670;&#160;</a></span>Resolved</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">readonly HashSet&lt;(Type Type, string Key)&gt; CORE.Shared.Configs.ConfigReferenceResolver.ResolvedReferences = new()</td>
+          <td class="memname">readonly HashSet&lt;(Type Type, string Key)&gt; CORE.Shared.Configs.ConfigReferenceResolver.Resolved = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aef24e800df19fd78cb6a3fbbe8fc1c92" name="aef24e800df19fd78cb6a3fbbe8fc1c92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef24e800df19fd78cb6a3fbbe8fc1c92">&#9670;&#160;</a></span>UnresolvedReferences</h2>
+<a id="a44d142e3a5bd8d5b3900d310cc16a89a" name="a44d142e3a5bd8d5b3900d310cc16a89a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d142e3a5bd8d5b3900d310cc16a89a">&#9670;&#160;</a></span>Unresolved</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">readonly Dictionary&lt;(Type Type, string Key), List&lt;string&gt; &gt; CORE.Shared.Configs.ConfigReferenceResolver.UnresolvedReferences = new()</td>
+          <td class="memname">readonly Dictionary&lt;(Type Type, string Key), List&lt;string&gt; &gt; CORE.Shared.Configs.ConfigReferenceResolver.Unresolved = new()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -335,7 +335,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Configs/<a class="el" href="_config_static_8cs.html">ConfigStatic.cs</a></li>
+<li>F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Configs/<a class="el" href="_config_system_8cs.html">ConfigSystem.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

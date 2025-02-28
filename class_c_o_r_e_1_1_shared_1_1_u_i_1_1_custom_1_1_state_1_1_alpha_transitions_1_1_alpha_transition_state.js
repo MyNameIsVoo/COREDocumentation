@@ -1,4 +1,0 @@
-var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_alpha_transitions_1_1_alpha_transition_state =
-[
-    [ "AlphaTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_alpha_transitions_1_1_alpha_transition_state.html#a4bbfbdb9de35db83c5063aed7fa7d701", null ]
-];

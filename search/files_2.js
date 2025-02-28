@@ -15,7 +15,7 @@ var searchData=
   ['configdictionary_2ecs_12',['ConfigDictionary.cs',['../_config_dictionary_8cs.html',1,'']]],
   ['configsexample_2ecs_13',['ConfigsExample.cs',['../_configs_example_8cs.html',1,'']]],
   ['configsingle_2ecs_14',['ConfigSingle.cs',['../_config_single_8cs.html',1,'']]],
-  ['configstatic_2ecs_15',['ConfigStatic.cs',['../_config_static_8cs.html',1,'']]],
+  ['configsystem_2ecs_15',['ConfigSystem.cs',['../_config_system_8cs.html',1,'']]],
   ['confirmationtextmodalview_2ecs_16',['ConfirmationTextModalView.cs',['../_confirmation_text_modal_view_8cs.html',1,'']]],
   ['confirmationtextmodalvisual_2ecs_17',['ConfirmationTextModalVisual.cs',['../_confirmation_text_modal_visual_8cs.html',1,'']]],
   ['controlinputsetting_2ecs_18',['ControlInputSetting.cs',['../_control_input_setting_8cs.html',1,'']]],

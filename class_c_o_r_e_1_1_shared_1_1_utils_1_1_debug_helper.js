@@ -1,5 +1,6 @@
 var class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper =
 [
+    [ "Assert", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper.html#a475af6c438573d74c74bff41ec709dc5", null ],
     [ "ExistLog< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper.html#a67434f09ee4ff2d1e9ae71d63106410a", null ],
     [ "Log", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper.html#a0630ff931b43973e02430012049d5f8d", null ],
     [ "LogError", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper.html#a8a99c4bd1235f523e205df7e2acb1e26", null ],

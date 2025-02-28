@@ -8,5 +8,6 @@ var searchData=
   ['globalconfig_5',['GlobalConfig',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html',1,'CORE::Shared::Configs']]],
   ['globalupdater_6',['GlobalUpdater',['../class_c_o_r_e_1_1_shared_1_1_global_updater.html',1,'CORE::Shared']]],
   ['globalvisual_7',['GlobalVisual',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html',1,'CORE::Shared::UI::VisualView']]],
-  ['graphicsettingsdata_8',['GraphicSettingsData',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html',1,'CORE::Shared::Configs::Data']]]
+  ['graphicalphatransitions_8',['GraphicAlphaTransitions',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions.html',1,'CORE::Shared::UI::Custom::State']]],
+  ['graphicsettingsdata_9',['GraphicSettingsData',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html',1,'CORE::Shared::Configs::Data']]]
 ];

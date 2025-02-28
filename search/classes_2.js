@@ -20,7 +20,7 @@ var searchData=
   ['configreferenceresolver_17',['ConfigReferenceResolver',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html',1,'CORE::Shared::Configs']]],
   ['configsexample_18',['ConfigsExample',['../class_c_o_r_e_1_1_examples_1_1_configs_example.html',1,'CORE::Examples']]],
   ['configsingle_2d1_2dg_19',['ConfigSingle-1-g',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html',1,'CORE::Shared::Configs']]],
-  ['configstatic_20',['ConfigStatic',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_static.html',1,'CORE::Shared::Configs']]],
+  ['configsystem_20',['ConfigSystem',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html',1,'CORE::Shared::Configs']]],
   ['confirmationmodalviewdata_21',['ConfirmationModalViewData',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_confirmation_modal_view_data.html',1,'CORE::Shared::UI::Modal']]],
   ['confirmationtextmodalview_22',['ConfirmationTextModalView',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_confirmation_text_modal_view.html',1,'CORE::Shared::UI::Modal']]],
   ['confirmationtextmodalvisual_23',['ConfirmationTextModalVisual',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_confirmation_text_modal_visual.html',1,'CORE::Shared::UI::Modal']]],

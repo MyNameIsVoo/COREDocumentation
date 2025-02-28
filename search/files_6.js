@@ -12,5 +12,6 @@ var searchData=
   ['globalmodvisual_2ecs_9',['GlobalModVisual.cs',['../_global_mod_visual_8cs.html',1,'']]],
   ['globalupdater_2ecs_10',['GlobalUpdater.cs',['../_global_updater_8cs.html',1,'']]],
   ['globalvisual_2ecs_11',['GlobalVisual.cs',['../_global_visual_8cs.html',1,'']]],
-  ['graphicsettingsdata_2ecs_12',['GraphicSettingsData.cs',['../_graphic_settings_data_8cs.html',1,'']]]
+  ['graphicalphatransitions_2ecs_12',['GraphicAlphaTransitions.cs',['../_graphic_alpha_transitions_8cs.html',1,'']]],
+  ['graphicsettingsdata_2ecs_13',['GraphicSettingsData.cs',['../_graphic_settings_data_8cs.html',1,'']]]
 ];

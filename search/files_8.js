@@ -1,9 +1,9 @@
 var searchData=
 [
   ['icustomtransitionuielement_2ecs_0',['ICustomTransitionUiElement.cs',['../_i_custom_transition_ui_element_8cs.html',1,'']]],
-  ['iimageappearanceprovider_2ecs_1',['IImageAppearanceProvider.cs',['../_i_image_appearance_provider_8cs.html',1,'']]],
-  ['imageappearanceproviderhelper_2ecs_2',['ImageAppearanceProviderHelper.cs',['../_image_appearance_provider_helper_8cs.html',1,'']]],
-  ['imagecomponent_2ecs_3',['ImageComponent.cs',['../_image_component_8cs.html',1,'']]],
+  ['iimagemodifier_2ecs_1',['IImageModifier.cs',['../_i_image_modifier_8cs.html',1,'']]],
+  ['imagecomponent_2ecs_2',['ImageComponent.cs',['../_image_component_8cs.html',1,'']]],
+  ['imagemodifier_2ecs_3',['ImageModifier.cs',['../_image_modifier_8cs.html',1,'']]],
   ['imaskablehelper_2ecs_4',['IMaskableHelper.cs',['../_i_maskable_helper_8cs.html',1,'']]],
   ['infomodalview_2ecs_5',['InfoModalView.cs',['../_info_modal_view_8cs.html',1,'']]],
   ['infomodalvisual_2ecs_6',['InfoModalVisual.cs',['../_info_modal_visual_8cs.html',1,'']]],

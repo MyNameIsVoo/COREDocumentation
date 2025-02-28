@@ -13,7 +13,7 @@ var searchData=
   ['settingssettingbase_2ecs_10',['SettingsSettingBase.cs',['../_settings_setting_base_8cs.html',1,'']]],
   ['singletonmonobehaviour_2ecs_11',['SingletonMonoBehaviour.cs',['../_singleton_mono_behaviour_8cs.html',1,'']]],
   ['singletonscriptableobject_2ecs_12',['SingletonScriptableObject.cs',['../_singleton_scriptable_object_8cs.html',1,'']]],
-  ['spriteswaptransitions_2ecs_13',['SpriteSwapTransitions.cs',['../_sprite_swap_transitions_8cs.html',1,'']]],
+  ['spritetransitions_2ecs_13',['SpriteTransitions.cs',['../_sprite_transitions_8cs.html',1,'']]],
   ['startexportstep_2ecs_14',['StartExportStep.cs',['../_start_export_step_8cs.html',1,'']]],
   ['startupattributes_2ecs_15',['StartupAttributes.cs',['../_startup_attributes_8cs.html',1,'']]],
   ['states_2ecs_16',['States.cs',['../_states_8cs.html',1,'']]],

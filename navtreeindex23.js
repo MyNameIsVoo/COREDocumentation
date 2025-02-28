@@ -1,5 +1,16 @@
 var NAVTREEINDEX23 =
 {
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#af70237efd3a9e0c5c41b33f9fffeb79f":[1,0,0,2,14,22,4],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#af70237efd3a9e0c5c41b33f9fffeb79f":[2,0,0,2,14,21,4],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#af716357d0d50c32d22ca1dbc5a099e3e":[1,0,0,2,14,22,1],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#af716357d0d50c32d22ca1dbc5a099e3e":[2,0,0,2,14,21,1],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html":[1,0,0,2,14,23],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html":[2,0,0,2,14,22],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#aa7fbf678b1a59e1b1d05bee16ba54916":[1,0,0,2,14,23,0],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#aa7fbf678b1a59e1b1d05bee16ba54916":[2,0,0,2,14,22,0],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#ab7021569ec7e2bedd63c1aedf4954fbb":[1,0,0,2,14,23,1],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#ab7021569ec7e2bedd63c1aedf4954fbb":[2,0,0,2,14,22,1],
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[1,0,0,2,14,23,2],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#afa0bc5bdd5718fb8116a6e59fa4473fe":[2,0,0,2,14,22,2],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html":[1,0,0,2,14,24],
 "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html":[2,0,0,2,14,23],
@@ -238,16 +249,5 @@ var NAVTREEINDEX23 =
 "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aa3b794bb6f12e237332db19dc265daf0":[2,0,0,2,1,0,4],
 "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#ae747598759229567485b0d3fafeffadc":[1,0,0,2,1,0,7],
 "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#ae747598759229567485b0d3fafeffadc":[2,0,0,2,1,0,7],
-"struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aff5d8b6d94621b5ca22de648a8b1a46f":[1,0,0,2,1,0,5],
-"struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aff5d8b6d94621b5ca22de648a8b1a46f":[2,0,0,2,1,0,5],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html":[1,0,0,2,2,8],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html":[2,0,0,2,2,8],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d":[1,0,0,2,2,8,0],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d":[2,0,0,2,2,8,0],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a1b353493e33d23005e85f89bb2d5cf84":[1,0,0,2,2,8,3],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a1b353493e33d23005e85f89bb2d5cf84":[2,0,0,2,2,8,3],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514":[1,0,0,2,2,8,2],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514":[2,0,0,2,2,8,2],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b":[1,0,0,2,2,8,5],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b":[2,0,0,2,2,8,5]
+"struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aff5d8b6d94621b5ca22de648a8b1a46f":[1,0,0,2,1,0,5]
 };

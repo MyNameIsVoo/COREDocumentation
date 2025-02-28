@@ -423,7 +423,52 @@ Config System</h2>
 <div class="line">        &quot;SomeParameter&quot;: false,</div>
 <div class="line">    },</div>
 <div class="line">}</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md11"></a>
+How to add?</h3>
+<p>The first thing you need to do is to inherit the class from the <b>ConfigDictionary</b> or <b>ConfigSingle</b> classes:</p>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">public class MyConfig : ConfigSingle&lt;PlayerConfig&gt; { ... }</div>
+</div><!-- fragment --><p>For example, to create a player config we need the following:</p>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">public class PlayerConfig : ConfigDictionary&lt;PlayerConfig&gt;</div>
+<div class="line">{</div>
+<div class="line">    public const string FileName = &quot;players&quot; + FileManager.FILE_JSON; // The name of the file that will be found and loaded in the Resources/Configs folder</div>
+<div class="line"> </div>
+<div class="line">    // Your data is here</div>
+<div class="line">    public string Visual;</div>
+<div class="line">    public EntityConfig Entity;</div>
+<div class="line">    public float Speed;</div>
+<div class="line">    public float JumpForce;</div>
+<div class="line">    public float AttackRange;</div>
+<div class="line"> </div>
+<div class="line">    public override void Validate()</div>
+<div class="line">    {</div>
+<div class="line">        base.Validate();</div>
+<div class="line">        // Validate your data here</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public static void ValidateConfig()</div>
+<div class="line">    {</div>
+<div class="line">        foreach (var item in List)</div>
+<div class="line">            item.Validate();</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // After the game starts, Unity will call this method and we will be able to sign our config for initialization.</div>
+<div class="line">    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]</div>
+<div class="line">    private static void Init()</div>
+<div class="line">    {</div>
+<div class="line">        ConfigSystem.InserConfigs += InsertConfig; // Insert items</div>
+<div class="line">        ConfigSystem.ValidateConfigs += ValidateConfig; // Validate items</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    private static void InsertConfig(Dictionary&lt;string, Func&lt;JObject&gt;&gt; jsons, ConfigReferenceResolver context)</div>
+<div class="line">    {</div>
+<div class="line">        Insert(jsons.FirstOrDefault(a =&gt; a.Key == FileName), context);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>⚠️ The main rule is that your files should be located in <b>Resources/Configs/</b></dd></dl>
+<p>Read more here <a href="https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@3.2/manual/index.html">NewtoneSoft JSON</a></p>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Code Generator</h2>
 <p><b>Code Generator</b> is an additional tool that works exclusively <b>in the editor</b> and greatly simplifies the process of obtaining game data. This tool allows developers to generate code quickly and efficiently, which saves time and reduces the likelihood of errors. The main functions of <b>Code Generator</b> include:</p><ul>
 <li>Code generation: Includes the ability to generate lists for various resources, such as colors, sprites, video and audio clips, prefabs, visual elements and localization, etc. This allows developers to easily manage resources.</li>
@@ -436,7 +481,7 @@ Code Generator</h2>
 </div>
 <p>С помощью <b>Code Generator</b> разработчики могут существенно ускорить процесс создания и управления кодом, позволяя сосредоточиться на более творческих аспектах разработки игр.</p>
 <dl class="section warning"><dt>Warning</dt><dd>⚠️ Usually code generation serves to assist development and does not require outside intervention, so try not to change them yourself, because during subsequent generation they will return to the default "state".</dd></dl>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Model</h2>
 <p><b>Model</b> is a unified player data system that collects all session and player information in one place. It is a static class that stores data about the player and other objects, such as the state of scene transitions, making it an indispensable tool for managing game data. The main functions of <b>Model</b> include:</p><ul>
 <li>Unified data system: Consolidates all session and player information, allowing access to data from any part of the game.</li>
@@ -447,7 +492,7 @@ Model</h2>
 </ul>
 <p>With <b>Model</b> you can efficiently manage player data and game state, ensuring a stable and continuous gameplay experience.</p>
 <p>The player model is stored at <em>Application.PersistentDataPath/UserData</em></p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Save System</h2>
 <p><b>Save System</b> is a save system that is an advanced and convenient tool for quickly saving and loading your game data. All save files are stored in the <b>.json</b> format. This system is adapted and configured for efficient data management, allowing developers to focus on creating game content. The main features of <b>Save System</b> include:</p><ul>
 <li>Quick save and load data: Simply add the save component to an object, and you can be sure that the data will be saved and loaded the next time the game is launched.</li>
@@ -457,7 +502,58 @@ Save System</h2>
 </ul>
 <p>With <b>Save System</b>, you can easily manage the saving of player progress, providing a reliable and efficient way to store data. This will allow players to continue playing where they left off, improving the overall gaming experience.</p>
 <p>Player saves are stored at <em>Application.PersistentDataPath/Saves/...</em></p>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h3><a class="anchor" id="autotoc_md15"></a>
+Hot to save?</h3>
+<p>It's very simple, inherit your data from the <b>SaveGameBaseComponentData</b> interface. Also you should have a manager class, inherit it from <b>ISaveGameBaseComponent</b> and subscribe to <b>SaveComponentsManager</b>, then specify what you will save and how to load the data, for example:</p>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">public class SavedDataClass : ISaveGameBaseComponent // This is the governing class</div>
+<div class="line">{</div>
+<div class="line">    public class Data : SaveGameBaseComponentData // This is our data</div>
+<div class="line">    {</div>
+<div class="line">        public float SliderValue;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    private readonly CustomSlider _slider;</div>
+<div class="line"> </div>
+<div class="line">    [Zenject.Inject] protected SaveComponentsManager _saveComponentsManager;</div>
+<div class="line"> </div>
+<div class="line">    public string ProgressMessage =&gt; &quot;Example...&quot;;</div>
+<div class="line"> </div>
+<div class="line">    public SavedDataClass(CustomSlider slider)</div>
+<div class="line">    {</div>
+<div class="line">        _slider = slider;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public void Init()</div>
+<div class="line">    {</div>
+<div class="line">        _saveComponentsManager.Add(this);</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public SaveGameBaseComponentData CollectData() // Here we collect all the data to save</div>
+<div class="line">    {</div>
+<div class="line">        var data = new Data();</div>
+<div class="line">        data.SliderValue = _slider.value;</div>
+<div class="line">        return data;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public void LoadData(SaveGameBaseComponentData savedData) // Here we upload data</div>
+<div class="line">    {</div>
+<div class="line">        if (savedData is not Data data)</div>
+<div class="line">            return;</div>
+<div class="line"> </div>
+<div class="line">        _slider.SetValueWithoutNotify(data.SliderValue);</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    public void Destroy() // After deleting an object, we exclude it from the list of saved objects.</div>
+<div class="line">    {</div>
+<div class="line">        _saveComponentsManager.Remove(this);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>After this, you can safely save and load data from the file. For a deeper understanding, study the <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">examples</a>.</p>
+<blockquote class="doxtable">
+<p>A little advice - you should be in two states. The first is "clean" when you just started playing. The second is when you load saves. </p>
+</blockquote>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Scene Loader</h2>
 <p><b>Scene Loader</b> is a convenient interface for loading and transitioning between scenes in your game, which includes functions for handling events and managing the progress of scene transitions. This tool ensures a smooth and efficient loading process, which improves the overall gaming experience. The main features of <b>Scene Loader</b> include:</p><ul>
 <li>User-friendly interface: Allows developers to easily manage scene loading and transitions, simplifying the integration process. Although this is not required.</li>
@@ -468,7 +564,16 @@ Scene Loader</h2>
 <li>Asynchronous Loading Support: The ability to load scenes asynchronously avoids the game freezing during loading, ensuring a smooth gaming experience.</li>
 </ul>
 <p>With <b>Scene Loader</b>, you can easily manage scene transitions, improving player interaction and creating a more dynamic gaming experience.</p>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h3><a class="anchor" id="autotoc_md17"></a>
+How to load?</h3>
+<p>Loading a scene is very simple, here is an example:</p>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">SceneLoader.Load(</div>
+<div class="line">    SceneLoader.Scenes.Meta, // Scene, all loaded scenes must be in the build list</div>
+<div class="line">    LoadSceneMode.Additive, // Mode </div>
+<div class="line">    default, // Transaction type - you can set the type of transition, for example, main menu - location, location - location, etc.</div>
+<div class="line">    OnSceneLoaded); // Callback function</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md18"></a>
 Visual View Model</h2>
 <p><b>Visual View Model</b> (VVM)** is a simplified version of the <b>MVC</b> pattern designed to make it easier to work with data in games. This approach is based on the principle of closed data handling, where all data is processed in the <b>View</b>, stored in the <b>Model</b>, and visualized using <b>Visual</b> components. The main features of the <b>Visual View Model</b> include:</p><ul>
 <li>Simplified architectural pattern: <b>VVM</b> offers a lighter and more accessible way to organize code compared to classic <b>MVC</b>, which makes it ideal for game developers.</li>
@@ -479,7 +584,57 @@ Visual View Model</h2>
 <li>Support for reactive programming: <b>VVM</b> can be easily adapted to work with reactive data, allowing the UI to update in real time when the model state changes.</li>
 </ul>
 <p>With <b>Visual View Model</b>, you will get a powerful tool for organizing code and managing the UI in your games, which will make the development process easier and more intuitive.</p>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h3><a class="anchor" id="autotoc_md19"></a>
+How to create VVM?</h3>
+<p>Let's start with the <b>Visual</b>. The <b>Visual</b> is <b>MonoBehaviour</b>:</p>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">public class BootVisual : Visual</div>
+<div class="line">{</div>
+<div class="line">    // Place here links to components you need</div>
+<div class="line">    </div>
+<div class="line">    private BootView _bootView; // Our View</div>
+<div class="line"> </div>
+<div class="line">    // After the object is activated it will be initialized.</div>
+<div class="line">    // Then it will call the Create method and create the View</div>
+<div class="line">    protected override void Create(IView view)</div>
+<div class="line">    {</div>
+<div class="line">        _bootView = DiContainerRef.Container.Instantiate&lt;BootView&gt;(new object[] { this });</div>
+<div class="line">        base.Create(_bootView);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>The View itself is:</p>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">public class BootView : View&lt;BootVisual&gt;</div>
+<div class="line">{</div>
+<div class="line">    public BootView(BootVisual visual) : base(visual) { }</div>
+<div class="line"> </div>
+<div class="line">    // Initial settings of your object</div>
+<div class="line">    public override void Setup()</div>
+<div class="line">    {</div>
+<div class="line">        base.Setup();</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Called when the object is activated</div>
+<div class="line">    public override void Awake()</div>
+<div class="line">    {</div>
+<div class="line">        base.Awake();</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Called every frame by subscription from GlobalUpdater</div>
+<div class="line">    public override void Update()</div>
+<div class="line">    {</div>
+<div class="line">        base.Update();</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Called before the object is deleted</div>
+<div class="line">    public override void Sleep()</div>
+<div class="line">    {</div>
+<div class="line">        base.Sleep();</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Все методы, которые доступны для перегрузки вы найдете в: </p><div class="fragment"><div class="line">// C#</div>
+<div class="line">public abstract class View&lt;T&gt; : IView&lt;T&gt; where T : Visual</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md20"></a>
 Color Library</h2>
 <p><b>Color Library</b> is a single place to store all the colors used in your project. This tool provides easy access to colors and simplifies their management, making development more efficient and organized. Key features of <b>Color Library</b> include:</p><ul>
 <li>Centralized color storage: All project colors are stored in one place, making them easy to find and use in code.</li>
@@ -489,7 +644,22 @@ Color Library</h2>
 <li>Intuitive interface: A user-friendly interface allows developers to quickly find the colors they need and manage them without unnecessary effort.</li>
 </ul>
 <p>With the <b>Color Library</b> you can effectively manage colors in your project, ensuring consistency and ease of work with the visual elements of the game. This greatly simplifies the development process and allows you to focus on the creative aspects of game development.</p>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h3><a class="anchor" id="autotoc_md21"></a>
+How to add?</h3>
+<p>Find the settings file at Resources/ColorLibraryData and add the following:</p>
+<div class="image">
+<img src="COREColorLibrary_0.png" alt=""/>
+</div>
+<p>General rules:</p><ul>
+<li>The palette name must be unique</li>
+<li>The names of colors within a palette must be unique within the palette</li>
+<li>⚠️ After adding and setting a color, you must regenerate the resources so that the color becomes available in the editor and the game</li>
+<li>⚠️ If you changed the name, then return to above point</li>
+</ul>
+<div class="image">
+<img src="COREColorLibrary_1.png" alt=""/>
+</div>
+<h2><a class="anchor" id="autotoc_md22"></a>
 Mouse Manager</h2>
 <p><b>Mouse Manager</b> is a simple and convenient tool for controlling the mouse cursor state in your game. It allows you to easily change the cursor state and icon when hovering over objects, which improves user interaction and makes the gameplay more intuitive. The main features of <b>Mouse Manager</b> include:</p><ul>
 <li>Cursor state control: Allows you to change the cursor state depending on interaction with game objects, which helps players understand when they can interact with interface elements.</li>
@@ -499,7 +669,7 @@ Mouse Manager</h2>
 <li>Customization flexibility: Developers can customize different cursor states and their corresponding icons, which allows you to tailor the interface to the specific needs of the game.</li>
 </ul>
 <p>With <b>Mouse Manager</b> you can improve the user interface of your game, providing a smoother and more intuitive interaction with players. This tool makes cursor control simple and efficient, which will positively impact the overall gaming experience.</p>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Audio Manager</h2>
 <p><b>Audio Manager</b> is a system for controlling the sounds in your game, providing management of all audio clips and their playback. This tool allows developers to easily integrate audio into gameplay and manage it with a high degree of flexibility. The main features of <b>Audio Manager</b> include:</p><ul>
 <li>Storage of audio clip references: All audio clips are stored in one place, making them easy to use and manage.</li>
@@ -512,7 +682,7 @@ Audio Manager</h2>
 </ul>
 <p>With <b>Audio Manager</b>, you can effectively manage the sound of your game, ensuring high-quality sound and convenience for players. This tool helps create an immersive audiovisual experience that greatly enriches the gaming process.</p>
 <dl class="section warning"><dt>Warning</dt><dd>⚠️ Important! In the future, I plan to switch to <a href="https://www.fmod.com/unity">FMod</a> because this will greatly simplify the development of the game.</dd></dl>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Input Manager</h2>
 <p><b>Input Manager</b> is a layer on top of the core <b>Unity</b> input system that provides easy access to all in-game events. This tool allows developers to easily manage keyboard and mouse input, as well as control player interactions with game objects. Key features of <b>Input Manager</b> include:</p><ul>
 <li>Easy Event Access: Allows developers to easily handle input events, making it easier to create interactive gameplay.</li>
@@ -522,7 +692,17 @@ Input Manager</h2>
 <li>Customizable: Developers can customize various input axes and actions, allowing them to tailor controls to specific game requirements.</li>
 </ul>
 <p>With <b>Input Manager</b>, you can effectively manage input in your game, creating an intuitive interface for players and improving overall gameplay. This tool makes interaction with the game smoother and more responsive, which will positively impact the user experience.</p>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h3><a class="anchor" id="autotoc_md25"></a>
+How to subscribe?</h3>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">[Zenject.Inject] private InputSystem _inputSystem; // You will need InputSystem</div>
+<div class="line"> </div>
+<div class="line">_inputSystem.AddListener(InputKeyGenerated.InputEnums.JUMP, Jump); // Subscribe to the event</div>
+<div class="line">_inputSystem.RemoveListener(InputKeyGenerated.InputEnums.JUMP, Jump); // Don&#39;t forget to unsubscribe</div>
+</div><!-- fragment --><blockquote class="doxtable">
+<p>If you change the keyCode of the button in the game settings, then all subscribers to this key will know about it and will use the new key instead of the old one. </p>
+</blockquote>
+<h2><a class="anchor" id="autotoc_md26"></a>
 Global Updater</h2>
 <p><b>Global Updater</b> is a system that is responsible for updating all user interfaces <b>(UI)</b> in the game. It works in conjunction with <b>Time Manager</b>, ensuring that the interface state is synchronized with current game events. The main functions of <b>Global Updater</b> include:</p><ul>
 <li>User Interface Updater: Allows automatic updating of all <b>custom UI</b> elements, ensuring that they are up-to-date and consistent with the current game state.</li>
@@ -531,7 +711,21 @@ Global Updater</h2>
 <li>Customizable: Developers can easily customize which UI elements should be updated and how often.</li>
 </ul>
 <p>With <b>Global Updater</b> you can effectively manage the state of your UI, ensuring it is up-to-date and improving player experience. This tool will be an essential element in creating a high-quality and responsive gaming experience.</p>
-<h2><a class="anchor" id="autotoc_md21"></a>
+<h3><a class="anchor" id="autotoc_md27"></a>
+How to subscribe?</h3>
+<div class="fragment"><div class="line">// C#</div>
+<div class="line">public class AudioSystem : MonoBehaviour, IUpdateListiner // You need to inherit from the IUpdateListiner interface</div>
+<div class="line"> </div>
+<div class="line">[Zenject.Inject] private GlobalUpdater _globalUpdater; // You will need GlobalUpdater</div>
+<div class="line"> </div>
+<div class="line">_globalUpdater.SubscribeUpdate(this, </div>
+<div class="line">    new UpdateData(</div>
+<div class="line">        false, // If true - the component will be dependent on pause and will stop working when pause is activated</div>
+<div class="line">        UpdateOrders.BeforeDefault)); // Defines the update queue, defaults to BeforeDefault</div>
+<div class="line">_globalUpdater.SubscribeUpdate(this); // Don&#39;t forget to unsubscribe when your component is removed</div>
+<div class="line"> </div>
+<div class="line">public void DoUpdate() { } // Your logic will be here</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md28"></a>
 Time Manager</h2>
 <p><b>Time Manager</b> is a utility designed to manage the timing mechanics of a game. It provides developers with tools to work with pauses, timers, and other timing aspects, allowing for more dynamic and interactive gameplay. Key features of <b>Time Manager</b> include:</p><ul>
 <li>Pause System: Includes functions for pausing and resuming the game, allowing players to take breaks without losing progress.</li>
@@ -540,7 +734,7 @@ Time Manager</h2>
 <li>Customizable: Developers can customize timing parameters to suit the specific needs of the game, allowing for unique interaction mechanics.</li>
 </ul>
 <p>With <b>Time Manager</b> you can effectively manage the time aspects of your game, creating a more engaging and interactive gaming experience. This tool will be an indispensable assistant for developers who want to create a high-quality and dynamic gaming experience.</p>
-<h2><a class="anchor" id="autotoc_md22"></a>
+<h2><a class="anchor" id="autotoc_md29"></a>
 Game Settings</h2>
 <p><b>Game Settings</b> is a user-friendly interface for customizing game settings, allowing players to customize settings to suit their preferences. This tool provides flexibility and a personalized approach to gameplay, which improves the overall user experience. Key features of <b>Game Settings</b> include:</p><ul>
 <li>Intuitive Interface: The user-friendly and intuitive interface allows players to easily find and change settings such as controls, graphics, and audio.</li>
@@ -552,7 +746,7 @@ Game Settings</h2>
 <li>Flexibility and extensibility: Developers can easily add new parameters and settings to the system, which allows them to adapt it to the specific needs of the project.</li>
 </ul>
 <p>With <b>Game Settings</b>, you can give players the ability to customize the gameplay to their preferences, which will significantly increase their satisfaction and engagement. This tool will become an important element in creating a high-quality user experience.</p>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md30"></a>
 Custom UI Elements</h2>
 <p><b>Custom UI Elements</b> are a custom set of user interface elements such as buttons, toggles, and sliders that extend the functionality of the standard <b>Unity</b> elements. These elements are designed to improve player interaction and provide more flexible options for UI customization. Key features of <b>Custom UI Elements</b> include:</p><ul>
 <li>Expanded functionality of standard elements: Custom elements offer additional capabilities compared to the default <b>UI</b> components, allowing you to create more complex and interactive interfaces.</li>
@@ -569,7 +763,7 @@ Custom UI Elements</h2>
 <div class="image">
 <img src="CORECustomUI_5.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md24"></a>
+<h3><a class="anchor" id="autotoc_md31"></a>
 Custom Button</h3>
 <div class="image">
 <img src="CORECustomUI_1.png" alt=""/>
@@ -583,7 +777,7 @@ Custom Button</h3>
 <div class="image">
 <img src="CORECustomUI_2.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md25"></a>
+<h3><a class="anchor" id="autotoc_md32"></a>
 Custom Dropdown</h3>
 <div class="image">
 <img src="CORECustomUI_3.png" alt=""/>
@@ -598,7 +792,7 @@ Custom Dropdown</h3>
 </div><!-- fragment --><div class="image">
 <img src="CORECustomUI_4.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md26"></a>
+<h3><a class="anchor" id="autotoc_md33"></a>
 Custom Image (RawImage) With Image Component</h3>
 <div class="image">
 <img src="CORECustomUI_6.png" alt=""/>
@@ -609,7 +803,7 @@ Custom Image (RawImage) With Image Component</h3>
 <li><b>Is Overrride Alpha</b> - ability to override alpha color channel</li>
 <li><b>Overrride Alpha</b> - overridden color alpha channel value</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md27"></a>
+<h3><a class="anchor" id="autotoc_md34"></a>
 Custom Input Field</h3>
 <div class="image">
 <img src="CORECustomUI_7.png" alt=""/>
@@ -618,7 +812,7 @@ Custom Input Field</h3>
 <div class="image">
 <img src="CORECustomUI_8.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md28"></a>
+<h3><a class="anchor" id="autotoc_md35"></a>
 Custom Slider</h3>
 <div class="image">
 <img src="CORECustomUI_9.png" alt=""/>
@@ -631,7 +825,7 @@ Custom Slider</h3>
 <div class="image">
 <img src="CORECustomUI_10.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md29"></a>
+<h3><a class="anchor" id="autotoc_md36"></a>
 Custom Tabs</h3>
 <div class="image">
 <img src="CORECustomUI_11.png" alt=""/>
@@ -644,7 +838,7 @@ Custom Tabs</h3>
 <div class="image">
 <img src="CORECustomUI_12.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md30"></a>
+<h3><a class="anchor" id="autotoc_md37"></a>
 Custom Text</h3>
 <ul>
 <li><b>Localization Tag</b> - localization key of the text. In order for the key to be included in the list, it is necessary to regenerate the resources! Leave the field as <em>NONE</em>, so as not to use the localization key. In this case, you will be able to assign the text in the <b>TMPro</b> component yourself.</li>
@@ -652,7 +846,7 @@ Custom Text</h3>
 <div class="image">
 <img src="CORECustomUI_13.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md31"></a>
+<h3><a class="anchor" id="autotoc_md38"></a>
 Custom Toggle</h3>
 <div class="image">
 <img src="CORECustomUI_14.png" alt=""/>
@@ -661,16 +855,16 @@ Custom Toggle</h3>
 <div class="image">
 <img src="CORECustomUI_15.png" alt=""/>
 </div>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md39"></a>
 Utils</h2>
 <p><b>Utils</b> is a set of tools designed to make developers' work easier. These utilities help automate routine tasks, simplify the development process, and increase overall project efficiency. With <b>Utils</b>, you can optimize various aspects of development, allowing you to focus on more creative and complex tasks, improving the quality of your game product.</p>
-<h2><a class="anchor" id="autotoc_md33"></a>
+<h2><a class="anchor" id="autotoc_md40"></a>
 Localization</h2>
-<p><b>Localization</b> - With <b>Asset Localization</b> you can easily localize your built-in <b>Unity</b> game assets. You can also create custom localizable asset functionality for your custom assets. You can load localization keys directly from configs. All localization keys are checked before loading. Convenient work with text localization in the editor via the drop-down menu.</p>
-<h1><a class="anchor" id="autotoc_md34"></a>
-How To Use</h1>
+<p><a href="https://github.com/ibrahimpenekli/GameToolkit-Localization"><b>Localization</b></a> - With <b>Asset Localization</b> you can easily localize your built-in <b>Unity</b> game assets. You can also create custom localizable asset functionality for your custom assets. You can load localization keys directly from configs. All localization keys are checked before loading. Convenient work with text localization in the editor via the drop-down menu.</p>
+<h1><a class="anchor" id="autotoc_md41"></a>
+How To Use?</h1>
 <p>In this section I will tell and show how to use <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> and its aspects.</p>
-<h1><a class="anchor" id="autotoc_md35"></a>
+<h1><a class="anchor" id="autotoc_md42"></a>
 Dependencies</h1>
 <p>For correct operation <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> uses the following plugins:</p>
 <ul>
@@ -682,13 +876,13 @@ Dependencies</h1>
 <li><a href="https://github.com/rpgmaker/Mono.Cecil">MonoCecil</a></li>
 <li><a href="https://github.com/ibrahimpenekli/GameToolkit-Localization">GameToolkit-Localization</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md36"></a>
+<h1><a class="anchor" id="autotoc_md43"></a>
 Examples</h1>
 <p>You can download and unzip the examples for <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> to understand and learn how to work with the tool.</p>
 <blockquote class="doxtable">
 <p>In order to respect all rights to third-party resources, I separated the examples from the main tool, leaving only basic examples. </p>
 </blockquote>
-<h2><a class="anchor" id="autotoc_md37"></a>
+<h2><a class="anchor" id="autotoc_md44"></a>
 Game Example</h2>
 <p>An example game that was written using <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> can be found here <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">Example</a></p>
 <div class="image">
@@ -716,7 +910,7 @@ Game Example</h2>
  <div class="image">
 <img src="COREExample_1.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md38"></a>
+<h3><a class="anchor" id="autotoc_md45"></a>
 Try working with <b>Asset Bundles</b></h3>
 <ol type="1">
 <li>Open the <b>Game Window</b></li>
@@ -726,7 +920,7 @@ Try working with <b>Asset Bundles</b></h3>
 <li>In the <b>Game Window</b>, enable the <b>Load Bundles</b> option - now all resources will be loaded from bundles</li>
 <li>Run the game and make sure everything works correctly</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md39"></a>
+<h2><a class="anchor" id="autotoc_md46"></a>
 Game Mods for Example</h2>
 <div class="image">
 <img src="COREExample_2.png" alt=""/>
@@ -736,24 +930,24 @@ Game Mods for Example</h2>
 <li>In the root with the <b>Unity</b> project, create a <em>Mods</em> folder next to the <em>Assets</em> folder, you should get something like this <em>D:/UserPath.../ProjectName/Mods</em></li>
 <li>Unzip the mods into this folder and run the <b>Boot</b> scene. In the mods window, you should see the added mods.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md40"></a>
+<h1><a class="anchor" id="autotoc_md47"></a>
 Build Project</h1>
 <p>Go to the project build settings and set the following options:</p><ol type="1">
 <li><b>Scripting Backend</b> - Mono</li>
 <li><b>Api Compatibility Level</b> - .NET Standard 2.1 or higher</li>
 <li><b>Managed Stripping Level</b> - Disabled</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md41"></a>
+<h1><a class="anchor" id="autotoc_md48"></a>
 Tutorials TODO</h1>
-<h1><a class="anchor" id="autotoc_md42"></a>
+<h1><a class="anchor" id="autotoc_md49"></a>
 TODO</h1>
 <ul>
 <li>WebGL Suppors</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md43"></a>
+<h1><a class="anchor" id="autotoc_md50"></a>
 CONTACTS</h1>
 <p>E-mail: <a href="#" onclick="location.href='mai'+'lto:'+'cho'+'co'+'.16'+'ma'+'il@'+'ma'+'il.'+'ru'; return false;">choco<span class="obfuscator">.nosp@m.</span>.16m<span class="obfuscator">.nosp@m.</span>ail@m<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>ru</a> My other <a href="https://assetstore.unity.com/publishers/18484">Assets</a></p>
-<h1><a class="anchor" id="autotoc_md44"></a>
+<h1><a class="anchor" id="autotoc_md51"></a>
 REFUND POLICY</h1>
 <p>If you’re uncertain about any asset’s workings or have questions before purchasing, please do not hesitate to reach out. We will do our best to answer your questions. Please read this before purchase to avoid any unwelcome surprises.</p>
 <p>This policy attempts to clarify the <a href="https://unity.com/pt/legal/as-terms">asset store EULA‘s</a> legal jargon and specifies the practical cases that it does, or does not cover. It does not add refund conditions that aren’t already covered by it.</p>
