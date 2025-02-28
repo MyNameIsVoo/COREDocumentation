@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aff5d8b6d94621b5ca22de648a8b1a46f":[1,0,0,2,1,0,5],
 "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aff5d8b6d94621b5ca22de648a8b1a46f":[2,0,0,2,1,0,5],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html":[1,0,0,2,2,8],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html":[2,0,0,2,2,8],

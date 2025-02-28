@@ -856,15 +856,28 @@ Custom Toggle</h3>
 <img src="CORECustomUI_15.png" alt=""/>
 </div>
 <h2><a class="anchor" id="autotoc_md39"></a>
+State Machine</h2>
+<p>Custom UI elements have their own state machine, here you can easily set a specific action for each state of the element, for example, take a <b>dropdown</b> list:</p>
+<div class="image">
+<img src="CORECustomUI_16.png" alt=""/>
+</div>
+<p>The <b>dropdown</b> list has several states: Transition works similarly to the Transition of a standard button, but with its own characteristics. ShowHideTransitions - final and initial state of the dropdown list</p>
+<p>You can see the entire list of current states in the picture below. The list will be expanded in the future!</p>
+<div class="image">
+<img src="CORECustomUI_17.png" alt=""/>
+</div>
+<p>Also, each state has buttons for previewing it in the editor.</p>
+<dl class="section warning"><dt>Warning</dt><dd>⚠️ The editor will not play sounds or smooth transitions. All transitions will be instant!</dd></dl>
+<h2><a class="anchor" id="autotoc_md40"></a>
 Utils</h2>
 <p><b>Utils</b> is a set of tools designed to make developers' work easier. These utilities help automate routine tasks, simplify the development process, and increase overall project efficiency. With <b>Utils</b>, you can optimize various aspects of development, allowing you to focus on more creative and complex tasks, improving the quality of your game product.</p>
-<h2><a class="anchor" id="autotoc_md40"></a>
+<h2><a class="anchor" id="autotoc_md41"></a>
 Localization</h2>
 <p><a href="https://github.com/ibrahimpenekli/GameToolkit-Localization"><b>Localization</b></a> - With <b>Asset Localization</b> you can easily localize your built-in <b>Unity</b> game assets. You can also create custom localizable asset functionality for your custom assets. You can load localization keys directly from configs. All localization keys are checked before loading. Convenient work with text localization in the editor via the drop-down menu.</p>
-<h1><a class="anchor" id="autotoc_md41"></a>
+<h1><a class="anchor" id="autotoc_md42"></a>
 How To Use?</h1>
 <p>In this section I will tell and show how to use <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> and its aspects.</p>
-<h1><a class="anchor" id="autotoc_md42"></a>
+<h1><a class="anchor" id="autotoc_md43"></a>
 Dependencies</h1>
 <p>For correct operation <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> uses the following plugins:</p>
 <ul>
@@ -876,13 +889,13 @@ Dependencies</h1>
 <li><a href="https://github.com/rpgmaker/Mono.Cecil">MonoCecil</a></li>
 <li><a href="https://github.com/ibrahimpenekli/GameToolkit-Localization">GameToolkit-Localization</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md43"></a>
+<h1><a class="anchor" id="autotoc_md44"></a>
 Examples</h1>
 <p>You can download and unzip the examples for <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> to understand and learn how to work with the tool.</p>
 <blockquote class="doxtable">
 <p>In order to respect all rights to third-party resources, I separated the examples from the main tool, leaving only basic examples. </p>
 </blockquote>
-<h2><a class="anchor" id="autotoc_md44"></a>
+<h2><a class="anchor" id="autotoc_md45"></a>
 Game Example</h2>
 <p>An example game that was written using <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> can be found here <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">Example</a></p>
 <div class="image">
@@ -910,7 +923,7 @@ Game Example</h2>
  <div class="image">
 <img src="COREExample_1.png" alt=""/>
 </div>
-<h3><a class="anchor" id="autotoc_md45"></a>
+<h3><a class="anchor" id="autotoc_md46"></a>
 Try working with <b>Asset Bundles</b></h3>
 <ol type="1">
 <li>Open the <b>Game Window</b></li>
@@ -920,7 +933,7 @@ Try working with <b>Asset Bundles</b></h3>
 <li>In the <b>Game Window</b>, enable the <b>Load Bundles</b> option - now all resources will be loaded from bundles</li>
 <li>Run the game and make sure everything works correctly</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md46"></a>
+<h2><a class="anchor" id="autotoc_md47"></a>
 Game Mods for Example</h2>
 <div class="image">
 <img src="COREExample_2.png" alt=""/>
@@ -930,24 +943,25 @@ Game Mods for Example</h2>
 <li>In the root with the <b>Unity</b> project, create a <em>Mods</em> folder next to the <em>Assets</em> folder, you should get something like this <em>D:/UserPath.../ProjectName/Mods</em></li>
 <li>Unzip the mods into this folder and run the <b>Boot</b> scene. In the mods window, you should see the added mods.</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md47"></a>
+<h1><a class="anchor" id="autotoc_md48"></a>
 Build Project</h1>
 <p>Go to the project build settings and set the following options:</p><ol type="1">
 <li><b>Scripting Backend</b> - Mono</li>
 <li><b>Api Compatibility Level</b> - .NET Standard 2.1 or higher</li>
 <li><b>Managed Stripping Level</b> - Disabled</li>
 </ol>
-<h1><a class="anchor" id="autotoc_md48"></a>
-Tutorials TODO</h1>
 <h1><a class="anchor" id="autotoc_md49"></a>
+Tutorials TODO</h1>
+<h1><a class="anchor" id="autotoc_md50"></a>
 TODO</h1>
 <ul>
 <li>WebGL Suppors</li>
+<li>States for all</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md50"></a>
+<h1><a class="anchor" id="autotoc_md51"></a>
 CONTACTS</h1>
 <p>E-mail: <a href="#" onclick="location.href='mai'+'lto:'+'cho'+'co'+'.16'+'ma'+'il@'+'ma'+'il.'+'ru'; return false;">choco<span class="obfuscator">.nosp@m.</span>.16m<span class="obfuscator">.nosp@m.</span>ail@m<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>ru</a> My other <a href="https://assetstore.unity.com/publishers/18484">Assets</a></p>
-<h1><a class="anchor" id="autotoc_md51"></a>
+<h1><a class="anchor" id="autotoc_md52"></a>
 REFUND POLICY</h1>
 <p>If you’re uncertain about any asset’s workings or have questions before purchasing, please do not hesitate to reach out. We will do our best to answer your questions. Please read this before purchase to avoid any unwelcome surprises.</p>
 <p>This policy attempts to clarify the <a href="https://unity.com/pt/legal/as-terms">asset store EULA‘s</a> legal jargon and specifies the practical cases that it does, or does not cover. It does not add refund conditions that aren’t already covered by it.</p>

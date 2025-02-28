@@ -48,20 +48,21 @@ var index =
         [ "Custom Text", "index.html#autotoc_md37", null ],
         [ "Custom Toggle", "index.html#autotoc_md38", null ]
       ] ],
-      [ "Utils", "index.html#autotoc_md39", null ],
-      [ "Localization", "index.html#autotoc_md40", null ]
+      [ "State Machine", "index.html#autotoc_md39", null ],
+      [ "Utils", "index.html#autotoc_md40", null ],
+      [ "Localization", "index.html#autotoc_md41", null ]
     ] ],
-    [ "How To Use?", "index.html#autotoc_md41", null ],
-    [ "Dependencies", "index.html#autotoc_md42", null ],
-    [ "Examples", "index.html#autotoc_md43", [
-      [ "Game Example", "index.html#autotoc_md44", [
-        [ "Try working with Asset Bundles", "index.html#autotoc_md45", null ]
+    [ "How To Use?", "index.html#autotoc_md42", null ],
+    [ "Dependencies", "index.html#autotoc_md43", null ],
+    [ "Examples", "index.html#autotoc_md44", [
+      [ "Game Example", "index.html#autotoc_md45", [
+        [ "Try working with Asset Bundles", "index.html#autotoc_md46", null ]
       ] ],
-      [ "Game Mods for Example", "index.html#autotoc_md46", null ]
+      [ "Game Mods for Example", "index.html#autotoc_md47", null ]
     ] ],
-    [ "Build Project", "index.html#autotoc_md47", null ],
-    [ "Tutorials TODO", "index.html#autotoc_md48", null ],
-    [ "TODO", "index.html#autotoc_md49", null ],
-    [ "CONTACTS", "index.html#autotoc_md50", null ],
-    [ "REFUND POLICY", "index.html#autotoc_md51", null ]
+    [ "Build Project", "index.html#autotoc_md48", null ],
+    [ "Tutorials TODO", "index.html#autotoc_md49", null ],
+    [ "TODO", "index.html#autotoc_md50", null ],
+    [ "CONTACTS", "index.html#autotoc_md51", null ],
+    [ "REFUND POLICY", "index.html#autotoc_md52", null ]
 ];

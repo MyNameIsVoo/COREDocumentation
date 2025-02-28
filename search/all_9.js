@@ -42,7 +42,7 @@ var searchData=
   ['how_20to_20create_20your_20own_20mod_39',['How to create your own mod',['../index.html#autotoc_md7',1,'']]],
   ['how_20to_20load_40',['How to load?',['../index.html#autotoc_md17',1,'']]],
   ['how_20to_20subscribe_41',['How to subscribe',['../index.html#autotoc_md25',1,'How to subscribe?'],['../index.html#autotoc_md27',1,'How to subscribe?']]],
-  ['how_20to_20use_42',['How To Use?',['../index.html#autotoc_md41',1,'']]],
+  ['how_20to_20use_42',['How To Use?',['../index.html#autotoc_md42',1,'']]],
   ['href_20https_3a_20assetstore_20unity_20com_20packages_20slug_20311902_20c_20o_20r_20e_20game_20developer_20s_20toolkit_20a_43',['Why choose &lt;a href=&quot;https://assetstore.unity.com/packages/slug/311902&quot; &gt;C.O.R.E. - Game Developer&apos;s Toolkit&lt;/a&gt;?',['../index.html#autotoc_md1',1,'']]],
   ['https_3a_20assetstore_20unity_20com_20packages_20slug_20311902_20c_20o_20r_20e_20game_20developer_20s_20toolkit_20a_44',['Why choose &lt;a href=&quot;https://assetstore.unity.com/packages/slug/311902&quot; &gt;C.O.R.E. - Game Developer&apos;s Toolkit&lt;/a&gt;?',['../index.html#autotoc_md1',1,'']]],
   ['hud_5fhealth_45',['HUD_HEALTH',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca241988380db293d60fece4fa26c5401f',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]]

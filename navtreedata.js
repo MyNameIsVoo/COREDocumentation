@@ -82,7 +82,7 @@ var NAVTREEINDEX =
 "class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#aa4586a77ec45a4b68357129057915bef",
 "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html",
 "functions_a.html",
-"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#af70237efd3a9e0c5c41b33f9fffeb79f",
+"interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#a7dd0023cc7ba27c5871fbc45a813b6a7",
 "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aff5d8b6d94621b5ca22de648a8b1a46f"
 ];
 

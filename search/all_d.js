@@ -67,7 +67,7 @@ var searchData=
   ['loadvisualmodal_64',['LoadVisualModal',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#abbc25d1a8dd4ebf8d47e67b8628bd39d',1,'CORE::Shared::Generated::Resources::ResourcesGenerated']]],
   ['loadvisualscreen_65',['LoadVisualScreen',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#abac7cbd5f044d452aad495be856d5f3d',1,'CORE::Shared::Generated::Resources::ResourcesGenerated']]],
   ['localeulerangles_66',['LocalEulerAngles',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560ba91ab5a8482716d3c66d795cee4673d4c',1,'CORE::Shared::UI::Custom::State::RectTransformTransition']]],
-  ['localization_67',['Localization',['../index.html#autotoc_md40',1,'']]],
+  ['localization_67',['Localization',['../index.html#autotoc_md41',1,'']]],
   ['localizationexample_68',['LocalizationExample',['../class_c_o_r_e_1_1_examples_1_1_localization_example.html',1,'CORE::Examples']]],
   ['localizationexample_2ecs_69',['LocalizationExample.cs',['../_localization_example_8cs.html',1,'']]],
   ['localizationmanager_70',['LocalizationManager',['../class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager.html',1,'CORE.Shared.Localize.LocalizationManager'],['../class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager.html#aa517d4a6efadb9d3452b42044d9df2ee',1,'CORE.Shared.Localize.LocalizationManager.LocalizationManager()']]],
