@@ -1,6 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a14133abf5b484aa26d21d74c1c74ea0f":[2,0,0,2,2,1,1,2],
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a6441c4bf6b02393f53aad365aaa0820b":[1,0,0,2,2,1,1,5],
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a6441c4bf6b02393f53aad365aaa0820b":[2,0,0,2,2,1,1,5],
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a689a185385004b14980ef7acb8137972":[1,0,0,2,2,1,1,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX7 =
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html#a2d7574f4e69d93c81d75dcc9fe578cf9":[2,0,0,2,2,1,0,0,1,4],
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html#a37d31e7f2e50c09300a664f5c33b7147":[1,0,0,2,2,1,0,0,1,0],
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html#a37d31e7f2e50c09300a664f5c33b7147":[2,0,0,2,2,1,0,0,1,0],
-"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html#a3fb6420d1cd2ce167295db4a0906bdda":[1,0,0,2,2,1,0,0,1,8]
+"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html#a3fb6420d1cd2ce167295db4a0906bdda":[1,0,0,2,2,1,0,0,1,8],
+"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html#a3fb6420d1cd2ce167295db4a0906bdda":[2,0,0,2,2,1,0,0,1,8]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#aa409b8762d8755ebdc39a095179d4f11":[2,0,0,2,0,1,0,4],
 "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#ab15542625e2ac9b97db2200cc069fba4":[1,0,0,2,0,1,0,11],
 "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#ab15542625e2ac9b97db2200cc069fba4":[2,0,0,2,0,1,0,11],
 "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#aea0911243f67ebc37c4a0cd22efb75ff":[1,0,0,2,0,1,0,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html":[2,0,0,2,2,1,1],
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a12249de5316489c23c46111edfa015e7":[1,0,0,2,2,1,1,9],
 "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a12249de5316489c23c46111edfa015e7":[2,0,0,2,2,1,1,9],
-"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a14133abf5b484aa26d21d74c1c74ea0f":[1,0,0,2,2,1,1,2]
+"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a14133abf5b484aa26d21d74c1c74ea0f":[1,0,0,2,2,1,1,2],
+"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html#a14133abf5b484aa26d21d74c1c74ea0f":[2,0,0,2,2,1,1,2]
 };

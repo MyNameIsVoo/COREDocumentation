@@ -8,8 +8,7 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions =
       [ "GameObjectActive", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea2d94257376f6104b09191b00c9b55ec1", null ],
       [ "Alpha", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea6132295fcf5570fb8b0a944ef322a598", null ],
       [ "Color32Tint", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea244823a8801ee0507a7b234197bf24c8", null ],
-      [ "RectTransform", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea0985b5715fbcf7cd9d7b06666b3e3645", null ],
-      [ "CustomCallback", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea42458844bf54b30cacfdf33c7a8f23f4", null ]
+      [ "RectTransform", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea0985b5715fbcf7cd9d7b06666b3e3645", null ]
     ] ],
     [ "Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a2ca33e27168337c560a4feea72e3ac02", null ],
     [ "Awake", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a1c9779de0a1a9b849b70e1af8f0bd605", null ],
@@ -22,7 +21,6 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions =
     [ "_color32Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a654413fae1a45a01e6d7b998e9256b5e", null ],
     [ "_colorTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#aaeddd4cba9e1dc808fecc1993ab18b65", null ],
     [ "_currentState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#ae7902e1c503429109bc75be8cdeb4e99", null ],
-    [ "_customTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a1578363cbb9b618469ad3f5430b4a61f", null ],
     [ "_mode", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#acfff95236093c293ba6712a7b91f3fa9", null ],
     [ "_rectTransformTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#ad15500fb5e6e4204bee6d39ef5ef8585", null ],
     [ "_spriteSwapTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a5cbbe63c6da3e26101885157ee1041ac", null ],

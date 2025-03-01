@@ -57,8 +57,6 @@ var searchData=
   ['customtimer_2d2_2dg_54',['CustomTimer-2-g',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_custom_timer-2-g.html',1,'CORE::Shared::Utils::Timer']]],
   ['customtoggle_55',['CustomToggle',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle.html',1,'CORE::Shared::UI::Custom']]],
   ['customtogglegroup_56',['CustomToggleGroup',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle_group.html',1,'CORE::Shared::UI::Custom']]],
-  ['customtransitions_57',['CustomTransitions',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_custom_transitions.html',1,'CORE::Shared::UI::Custom::State']]],
-  ['customtransitionstate_58',['CustomTransitionState',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_custom_transitions_1_1_custom_transition_state.html',1,'CORE::Shared::UI::Custom::State::CustomTransitions']]],
-  ['customuiexample_59',['CustomUIExample',['../class_c_o_r_e_1_1_examples_1_1_custom_u_i_example.html',1,'CORE::Examples']]],
-  ['customuigraphiccomponent_60',['CustomUIGraphicComponent',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html',1,'CORE::Shared::UI::Custom::Components']]]
+  ['customuiexample_57',['CustomUIExample',['../class_c_o_r_e_1_1_examples_1_1_custom_u_i_example.html',1,'CORE::Examples']]],
+  ['customuigraphiccomponent_58',['CustomUIGraphicComponent',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html',1,'CORE::Shared::UI::Custom::Components']]]
 ];
