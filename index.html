@@ -109,6 +109,8 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md__main_page_2_r_e_a_d_m_e"></a></p>
+<hr  />
+<p><a href="https://ko-fi.com/erochinsam"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Ko-Fi" class="inline"/></a> <a href="patreon.com/ErochinSam"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&amp;logo=patreon&amp;logoColor=white" alt="Patreon" class="inline"/></a> <a href="https://boosty.to/erochinsam/donate"><img src="https://img.shields.io/badge/Boosty-F16061?style=for-the-badge&amp;logo=boosty&amp;logoColor=white" alt="Boostry" class="inline"/></a> <img src="https://img.shields.io/github/followers/MyNameIsVoo?label=MyNameIsVoo&amp;style=social" alt="GitHub Follow" class="inline"/></p>
 <blockquote class="doxtable">
 <p><a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E. - Game Developer's Toolkit</a> — is a comprehensive set of tools designed to simplify the game development process. This asset provides developers with all the necessary components to quickly and efficiently create games, regardless of their experience level. </p>
 </blockquote>
@@ -117,6 +119,7 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Why choose <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E. - Game Developer's Toolkit</a>?</h1>
+<p><img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&amp;logo=csharp&amp;logoColor=white" alt="C#" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&amp;logo=unity&amp;logoColor=white" alt="Unity" style="pointer-events: none;" class="inline"/></p>
 <p>With <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> you will get:</p>
 <ul>
 <li>Wide range of tools: everything you need to create games, from resource management to a system for saving and loading scenes.</li>
@@ -137,6 +140,7 @@ Why choose <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E. 
 </ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Aspects</h1>
+<hr  />
 <ol type="1">
 <li><b>Resource Manager</b> A convenient tool for managing all the resources of your project. Allows you to easily add, remove and organize textures, models, audio files and other resources.</li>
 <li><b>Mods Support</b> Integrating mod support allows players to expand your game with new features and content, increasing its replayability and appeal.</li>
@@ -301,6 +305,9 @@ Mod Tool Exporter</h3>
 <li>After exporting the tool, a folder with the exported tool will open, you need to copy the entire <em>CoreModTool</em> folder to the mod project and place it inside the <em>Assets</em> folder</li>
 <li>After compiling all the assemblies, the errors should go away (if there were any)</li>
 </ol>
+<blockquote class="doxtable">
+<p>After you export the mod tool you will get errors in the console - <b>ignore them</b>! </p>
+</blockquote>
 <h3><a class="anchor" id="autotoc_md7"></a>
 How to create your own mod</h3>
 <p>In order to create your own mod you need:</p>
@@ -362,7 +369,34 @@ How to create your own mod</h3>
 <div class="ttc" id="anamespace_c_o_r_e_1_1_mod_tool_1_1_tool_1_1_mod_html"><div class="ttname"><a href="namespace_c_o_r_e_1_1_mod_tool_1_1_tool_1_1_mod.html">CORE.ModTool.Tool.Mod</a></div><div class="ttdef"><b>Definition</b> StartupAttributes.cs:7</div></div>
 <div class="ttc" id="anamespace_c_o_r_e_1_1_mod_tool_html"><div class="ttname"><a href="namespace_c_o_r_e_1_1_mod_tool.html">CORE.ModTool</a></div><div class="ttdef"><b>Definition</b> Asset.cs:10</div></div>
 </div><!-- fragment --><p>After that you can export your mod and add it to the <em>Mods</em> folder of your project for testing. Read more about the mod export window in the corresponding section.</p>
-<h4><a class="anchor" id="autotoc_md8"></a>
+<p><b>Folder:</b> </p><div class="fragment"><div class="line">Game/</div>
+<div class="line">└── Mods/</div>
+<div class="line">    └── MyFirstMod/</div>
+<div class="line">        ├── Resources/</div>
+<div class="line">        │  └── Content // Mod content (icons, images)</div>
+<div class="line">        ├── Windows // Asset Bundles</div>
+<div class="line">        └── MyFirstMod.json // Settings</div>
+<div class="line">        └── MyFirstMod_AD.dll // Mod logic</div>
+</div><!-- fragment --><p><b>Manifest</b> </p><div class="fragment"><div class="line">{</div>
+<div class="line">  &quot;IsEnabled&quot;: false,</div>
+<div class="line">  &quot;Data&quot;: {</div>
+<div class="line">    &quot;Name&quot;: { ... },</div>
+<div class="line">    &quot;Author&quot;: { ... },</div>
+<div class="line">    &quot;Description&quot;: { ... },</div>
+<div class="line">    &quot;Version&quot;: &quot;v0.0.1&quot;,</div>
+<div class="line">    &quot;Platforms&quot;: 1,</div>
+<div class="line">    &quot;Content&quot;: 30,</div>
+<div class="line">    &quot;RequiredReboot&quot;: false,</div>
+<div class="line">    &quot;LoadOrder&quot;: 0,</div>
+<div class="line">    &quot;OutputDirectory&quot;: &quot;...Game/Mods&quot;,</div>
+<div class="line">    &quot;Assets&quot;: { ... },</div>
+<div class="line">    &quot;ScriptsDirectory&quot;: &quot;.../GameProject/Assets/MyFirstMod&quot;,</div>
+<div class="line">    &quot;Images&quot;: { },</div>
+<div class="line">    &quot;IconPath&quot;: &quot;Content/MyFirstMod.png&quot;,</div>
+<div class="line">    &quot;UnityVersion&quot;: &quot;2022.3.7f1&quot;</div>
+<div class="line">  }</div>
+<div class="line">}</div>
+</div><!-- fragment --><h4><a class="anchor" id="autotoc_md8"></a>
 Mod Settings</h4>
 <div class="image">
 <img src="COREModsSupport_0.png" alt=""/>
@@ -426,42 +460,42 @@ Config System</h2>
 </div><!-- fragment --><h3><a class="anchor" id="autotoc_md11"></a>
 How to add?</h3>
 <p>The first thing you need to do is to inherit the class from the <b>ConfigDictionary</b> or <b>ConfigSingle</b> classes:</p>
-<div class="fragment"><div class="line">// C#</div>
-<div class="line">public class MyConfig : ConfigSingle&lt;PlayerConfig&gt; { ... }</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MyConfig : ConfigSingle&lt;PlayerConfig&gt; { ... }</div>
 </div><!-- fragment --><p>For example, to create a player config we need the following:</p>
-<div class="fragment"><div class="line">// C#</div>
-<div class="line">public class PlayerConfig : ConfigDictionary&lt;PlayerConfig&gt;</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>PlayerConfig : ConfigDictionary&lt;PlayerConfig&gt;</div>
 <div class="line">{</div>
-<div class="line">    public const string FileName = &quot;players&quot; + FileManager.FILE_JSON; // The name of the file that will be found and loaded in the Resources/Configs folder</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">const</span> <span class="keywordtype">string</span> FileName = <span class="stringliteral">&quot;players&quot;</span> + FileManager.FILE_JSON; <span class="comment">// The name of the file that will be found and loaded in the Resources/Configs folder</span></div>
 <div class="line"> </div>
-<div class="line">    // Your data is here</div>
-<div class="line">    public string Visual;</div>
-<div class="line">    public EntityConfig Entity;</div>
-<div class="line">    public float Speed;</div>
-<div class="line">    public float JumpForce;</div>
-<div class="line">    public float AttackRange;</div>
+<div class="line">    <span class="comment">// Your data is here</span></div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">string</span> Visual;</div>
+<div class="line">    <span class="keyword">public</span> EntityConfig Entity;</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">float</span> Speed;</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">float</span> JumpForce;</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">float</span> AttackRange;</div>
 <div class="line"> </div>
-<div class="line">    public override void Validate()</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> Validate()</div>
 <div class="line">    {</div>
 <div class="line">        base.Validate();</div>
-<div class="line">        // Validate your data here</div>
+<div class="line">        <span class="comment">// Validate your data here</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    public static void ValidateConfig()</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> ValidateConfig()</div>
 <div class="line">    {</div>
-<div class="line">        foreach (var item in List)</div>
+<div class="line">        <span class="keywordflow">foreach</span> (var item <span class="keywordflow">in</span> List)</div>
 <div class="line">            item.Validate();</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    // After the game starts, Unity will call this method and we will be able to sign our config for initialization.</div>
+<div class="line">    <span class="comment">// After the game starts, Unity will call this method and we will be able to sign our config for initialization.</span></div>
 <div class="line">    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]</div>
-<div class="line">    private static void Init()</div>
+<div class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Init()</div>
 <div class="line">    {</div>
-<div class="line">        ConfigSystem.InserConfigs += InsertConfig; // Insert items</div>
-<div class="line">        ConfigSystem.ValidateConfigs += ValidateConfig; // Validate items</div>
+<div class="line">        ConfigSystem.InserConfigs += InsertConfig; <span class="comment">// Insert items</span></div>
+<div class="line">        ConfigSystem.ValidateConfigs += ValidateConfig; <span class="comment">// Validate items</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    private static void InsertConfig(Dictionary&lt;string, Func&lt;JObject&gt;&gt; jsons, ConfigReferenceResolver context)</div>
+<div class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> InsertConfig(Dictionary&lt;<span class="keywordtype">string</span>, Func&lt;JObject&gt;&gt; jsons, ConfigReferenceResolver context)</div>
 <div class="line">    {</div>
 <div class="line">        Insert(jsons.FirstOrDefault(a =&gt; a.Key == FileName), context);</div>
 <div class="line">    }</div>
@@ -505,48 +539,48 @@ Save System</h2>
 <h3><a class="anchor" id="autotoc_md15"></a>
 Hot to save?</h3>
 <p>It's very simple, inherit your data from the <b>SaveGameBaseComponentData</b> interface. Also you should have a manager class, inherit it from <b>ISaveGameBaseComponent</b> and subscribe to <b>SaveComponentsManager</b>, then specify what you will save and how to load the data, for example:</p>
-<div class="fragment"><div class="line">// C#</div>
-<div class="line">public class SavedDataClass : ISaveGameBaseComponent // This is the governing class</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>SavedDataClass : ISaveGameBaseComponent <span class="comment">// This is the governing class</span></div>
 <div class="line">{</div>
-<div class="line">    public class Data : SaveGameBaseComponentData // This is our data</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">class </span>Data : SaveGameBaseComponentData <span class="comment">// This is our data</span></div>
 <div class="line">    {</div>
-<div class="line">        public float SliderValue;</div>
+<div class="line">        <span class="keyword">public</span> <span class="keywordtype">float</span> SliderValue;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    private readonly CustomSlider _slider;</div>
+<div class="line">    <span class="keyword">private</span> readonly CustomSlider _slider;</div>
 <div class="line"> </div>
-<div class="line">    [Zenject.Inject] protected SaveComponentsManager _saveComponentsManager;</div>
+<div class="line">    [Zenject.Inject] <span class="keyword">protected</span> SaveComponentsManager _saveComponentsManager;</div>
 <div class="line"> </div>
-<div class="line">    public string ProgressMessage =&gt; &quot;Example...&quot;;</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">string</span> ProgressMessage =&gt; <span class="stringliteral">&quot;Example...&quot;</span>;</div>
 <div class="line"> </div>
-<div class="line">    public SavedDataClass(CustomSlider slider)</div>
+<div class="line">    <span class="keyword">public</span> SavedDataClass(CustomSlider slider)</div>
 <div class="line">    {</div>
 <div class="line">        _slider = slider;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    public void Init()</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> Init()</div>
 <div class="line">    {</div>
-<div class="line">        _saveComponentsManager.Add(this);</div>
+<div class="line">        _saveComponentsManager.Add(<span class="keyword">this</span>);</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    public SaveGameBaseComponentData CollectData() // Here we collect all the data to save</div>
+<div class="line">    <span class="keyword">public</span> SaveGameBaseComponentData CollectData() <span class="comment">// Here we collect all the data to save</span></div>
 <div class="line">    {</div>
-<div class="line">        var data = new Data();</div>
+<div class="line">        var data = <span class="keyword">new</span> Data();</div>
 <div class="line">        data.SliderValue = _slider.value;</div>
-<div class="line">        return data;</div>
+<div class="line">        <span class="keywordflow">return</span> data;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    public void LoadData(SaveGameBaseComponentData savedData) // Here we upload data</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> LoadData(SaveGameBaseComponentData savedData) <span class="comment">// Here we upload data</span></div>
 <div class="line">    {</div>
-<div class="line">        if (savedData is not Data data)</div>
-<div class="line">            return;</div>
+<div class="line">        <span class="keywordflow">if</span> (savedData is not Data data)</div>
+<div class="line">            <span class="keywordflow">return</span>;</div>
 <div class="line"> </div>
 <div class="line">        _slider.SetValueWithoutNotify(data.SliderValue);</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    public void Destroy() // After deleting an object, we exclude it from the list of saved objects.</div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">void</span> Destroy() <span class="comment">// After deleting an object, we exclude it from the list of saved objects.</span></div>
 <div class="line">    {</div>
-<div class="line">        _saveComponentsManager.Remove(this);</div>
+<div class="line">        _saveComponentsManager.Remove(<span class="keyword">this</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>After this, you can safely save and load data from the file. For a deeper understanding, study the <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">examples</a>.</p>
@@ -567,12 +601,12 @@ Scene Loader</h2>
 <h3><a class="anchor" id="autotoc_md17"></a>
 How to load?</h3>
 <p>Loading a scene is very simple, here is an example:</p>
-<div class="fragment"><div class="line">// C#</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
 <div class="line">SceneLoader.Load(</div>
-<div class="line">    SceneLoader.Scenes.Meta, // Scene, all loaded scenes must be in the build list</div>
-<div class="line">    LoadSceneMode.Additive, // Mode </div>
-<div class="line">    default, // Transaction type - you can set the type of transition, for example, main menu - location, location - location, etc.</div>
-<div class="line">    OnSceneLoaded); // Callback function</div>
+<div class="line">    SceneLoader.Scenes.Meta, <span class="comment">// Scene, all loaded scenes must be in the build list</span></div>
+<div class="line">    LoadSceneMode.Additive, <span class="comment">// Mode </span></div>
+<div class="line">    <span class="keywordflow">default</span>, <span class="comment">// Transaction type - you can set the type of transition, for example, main menu - location, location - location, etc.</span></div>
+<div class="line">    OnSceneLoaded); <span class="comment">// Callback function</span></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md18"></a>
 Visual View Model</h2>
 <p><b>Visual View Model</b> (VVM)** is a simplified version of the <b>MVC</b> pattern designed to make it easier to work with data in games. This approach is based on the principle of closed data handling, where all data is processed in the <b>View</b>, stored in the <b>Model</b>, and visualized using <b>Visual</b> components. The main features of the <b>Visual View Model</b> include:</p><ul>
@@ -587,53 +621,53 @@ Visual View Model</h2>
 <h3><a class="anchor" id="autotoc_md19"></a>
 How to create VVM?</h3>
 <p>Let's start with the <b>Visual</b>. The <b>Visual</b> is <b>MonoBehaviour</b>:</p>
-<div class="fragment"><div class="line">// C#</div>
-<div class="line">public class BootVisual : Visual</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>BootVisual : Visual</div>
 <div class="line">{</div>
-<div class="line">    // Place here links to components you need</div>
+<div class="line">    <span class="comment">// Place here links to components you need</span></div>
 <div class="line">    </div>
-<div class="line">    private BootView _bootView; // Our View</div>
+<div class="line">    <span class="keyword">private</span> BootView _bootView; <span class="comment">// Our View</span></div>
 <div class="line"> </div>
-<div class="line">    // After the object is activated it will be initialized.</div>
-<div class="line">    // Then it will call the Create method and create the View</div>
-<div class="line">    protected override void Create(IView view)</div>
+<div class="line">    <span class="comment">// After the object is activated it will be initialized.</span></div>
+<div class="line">    <span class="comment">// Then it will call the Create method and create the View</span></div>
+<div class="line">    <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> Create(IView view)</div>
 <div class="line">    {</div>
-<div class="line">        _bootView = DiContainerRef.Container.Instantiate&lt;BootView&gt;(new object[] { this });</div>
+<div class="line">        _bootView = DiContainerRef.Container.Instantiate&lt;BootView&gt;(<span class="keyword">new</span> <span class="keywordtype">object</span>[] { <span class="keyword">this</span> });</div>
 <div class="line">        base.Create(_bootView);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>The View itself is:</p>
-<div class="fragment"><div class="line">// C#</div>
-<div class="line">public class BootView : View&lt;BootVisual&gt;</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>BootView : View&lt;BootVisual&gt;</div>
 <div class="line">{</div>
-<div class="line">    public BootView(BootVisual visual) : base(visual) { }</div>
+<div class="line">    <span class="keyword">public</span> BootView(BootVisual visual) : base(visual) { }</div>
 <div class="line"> </div>
-<div class="line">    // Initial settings of your object</div>
-<div class="line">    public override void Setup()</div>
+<div class="line">    <span class="comment">// Initial settings of your object</span></div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> Setup()</div>
 <div class="line">    {</div>
 <div class="line">        base.Setup();</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    // Called when the object is activated</div>
-<div class="line">    public override void Awake()</div>
+<div class="line">    <span class="comment">// Called when the object is activated</span></div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> Awake()</div>
 <div class="line">    {</div>
 <div class="line">        base.Awake();</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    // Called every frame by subscription from GlobalUpdater</div>
-<div class="line">    public override void Update()</div>
+<div class="line">    <span class="comment">// Called every frame by subscription from GlobalUpdater</span></div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> Update()</div>
 <div class="line">    {</div>
 <div class="line">        base.Update();</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    // Called before the object is deleted</div>
-<div class="line">    public override void Sleep()</div>
+<div class="line">    <span class="comment">// Called before the object is deleted</span></div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> Sleep()</div>
 <div class="line">    {</div>
 <div class="line">        base.Sleep();</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Все методы, которые доступны для перегрузки вы найдете в: </p><div class="fragment"><div class="line">// C#</div>
-<div class="line">public abstract class View&lt;T&gt; : IView&lt;T&gt; where T : Visual</div>
+</div><!-- fragment --><p>Все методы, которые доступны для перегрузки вы найдете в: </p><div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span>View&lt;T&gt; : IView&lt;T&gt; where T : Visual</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md20"></a>
 Color Library</h2>
 <p><b>Color Library</b> is a single place to store all the colors used in your project. This tool provides easy access to colors and simplifies their management, making development more efficient and organized. Key features of <b>Color Library</b> include:</p><ul>
@@ -694,11 +728,11 @@ Input Manager</h2>
 <p>With <b>Input Manager</b>, you can effectively manage input in your game, creating an intuitive interface for players and improving overall gameplay. This tool makes interaction with the game smoother and more responsive, which will positively impact the user experience.</p>
 <h3><a class="anchor" id="autotoc_md25"></a>
 How to subscribe?</h3>
-<div class="fragment"><div class="line">// C#</div>
-<div class="line">[Zenject.Inject] private InputSystem _inputSystem; // You will need InputSystem</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line">[Zenject.Inject] <span class="keyword">private</span> InputSystem _inputSystem; <span class="comment">// You will need InputSystem</span></div>
 <div class="line"> </div>
-<div class="line">_inputSystem.AddListener(InputKeyGenerated.InputEnums.JUMP, Jump); // Subscribe to the event</div>
-<div class="line">_inputSystem.RemoveListener(InputKeyGenerated.InputEnums.JUMP, Jump); // Don&#39;t forget to unsubscribe</div>
+<div class="line">_inputSystem.AddListener(InputKeyGenerated.InputEnums.JUMP, Jump); <span class="comment">// Subscribe to the event</span></div>
+<div class="line">_inputSystem.RemoveListener(InputKeyGenerated.InputEnums.JUMP, Jump); <span class="comment">// Don&#39;t forget to unsubscribe</span></div>
 </div><!-- fragment --><blockquote class="doxtable">
 <p>If you change the keyCode of the button in the game settings, then all subscribers to this key will know about it and will use the new key instead of the old one. </p>
 </blockquote>
@@ -713,18 +747,18 @@ Global Updater</h2>
 <p>With <b>Global Updater</b> you can effectively manage the state of your UI, ensuring it is up-to-date and improving player experience. This tool will be an essential element in creating a high-quality and responsive gaming experience.</p>
 <h3><a class="anchor" id="autotoc_md27"></a>
 How to subscribe?</h3>
-<div class="fragment"><div class="line">// C#</div>
-<div class="line">public class AudioSystem : MonoBehaviour, IUpdateListiner // You need to inherit from the IUpdateListiner interface</div>
+<div class="fragment"><div class="line"><span class="comment">// C#</span></div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>AudioSystem : MonoBehaviour, IUpdateListiner <span class="comment">// You need to inherit from the IUpdateListiner interface</span></div>
 <div class="line"> </div>
-<div class="line">[Zenject.Inject] private GlobalUpdater _globalUpdater; // You will need GlobalUpdater</div>
+<div class="line">[Zenject.Inject] <span class="keyword">private</span> GlobalUpdater _globalUpdater; <span class="comment">// You will need GlobalUpdater</span></div>
 <div class="line"> </div>
 <div class="line">_globalUpdater.SubscribeUpdate(this, </div>
 <div class="line">    new UpdateData(</div>
-<div class="line">        false, // If true - the component will be dependent on pause and will stop working when pause is activated</div>
-<div class="line">        UpdateOrders.BeforeDefault)); // Defines the update queue, defaults to BeforeDefault</div>
-<div class="line">_globalUpdater.SubscribeUpdate(this); // Don&#39;t forget to unsubscribe when your component is removed</div>
+<div class="line">        false, <span class="comment">// If true - the component will be dependent on pause and will stop working when pause is activated</span></div>
+<div class="line">        UpdateOrders.BeforeDefault)); <span class="comment">// Defines the update queue, defaults to BeforeDefault</span></div>
+<div class="line">_globalUpdater.SubscribeUpdate(this); <span class="comment">// Don&#39;t forget to unsubscribe when your component is removed</span></div>
 <div class="line"> </div>
-<div class="line">public void DoUpdate() { } // Your logic will be here</div>
+<div class="line"><span class="keyword">public</span> void DoUpdate() { } <span class="comment">// Your logic will be here</span></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md28"></a>
 Time Manager</h2>
 <p><b>Time Manager</b> is a utility designed to manage the timing mechanics of a game. It provides developers with tools to work with pauses, timers, and other timing aspects, allowing for more dynamic and interactive gameplay. Key features of <b>Time Manager</b> include:</p><ul>
@@ -768,10 +802,10 @@ Custom Button</h3>
 <div class="image">
 <img src="CORECustomUI_1.png" alt=""/>
 </div>
-<dl class="section warning"><dt>Warning</dt><dd>When you subscribe to events, do not forget to unsubscribe to avoid unwanted results of the program's work! <div class="fragment"><div class="line">//C#</div>
-<div class="line">// Awake</div>
+<dl class="section warning"><dt>Warning</dt><dd>When you subscribe to events, do not forget to unsubscribe to avoid unwanted results of the program's work! <div class="fragment"><div class="line"><span class="comment">//C#</span></div>
+<div class="line"><span class="comment">// Awake</span></div>
 <div class="line">Button.EventClick += OnButtonClicked;</div>
-<div class="line">// Sleep</div>
+<div class="line"><span class="comment">// Sleep</span></div>
 <div class="line">Button.EventClick -= OnButtonClicked;</div>
 </div><!-- fragment --></dd></dl>
 <div class="image">
@@ -782,12 +816,12 @@ Custom Dropdown</h3>
 <div class="image">
 <img src="CORECustomUI_3.png" alt=""/>
 </div>
-<p>To create <b>Custom Dropdown</b> options, you must first create <b>DropdownOptionData</b> elements and add them to the list. Example of creating from 10 elements: </p><div class="fragment"><div class="line">// C#</div>
+<p>To create <b>Custom Dropdown</b> options, you must first create <b>DropdownOptionData</b> elements and add them to the list. Example of creating from 10 elements: </p><div class="fragment"><div class="line"><span class="comment">// C#</span></div>
 <div class="line">Sprite defaultIcon = ResourcesGenerated.LoadSpriteDefault(ResourcesGenerated.DefaultSprites.DefaultWIP);</div>
-<div class="line">List&lt;DropdownOptionData&gt; items = new List&lt;DropdownOptionData&gt;(10);</div>
-<div class="line">for (int i = 0; i &lt; 10; i++)</div>
-<div class="line">    items.Add(new DropdownOptionData($&quot;Item {i}&quot;, defaultIcon, ColorLibrary.GetRandomColor().MainColor));</div>
-<div class="line">Dropdown.ClearOptions(); // Clear old options before add new, if required</div>
+<div class="line">List&lt;DropdownOptionData&gt; items = <span class="keyword">new</span> List&lt;DropdownOptionData&gt;(10);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 10; i++)</div>
+<div class="line">    items.Add(<span class="keyword">new</span> DropdownOptionData($<span class="stringliteral">&quot;Item {i}&quot;</span>, defaultIcon, ColorLibrary.GetRandomColor().MainColor));</div>
+<div class="line">Dropdown.ClearOptions(); <span class="comment">// Clear old options before add new, if required</span></div>
 <div class="line">Dropdown.AddOptions(items);</div>
 </div><!-- fragment --><div class="image">
 <img src="CORECustomUI_4.png" alt=""/>
@@ -891,7 +925,8 @@ Dependencies</h1>
 </ul>
 <h1><a class="anchor" id="autotoc_md44"></a>
 Examples</h1>
-<p>You can download and unzip the examples for <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> to understand and learn how to work with the tool.</p>
+<hr  />
+<p> You can download and unzip the examples for <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> to understand and learn how to work with the tool.</p>
 <blockquote class="doxtable">
 <p>In order to respect all rights to third-party resources, I separated the examples from the main tool, leaving only basic examples. </p>
 </blockquote>
@@ -945,35 +980,35 @@ Game Mods for Example</h2>
 </ol>
 <h1><a class="anchor" id="autotoc_md48"></a>
 Build Project</h1>
-<p>Go to the project build settings and set the following options:</p><ol type="1">
+<hr  />
+<p> Go to the project build settings and set the following options:</p><ol type="1">
 <li><b>Scripting Backend</b> - Mono</li>
 <li><b>Api Compatibility Level</b> - .NET Standard 2.1 or higher</li>
 <li><b>Managed Stripping Level</b> - Disabled</li>
 </ol>
 <h1><a class="anchor" id="autotoc_md49"></a>
 Compatibility</h1>
-<p>Compatible with the following versions of <b>Unity</b>:</p><ul>
+<hr  />
+<p> <img src="https://img.shields.io/badge/Tested-Unity2022.3-000.svg" alt="Unity" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/Tested-Unity6-000.svg" alt="Unity" style="pointer-events: none;" class="inline"/> Compatible with the following versions of <b>Unity</b>:</p><ul>
 <li><b>Unity 2022.3.7f1</b> or higher - full compatibility</li>
 <li><b>Unity 6000.0.22f1</b> - partial editor compatibility. In some cases, there are conflicts between the <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E.</a> editor and the <b>Unity 6</b> editor. Does not affect the final product in any way.</li>
 </ul>
 <p>Render-pipelines:</p><ul>
-<li>Build-in</li>
-<li>URP</li>
-<li>HDRP</li>
+<li><img src="https://img.shields.io/badge/BuildIn-000.svg" alt="Unity" style="pointer-events: none;" class="inline"/></li>
+<li><img src="https://img.shields.io/badge/URP-000.svg" alt="Unity" style="pointer-events: none;" class="inline"/></li>
+<li><img src="https://img.shields.io/badge/HDRP-000.svg" alt="Unity" style="pointer-events: none;" class="inline"/></li>
 </ul>
 <h1><a class="anchor" id="autotoc_md50"></a>
 Platform</h1>
-<p>At the moment, only one platform is fully supported:</p><ul>
-<li>Windows - full supported</li>
-<li>WebGL - In plan</li>
-<li>Android - In plan</li>
-<li>Linux - In plan</li>
-<li>IOs - In plan</li>
-</ul>
+<hr  />
+<p> At the moment, only one platform is fully supported: <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Windows" class="inline"/></p>
+<p>In plan: <img src="https://img.shields.io/badge/WebGL-0078D6?style=for-the-badge&amp;logo=webgl&amp;logoColor=white" alt="WebGL" class="inline"/> <img src="https://img.shields.io/badge/Android-0078D6?style=for-the-badge&amp;logo=android&amp;logoColor=white" alt="Android" class="inline"/> <img src="https://img.shields.io/badge/Linux-0078D6?style=for-the-badge&amp;logo=linux&amp;logoColor=white" alt="Linux" class="inline"/> <img src="https://img.shields.io/badge/IOs-0078D6?style=for-the-badge&amp;logo=ios&amp;logoColor=white" alt="IOs" class="inline"/></p>
 <h1><a class="anchor" id="autotoc_md51"></a>
 Tutorials TODO</h1>
-<h1><a class="anchor" id="autotoc_md52"></a>
+<hr  />
+ <h1><a class="anchor" id="autotoc_md52"></a>
 ToDo</h1>
+<hr  />
 <ul>
 <li>WebGL Suppors</li>
 <li>States for all components</li>
@@ -982,13 +1017,17 @@ ToDo</h1>
 </ul>
 <h1><a class="anchor" id="autotoc_md53"></a>
 Contacts</h1>
-<p>E-mail: <a href="#" onclick="location.href='mai'+'lto:'+'cho'+'co'+'.16'+'ma'+'il@'+'ma'+'il.'+'ru'; return false;">choco<span class="obfuscator">.nosp@m.</span>.16m<span class="obfuscator">.nosp@m.</span>ail@m<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>ru</a> My other <a href="https://assetstore.unity.com/publishers/18484">Assets</a></p>
+<hr  />
+<p> <a href="https://www.facebook.com/profile.php?id=100004418195249"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&amp;logo=Facebook&amp;logoColor=white" alt="Facebook" style="pointer-events: none;" class="inline"/></a> <a href="https://www.instagram.com/sam.eroch/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&amp;logo=Instagram&amp;logoColor=white" alt="Instagram" style="pointer-events: none;" class="inline"/></a> <a href="https://www.linkedin.com/in/sam-erochin-927a629b/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" style="pointer-events: none;" class="inline"/></a> <a href="https://x.com/VooChannel"><img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&amp;logo=X&amp;logoColor=white" alt="X" style="pointer-events: none;" class="inline"/></a> <a href="https://www.youtube.com/@voochannel7151"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&amp;logo=YouTube&amp;logoColor=white" alt="YouTube" style="pointer-events: none;" class="inline"/></a></p>
+<p>E-mail: <a href="#" onclick="location.href='mai'+'lto:'+'cho'+'co'+'.16'+'ma'+'il@'+'ma'+'il.'+'ru'; return false;">choco<span class="obfuscator">.nosp@m.</span>.16m<span class="obfuscator">.nosp@m.</span>ail@m<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>ru</a> My other <a href="https://assetstore.unity.com/publishers/18484">ASSETS</a></p>
 <h1><a class="anchor" id="autotoc_md54"></a>
 Bug-reports</h1>
-<p>If you find a bug or have any suggestions for improvement, please let us know: <a href="#" onclick="location.href='mai'+'lto:'+'cho'+'co'+'.16'+'ma'+'il@'+'ma'+'il.'+'ru'; return false;">choco<span class="obfuscator">.nosp@m.</span>.16m<span class="obfuscator">.nosp@m.</span>ail@m<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>ru</a></p>
+<hr  />
+<p> If you find a bug or have any suggestions for improvement, please let us know: <a href="#" onclick="location.href='mai'+'lto:'+'cho'+'co'+'.16'+'ma'+'il@'+'ma'+'il.'+'ru'; return false;">choco<span class="obfuscator">.nosp@m.</span>.16m<span class="obfuscator">.nosp@m.</span>ail@m<span class="obfuscator">.nosp@m.</span>ail.<span class="obfuscator">.nosp@m.</span>ru</a></p>
 <h1><a class="anchor" id="autotoc_md55"></a>
 Refund policy</h1>
-<p>If you’re uncertain about any asset’s workings or have questions before purchasing, please do not hesitate to reach out. We will do our best to answer your questions. Please read this before purchase to avoid any unwelcome surprises.</p>
+<hr  />
+<p> If you’re uncertain about any asset’s workings or have questions before purchasing, please do not hesitate to reach out. We will do our best to answer your questions. Please read this before purchase to avoid any unwelcome surprises.</p>
 <p>This policy attempts to clarify the <a href="https://unity.com/pt/legal/as-terms">asset store EULA‘s</a> legal jargon and specifies the practical cases that it does, or does not cover. It does not add refund conditions that aren’t already covered by it.</p>
 <p>All Asset Store sales <b>are final</b> as per the EULA section 2.2.9, which is agreed upon at checkout. Digital purchases cannot be returned once downloaded, hence it’s required to agree to waive the right to a refund. Clicking the “Download” button finalizes this agreement.</p>
 <p>This is because it is impossible to ensure the package files are deleted after a refund is issued. Keeping both the package and its monetary value is not a fair trade. Therefore, some conditions must be met in order to avoid abuse or supporting impulsive purchases: <b>Conditions that justify a refund:</b></p><ul>
