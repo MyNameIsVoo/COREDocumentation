@@ -1,6 +1,6 @@
 var dir_f8217f7849e5e1b0d2015807f75be179 =
 [
-    [ "ColorConverter.cs", "_color_converter_8cs.html", "_color_converter_8cs" ],
-    [ "DictionaryConverter.cs", "_dictionary_converter_8cs.html", "_dictionary_converter_8cs" ],
-    [ "ReferenceConverter.cs", "_reference_converter_8cs.html", "_reference_converter_8cs" ]
+    [ "ConverterConfigColor.cs", "_converter_config_color_8cs.html", "_converter_config_color_8cs" ],
+    [ "ConverterConfigDictionary.cs", "_converter_config_dictionary_8cs.html", "_converter_config_dictionary_8cs" ],
+    [ "ConverterConfigReference.cs", "_converter_config_reference_8cs.html", "_converter_config_reference_8cs" ]
 ];

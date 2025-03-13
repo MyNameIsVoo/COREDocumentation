@@ -9,7 +9,7 @@ var searchData=
   ['localizationexample_2ecs_6',['LocalizationExample.cs',['../_localization_example_8cs.html',1,'']]],
   ['localizationmanager_2ecs_7',['LocalizationManager.cs',['../_localization_manager_8cs.html',1,'']]],
   ['localizator_2ecs_8',['Localizator.cs',['../_localizator_8cs.html',1,'']]],
-  ['localizedenums_2eg_2ecs_9',['LocalizedEnums.g.cs',['../_localized_enums_8g_8cs.html',1,'']]],
+  ['localizedenums_2ecg_2ecs_9',['LocalizedEnums.cg.cs',['../_localized_enums_8cg_8cs.html',1,'']]],
   ['locationdata_2ecs_10',['LocationData.cs',['../_location_data_8cs.html',1,'']]],
   ['logutility_2ecs_11',['LogUtility.cs',['../_log_utility_8cs.html',1,'']]]
 ];

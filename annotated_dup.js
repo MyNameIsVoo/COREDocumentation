@@ -106,9 +106,9 @@ var annotated_dup =
         ] ],
         [ "Configs", "namespace_c_o_r_e_1_1_shared_1_1_configs.html", [
           [ "Converters", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_converters.html", [
-            [ "ColorConverter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter" ],
-            [ "DictionaryConverter< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g" ],
-            [ "ReferenceConverter< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g" ]
+            [ "ConverterConfigColor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color" ],
+            [ "ConverterConfigDictionary< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g" ],
+            [ "ConverterConfigReference< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g" ]
           ] ],
           [ "Data", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_data.html", [
             [ "Settings", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings.html", [
@@ -131,15 +131,15 @@ var annotated_dup =
               [ "SettingsSettingBase", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_settings_setting_base.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_settings_setting_base" ]
             ] ]
           ] ],
-          [ "ConfigBase", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_base.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_base" ],
-          [ "ConfigDictionary< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_dictionary-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_dictionary-1-g" ],
-          [ "ConfigReferenceResolver", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver" ],
+          [ "Config", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config" ],
+          [ "ConfigList< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g" ],
           [ "ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g" ],
           [ "ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system" ],
           [ "EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g" ],
           [ "GlobalConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config" ],
           [ "IConfigVaidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator" ],
           [ "InputConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config" ],
+          [ "ReferencesConfigResolver", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver" ],
           [ "SettingsConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_config" ]
         ] ],
         [ "Console", "namespace_c_o_r_e_1_1_shared_1_1_console.html", [

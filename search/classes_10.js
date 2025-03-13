@@ -5,7 +5,7 @@ var searchData=
   ['recttransformdata_2',['RectTransformData',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_rect_transform_data.html',1,'CORE::Shared::UI']]],
   ['recttransformtransition_3',['RectTransformTransition',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html',1,'CORE::Shared::UI::Custom::State']]],
   ['recttransformtransitionstate_4',['RectTransformTransitionState',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition_1_1_rect_transform_transition_state.html',1,'CORE::Shared::UI::Custom::State::RectTransformTransition']]],
-  ['referenceconverter_2d1_2dg_5',['ReferenceConverter-1-g',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g.html',1,'CORE::Shared::Configs::Converters']]],
+  ['referencesconfigresolver_5',['ReferencesConfigResolver',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver.html',1,'CORE::Shared::Configs']]],
   ['refreshratehelper_6',['RefreshRateHelper',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_refresh_rate_helper.html',1,'CORE::Shared::Configs::Data::Settings::Data']]],
   ['resolutionhelper_7',['ResolutionHelper',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html',1,'CORE::Shared::Configs::Data::Settings::Data']]],
   ['resource_8',['Resource',['../class_c_o_r_e_1_1_mod_tool_1_1_resource.html',1,'CORE::ModTool']]],

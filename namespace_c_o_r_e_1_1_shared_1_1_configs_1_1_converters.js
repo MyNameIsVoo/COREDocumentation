@@ -1,6 +1,6 @@
 var namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_converters =
 [
-    [ "ColorConverter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter" ],
-    [ "DictionaryConverter< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g" ],
-    [ "ReferenceConverter< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g" ]
+    [ "ConverterConfigColor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color" ],
+    [ "ConverterConfigDictionary< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g" ],
+    [ "ConverterConfigReference< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g" ]
 ];

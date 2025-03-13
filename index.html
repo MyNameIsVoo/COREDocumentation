@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: C.O.R.E. - Game Developer&#39;s Toolkit</title>
-<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,7 +32,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
    <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.0</span>
    </div>
@@ -117,6 +115,9 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 <div class="image">
 <img src="COREHello_0.png" alt=""/>
 </div>
+<blockquote class="doxtable">
+<p>Don't forget to leave feedback with wishes or suggestions! Your feedback greatly helps in promoting the asset, and this in turn affects the development. ◝(ᵔᵕᵔ)◜ </p>
+</blockquote>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Why choose <a href="https://assetstore.unity.com/packages/slug/311902">C.O.R.E. - Game Developer's Toolkit</a>?</h1>
 <p><img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&amp;logo=csharp&amp;logoColor=white" alt="C#" style="pointer-events: none;" class="inline"/> <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&amp;logo=unity&amp;logoColor=white" alt="Unity" style="pointer-events: none;" class="inline"/></p>
@@ -192,7 +193,7 @@ Resource Manager</h2>
 <li><b>Name</b> - unique resource name</li>
 <li><b>Bundle</b> - bundle to which the resource belongs</li>
 <li><b>Paths</b> - paths where resources are located</li>
-<li><b>Name Regex</b> - Works in conjunction with <b>Enum Values</b>, at the moment you can specify <b>maximum 2 Regex values</b>. Leave the field blank if you want the resource name to be taken in full. For example, you have resources with the names <em>UI_Player_Bob.png</em>, <em>UI_Player_Tom.png</em>, <em>UI_Enemy_Bill.png</em> and you want to divide them into groups and names, for this you need to write <b>Regex</b>, which will take the necessary strings from the name, in this case <b>Regex</b> will look like this <em>"UI_(.+?)_(.+?)$"</em>. This means that we will take <em>Player</em> and <em>Enemy</em> from the name and create an enumeration with the name <b>Group</b>, then we will take <em>Bob</em>, <em>Tom</em>, <em>Bill</em> from the name and create an enumeration with the name <b>Name</b>. The example below shows that we take two parameters from the name and create enumerations from them. All the rules for constructing enumerations are specified in the <b>Enum Values</b> fields, where each list element corresponds to one <b>Regex</b> value. <div class="image">
+<li><b>Name Regex</b> - Works in conjunction with <b>Enum Values</b>, at the moment you can specify <b>maximum 2 Regex values</b>. Leave the field blank if you want the resource name to be taken in full. For example, you have resources with the names <em>UI_Player_Bob.png</em>, <em>UI_Player_Tom.png</em>, <em>UI_Enemy_Bill.png</em> and you want to divide them into groups and names, for this you need to write <b>Regex</b>, which will take the necessary strings from the name, in this case <b>Regex</b> will look like this <em>"Name_(.+?)_(.+?)$"</em>. This means that we will take <em>Player</em> and <em>Enemy</em> from the name and create an enumeration with the name <b>Group</b>, then we will take <em>Bob</em>, <em>Tom</em>, <em>Bill</em> from the name and create an enumeration with the name <b>Name</b>. The example below shows that we take two parameters from the name and create enumerations from them. All the rules for constructing enumerations are specified in the <b>Enum Values</b> fields, where each list element corresponds to one <b>Regex</b> value. <div class="image">
 <img src="COREResourceManager_2.png" alt=""/>
 </div>
  For a more in-depth understanding, please check out <a href="https://drive.google.com/file/d/1MT2R_4akHryW4VuUVgxhN9_1MyHXS0yu/view?usp=drive_link">Example</a>.</li>
@@ -508,12 +509,12 @@ Code Generator</h2>
 <li>Code generation: Includes the ability to generate lists for various resources, such as colors, sprites, video and audio clips, prefabs, visual elements and localization, etc. This allows developers to easily manage resources.</li>
 <li>Custom generation: You can easily add your own generation or use ready-made templates. To do this, just create a new rule specifying the list, path and name of the resource - the program will perform all the necessary actions automatically.</li>
 <li>Lists and access methods: Code generation creates lists and methods for accessing game resources, which simplifies the integration and use of data in the project. - Storing file information: Some lists store the file name and path to it, allowing you to load assets using <b>Asset Bundles</b>.</li>
-<li>Generated files: Generated files have the ***.g.cs** designation, allowing you to easily identify and manage them.</li>
+<li>Generated files: Generated files have the ***.cg.cs** designation, allowing you to easily identify and manage them.</li>
 </ul>
 <div class="image">
 <img src="CORECodeGenerator_0.png" alt=""/>
 </div>
-<p>С помощью <b>Code Generator</b> разработчики могут существенно ускорить процесс создания и управления кодом, позволяя сосредоточиться на более творческих аспектах разработки игр.</p>
+<p>With <b>Code Generator</b>, developers can significantly speed up the process of creating and managing code, allowing them to focus on the more creative aspects of game development.</p>
 <dl class="section warning"><dt>Warning</dt><dd>⚠️ Usually code generation serves to assist development and does not require outside intervention, so try not to change them yourself, because during subsequent generation they will return to the default "state".</dd></dl>
 <h2><a class="anchor" id="autotoc_md13"></a>
 Model</h2>

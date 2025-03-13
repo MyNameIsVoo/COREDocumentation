@@ -82,8 +82,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "CORE.Shared.Configs.IConfigVaidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html", [
-      [ "CORE.Shared.Configs.ConfigBase", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_base.html", [
-        [ "CORE.Shared.Configs.ConfigDictionary< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_dictionary-1-g.html", [
+      [ "CORE.Shared.Configs.Config", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config.html", [
+        [ "CORE.Shared.Configs.ConfigList< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g.html", [
           [ "CORE.Examples.TestListConfig", "class_c_o_r_e_1_1_examples_1_1_test_list_config.html", null ]
         ] ],
         [ "CORE.Shared.Configs.ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", [
@@ -160,7 +160,7 @@ var hierarchy =
       [ "CORE.Shared.Utils.Mouse.MouseCatcher", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_mouse_catcher.html", null ]
     ] ],
     [ "IReferenceResolver", null, [
-      [ "CORE.Shared.Configs.ConfigReferenceResolver", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_resolver.html", null ]
+      [ "CORE.Shared.Configs.ReferencesConfigResolver", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver.html", null ]
     ] ],
     [ "CORE.Shared.Utils.ISaveData< T >", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html", [
       [ "CORE.Shared.Data.User.UserData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_data.html", null ],
@@ -226,9 +226,9 @@ var hierarchy =
       [ "CORE.Shared.UI.VisualView.ViewSavedBase< T, TData, TDataSave >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view_saved_base-3-g.html", null ]
     ] ],
     [ "JsonConverter", null, [
-      [ "CORE.Shared.Configs.Converters.ColorConverter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_color_converter.html", null ],
-      [ "CORE.Shared.Configs.Converters.DictionaryConverter< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_dictionary_converter-2-g.html", null ],
-      [ "CORE.Shared.Configs.Converters.ReferenceConverter< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_reference_converter-1-g.html", null ]
+      [ "CORE.Shared.Configs.Converters.ConverterConfigColor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color.html", null ],
+      [ "CORE.Shared.Configs.Converters.ConverterConfigDictionary< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g.html", null ],
+      [ "CORE.Shared.Configs.Converters.ConverterConfigReference< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g.html", null ]
     ] ],
     [ "CORE.Shared.Configs.InputConfig.KeyData", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config_1_1_key_data.html", null ],
     [ "CORE.Shared.Configs.Settings.Data.ControlInputSetting.KeyData", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting_1_1_key_data.html", null ],
