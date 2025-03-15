@@ -3,6 +3,9 @@ var annotated_dup =
     [ "CORE", "namespace_c_o_r_e.html", [
       [ "Examples", "namespace_c_o_r_e_1_1_examples.html", [
         [ "UI", "namespace_c_o_r_e_1_1_examples_1_1_u_i.html", [
+          [ "ExampleCustomTableItemData", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_data.html", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_data" ],
+          [ "ExampleCustomTableItemView", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_view.html", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_view" ],
+          [ "ExampleCustomTableItemVisual", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_visual.html", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_visual" ],
           [ "ExamplesView", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_examples_view.html", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_examples_view" ],
           [ "ExamplesVisual", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_examples_visual.html", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_examples_visual" ]
         ] ],
@@ -20,6 +23,7 @@ var annotated_dup =
         [ "SaveDataExtention", "class_c_o_r_e_1_1_examples_1_1_save_data_extention.html", "class_c_o_r_e_1_1_examples_1_1_save_data_extention" ],
         [ "SavedDataClass", "class_c_o_r_e_1_1_examples_1_1_saved_data_class.html", "class_c_o_r_e_1_1_examples_1_1_saved_data_class" ],
         [ "SaveGameDataExample", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example" ],
+        [ "StatesExamples", "class_c_o_r_e_1_1_examples_1_1_states_examples.html", "class_c_o_r_e_1_1_examples_1_1_states_examples" ],
         [ "TestListConfig", "class_c_o_r_e_1_1_examples_1_1_test_list_config.html", "class_c_o_r_e_1_1_examples_1_1_test_list_config" ],
         [ "TestSingleConfig", "class_c_o_r_e_1_1_examples_1_1_test_single_config.html", "class_c_o_r_e_1_1_examples_1_1_test_single_config" ],
         [ "TimerExample", "class_c_o_r_e_1_1_examples_1_1_timer_example.html", "class_c_o_r_e_1_1_examples_1_1_timer_example" ],
@@ -240,7 +244,8 @@ var annotated_dup =
               [ "GraphicAlphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions" ],
               [ "RectTransformTransition", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition" ],
               [ "SpriteTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions" ],
-              [ "States", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_states.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_states" ],
+              [ "StateMachine", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine" ],
+              [ "StateMachineVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine_visual.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine_visual" ],
               [ "TransitionCoroutines< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_coroutines-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_coroutines-1-g" ],
               [ "Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions" ],
               [ "TransitionStateCollection", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection" ],
@@ -274,7 +279,7 @@ var annotated_dup =
             [ "ListPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g" ],
             [ "ObjectPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g" ],
             [ "PropertyConfiguration", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration" ],
-            [ "StatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute" ]
+            [ "StateMachineAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_machine_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_machine_attribute" ]
           ] ],
           [ "Modal", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal.html", [
             [ "ConfirmationModalViewData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_confirmation_modal_view_data.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_confirmation_modal_view_data" ],

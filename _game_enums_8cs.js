@@ -1,6 +1,10 @@
 var _game_enums_8cs =
 [
     [ "CORE.Shared.Utils.FileTypesExtentions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extentions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extentions" ],
+    [ "CORE.Shared.Utils.BoolStates", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#a9a345f7c71df7535d70f148dff966b92", [
+      [ "CORE.Shared.Utils.BoolStates.True", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#a9a345f7c71df7535d70f148dff966b92af827cf462f62848df37c5e1e94a4da74", null ],
+      [ "CORE.Shared.Utils.BoolStates.False", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#a9a345f7c71df7535d70f148dff966b92af8320b26d30ab433c5a54546d21f414c", null ]
+    ] ],
     [ "CORE.Shared.Utils.ColorTweenMode", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6", [
       [ "CORE.Shared.Utils.ColorTweenMode.All", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6ab1c94ca2fbc3e78fc30069c8d0f01680", null ],
       [ "CORE.Shared.Utils.ColorTweenMode.RGB", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6a889574aebacda6bfd3e534e2b49b8028", null ],

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['recttransformtypes_0',['RectTransformTypes',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560b',1,'CORE::Shared::UI::Custom::State::RectTransformTransition']]],
-  ['restrictionmode_1',['RestrictionMode',['../namespace_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification.html#a062f705963181ffa786c12be181e6318',1,'CORE::ModTool::Shared::Verification']]]
+  ['qualitylevel_0',['QualityLevel',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a6284f978537d00e6883a3dd8186b7c67',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
+  ['quarter_1',['Quarter',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a0a55bddef69ee4c9cb2997e781bea407',1,'CORE::Shared::Utils::MathHelper']]]
 ];

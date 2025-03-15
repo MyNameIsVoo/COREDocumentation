@@ -37,6 +37,10 @@ var namespace_c_o_r_e_1_1_shared_1_1_utils =
     [ "StringExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_string_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_string_extensions" ],
     [ "ValidationUtility", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_validation_utility.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_validation_utility" ],
     [ "VisualExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_visual_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_visual_extensions" ],
+    [ "BoolStates", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#a9a345f7c71df7535d70f148dff966b92", [
+      [ "True", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#a9a345f7c71df7535d70f148dff966b92af827cf462f62848df37c5e1e94a4da74", null ],
+      [ "False", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#a9a345f7c71df7535d70f148dff966b92af8320b26d30ab433c5a54546d21f414c", null ]
+    ] ],
     [ "ColorTweenMode", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6", [
       [ "All", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6ab1c94ca2fbc3e78fc30069c8d0f01680", null ],
       [ "RGB", "namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6a889574aebacda6bfd3e534e2b49b8028", null ],

@@ -12,6 +12,7 @@ var dir_4bdb7ee59e2176fc91cb83b92d7741fc =
     [ "PlayerView.cs", "_player_view_8cs.html", "_player_view_8cs" ],
     [ "PlayerVisual.cs", "_player_visual_8cs.html", "_player_visual_8cs" ],
     [ "SaveGameDataExample.cs", "_save_game_data_example_8cs.html", "_save_game_data_example_8cs" ],
+    [ "StatesExamples.cs", "_states_examples_8cs.html", "_states_examples_8cs" ],
     [ "TimerExample.cs", "_timer_example_8cs.html", "_timer_example_8cs" ],
     [ "UIScalerExample.cs", "_u_i_scaler_example_8cs.html", "_u_i_scaler_example_8cs" ],
     [ "UpdateExample.cs", "_update_example_8cs.html", "_update_example_8cs" ],

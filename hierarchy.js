@@ -36,6 +36,7 @@ var hierarchy =
       [ "CORE.Shared.UI.Custom.Settings.TextureSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_texture_settings.html", null ]
     ] ],
     [ "CORE.Shared.UI.Custom.Data.CustomTableItemData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_item_data.html", [
+      [ "CORE.Examples.UI.ExampleCustomTableItemData", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_data.html", null ],
       [ "CORE.Shared.UI.Custom.Data.CustomTableTextItemData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_text_item_data.html", null ]
     ] ],
     [ "CORE.Shared.Utils.Timer.CustomTimer< TData, TValue >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_custom_timer-2-g.html", [
@@ -108,7 +109,8 @@ var hierarchy =
       [ "CORE.Shared.UI.Custom.CustomScrollbar", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_scrollbar.html", null ],
       [ "CORE.Shared.UI.Custom.CustomSelectable", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_selectable.html", null ],
       [ "CORE.Shared.UI.Custom.CustomSlider", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_slider.html", null ],
-      [ "CORE.Shared.UI.Custom.CustomToggle", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle.html", null ]
+      [ "CORE.Shared.UI.Custom.CustomToggle", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle.html", null ],
+      [ "CORE.Shared.UI.Custom.State.StateMachine", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine.html", null ]
     ] ],
     [ "IDisposable", null, [
       [ "CORE.ModTool.Shared.Verification.AssemblyVerifier", "class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_assembly_verifier.html", null ]
@@ -206,6 +208,7 @@ var hierarchy =
           [ "CORE.Shared.UI.Custom.CustomDropdownItemView", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown_item_view.html", null ],
           [ "CORE.Shared.UI.Custom.CustomTabsView", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_view.html", null ],
           [ "CORE.Shared.UI.Custom.Table.CustomTableItemView< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_item_view-1-g.html", [
+            [ "CORE.Examples.UI.ExampleCustomTableItemView", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_view.html", null ],
             [ "CORE.Shared.UI.Custom.Table.CustomTableTextItemView", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_text_item_view.html", null ]
           ] ],
           [ "CORE.Shared.UI.Custom.Table.CustomTableView", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html", null ],
@@ -260,6 +263,7 @@ var hierarchy =
       [ "CORE.Examples.LoadUnloadResourcesExample", "class_c_o_r_e_1_1_examples_1_1_load_unload_resources_example.html", null ],
       [ "CORE.Examples.LocalizationExample", "class_c_o_r_e_1_1_examples_1_1_localization_example.html", null ],
       [ "CORE.Examples.SaveGameDataExample", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html", null ],
+      [ "CORE.Examples.StatesExamples", "class_c_o_r_e_1_1_examples_1_1_states_examples.html", null ],
       [ "CORE.Examples.TimerExample", "class_c_o_r_e_1_1_examples_1_1_timer_example.html", null ],
       [ "CORE.Examples.UIScalerExample", "class_c_o_r_e_1_1_examples_1_1_u_i_scaler_example.html", null ],
       [ "CORE.Examples.UpdateExample", "class_c_o_r_e_1_1_examples_1_1_update_example.html", null ],
@@ -286,6 +290,7 @@ var hierarchy =
         [ "CORE.Shared.UI.Custom.Components.TextComponent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html", null ]
       ] ],
       [ "CORE.Shared.UI.Custom.State.CoroutineTransitionComponent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_coroutine_transition_component.html", null ],
+      [ "CORE.Shared.UI.Custom.State.StateMachineVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine_visual.html", null ],
       [ "CORE.Shared.UI.MaskableSwitchHelper", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_maskable_switch_helper.html", null ],
       [ "CORE.Shared.UI.Other.LoadingIcon", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon.html", null ],
       [ "CORE.Shared.UI.UIComponentScaler", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_component_scaler.html", null ],
@@ -297,6 +302,7 @@ var hierarchy =
         [ "CORE.Shared.UI.Custom.CustomDropdownItemVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown_item_visual.html", null ],
         [ "CORE.Shared.UI.Custom.CustomTabsVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_visual.html", null ],
         [ "CORE.Shared.UI.Custom.Table.CustomTableItemVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_item_visual.html", [
+          [ "CORE.Examples.UI.ExampleCustomTableItemVisual", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_visual.html", null ],
           [ "CORE.Shared.UI.Custom.Table.CustomTableTextItemVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_text_item_visual.html", null ]
         ] ],
         [ "CORE.Shared.UI.Custom.Table.CustomTableVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_visual.html", null ],
@@ -332,7 +338,7 @@ var hierarchy =
     ] ],
     [ "PropertyAttribute", null, [
       [ "CORE.Shared.UI.Custom.PopUpEnum.CustomEnumPopup", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_pop_up_enum_1_1_custom_enum_popup.html", null ],
-      [ "CORE.Shared.UI.Custom.StatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute.html", [
+      [ "CORE.Shared.UI.Custom.StateMachineAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_machine_attribute.html", [
         [ "CORE.Shared.UI.Custom.DefaultStatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_default_states_attribute.html", null ]
       ] ],
       [ "CORE.Shared.Utils.Attributes.ReadOnlyAttribute", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_attributes_1_1_read_only_attribute.html", null ]
@@ -401,7 +407,6 @@ var hierarchy =
     [ "Slider", null, [
       [ "CORE.Shared.UI.Custom.CustomSlider", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_slider.html", null ]
     ] ],
-    [ "CORE.Shared.UI.Custom.State.States", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_states.html", null ],
     [ "CORE.Shared.Utils.StringExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_string_extensions.html", null ],
     [ "CORE.Shared.UI.Custom.Data.TabsItemData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_tabs_item_data.html", null ],
     [ "CORE.Shared.Configs.Data.TextConfigData", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_text_config_data.html", null ],

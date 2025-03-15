@@ -15,6 +15,7 @@ var namespace_c_o_r_e_1_1_examples =
     [ "SaveDataExtention", "class_c_o_r_e_1_1_examples_1_1_save_data_extention.html", "class_c_o_r_e_1_1_examples_1_1_save_data_extention" ],
     [ "SavedDataClass", "class_c_o_r_e_1_1_examples_1_1_saved_data_class.html", "class_c_o_r_e_1_1_examples_1_1_saved_data_class" ],
     [ "SaveGameDataExample", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example" ],
+    [ "StatesExamples", "class_c_o_r_e_1_1_examples_1_1_states_examples.html", "class_c_o_r_e_1_1_examples_1_1_states_examples" ],
     [ "TestListConfig", "class_c_o_r_e_1_1_examples_1_1_test_list_config.html", "class_c_o_r_e_1_1_examples_1_1_test_list_config" ],
     [ "TestSingleConfig", "class_c_o_r_e_1_1_examples_1_1_test_single_config.html", "class_c_o_r_e_1_1_examples_1_1_test_single_config" ],
     [ "TimerExample", "class_c_o_r_e_1_1_examples_1_1_timer_example.html", "class_c_o_r_e_1_1_examples_1_1_timer_example" ],

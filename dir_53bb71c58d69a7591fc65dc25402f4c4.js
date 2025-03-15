@@ -8,7 +8,8 @@ var dir_53bb71c58d69a7591fc65dc25402f4c4 =
     [ "GraphicAlphaTransitions.cs", "_graphic_alpha_transitions_8cs.html", "_graphic_alpha_transitions_8cs" ],
     [ "RectTransformTransition.cs", "_rect_transform_transition_8cs.html", "_rect_transform_transition_8cs" ],
     [ "SpriteTransitions.cs", "_sprite_transitions_8cs.html", "_sprite_transitions_8cs" ],
-    [ "States.cs", "_states_8cs.html", "_states_8cs" ],
+    [ "StateMachine.cs", "_state_machine_8cs.html", "_state_machine_8cs" ],
+    [ "StateMachineVisual.cs", "_state_machine_visual_8cs.html", "_state_machine_visual_8cs" ],
     [ "TransitionCoroutine.cs", "_transition_coroutine_8cs.html", "_transition_coroutine_8cs" ],
     [ "Transitions.cs", "_transitions_8cs.html", "_transitions_8cs" ]
 ];

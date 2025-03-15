@@ -40,6 +40,7 @@ var class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_tex
       [ "PAGE_TIMER", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2daef60bc63e45144d13b641cd2f3462203", null ],
       [ "PAGE_UPDATE", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da3d38713416efd90757b45de2cb7e9b19", null ],
       [ "PAGE_VVM", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da17002f9429d74ef639f8cbed688b3c0b", null ],
+      [ "PAGE_STATES", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2dae5da1059117457fff03168d84411c11b", null ],
       [ "Total", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da96b0141273eabab320119c467cdcaf17", null ]
     ] ],
     [ "GetLocalizeEnums", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#a1850f0fcd4ce33db344f500d07e07321", null ],

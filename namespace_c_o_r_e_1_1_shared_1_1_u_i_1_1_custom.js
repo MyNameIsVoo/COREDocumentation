@@ -27,5 +27,5 @@ var namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom =
     [ "ListPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_list_pool-1-g" ],
     [ "ObjectPool< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_object_pool-1-g" ],
     [ "PropertyConfiguration", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration" ],
-    [ "StatesAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute" ]
+    [ "StateMachineAttribute", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_machine_attribute.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_machine_attribute" ]
 ];

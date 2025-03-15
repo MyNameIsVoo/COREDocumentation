@@ -138,10 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1c9779de0a1a9b849b70e1af8f0bd605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3543075ed0b42eac8ce2abff55e5a35" id="r_af3543075ed0b42eac8ce2abff55e5a35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3543075ed0b42eac8ce2abff55e5a35">SetState</a> (string stateName, bool instant)</td></tr>
 <tr class="separator:af3543075ed0b42eac8ce2abff55e5a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75a514ada1eaa8299dfa73757a84fec" id="r_ae75a514ada1eaa8299dfa73757a84fec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae75a514ada1eaa8299dfa73757a84fec">SetState</a> (int index, bool instant)</td></tr>
+<tr class="separator:ae75a514ada1eaa8299dfa73757a84fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b070f075fdb69451f5dbae707570887" id="r_a4b070f075fdb69451f5dbae707570887"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b070f075fdb69451f5dbae707570887">SetMode</a> (<a class="el" href="#a08fc47f60ab985a8e80eeaba4b22259e">TransitionMode</a> mode)</td></tr>
 <tr class="separator:a4b070f075fdb69451f5dbae707570887"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bf88318e91f4e75834a76389909c763" id="r_a5bf88318e91f4e75834a76389909c763"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bf88318e91f4e75834a76389909c763">ComplementStateNames</a> (string[] stateNames)</td></tr>
-<tr class="separator:a5bf88318e91f4e75834a76389909c763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1faf8019c1212b2327a3d664b27a5b04" id="r_a1faf8019c1212b2327a3d664b27a5b04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1faf8019c1212b2327a3d664b27a5b04">AddStates</a> (string[] stateNames)</td></tr>
+<tr class="separator:a1faf8019c1212b2327a3d664b27a5b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -230,6 +232,23 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1faf8019c1212b2327a3d664b27a5b04" name="a1faf8019c1212b2327a3d664b27a5b04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1faf8019c1212b2327a3d664b27a5b04">&#9670;&#160;</a></span>AddStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.UI.Custom.State.Transitions.AddStates </td>
+          <td>(</td>
+          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>stateNames</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1c9779de0a1a9b849b70e1af8f0bd605" name="a1c9779de0a1a9b849b70e1af8f0bd605"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c9779de0a1a9b849b70e1af8f0bd605">&#9670;&#160;</a></span>Awake()</h2>
 
@@ -240,23 +259,6 @@ Private Attributes</h2></td></tr>
           <td class="memname">void CORE.Shared.UI.Custom.State.Transitions.Awake </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5bf88318e91f4e75834a76389909c763" name="a5bf88318e91f4e75834a76389909c763"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bf88318e91f4e75834a76389909c763">&#9670;&#160;</a></span>ComplementStateNames()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CORE.Shared.UI.Custom.State.Transitions.ComplementStateNames </td>
-          <td>(</td>
-          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>stateNames</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -281,8 +283,29 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae75a514ada1eaa8299dfa73757a84fec" name="ae75a514ada1eaa8299dfa73757a84fec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75a514ada1eaa8299dfa73757a84fec">&#9670;&#160;</a></span>SetState() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.UI.Custom.State.Transitions.SetState </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>instant</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af3543075ed0b42eac8ce2abff55e5a35" name="af3543075ed0b42eac8ce2abff55e5a35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3543075ed0b42eac8ce2abff55e5a35">&#9670;&#160;</a></span>SetState()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af3543075ed0b42eac8ce2abff55e5a35">&#9670;&#160;</a></span>SetState() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -11,9 +11,10 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions =
       [ "RectTransform", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea0985b5715fbcf7cd9d7b06666b3e3645", null ]
     ] ],
     [ "Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a2ca33e27168337c560a4feea72e3ac02", null ],
+    [ "AddStates", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a1faf8019c1212b2327a3d664b27a5b04", null ],
     [ "Awake", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a1c9779de0a1a9b849b70e1af8f0bd605", null ],
-    [ "ComplementStateNames", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a5bf88318e91f4e75834a76389909c763", null ],
     [ "SetMode", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a4b070f075fdb69451f5dbae707570887", null ],
+    [ "SetState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#ae75a514ada1eaa8299dfa73757a84fec", null ],
     [ "SetState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#af3543075ed0b42eac8ce2abff55e5a35", null ],
     [ "_activenessTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a71aa01ebf1f12b7ce8e54bfafd79f219", null ],
     [ "_alphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#ab76a23e2402e9bb9dc6ddaf9e5c3c782", null ],

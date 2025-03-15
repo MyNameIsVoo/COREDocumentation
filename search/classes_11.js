@@ -25,9 +25,11 @@ var searchData=
   ['spritesettings_22',['SpriteSettings',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_sprite_settings.html',1,'CORE::Shared::UI::Custom::Settings']]],
   ['spriteswaptransitionstate_23',['SpriteSwapTransitionState',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions_1_1_sprite_swap_transition_state.html',1,'CORE::Shared::UI::Custom::State::SpriteTransitions']]],
   ['spritetransitions_24',['SpriteTransitions',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_sprite_transitions.html',1,'CORE::Shared::UI::Custom::State']]],
-  ['states_25',['States',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_states.html',1,'CORE::Shared::UI::Custom::State']]],
-  ['statesattribute_26',['StatesAttribute',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute.html',1,'CORE::Shared::UI::Custom']]],
-  ['steamloader_27',['SteamLoader',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_loader.html',1,'CORE::Shared::Steam']]],
-  ['steammanager_28',['SteamManager',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_manager.html',1,'CORE::Shared::Steam']]],
-  ['stringextensions_29',['StringExtensions',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_string_extensions.html',1,'CORE::Shared::Utils']]]
+  ['statemachine_25',['StateMachine',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine.html',1,'CORE::Shared::UI::Custom::State']]],
+  ['statemachineattribute_26',['StateMachineAttribute',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_machine_attribute.html',1,'CORE::Shared::UI::Custom']]],
+  ['statemachinevisual_27',['StateMachineVisual',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine_visual.html',1,'CORE::Shared::UI::Custom::State']]],
+  ['statesexamples_28',['StatesExamples',['../class_c_o_r_e_1_1_examples_1_1_states_examples.html',1,'CORE::Examples']]],
+  ['steamloader_29',['SteamLoader',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_loader.html',1,'CORE::Shared::Steam']]],
+  ['steammanager_30',['SteamManager',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_manager.html',1,'CORE::Shared::Steam']]],
+  ['stringextensions_31',['StringExtensions',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_string_extensions.html',1,'CORE::Shared::Utils']]]
 ];

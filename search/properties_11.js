@@ -14,7 +14,7 @@ var searchData=
   ['sprites_11',['Sprites',['../class_c_o_r_e_1_1_mod_tool_1_1_mod_1_1_mod_resources_data.html#a188f36af10b0b16e4e0491450cd8a6bd',1,'CORE::ModTool::Mod::ModResourcesData']]],
   ['state_12',['State',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_mod_tool_settings.html#a8a8d91fba0f90ae7d6ab67049f811d81',1,'CORE::ModTool::Shared::ModToolSettings']]],
   ['statenames_13',['StateNames',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a7d8673c73e0172ea55b41ec781f14913',1,'CORE::Shared::UI::Custom::State::Transitions']]],
-  ['states_14',['States',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_states_attribute.html#a6cd8de6d60753dfb4b76e390553bc80f',1,'CORE::Shared::UI::Custom::StatesAttribute']]],
+  ['states_14',['States',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_machine_attribute.html#a5829554336736d5b879c83af4205a51d',1,'CORE::Shared::UI::Custom::StateMachineAttribute']]],
   ['supportedcontent_15',['SupportedContent',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_mod_tool_settings.html#aa583b5d91290111f7816bba1d980f232',1,'CORE::ModTool::Shared::ModToolSettings']]],
   ['supportedplatforms_16',['SupportedPlatforms',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_mod_tool_settings.html#a188b507faf1c1f895d2bd06f32d0858f',1,'CORE::ModTool::Shared::ModToolSettings']]]
 ];

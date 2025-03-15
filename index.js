@@ -67,5 +67,6 @@ var index =
     [ "ToDo", "index.html#autotoc_md52", null ],
     [ "Contacts", "index.html#autotoc_md53", null ],
     [ "Bug-reports", "index.html#autotoc_md54", null ],
-    [ "Refund policy", "index.html#autotoc_md55", null ]
+    [ "Refund policy", "index.html#autotoc_md55", null ],
+    [ "Updates", "index.html#autotoc_md56", null ]
 ];
