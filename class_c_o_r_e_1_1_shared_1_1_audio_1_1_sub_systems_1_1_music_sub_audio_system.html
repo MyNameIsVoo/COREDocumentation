@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.Audio.SubSystems.MusicSubAudioSystem Class Reference</title>
+<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,8 +33,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.0</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -128,8 +130,8 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa8573486f3f88de32c8a1689d32769d1" id="r_aa8573486f3f88de32c8a1689d32769d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8573486f3f88de32c8a1689d32769d1">MusicSubAudioSystem</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html">AudioSystem</a> audioSystem)</td></tr>
-<tr class="separator:aa8573486f3f88de32c8a1689d32769d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaad27d3139da4f42700e91291fa50c7" id="r_afaad27d3139da4f42700e91291fa50c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaad27d3139da4f42700e91291fa50c7">MusicSubAudioSystem</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html">AudioSystem</a> audioSystem, bool randomeMusic)</td></tr>
+<tr class="separator:afaad27d3139da4f42700e91291fa50c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09f45b7cb84c3109b66ef02f8ab2cff5" id="r_a09f45b7cb84c3109b66ef02f8ab2cff5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09f45b7cb84c3109b66ef02f8ab2cff5">Update</a> ()</td></tr>
 <tr class="separator:a09f45b7cb84c3109b66ef02f8ab2cff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add7964c742191d895b6927069288eb2f" id="r_add7964c742191d895b6927069288eb2f"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add7964c742191d895b6927069288eb2f">Apply</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_audio_settings_data.html">AudioSettingsData</a> settings)</td></tr>
@@ -175,9 +177,13 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a71c7630e2593a4c78e4930969c13eb0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae540778ffdfa79f5c200542b86372cb8" id="r_ae540778ffdfa79f5c200542b86372cb8"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae540778ffdfa79f5c200542b86372cb8">SetAudioSourceVolume</a> (AudioLibrary.AudioClipData data, float volume)</td></tr>
 <tr class="separator:ae540778ffdfa79f5c200542b86372cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b13248965cc8384f33018ea0abb137" id="r_a44b13248965cc8384f33018ea0abb137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b13248965cc8384f33018ea0abb137">OnAudioClipRemovedFromLibrary</a> (AudioClip clip)</td></tr>
+<tr class="separator:a44b13248965cc8384f33018ea0abb137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:ab74a899d67ebc21ec80144a136eac95f" id="r_ab74a899d67ebc21ec80144a136eac95f"><td class="memItemLeft" align="right" valign="top">readonly bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab74a899d67ebc21ec80144a136eac95f">_randomeMusic</a></td></tr>
+<tr class="separator:ab74a899d67ebc21ec80144a136eac95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a66199c548fc4eac6560b562224114" id="r_aa2a66199c548fc4eac6560b562224114"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2a66199c548fc4eac6560b562224114">_isActivePlaying</a></td></tr>
 <tr class="separator:aa2a66199c548fc4eac6560b562224114"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5935d7287dfcb73788da72157e81262f" id="r_a5935d7287dfcb73788da72157e81262f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5935d7287dfcb73788da72157e81262f">_isActiveMusic</a></td></tr>
@@ -206,8 +212,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a444272e4cbc3bb9c9f7aaa4b261372c2 inherit pro_attribs_class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa8573486f3f88de32c8a1689d32769d1" name="aa8573486f3f88de32c8a1689d32769d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8573486f3f88de32c8a1689d32769d1">&#9670;&#160;</a></span>MusicSubAudioSystem()</h2>
+<a id="afaad27d3139da4f42700e91291fa50c7" name="afaad27d3139da4f42700e91291fa50c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaad27d3139da4f42700e91291fa50c7">&#9670;&#160;</a></span>MusicSubAudioSystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,8 +221,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">CORE.Shared.Audio.SubSystems.MusicSubAudioSystem.MusicSubAudioSystem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html">AudioSystem</a></td>          <td class="paramname"><span class="paramname"><em>audioSystem</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html">AudioSystem</a></td>          <td class="paramname"><span class="paramname"><em>audioSystem</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>randomeMusic</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -254,6 +264,31 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">AudioLibrary.? AudioClipData CORE.Shared.Audio.SubSystems.MusicSubAudioSystem.GetRandomMusic </td>
           <td>(</td>
           <td class="paramtype">ref AudioLibrary.AudioClipData?</td>          <td class="paramname"><span class="paramname"><em>prevClip</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44b13248965cc8384f33018ea0abb137" name="a44b13248965cc8384f33018ea0abb137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b13248965cc8384f33018ea0abb137">&#9670;&#160;</a></span>OnAudioClipRemovedFromLibrary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Audio.SubSystems.MusicSubAudioSystem.OnAudioClipRemovedFromLibrary </td>
+          <td>(</td>
+          <td class="paramtype">AudioClip</td>          <td class="paramname"><span class="paramname"><em>clip</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -482,6 +517,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ab74a899d67ebc21ec80144a136eac95f" name="ab74a899d67ebc21ec80144a136eac95f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab74a899d67ebc21ec80144a136eac95f">&#9670;&#160;</a></span>_randomeMusic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly bool CORE.Shared.Audio.SubSystems.MusicSubAudioSystem._randomeMusic</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a43b962d29455e40495bdc8fb81b24d23" name="a43b962d29455e40495bdc8fb81b24d23"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b962d29455e40495bdc8fb81b24d23">&#9670;&#160;</a></span>MusicVolumeLayer</h2>
 
@@ -550,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/SubSystems/<a class="el" href="_music_sub_audio_system_8cs.html">MusicSubAudioSystem.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/SubSystems/<a class="el" href="_music_sub_audio_system_8cs.html">MusicSubAudioSystem.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

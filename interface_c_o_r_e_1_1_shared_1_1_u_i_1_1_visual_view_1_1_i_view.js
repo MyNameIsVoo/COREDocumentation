@@ -11,5 +11,6 @@ var interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view =
     [ "Unsubscribe", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html#acb2fe4f808cdd2256ef529298d315c1d", null ],
     [ "Update", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html#a04ef09ac25a7490fd5dcac0dad547973", null ],
     [ "HasBeenAwakened", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html#a817c3fa6345a814ecb52c78da344311c", null ],
-    [ "IsActive", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html#a046637241d74f8b3d8dbb1aaaa120e43", null ]
+    [ "IsActive", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html#a046637241d74f8b3d8dbb1aaaa120e43", null ],
+    [ "PauseDependent", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html#aaba750b285588348252e7aa739467501", null ]
 ];

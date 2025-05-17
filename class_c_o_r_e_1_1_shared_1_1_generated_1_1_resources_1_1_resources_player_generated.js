@@ -16,14 +16,16 @@ var class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_ge
     [ "GetExamplesGameObjects", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a4b4c10693447d3737afecf8c6a17bf33", null ],
     [ "GetExamplesScreensScreens", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#acbe609dec27cb0102bf154d068ffefbe", null ],
     [ "GetExamplesSprites", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a2ee6fb69fa5fca18a434d9ba7d7b52ff", null ],
+    [ "GetGameObjectExamplesPrefab", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#aecd645eed1022b9055211d0a6b56cd75", null ],
+    [ "GetGameObjectExamplesScreensPrefab", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a64e2b0a7170feb27d553930dc75a68fc", null ],
     [ "HasExamplesGameObjects", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a164040fa97cf2ab318974ce8340ef184", null ],
     [ "HasExamplesGameObjects", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#ac4d2efc0b5d21542b2f2caf793c435aa", null ],
     [ "HasExamplesScreensScreens", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a04e80ac8c5405acb5b3d5522501b08ff", null ],
     [ "HasExamplesScreensScreens", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a9cac6aab16aadb7cb214822797068ea8", null ],
     [ "HasExamplesSprites", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#aeb3c718e24e4b0eaf68f55211bf1cefe", null ],
     [ "HasExamplesSprites", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a8d7fab9911267817653525e378a0463e", null ],
-    [ "LoadGameObjectExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a4933ab6f559594bbf51ba4a8560d0051", null ],
-    [ "LoadGameObjectExamplesScreens", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a1574371b3f1338bafdbc9aa11a69ea0e", null ],
+    [ "LoadGameObjectExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a902afe231c6873f2cd8cfc5f5f6f7c82", null ],
+    [ "LoadGameObjectExamplesScreens", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#aebcca2fe2aca471fe71c1fa50340f158", null ],
     [ "LoadSpriteExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a740d73d3d0098646578c1cbae5f3f67d", null ],
     [ "UnloadGameObjectExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#ae7a621434c00e97ae903f8cf195fcb3c", null ],
     [ "UnloadGameObjectExamplesScreens", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#af76b615638378cc891d0b3567b4c72a1", null ],
@@ -33,5 +35,6 @@ var class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_ge
     [ "_listSpriteExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#acbb81e74e4f0af5ab71a27309764d98e", null ],
     [ "BundleNameGameObjectExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a1303a2efff9d47076fcd3e8e8ae937fd", null ],
     [ "BundleNameGameObjectExamplesScreens", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a1c1fd39e74695e298209b116f7f9ab88", null ],
-    [ "BundleNameSpriteExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a2c39b5ad7083628b9ff48916833dc5d6", null ]
+    [ "BundleNameSpriteExamples", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#a2c39b5ad7083628b9ff48916833dc5d6", null ],
+    [ "Prefab", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html#af5c086e085958c26c70e63efd1470c69", null ]
 ];

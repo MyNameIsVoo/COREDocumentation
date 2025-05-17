@@ -1,22 +1,13 @@
 var searchData=
 [
-  ['samsungtv_0',['SamsungTV',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aad9d5b653d9cf6071e1e80fe51308937c',1,'CORE::Shared::Utils']]],
-  ['scenes_1',['Scenes',['../namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a2f0e4562b5e57ea1899b4ab8c31184b2abb34f602e45a9fbcb2cdfee7a48673fc',1,'CORE::ModTool::Shared']]],
-  ['scriptableobject_2',['ScriptableObject',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#ade3aa5670f0d2ddb20399a769812a248a91ebab5d94e259dfde45b7d4f052e0a6',1,'CORE::Shared::Utils::Resources::ResourceSettings::AssetData']]],
-  ['secondcolordirect_3',['SecondColorDirect',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions.html#adbf1c384817636224c90bb7f08c627e1a6db5595d4ad19a8299042215ef20835a',1,'CORE::Shared::UI::Custom::State::ColorTransitions']]],
-  ['selected_4',['Selected',['../class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a497d64432bdc884d7621e1b2137fde4ba91b442d385b54e1418d81adc34871053',1,'CORE.Shared.Audio.Data.AudioSelectionData.Selected'],['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#a35363c7f4bedfdfbb2217a2ae1dfa2dca91b442d385b54e1418d81adc34871053',1,'CORE.Shared.Utils.Selected']]],
-  ['show_5',['Show',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ae055315abc9cb0f0605f1789a9d3dcfba498f79c4c5bbde77f1bceb6c86fd0f6d',1,'CORE::Shared::Utils']]],
-  ['sprite_6',['Sprite',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#ade3aa5670f0d2ddb20399a769812a248a51f2b7b14433aa22c67d1f4fc18943cd',1,'CORE::Shared::Utils::Resources::ResourceSettings::AssetData']]],
-  ['sprites_7',['Sprites',['../namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a2f0e4562b5e57ea1899b4ab8c31184b2a0c8651846cd269d069a6a93ddbfaedbf',1,'CORE::ModTool::Shared']]],
-  ['spriteswap_8',['SpriteSwap',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea55f727b6dcbd9f95c90ac3af6c27c455',1,'CORE::Shared::UI::Custom::State::Transitions']]],
-  ['standalonelinux_9',['StandaloneLinux',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aa6c435778fb0dc7f3b746cfe86b54fe65',1,'CORE::Shared::Utils']]],
-  ['standalonelinux64_10',['StandaloneLinux64',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aa7d125b36ffe525d76296d023d687f818',1,'CORE::Shared::Utils']]],
-  ['standalonelinuxuniversal_11',['StandaloneLinuxUniversal',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aa842002e10b1b7bab5c8eec8a0fbf51f9',1,'CORE::Shared::Utils']]],
-  ['standaloneosxintel_12',['StandaloneOSXIntel',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aa14d5e200d2e4c1a21e1578d43c4828ed',1,'CORE::Shared::Utils']]],
-  ['standaloneosxintel64_13',['StandaloneOSXIntel64',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aa60692feed17948e525bab9430c4de2f8',1,'CORE::Shared::Utils']]],
-  ['standaloneosxuniversal_14',['StandaloneOSXUniversal',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aaf27c577ffbacfe148c4d22f7da3f1b78',1,'CORE::Shared::Utils']]],
-  ['standalonewindows_15',['StandaloneWindows',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aa0f49e6c4a47d61bb6fc6eee3dcc2e8f3',1,'CORE::Shared::Utils']]],
-  ['standalonewindows64_16',['StandaloneWindows64',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aa561436c831c6a25ebdf2d00ce62c11a7',1,'CORE::Shared::Utils']]],
-  ['streamingassetspath_17',['StreamingAssetsPath',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_manager.html#aef8ff239ceb3c7b29c1ee5821c58feb1aa77b18467b8bf41e263afefa998ba9fe',1,'CORE::Shared::Utils::FileManager']]],
-  ['switch_18',['Switch',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154aabbc155fb2b111bf61c4f5ff892915e6b',1,'CORE::Shared::Utils']]]
+  ['ration_5f16x9_0',['RATION_16x9',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#ad40c4d126a9c501c4ad7d0f09a3d8123a3ae40b7f848f982ef2943aaa3b5323f2',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
+  ['realtime_1',['RealTime',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_default_data.html#a96b6f3ad59d7a69de2cf3f0923a59a7ead50ae798e3aa50c3a502118e759cc216',1,'CORE::Shared::Utils::Timer::TimerDefaultData']]],
+  ['recttransform_2',['RectTransform',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea0985b5715fbcf7cd9d7b06666b3e3645',1,'CORE::Shared::UI::Custom::State::Transitions']]],
+  ['red_3',['red',['../namespace_my_library.html#a79a9f4bbb675f6c082b09249c5a95ceda82b4a54f6fbf39698c2a6982d75f4f0c',1,'MyLibrary']]],
+  ['release_4',['Release',['../namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a971c1922ab03684e96f259a04d1b435aab8e7b465df7c5979dc731d06e84ce2cf',1,'CORE::ModTool::Shared']]],
+  ['required_5',['Required',['../namespace_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification.html#a062f705963181ffa786c12be181e6318ab651efdb98a5d6bd2b3935d0c3f4a5e2',1,'CORE::ModTool::Shared::Verification']]],
+  ['resources_6',['Resources',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_manager.html#aef8ff239ceb3c7b29c1ee5821c58feb1addcf50c29294d4414f3f7c1bbc892cb5',1,'CORE::Shared::Utils::FileManager']]],
+  ['rgb_7',['RGB',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6a889574aebacda6bfd3e534e2b49b8028',1,'CORE::Shared::Utils']]],
+  ['right_5fdown_8',['RIGHT_DOWN',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a0a55bddef69ee4c9cb2997e781bea407ad904e5818165807101f4603409bd15ab',1,'CORE::Shared::Utils::MathHelper']]],
+  ['right_5fup_9',['RIGHT_UP',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a0a55bddef69ee4c9cb2997e781bea407a1e01c60be1a0b8ed84f7f1ab35d01daa',1,'CORE::Shared::Utils::MathHelper']]]
 ];

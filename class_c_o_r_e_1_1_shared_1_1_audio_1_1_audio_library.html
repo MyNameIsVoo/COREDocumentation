@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.Audio.AudioLibrary Class Reference</title>
+<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,8 +33,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.0</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -107,6 +109,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.h
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library-members.html">List of all members</a>  </div>
@@ -129,11 +132,22 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa802fbc2806367e6b9be005df77c3277" id="r_aa802fbc2806367e6b9be005df77c3277"><td class="memItemLeft" align="right" valign="top">static ? <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa802fbc2806367e6b9be005df77c3277">GetRandomClip</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a76e05a82c058f2f50960be0dd9de6fcd">ResourcesGenerated.AudioGroups</a> group)</td></tr>
 <tr class="memdesc:aa802fbc2806367e6b9be005df77c3277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get random audio clip. May return null if the group was not found in the library.  <br /></td></tr>
 <tr class="separator:aa802fbc2806367e6b9be005df77c3277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526cc339228c8cc1359d9e88102e378e" id="r_a526cc339228c8cc1359d9e88102e378e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a526cc339228c8cc1359d9e88102e378e">InsertAudioClips</a> (List&lt;(<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a> Data, AudioClip Clip)&gt; clips)</td></tr>
+<tr class="memdesc:a526cc339228c8cc1359d9e88102e378e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> Clips from Outside into the Library.  <br /></td></tr>
+<tr class="separator:a526cc339228c8cc1359d9e88102e378e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b195a3cecd994a1719b704b669d3039" id="r_a5b195a3cecd994a1719b704b669d3039"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b195a3cecd994a1719b704b669d3039">RemoveAudioClips</a> (List&lt;(<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a> Data, AudioClip Clip)&gt; clips)</td></tr>
+<tr class="memdesc:a5b195a3cecd994a1719b704b669d3039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> Clips from the Library.  <br /></td></tr>
+<tr class="separator:a5b195a3cecd994a1719b704b669d3039"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:aacf72d7e2bbcb2f81f72ebf0f1d10236" id="r_aacf72d7e2bbcb2f81f72ebf0f1d10236"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacf72d7e2bbcb2f81f72ebf0f1d10236">Key</a> = &quot;Audio&quot;</td></tr>
 <tr class="separator:aacf72d7e2bbcb2f81f72ebf0f1d10236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:aedd35d13a4aa6eda6625d6f96fec4c6e" id="r_aedd35d13a4aa6eda6625d6f96fec4c6e"><td class="memItemLeft" align="right" valign="top">static Action&lt; AudioClip &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd35d13a4aa6eda6625d6f96fec4c6e">OnAudioClipRemoved</a></td></tr>
+<tr class="separator:aedd35d13a4aa6eda6625d6f96fec4c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -144,8 +158,10 @@ Static Private Member Functions</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a8a639c4371bff636f7de952c2355a328" id="r_a8a639c4371bff636f7de952c2355a328"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a>, AudioClip &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a639c4371bff636f7de952c2355a328">_audioClips</a> = new(ResourcesGenerated.AudioClips.Total.GetHashCode())</td></tr>
 <tr class="separator:a8a639c4371bff636f7de952c2355a328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49f69c880d37c6f154138196e19e125d" id="r_a49f69c880d37c6f154138196e19e125d"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a76e05a82c058f2f50960be0dd9de6fcd">ResourcesGenerated.AudioGroups</a>, List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43">ResourcesGenerated.AudioClips</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f69c880d37c6f154138196e19e125d">_audioGroups</a> = new(ResourcesGenerated.AudioGroups.Total.GetHashCode())</td></tr>
-<tr class="separator:a49f69c880d37c6f154138196e19e125d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2479d1c3c502c651ae8b4171a28f7884" id="r_a2479d1c3c502c651ae8b4171a28f7884"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a76e05a82c058f2f50960be0dd9de6fcd">ResourcesGenerated.AudioGroups</a>, List&lt; EnumData&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43">ResourcesGenerated.AudioClips</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2479d1c3c502c651ae8b4171a28f7884">_audioGroups</a> = new(ResourcesGenerated.AudioGroups.Total.GetHashCode())</td></tr>
+<tr class="separator:a2479d1c3c502c651ae8b4171a28f7884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686ee63e0a501b8fb322a6ae684cf93a" id="r_a686ee63e0a501b8fb322a6ae684cf93a"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a>, AudioClip &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a686ee63e0a501b8fb322a6ae684cf93a">_additionalAudioClips</a> = new(0)</td></tr>
+<tr class="separator:a686ee63e0a501b8fb322a6ae684cf93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Library of audio clips. Stores links to audio clips, has quick access to loading and unloading audio clips from bundles/resources. </p>
@@ -235,7 +251,95 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a526cc339228c8cc1359d9e88102e378e" name="a526cc339228c8cc1359d9e88102e378e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526cc339228c8cc1359d9e88102e378e">&#9670;&#160;</a></span>InsertAudioClips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Audio.AudioLibrary.InsertAudioClips </td>
+          <td>(</td>
+          <td class="paramtype">List&lt;(<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a> Data, AudioClip Clip)&gt;</td>          <td class="paramname"><span class="paramname"><em>clips</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> Clips from Outside into the Library. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clips</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5b195a3cecd994a1719b704b669d3039" name="a5b195a3cecd994a1719b704b669d3039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b195a3cecd994a1719b704b669d3039">&#9670;&#160;</a></span>RemoveAudioClips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Audio.AudioLibrary.RemoveAudioClips </td>
+          <td>(</td>
+          <td class="paramtype">List&lt;(<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a> Data, AudioClip Clip)&gt;</td>          <td class="paramname"><span class="paramname"><em>clips</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> Clips from the Library. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">clips</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a686ee63e0a501b8fb322a6ae684cf93a" name="a686ee63e0a501b8fb322a6ae684cf93a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a686ee63e0a501b8fb322a6ae684cf93a">&#9670;&#160;</a></span>_additionalAudioClips</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html">AudioClipData</a>, AudioClip&gt; CORE.Shared.Audio.AudioLibrary._additionalAudioClips = new(0)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8a639c4371bff636f7de952c2355a328" name="a8a639c4371bff636f7de952c2355a328"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a639c4371bff636f7de952c2355a328">&#9670;&#160;</a></span>_audioClips</h2>
 
@@ -258,8 +362,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a49f69c880d37c6f154138196e19e125d" name="a49f69c880d37c6f154138196e19e125d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49f69c880d37c6f154138196e19e125d">&#9670;&#160;</a></span>_audioGroups</h2>
+<a id="a2479d1c3c502c651ae8b4171a28f7884" name="a2479d1c3c502c651ae8b4171a28f7884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2479d1c3c502c651ae8b4171a28f7884">&#9670;&#160;</a></span>_audioGroups</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +372,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly Dictionary&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a76e05a82c058f2f50960be0dd9de6fcd">ResourcesGenerated.AudioGroups</a>, List&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43">ResourcesGenerated.AudioClips</a>&gt; &gt; CORE.Shared.Audio.AudioLibrary._audioGroups = new(ResourcesGenerated.AudioGroups.Total.GetHashCode())</td>
+          <td class="memname">readonly Dictionary&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a76e05a82c058f2f50960be0dd9de6fcd">ResourcesGenerated.AudioGroups</a>, List&lt;EnumData&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43">ResourcesGenerated.AudioClips</a>&gt; &gt; &gt; CORE.Shared.Audio.AudioLibrary._audioGroups = new(ResourcesGenerated.AudioGroups.Total.GetHashCode())</td>
         </tr>
       </table>
   </td>
@@ -302,8 +406,31 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="aedd35d13a4aa6eda6625d6f96fec4c6e" name="aedd35d13a4aa6eda6625d6f96fec4c6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd35d13a4aa6eda6625d6f96fec4c6e">&#9670;&#160;</a></span>OnAudioClipRemoved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;AudioClip&gt; CORE.Shared.Audio.AudioLibrary.OnAudioClipRemoved</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/<a class="el" href="_audio_library_8cs.html">AudioLibrary.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/<a class="el" href="_audio_library_8cs.html">AudioLibrary.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

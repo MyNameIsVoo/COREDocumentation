@@ -23,5 +23,6 @@ var searchData=
   ['staticcollectionpools_2ecs_20',['StaticCollectionPools.cs',['../_static_collection_pools_8cs.html',1,'']]],
   ['staticpool_2ecs_21',['StaticPool.cs',['../_static_pool_8cs.html',1,'']]],
   ['steamloader_2ecs_22',['SteamLoader.cs',['../_steam_loader_8cs.html',1,'']]],
-  ['steammanager_2ecs_23',['SteamManager.cs',['../_steam_manager_8cs.html',1,'']]]
+  ['steammanager_2ecs_23',['SteamManager.cs',['../_steam_manager_8cs.html',1,'']]],
+  ['subclass_2dexample_2ehpp_24',['subclass-example.hpp',['../subclass-example_8hpp.html',1,'']]]
 ];

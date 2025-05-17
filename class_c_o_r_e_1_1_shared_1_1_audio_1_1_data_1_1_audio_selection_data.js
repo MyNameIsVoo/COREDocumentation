@@ -12,5 +12,6 @@ var class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data =
     [ "Groups", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#ac8b0a524fe90218bde619196dcf672af", null ],
     [ "Loop", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a0b55dd390689c7678464852309cfb40c", null ],
     [ "OverrideVolume", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a550b5567b4499577bfaa6d50b856a845", null ],
-    [ "State", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a6253166fbc762c8abdae5d9c90022559", null ]
+    [ "State", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a6253166fbc762c8abdae5d9c90022559", null ],
+    [ "Version", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#aa5ca4671a2296969ff3eb96c1022c906", null ]
 ];

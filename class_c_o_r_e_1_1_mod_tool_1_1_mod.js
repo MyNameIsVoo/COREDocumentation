@@ -13,6 +13,8 @@ var class_c_o_r_e_1_1_mod_tool_1_1_mod =
     [ "GetAssetComponents< T >", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#a951df0b11a0f26bb576ca29714497bc4", null ],
     [ "GetAssets< T >", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#a744ff1045eadf8bf454fd011d7b5cd28", null ],
     [ "GetAssetsAsync< T >", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#a5921690d448c8d5011f3d9c6b82ed6f8", null ],
+    [ "GetAudioClip", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#af546449b5c90bbee29ba2feb35aa63dd", null ],
+    [ "GetAudioClips", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#a2efdafc9252512848114b8353955542a", null ],
     [ "GetNewComponent< T >", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#ac547bc1acbe249d6991551b5f9c24aa3", null ],
     [ "GetResources", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#a160324f2bec8d83036042cf1b0aa52b6", null ],
     [ "GetSceneComponents< T >", "class_c_o_r_e_1_1_mod_tool_1_1_mod.html#a4bcf00bfed72f67529e8030f773c3f6b", null ],

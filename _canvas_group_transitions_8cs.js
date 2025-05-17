@@ -1,0 +1,5 @@
+var _canvas_group_transitions_8cs =
+[
+    [ "CORE.Shared.UI.Custom.State.CanvasGroupTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions" ],
+    [ "CORE.Shared.UI.Custom.State.CanvasGroupTransitions.CanvasGroupTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions_1_1_canvas_group_transition_state.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions_1_1_canvas_group_transition_state" ]
+];

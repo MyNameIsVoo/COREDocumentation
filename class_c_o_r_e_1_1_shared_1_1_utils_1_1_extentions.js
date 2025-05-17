@@ -9,6 +9,7 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions =
     [ "IsNearZero", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#ac3a70faeed71bdb5ccde450cd5ed1dbe", null ],
     [ "IsNotEmpty< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#aa914f29bc9e59507f2d7e496f9bbb927", null ],
     [ "IsNotEmpty< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a347168f747cd7f98573d90a79e4004d9", null ],
+    [ "IsNotEmpty< T, Y >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a23fe36051a384b2ae7e71452b8d4f9b4", null ],
     [ "IsNotNull< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a99d43dc97feae208bb89544edf0031ad", null ],
     [ "IsNotNull< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#af089dda501a2ca1ae2db8c4074beec28", null ],
     [ "IsNotNull< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a91916008d9268c77818c4147065faca0", null ],
@@ -23,6 +24,9 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions =
     [ "SetEmpty", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a7844d4473905d50f30ac0bded47f02d9", null ],
     [ "SetEmpty", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#ac93ea5ffb35eed496f28671502a3c575", null ],
     [ "ToVector3", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#ae4ecd14d2378715ab5939be4a7f62a4d", null ],
+    [ "TryFirstOrDefault< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a3879bd0296b19a86cf4d565a0e7a1356", null ],
+    [ "TryFirstOrDefault< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#ab4c9dcd9d4ac4faade364340150c831a", null ],
+    [ "TryFirstOrDefault< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a8c8b0ddb606208e267e5c4bdfc4e93db", null ],
     [ "WithY", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a926f8b54925cdf5faaba534e13a5b842", null ],
     [ "XZ", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a85cfafe4cde02d92de3a044e2a6ff312", null ]
 ];

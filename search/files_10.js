@@ -11,5 +11,6 @@ var searchData=
   ['transitions_2ecs_8',['Transitions.cs',['../_transitions_8cs.html',1,'']]],
   ['transitionstatecollection_2ecs_9',['TransitionStateCollection.cs',['../_transition_state_collection_8cs.html',1,'']]],
   ['transitionstates_2ecs_10',['TransitionStates.cs',['../_transition_states_8cs.html',1,'']]],
-  ['tweenrunner_2ecs_11',['TweenRunner.cs',['../_tween_runner_8cs.html',1,'']]]
+  ['tricks_2emd_11',['tricks.md',['../tricks_8md.html',1,'']]],
+  ['tweenrunner_2ecs_12',['TweenRunner.cs',['../_tween_runner_8cs.html',1,'']]]
 ];

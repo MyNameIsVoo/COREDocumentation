@@ -13,7 +13,6 @@ var hierarchy =
     [ "CORE.Shared.Audio.Data.AudioClipSettings", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_clip_settings.html", null ],
     [ "CORE.Shared.Audio.AudioSystem.AudioGroupSetting", "struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system_1_1_audio_group_setting.html", null ],
     [ "CORE.Shared.Audio.AudioLibrary", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html", null ],
-    [ "CORE.Shared.Audio.Data.AudioSelectionData", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html", null ],
     [ "CORE.Shared.Audio.SubSystems.BaseSubAudioSystem", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html", [
       [ "CORE.Shared.Audio.SubSystems.EffectsSubAudioSystem", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_effects_sub_audio_system.html", null ],
       [ "CORE.Shared.Audio.SubSystems.InterfaceSubAudioSystem", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_interface_sub_audio_system.html", null ],
@@ -56,6 +55,9 @@ var hierarchy =
     [ "CORE.Shared.Configs.EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", null ],
     [ "CORE.Shared.Utils.EnumExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_enum_extensions.html", null ],
     [ "CORE.Shared.Utils.Resources.ResourceSettings.AssetData.EnumValue", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data_1_1_enum_value.html", null ],
+    [ "MyLibrary::Example", "class_my_library_1_1_example.html", [
+      [ "MyLibrary::SubclassExample< TemplatedClass >", "class_my_library_1_1_subclass_example.html", null ]
+    ] ],
     [ "CORE.ModTool.Editor.Exporting.ExportData", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_data.html", null ],
     [ "CORE.ModTool.Editor.Exporting.ExportStep", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_step.html", [
       [ "CORE.ModTool.Editor.Exporting.Steps.ValidationStep", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_steps_1_1_validation_step.html", null ]
@@ -194,6 +196,7 @@ var hierarchy =
       [ "CORE.Shared.Utils.Mouse.CustomCursor", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html", null ]
     ] ],
     [ "CORE.Shared.Utils.ValidationUtility.IValidator", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_validation_utility_1_1_i_validator.html", [
+      [ "CORE.Shared.Audio.Data.AudioSelectionData", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html", null ],
       [ "CORE.Shared.Colors.PaletteData", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html", null ],
       [ "CORE.Shared.Colors.PaletteData.ColorData", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html", null ],
       [ "CORE.Shared.UI.Custom.Components.CustomComponentBase", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_component_base.html", null ],
@@ -231,6 +234,7 @@ var hierarchy =
     [ "JsonConverter", null, [
       [ "CORE.Shared.Configs.Converters.ConverterConfigColor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color.html", null ],
       [ "CORE.Shared.Configs.Converters.ConverterConfigDictionary< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g.html", null ],
+      [ "CORE.Shared.Configs.Converters.ConverterConfigList< TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_list-1-g.html", null ],
       [ "CORE.Shared.Configs.Converters.ConverterConfigReference< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g.html", null ]
     ] ],
     [ "CORE.Shared.Configs.InputConfig.KeyData", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config_1_1_key_data.html", null ],
@@ -394,6 +398,7 @@ var hierarchy =
     [ "ScrollRect", null, [
       [ "CORE.Shared.UI.Custom.CustomScrollRect", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_scroll_rect.html", null ]
     ] ],
+    [ "MyLibrary::SecondExample", "class_my_library_1_1_second_example.html", null ],
     [ "Selectable", null, [
       [ "CORE.Shared.UI.Custom.CustomDropdown", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html", null ],
       [ "CORE.Shared.UI.Custom.CustomSelectable", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_selectable.html", null ]
@@ -427,6 +432,7 @@ var hierarchy =
     [ "CORE.Shared.UI.Custom.State.Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html", null ],
     [ "CORE.Shared.UI.Custom.State.TransitionStates< TState, TObject >.TransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_states-2-g_1_1_transition_state.html", [
       [ "CORE.Shared.UI.Custom.State.AnimationTransitions.AnimationTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions_1_1_animation_transition_state.html", null ],
+      [ "CORE.Shared.UI.Custom.State.CanvasGroupTransitions.CanvasGroupTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions_1_1_canvas_group_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.Color32Transitions.Color32TransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions_1_1_color32_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.ColorTransitions.ColorTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions_1_1_color_transition_state.html", null ],
       [ "CORE.Shared.UI.Custom.State.GameObjectActiveTransitions.ActiveTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions_1_1_active_transition_state.html", null ],
@@ -438,6 +444,7 @@ var hierarchy =
     [ "CORE.Shared.UI.Custom.State.TransitionStateCollection", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection.html", [
       [ "CORE.Shared.UI.Custom.State.TransitionStates< TState, TObject >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_states-2-g.html", [
         [ "CORE.Shared.UI.Custom.State.AnimationTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions.html", null ],
+        [ "CORE.Shared.UI.Custom.State.CanvasGroupTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.Color32Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.ColorTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions.html", null ],
         [ "CORE.Shared.UI.Custom.State.GameObjectActiveTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions.html", null ],

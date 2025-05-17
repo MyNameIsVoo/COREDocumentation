@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['русский_0',['Русский====================================================================================================================================',['../F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/README.md#autotoc_md60',1,'']]]
+  ['русский_0',['Русский====================================================================================================================================',['../D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/README.md#autotoc_md103',1,'']]]
 ];

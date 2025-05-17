@@ -17,6 +17,7 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_a
     [ "Bundle", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a7047e961a7196b4b1209aad8ee6570c8", null ],
     [ "DirectorySavePath", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a37de40c2f45cd3c69dbb938b7883a5a9", null ],
     [ "EnumValues", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#ad48666e06598056e7cbae9080c51d863", null ],
+    [ "MaxEnumValuesAmount", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#af782ca64079f6c1a92faddaaf432a379", null ],
     [ "Name", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a75edbf6fb435517048ece9c8a3d38488", null ],
     [ "NameRegex", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a36a4dc278632683dec7cd9a1f076af82", null ],
     [ "Paths", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a7c9fb615ba310e8478350fd33e113705", null ],

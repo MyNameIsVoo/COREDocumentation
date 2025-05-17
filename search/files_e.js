@@ -1,7 +1,7 @@
 var searchData=
 [
   ['rawimagecomponent_2ecs_0',['RawImageComponent.cs',['../_raw_image_component_8cs.html',1,'']]],
-  ['readme_2emd_1',['README.md',['../_assets_2_c_o_r_e_toolkit_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../_c_o_r_e_documentation_2_main_page_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]],
+  ['readme_2emd_1',['README.md',['../_assets_2_c_o_r_e_toolkit_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../_c_o_r_e_documentation_2doxygen-awesome-css-main_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../_c_o_r_e_documentation_2_main_page_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]],
   ['readonlyattribute_2ecs_2',['ReadOnlyAttribute.cs',['../_read_only_attribute_8cs.html',1,'']]],
   ['recttransformtransition_2ecs_3',['RectTransformTransition.cs',['../_rect_transform_transition_8cs.html',1,'']]],
   ['referencesconfigresolver_2ecs_4',['ReferencesConfigResolver.cs',['../_references_config_resolver_8cs.html',1,'']]],

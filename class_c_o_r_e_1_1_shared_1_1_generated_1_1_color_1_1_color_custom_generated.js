@@ -11,6 +11,7 @@ var class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated 
       [ "UI_POSITIVE", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca720cc469a5840060e8c9e29f12369d9a", null ],
       [ "UI_BACKGROUNDDARK", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eecaf92c68603cef4c74d59e9e8557405b86", null ],
       [ "HUD_HEALTH", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca241988380db293d60fece4fa26c5401f", null ],
+      [ "CURRENCY_ENERGY", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eecabddc01fae85f66ede9809c272d83c71f", null ],
       [ "Total", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca96b0141273eabab320119c467cdcaf17", null ]
     ] ],
     [ "GetColorEnums", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a8307040b491efa1a3ddaf1d63a767560", null ],

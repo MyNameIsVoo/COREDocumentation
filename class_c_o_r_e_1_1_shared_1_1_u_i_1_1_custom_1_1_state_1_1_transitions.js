@@ -8,7 +8,8 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions =
       [ "GameObjectActive", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea2d94257376f6104b09191b00c9b55ec1", null ],
       [ "Alpha", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea6132295fcf5570fb8b0a944ef322a598", null ],
       [ "Color32Tint", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea244823a8801ee0507a7b234197bf24c8", null ],
-      [ "RectTransform", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea0985b5715fbcf7cd9d7b06666b3e3645", null ]
+      [ "RectTransform", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea0985b5715fbcf7cd9d7b06666b3e3645", null ],
+      [ "CanvasGroup", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea9475b4da4884fb6f3928c2b5ae9db512", null ]
     ] ],
     [ "Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a2ca33e27168337c560a4feea72e3ac02", null ],
     [ "AddStates", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a1faf8019c1212b2327a3d664b27a5b04", null ],
@@ -19,6 +20,7 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions =
     [ "_activenessTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a71aa01ebf1f12b7ce8e54bfafd79f219", null ],
     [ "_alphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#ab76a23e2402e9bb9dc6ddaf9e5c3c782", null ],
     [ "_animationTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a2e3009e3df845fac22b277299cc928fc", null ],
+    [ "_canvasGroupTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a085af696da0218e325e8c22108e46f00", null ],
     [ "_color32Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a654413fae1a45a01e6d7b998e9256b5e", null ],
     [ "_colorTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#aaeddd4cba9e1dc808fecc1993ab18b65", null ],
     [ "_currentState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#ae7902e1c503429109bc75be8cdeb4e99", null ],

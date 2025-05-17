@@ -15,5 +15,6 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view_1_g =
     [ "_openId", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#a02e787289f5268d6d0bffa5e67d5d16f", null ],
     [ "HasBeenAwakened", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#ae07fe4fe4bbc7d531ddea9ce9960c139", null ],
     [ "IsActive", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#aa5789d2e75c58e013633aa25f22fb519", null ],
+    [ "PauseDependent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#af89bf8381d367ffb40ef7af943c1ee75", null ],
     [ "Visual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#aa6a2e5de7c12d2b47d2772410015a6da", null ]
 ];

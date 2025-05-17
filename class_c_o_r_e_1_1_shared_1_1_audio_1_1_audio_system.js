@@ -12,10 +12,13 @@ var class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system =
     [ "DoUpdate", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a56e055714cec60390be63a2e9c2f40b3", null ],
     [ "OnSettingsLoaded", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a46ecb26f8c426911915a7be994717efc", null ],
     [ "PlayClip", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#abeb18202938446dd291ce2e12a59f944", null ],
+    [ "SetActiveListiner", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#ac487e3f065a654c6f875babc1f9e0157", null ],
     [ "SetGlobalVolume", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#ae9616de6b5aa6d5256a06e82342a6720", null ],
     [ "StopClip", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#af077c6d920eb6bebb8c7ae7377058e38", null ],
     [ "_globalUpdater", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a2b2b5e1e14ce8f77ab895ca0aadc8dca", null ],
+    [ "_listener", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#aefecb6a179eb48ddff9ccbc2d1b627c3", null ],
     [ "_subAudioSystems", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a9c50417651e64334e271653e8702fb3a", null ],
     [ "AudioGroupSettings", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a8704ca98cba8225bdfee549be103ed06", null ],
-    [ "AudioMixer", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a915ec69a1e99bfae68a717706468dd80", null ]
+    [ "AudioMixer", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a915ec69a1e99bfae68a717706468dd80", null ],
+    [ "RandomeMusic", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a8ab98341c373be7098522cfff705336e", null ]
 ];

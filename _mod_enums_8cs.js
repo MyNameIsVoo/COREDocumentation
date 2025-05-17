@@ -21,6 +21,7 @@ var _mod_enums_8cs =
       [ "CORE.ModTool.Shared.ModContent.Code", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a2f0e4562b5e57ea1899b4ab8c31184b2aca0dbad92a874b2f69b549293387925e", null ],
       [ "CORE.ModTool.Shared.ModContent.Sprites", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a2f0e4562b5e57ea1899b4ab8c31184b2a0c8651846cd269d069a6a93ddbfaedbf", null ],
       [ "CORE.ModTool.Shared.ModContent.Texts", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a2f0e4562b5e57ea1899b4ab8c31184b2a8957b8a4d2d2d8f7e4c5f7a4c365255f", null ],
+      [ "CORE.ModTool.Shared.ModContent.Audio", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a2f0e4562b5e57ea1899b4ab8c31184b2ab22f0418e8ac915eb66f829d262d14a2", null ],
       [ "CORE.ModTool.Shared.ModContent.All", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#a2f0e4562b5e57ea1899b4ab8c31184b2ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
     ] ],
     [ "CORE.ModTool.Shared.ModIssues", "namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#ad1bc6219ad9d61555c9ff821c0e299cb", [

@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.Audio.AudioSystem Class Reference</title>
+<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,8 +33,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.0</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -159,10 +161,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7c152db92f677b1f06c6bd37e0fb00d" id="r_ad7c152db92f677b1f06c6bd37e0fb00d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7c152db92f677b1f06c6bd37e0fb00d">Apply</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data.html">BaseSettingsData</a> baseSettingsData)</td></tr>
 <tr class="memdesc:ad7c152db92f677b1f06c6bd37e0fb00d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply global settings to the audio system.  <br /></td></tr>
 <tr class="separator:ad7c152db92f677b1f06c6bd37e0fb00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac487e3f065a654c6f875babc1f9e0157" id="r_ac487e3f065a654c6f875babc1f9e0157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac487e3f065a654c6f875babc1f9e0157">SetActiveListiner</a> (bool isActive)</td></tr>
+<tr class="separator:ac487e3f065a654c6f875babc1f9e0157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a8ab98341c373be7098522cfff705336e" id="r_a8ab98341c373be7098522cfff705336e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ab98341c373be7098522cfff705336e">RandomeMusic</a></td></tr>
+<tr class="memdesc:a8ab98341c373be7098522cfff705336e"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the track is finished, a new one will be played in random order.  <br /></td></tr>
+<tr class="separator:a8ab98341c373be7098522cfff705336e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a915ec69a1e99bfae68a717706468dd80" id="r_a915ec69a1e99bfae68a717706468dd80"><td class="memItemLeft" align="right" valign="top">AudioMixer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915ec69a1e99bfae68a717706468dd80">AudioMixer</a></td></tr>
+<tr class="memdesc:a915ec69a1e99bfae68a717706468dd80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to audio mixer for volume changing.  <br /></td></tr>
 <tr class="separator:a915ec69a1e99bfae68a717706468dd80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8704ca98cba8225bdfee549be103ed06" id="r_a8704ca98cba8225bdfee549be103ed06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system_1_1_audio_group_setting.html">AudioGroupSetting</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8704ca98cba8225bdfee549be103ed06">AudioGroupSettings</a></td></tr>
 <tr class="separator:a8704ca98cba8225bdfee549be103ed06"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,6 +184,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:aefecb6a179eb48ddff9ccbc2d1b627c3" id="r_aefecb6a179eb48ddff9ccbc2d1b627c3"><td class="memItemLeft" align="right" valign="top">AudioListener&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefecb6a179eb48ddff9ccbc2d1b627c3">_listener</a></td></tr>
+<tr class="separator:aefecb6a179eb48ddff9ccbc2d1b627c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c50417651e64334e271653e8702fb3a" id="r_a9c50417651e64334e271653e8702fb3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html">BaseSubAudioSystem</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c50417651e64334e271653e8702fb3a">_subAudioSystems</a></td></tr>
 <tr class="separator:a9c50417651e64334e271653e8702fb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b2b5e1e14ce8f77ab895ca0aadc8dca" id="r_a2b2b5e1e14ce8f77ab895ca0aadc8dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_global_updater.html">GlobalUpdater</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b2b5e1e14ce8f77ab895ca0aadc8dca">_globalUpdater</a></td></tr>
@@ -341,6 +351,23 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac487e3f065a654c6f875babc1f9e0157" name="ac487e3f065a654c6f875babc1f9e0157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac487e3f065a654c6f875babc1f9e0157">&#9670;&#160;</a></span>SetActiveListiner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Audio.AudioSystem.SetActiveListiner </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isActive</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae9616de6b5aa6d5256a06e82342a6720" name="ae9616de6b5aa6d5256a06e82342a6720"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9616de6b5aa6d5256a06e82342a6720">&#9670;&#160;</a></span>SetGlobalVolume()</h2>
 
@@ -424,6 +451,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aefecb6a179eb48ddff9ccbc2d1b627c3" name="aefecb6a179eb48ddff9ccbc2d1b627c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefecb6a179eb48ddff9ccbc2d1b627c3">&#9670;&#160;</a></span>_listener</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioListener CORE.Shared.Audio.AudioSystem._listener</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c50417651e64334e271653e8702fb3a" name="a9c50417651e64334e271653e8702fb3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c50417651e64334e271653e8702fb3a">&#9670;&#160;</a></span>_subAudioSystems</h2>
 
@@ -472,10 +521,28 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Reference to audio mixer for volume changing. </p>
+
+</div>
+</div>
+<a id="a8ab98341c373be7098522cfff705336e" name="a8ab98341c373be7098522cfff705336e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab98341c373be7098522cfff705336e">&#9670;&#160;</a></span>RandomeMusic</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Audio.AudioSystem.RandomeMusic</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>After the track is finished, a new one will be played in random order. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/<a class="el" href="_audio_system_8cs.html">AudioSystem.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/<a class="el" href="_audio_system_8cs.html">AudioSystem.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

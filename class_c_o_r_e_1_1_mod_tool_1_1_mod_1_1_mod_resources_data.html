@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.ModTool.Mod.ModResourcesData Class Reference</title>
+<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,8 +33,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.0</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -121,6 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a908ffe6bab401e65be5d3d66b48deb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61a078d1ea9c39831d19391383c63e8a" id="r_a61a078d1ea9c39831d19391383c63e8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61a078d1ea9c39831d19391383c63e8a">Clear</a> ()</td></tr>
 <tr class="separator:a61a078d1ea9c39831d19391383c63e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9751de78d1e64484224614ab9c689a06" id="r_a9751de78d1e64484224614ab9c689a06"><td class="memItemLeft" align="right" valign="top">AudioClip&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9751de78d1e64484224614ab9c689a06">LoadAudioClip</a> (string name)</td></tr>
+<tr class="memdesc:a9751de78d1e64484224614ab9c689a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads Audio Clip from bundles. First checks if Audio Clip is in cache and takes it from there.  <br /></td></tr>
+<tr class="separator:a9751de78d1e64484224614ab9c689a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -143,6 +148,8 @@ Properties</h2></td></tr>
 <tr class="separator:a188f36af10b0b16e4e0491450cd8a6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76f7dfd5470b1f4cfd761516087c0fee" id="r_a76f7dfd5470b1f4cfd761516087c0fee"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; TextAsset &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76f7dfd5470b1f4cfd761516087c0fee">Texts</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a76f7dfd5470b1f4cfd761516087c0fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e661d3412d7cf4b9e7146db749d205" id="r_a26e661d3412d7cf4b9e7146db749d205"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; AudioClip &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26e661d3412d7cf4b9e7146db749d205">Audio</a><code> [get, private set]</code></td></tr>
+<tr class="separator:a26e661d3412d7cf4b9e7146db749d205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa26b3a2041ae8085a28b891026ccdfb1" id="r_aa26b3a2041ae8085a28b891026ccdfb1"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; LocalizedText &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa26b3a2041ae8085a28b891026ccdfb1">LocalizedTexts</a><code> [get, private set]</code></td></tr>
 <tr class="separator:aa26b3a2041ae8085a28b891026ccdfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -158,6 +165,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac94e3a9deb63fca9eced09829f8b2936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86d59a90056f1f3ebf22eafc11727606" id="r_a86d59a90056f1f3ebf22eafc11727606"><td class="memItemLeft" align="right" valign="top">List&lt; TextAsset &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86d59a90056f1f3ebf22eafc11727606">_texts</a> = new()</td></tr>
 <tr class="separator:a86d59a90056f1f3ebf22eafc11727606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e316b08fc3822f1626d53879a6bc449" id="r_a3e316b08fc3822f1626d53879a6bc449"><td class="memItemLeft" align="right" valign="top">List&lt; AudioClip &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e316b08fc3822f1626d53879a6bc449">_audio</a> = new()</td></tr>
+<tr class="separator:a3e316b08fc3822f1626d53879a6bc449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf2862f3797650c7d6e27e63424b3a0c" id="r_adf2862f3797650c7d6e27e63424b3a0c"><td class="memItemLeft" align="right" valign="top">List&lt; LocalizedText &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2862f3797650c7d6e27e63424b3a0c">localizedTexts</a> = new()</td></tr>
 <tr class="separator:adf2862f3797650c7d6e27e63424b3a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -218,6 +227,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9751de78d1e64484224614ab9c689a06" name="a9751de78d1e64484224614ab9c689a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9751de78d1e64484224614ab9c689a06">&#9670;&#160;</a></span>LoadAudioClip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioClip CORE.ModTool.Mod.ModResourcesData.LoadAudioClip </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads Audio Clip from bundles. First checks if Audio Clip is in cache and takes it from there. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4cfb09a7740e7dfbf9bafdb3c340a435" name="a4cfb09a7740e7dfbf9bafdb3c340a435"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4cfb09a7740e7dfbf9bafdb3c340a435">&#9670;&#160;</a></span>_assets</h2>
@@ -230,6 +265,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">List&lt;ScriptableObject&gt; CORE.ModTool.Mod.ModResourcesData._assets = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e316b08fc3822f1626d53879a6bc449" name="a3e316b08fc3822f1626d53879a6bc449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e316b08fc3822f1626d53879a6bc449">&#9670;&#160;</a></span>_audio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;AudioClip&gt; CORE.ModTool.Mod.ModResourcesData._audio = new()</td>
         </tr>
       </table>
   </td>
@@ -402,6 +459,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a26e661d3412d7cf4b9e7146db749d205" name="a26e661d3412d7cf4b9e7146db749d205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e661d3412d7cf4b9e7146db749d205">&#9670;&#160;</a></span>Audio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;AudioClip&gt; CORE.ModTool.Mod.ModResourcesData.Audio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel private-set">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa26b3a2041ae8085a28b891026ccdfb1" name="aa26b3a2041ae8085a28b891026ccdfb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa26b3a2041ae8085a28b891026ccdfb1">&#9670;&#160;</a></span>LocalizedTexts</h2>
 
@@ -535,7 +614,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/ModTool/Tool/Mod/<a class="el" href="_mod_8cs.html">Mod.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/ModTool/Tool/Mod/<a class="el" href="_mod_8cs.html">Mod.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

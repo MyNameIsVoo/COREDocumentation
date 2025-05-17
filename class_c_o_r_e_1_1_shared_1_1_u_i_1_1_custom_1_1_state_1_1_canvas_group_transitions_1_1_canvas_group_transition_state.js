@@ -1,0 +1,4 @@
+var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions_1_1_canvas_group_transition_state =
+[
+    [ "CanvasGroupTransitionState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions_1_1_canvas_group_transition_state.html#a89a6ccdac4941eb14192554ff981dbc7", null ]
+];

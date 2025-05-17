@@ -112,6 +112,7 @@ var annotated_dup =
           [ "Converters", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_converters.html", [
             [ "ConverterConfigColor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_color" ],
             [ "ConverterConfigDictionary< TKey, TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_dictionary-2-g" ],
+            [ "ConverterConfigList< TValue >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_list-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_list-1-g" ],
             [ "ConverterConfigReference< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_converters_1_1_converter_config_reference-1-g" ]
           ] ],
           [ "Data", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_data.html", [
@@ -237,6 +238,7 @@ var annotated_dup =
             ] ],
             [ "State", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state.html", [
               [ "AnimationTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_animation_transitions" ],
+              [ "CanvasGroupTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions" ],
               [ "Color32Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions" ],
               [ "ColorTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions" ],
               [ "CoroutineTransitionComponent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_coroutine_transition_component.html", null ],
@@ -393,5 +395,10 @@ var annotated_dup =
         [ "PauseSystem", "class_c_o_r_e_1_1_shared_1_1_pause_system.html", "class_c_o_r_e_1_1_shared_1_1_pause_system" ],
         [ "UpdateData", "struct_c_o_r_e_1_1_shared_1_1_update_data.html", "struct_c_o_r_e_1_1_shared_1_1_update_data" ]
       ] ]
+    ] ],
+    [ "MyLibrary", "namespace_my_library.html", [
+      [ "Example", "class_my_library_1_1_example.html", "class_my_library_1_1_example" ],
+      [ "SecondExample", "class_my_library_1_1_second_example.html", "class_my_library_1_1_second_example" ],
+      [ "SubclassExample", "class_my_library_1_1_subclass_example.html", "class_my_library_1_1_subclass_example" ]
     ] ]
 ];

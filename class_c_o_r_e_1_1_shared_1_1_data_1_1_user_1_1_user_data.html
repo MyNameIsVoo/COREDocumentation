@@ -6,6 +6,7 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.Data.User.UserData Class Reference</title>
+<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,8 +33,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.0</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -147,11 +149,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae97ca29ff0dbd88830fb74c50095a83d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bfb69d6af066f0cb049ed88dd13a747" id="r_a9bfb69d6af066f0cb049ed88dd13a747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bfb69d6af066f0cb049ed88dd13a747">RemoveMods</a> (List&lt; string &gt; mods)</td></tr>
 <tr class="separator:a9bfb69d6af066f0cb049ed88dd13a747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac14e12d0e346005d38075f51f7747a64" id="r_ac14e12d0e346005d38075f51f7747a64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac14e12d0e346005d38075f51f7747a64">AddModToReboot</a> (Dictionary&lt; string, bool &gt; mods)</td></tr>
+<tr class="memdesc:ac14e12d0e346005d38075f51f7747a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds mods to the list of mods that should be enabled or disabled when the application starts and initializes.  <br /></td></tr>
+<tr class="separator:ac14e12d0e346005d38075f51f7747a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425ead9f6d32f58b7a1ceb11f73757c2" id="r_a425ead9f6d32f58b7a1ceb11f73757c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425ead9f6d32f58b7a1ceb11f73757c2">IsModInRequiredToRebootList</a> (string mod, out bool value)</td></tr>
+<tr class="separator:a425ead9f6d32f58b7a1ceb11f73757c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac6febbd522d18232b97942ba30432a29" id="r_ac6febbd522d18232b97942ba30432a29"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6febbd522d18232b97942ba30432a29">Mods</a> = new()</td></tr>
 <tr class="separator:ac6febbd522d18232b97942ba30432a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08fefd49a6c918e75247afa4e16fab40" id="r_a08fefd49a6c918e75247afa4e16fab40"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08fefd49a6c918e75247afa4e16fab40">RequiredEnabledAtStartMods</a> = new()</td></tr>
+<tr class="memdesc:a08fefd49a6c918e75247afa4e16fab40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mods that should be enabled or disabled when the application starts and initializes.  <br /></td></tr>
+<tr class="separator:a08fefd49a6c918e75247afa4e16fab40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab53d0547448073136c9da5557ff1e4ff" id="r_ab53d0547448073136c9da5557ff1e4ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_custom_data.html">UserCustomData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab53d0547448073136c9da5557ff1e4ff">CustomData</a></td></tr>
 <tr class="separator:ab53d0547448073136c9da5557ff1e4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -184,6 +194,31 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac14e12d0e346005d38075f51f7747a64" name="ac14e12d0e346005d38075f51f7747a64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac14e12d0e346005d38075f51f7747a64">&#9670;&#160;</a></span>AddModToReboot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Data.User.UserData.AddModToReboot </td>
+          <td>(</td>
+          <td class="paramtype">Dictionary&lt; string, bool &gt;</td>          <td class="paramname"><span class="paramname"><em>mods</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds mods to the list of mods that should be enabled or disabled when the application starts and initializes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mods</td><td>mod list</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a2184ff83d0a07a2254484719eb7f4734" name="a2184ff83d0a07a2254484719eb7f4734"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2184ff83d0a07a2254484719eb7f4734">&#9670;&#160;</a></span>Clone()</h2>
 
@@ -195,6 +230,27 @@ Properties</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_data.html">UserData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a425ead9f6d32f58b7a1ceb11f73757c2" name="a425ead9f6d32f58b7a1ceb11f73757c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a425ead9f6d32f58b7a1ceb11f73757c2">&#9670;&#160;</a></span>IsModInRequiredToRebootList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Data.User.UserData.IsModInRequiredToRebootList </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>mod</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -361,6 +417,22 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a08fefd49a6c918e75247afa4e16fab40" name="a08fefd49a6c918e75247afa4e16fab40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08fefd49a6c918e75247afa4e16fab40">&#9670;&#160;</a></span>RequiredEnabledAtStartMods</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, bool&gt; CORE.Shared.Data.User.UserData.RequiredEnabledAtStartMods = new()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mods that should be enabled or disabled when the application starts and initializes. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="ac4d2964ff43cf37e89de84f4f6a3d683" name="ac4d2964ff43cf37e89de84f4f6a3d683"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4d2964ff43cf37e89de84f4f6a3d683">&#9670;&#160;</a></span>FileName</h2>
@@ -413,7 +485,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Data/User/<a class="el" href="_user_data_8cs.html">UserData.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Data/User/<a class="el" href="_user_data_8cs.html">UserData.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
