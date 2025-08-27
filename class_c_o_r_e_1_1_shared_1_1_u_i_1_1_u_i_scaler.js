@@ -1,7 +1,7 @@
 var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler =
 [
     [ "Apply", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html#ab63f5826429a1781a4cbe8349f390c08", null ],
-    [ "Awake", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html#a6d21bd81409af05126e86c0e633a2750", null ],
+    [ "Awake", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html#ac9bc5094ba06c2935d534762e9d5180c", null ],
     [ "OnDestroy", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html#ac2c027620d2be6cda4977a270e814a73", null ],
     [ "OnGameInitted", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html#a6dd742d15162dace5ddda5440c04976e", null ],
     [ "OnGameSettingsChanged", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html#a812762bd493251ddba9f46d5d951e3e5", null ],

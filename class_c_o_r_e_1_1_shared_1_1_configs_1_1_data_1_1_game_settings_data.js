@@ -16,6 +16,7 @@ var class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data =
     [ "MaxUIScaleFactor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html#aacc9581c62fede216ed04f95785bd14e", null ],
     [ "MinAutoSaveMinutes", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html#ae478ba74560de3a70608dd044bc640f5", null ],
     [ "MinUIScaleFactor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html#a9bd372d7533b34b9c8c1cd52f18c8e02", null ],
+    [ "SteamClouds", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html#ad2b00b02dea364061351d17c7da59fc6", null ],
     [ "UIScaleFactor", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html#a8223c6eac49071d7f4ccbc25f95f93f0", null ],
     [ "UIScaleFactorNormalized", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html#af3f86d462bff213733a50a8794fd51da", null ]
 ];

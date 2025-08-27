@@ -25,9 +25,11 @@ var searchData=
   ['isavegamebasecomponent_22',['ISaveGameBaseComponent',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html',1,'CORE::Shared::Utils']]],
   ['isavegamecomponent_2d1_2dg_23',['ISaveGameComponent-1-g',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html',1,'CORE::Shared::Utils']]],
   ['iscriptableobjectsavedata_24',['IScriptableObjectSaveData',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_scriptable_object_save_data.html',1,'CORE::Shared::Utils']]],
-  ['iupdatelistiner_25',['IUpdateListiner',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner.html',1,'CORE::Shared::Utils']]],
-  ['ivalidator_26',['IValidator',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_validation_utility_1_1_i_validator.html',1,'CORE::Shared::Utils::ValidationUtility']]],
-  ['iview_27',['IView',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html',1,'CORE::Shared::UI::VisualView']]],
-  ['iview_2d1_2dg_28',['IView-1-g',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view-1-g.html',1,'CORE::Shared::UI::VisualView']]],
-  ['iviewdata_29',['IViewData',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view_data.html',1,'CORE::Shared::UI::VisualView']]]
+  ['itemsteamtagextensions_25',['ItemSteamTagExtensions',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_item_steam_tag_extensions.html',1,'CORE::Shared::Utils']]],
+  ['itemvaluedata_26',['ItemValueData',['../struct_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_item_1_1_item_value_data.html',1,'CORE::Shared::Steam::SteamItem']]],
+  ['iupdatelistiner_27',['IUpdateListiner',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner.html',1,'CORE::Shared::Utils']]],
+  ['ivalidator_28',['IValidator',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_validation_utility_1_1_i_validator.html',1,'CORE::Shared::Utils::ValidationUtility']]],
+  ['iview_29',['IView',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html',1,'CORE::Shared::UI::VisualView']]],
+  ['iview_2d1_2dg_30',['IView-1-g',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view-1-g.html',1,'CORE::Shared::UI::VisualView']]],
+  ['iviewdata_31',['IViewData',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view_data.html',1,'CORE::Shared::UI::VisualView']]]
 ];

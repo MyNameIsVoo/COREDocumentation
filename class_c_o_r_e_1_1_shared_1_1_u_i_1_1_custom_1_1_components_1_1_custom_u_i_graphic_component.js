@@ -9,6 +9,7 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_gr
     [ "_color", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html#a806f8598287ddc4c16728799e9aef94b", null ],
     [ "_colorTag", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html#aa6e13ecbcbda50826c9f973fb6987c30", null ],
     [ "_customComponents", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html#a438cbb1a161dd26df6deefb5b460a776", null ],
+    [ "_isCustomColor", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html#a1bdd4c8dc18a8b4548caf66ce5f4b5d0", null ],
     [ "_isOverrideAlpha", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html#a3790ce3d827e24f4f65da6ebd264672e", null ],
     [ "_isOverrideColor", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html#aff817c7f4bf6424ec7695ea79e9b0f92", null ],
     [ "_overrideAlpha", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_u_i_graphic_component.html#adb9e5470169981dbd7e0c068c56298e5", null ],

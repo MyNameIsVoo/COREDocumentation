@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.UI.Custom.Table.CustomTableView Class Reference</title>
-<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,9 +32,8 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -137,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a478288ee57d8e20010aaa4d8b8f082" id="r_a2a478288ee57d8e20010aaa4d8b8f082"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a478288ee57d8e20010aaa4d8b8f082">Arrange</a> (List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_item_data.html">CustomTableItemData</a> &gt; datas)</td></tr>
 <tr class="memdesc:a2a478288ee57d8e20010aaa4d8b8f082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds elements to the table.  <br /></td></tr>
 <tr class="separator:a2a478288ee57d8e20010aaa4d8b8f082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569ac5f9a052f801183e5c67030a6dc1" id="r_a569ac5f9a052f801183e5c67030a6dc1"><td class="memItemLeft" align="right" valign="top">async UniTask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a569ac5f9a052f801183e5c67030a6dc1">ArrangeBatchAsync</a> (List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_item_data.html">CustomTableItemData</a> &gt; datas, int batchSize=5, PlayerLoopTiming updateTiming=PlayerLoopTiming.Update)</td></tr>
+<tr class="memdesc:a569ac5f9a052f801183e5c67030a6dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Portion filling of the table. Splitting into chunks, for optimization. Use for large amounts of data.  <br /></td></tr>
+<tr class="separator:a569ac5f9a052f801183e5c67030a6dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f5fe472b202783b55b81939ca4dd4a5" id="r_a6f5fe472b202783b55b81939ca4dd4a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_item_visual.html">CustomTableItemVisual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f5fe472b202783b55b81939ca4dd4a5">Add</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_item_data.html">CustomTableItemData</a> data)</td></tr>
 <tr class="separator:a6f5fe472b202783b55b81939ca4dd4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae36ca9f5b4160b87c9daaaa4893d5011" id="r_ae36ca9f5b4160b87c9daaaa4893d5011"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36ca9f5b4160b87c9daaaa4893d5011">Remove</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_item_data.html">CustomTableItemData</a> data, bool destroy=false)</td></tr>
@@ -215,6 +216,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:af89bf8381d367ffb40ef7af943c1ee75 inherit properties_class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g" id="r_af89bf8381d367ffb40ef7af943c1ee75"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#af89bf8381d367ffb40ef7af943c1ee75">PauseDependent</a><code> [get]</code></td></tr>
 <tr class="memdesc:af89bf8381d367ffb40ef7af943c1ee75 inherit properties_class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dependency on pause. If the game is paused, this parameter will determine whether to update the component or not.  <br /></td></tr>
 <tr class="separator:af89bf8381d367ffb40ef7af943c1ee75 inherit properties_class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c530be84e7d430336ec39dbfeca1757 inherit properties_class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g" id="r_a6c530be84e7d430336ec39dbfeca1757"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#a6c530be84e7d430336ec39dbfeca1757">UpdateOnDisabled</a><code> [get]</code></td></tr>
+<tr class="separator:a6c530be84e7d430336ec39dbfeca1757 inherit properties_class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8f3bd1cecb8c39bd85e06139ce391cde" name="a8f3bd1cecb8c39bd85e06139ce391cde"></a>
@@ -303,6 +306,43 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a569ac5f9a052f801183e5c67030a6dc1" name="a569ac5f9a052f801183e5c67030a6dc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569ac5f9a052f801183e5c67030a6dc1">&#9670;&#160;</a></span>ArrangeBatchAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async UniTask CORE.Shared.UI.Custom.Table.CustomTableView.ArrangeBatchAsync </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_item_data.html">CustomTableItemData</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>datas</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>batchSize</em></span><span class="paramdefsep"> = </span><span class="paramdefval">5</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PlayerLoopTiming</td>          <td class="paramname"><span class="paramname"><em>updateTiming</em></span><span class="paramdefsep"> = </span><span class="paramdefval">PlayerLoopTiming::Update</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Portion filling of the table. Splitting into chunks, for optimization. Use for large amounts of data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">datas</td><td>Initial data of the table</td></tr>
+    <tr><td class="paramname">batchSize</td><td>Chunk size</td></tr>
+    <tr><td class="paramname">updateTiming</td><td>Timing, the time after which the next chunk will be loaded</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>

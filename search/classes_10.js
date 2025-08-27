@@ -16,6 +16,7 @@ var searchData=
   ['resourcesgenerated_13',['ResourcesGenerated',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html',1,'CORE::Shared::Generated::Resources']]],
   ['resourcesmanager_14',['ResourcesManager',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resources_manager.html',1,'CORE::Shared::Utils::Resources']]],
   ['resourcesplayergenerated_15',['ResourcesPlayerGenerated',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html',1,'CORE::Shared::Generated::Resources']]],
-  ['restriction_16',['Restriction',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_restriction.html',1,'CORE::ModTool::Shared::Verification']]],
-  ['resultdata_17',['ResultData',['../class_c_o_r_e_1_1_shared_1_1_game_application_1_1_result_data.html',1,'CORE::Shared::GameApplication']]]
+  ['responsedata_16',['ResponseData',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_response_data.html',1,'CORE::Shared::Steam']]],
+  ['restriction_17',['Restriction',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_restriction.html',1,'CORE::ModTool::Shared::Verification']]],
+  ['resultdata_18',['ResultData',['../class_c_o_r_e_1_1_shared_1_1_game_application_1_1_result_data.html',1,'CORE::Shared::GameApplication']]]
 ];

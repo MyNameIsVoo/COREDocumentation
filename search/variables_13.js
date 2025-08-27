@@ -32,9 +32,10 @@ var searchData=
   ['ssr_29',['SSR',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html#a222e06316482f2e232076b9a235c4d7a',1,'CORE::Shared::Configs::Settings::Data::QualityPresetSetting']]],
   ['startrealtime_30',['StartRealTime',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_default_data.html#a71509e6d08485da8930ce830abeee618',1,'CORE::Shared::Utils::Timer::TimerDefaultData']]],
   ['starttime_31',['StartTime',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_default_data.html#a1124f2ac76ea989b2663741268b0f206',1,'CORE.Shared.Utils.Timer.TimerDefaultData.StartTime'],['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_date_data.html#a0314ce4f990261f29ee8de05e7ba47eb',1,'CORE.Shared.Utils.Timer.TimerDateData.StartTime']]],
-  ['stat_5f0_5fgame_5flaunch_5famount_32',['STAT_0_GAME_LAUNCH_AMOUNT',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_loader.html#a0349c6fa5cc65e3ab909cd4108f292e3',1,'CORE::Shared::Steam::SteamLoader']]],
-  ['state_33',['State',['../class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a6253166fbc762c8abdae5d9c90022559',1,'CORE::Shared::Audio::Data::AudioSelectionData']]],
-  ['stateobject_34',['StateObject',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_states-2-g.html#a6e12620f86e33257467686eaf9fe2d28',1,'CORE::Shared::UI::Custom::State::TransitionStates-2-g']]],
-  ['states_35',['States',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine_visual.html#ad20dfaee613636d59a06ab434629f0f8',1,'CORE::Shared::UI::Custom::State::StateMachineVisual']]],
-  ['string_36',['String',['../struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b',1,'CORE::Shared::Configs::EnumData-1-g']]]
+  ['state_32',['State',['../class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a6253166fbc762c8abdae5d9c90022559',1,'CORE::Shared::Audio::Data::AudioSelectionData']]],
+  ['stateobject_33',['StateObject',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_states-2-g.html#a6e12620f86e33257467686eaf9fe2d28',1,'CORE::Shared::UI::Custom::State::TransitionStates-2-g']]],
+  ['states_34',['States',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_state_machine_visual.html#ad20dfaee613636d59a06ab434629f0f8',1,'CORE::Shared::UI::Custom::State::StateMachineVisual']]],
+  ['steamclouds_35',['SteamClouds',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html#ad2b00b02dea364061351d17c7da59fc6',1,'CORE::Shared::Configs::Data::GameSettingsData']]],
+  ['steamgameversion_36',['SteamGameVersion',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#a210a3d8190d62051cdf0e7111351a3f7',1,'CORE::Shared::Configs::GlobalConfig']]],
+  ['string_37',['String',['../struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b',1,'CORE::Shared::Configs::EnumData-1-g']]]
 ];

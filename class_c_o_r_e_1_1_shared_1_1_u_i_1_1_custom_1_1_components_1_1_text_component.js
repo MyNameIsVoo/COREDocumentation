@@ -1,5 +1,7 @@
 var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component =
 [
+    [ "SetArgs", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#a240e83965aeeafe455532c853b26ff73", null ],
+    [ "SetColor", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#a83171c987d7fb879c3f6bc7c937915db", null ],
     [ "SetText", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#a428a4abf4cdb686912dd89511df878e9", null ],
     [ "SetText", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#af4ae06a245c94fd4a16aa7bcb07c223a", null ],
     [ "SetText", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#a212254a425bd6c31d8830fc783d43989", null ],
@@ -13,5 +15,6 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_componen
     [ "_localizedTextBehaviour", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#a9613c7cd23786a3949a34ef5fafa81e7", null ],
     [ "_localizeTag", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#a5566b72519492315f4b7611d4d985a53", null ],
     [ "_text", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#a5f08e8832f15a3aa00ce29957ef08eba", null ],
+    [ "Component", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#ac30aa6a3fc4c3c87ac9732d43271d967", null ],
     [ "Text", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html#afe1724b91cf2aa7079f1c4622aabff6f", null ]
 ];

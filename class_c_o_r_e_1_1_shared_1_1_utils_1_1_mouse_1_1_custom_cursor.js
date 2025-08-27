@@ -9,6 +9,7 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor =
     [ "UnsubscribeCatcher", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html#ad106f94de8665d58d3ed76b36228abe1", null ],
     [ "_catchers", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html#a5e65c83c73e4ed609e6f2b9743a3b94c", null ],
     [ "_currentType", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html#a9b7538a898d6e4313d97c66f943d4dfa", null ],
+    [ "_enableChanging", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html#a9653bf6db5883aba5a0d489edd7508f6", null ],
     [ "_globalUpdater", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html#a48c60884b7b200df0133dbdcf214c055", null ],
     [ "_iconOffset", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html#aebc3045a6889e08e4d2175918b32497a", null ],
     [ "_icons", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html#a509edac5c9a4da491bc58171c40fbdac", null ]

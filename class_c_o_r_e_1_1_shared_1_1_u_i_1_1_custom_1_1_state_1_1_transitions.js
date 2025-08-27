@@ -12,8 +12,10 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions =
       [ "CanvasGroup", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea9475b4da4884fb6f3928c2b5ae9db512", null ]
     ] ],
     [ "Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a2ca33e27168337c560a4feea72e3ac02", null ],
+    [ "AddState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a5d34fd2472fea84da3523505e3c2f22f", null ],
     [ "AddStates", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a1faf8019c1212b2327a3d664b27a5b04", null ],
     [ "Awake", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a1c9779de0a1a9b849b70e1af8f0bd605", null ],
+    [ "RemoveState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a751bb1008d050f6866af5368b33d9f2d", null ],
     [ "SetMode", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a4b070f075fdb69451f5dbae707570887", null ],
     [ "SetState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#ae75a514ada1eaa8299dfa73757a84fec", null ],
     [ "SetState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#af3543075ed0b42eac8ce2abff55e5a35", null ],

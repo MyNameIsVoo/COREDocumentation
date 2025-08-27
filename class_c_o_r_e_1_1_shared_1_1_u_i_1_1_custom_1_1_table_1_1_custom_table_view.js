@@ -4,6 +4,7 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view 
     [ "Add", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html#a6f5fe472b202783b55b81939ca4dd4a5", null ],
     [ "AddItem", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html#ae2244c859ea6f5e69bdf7d44e371d3db", null ],
     [ "Arrange", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html#a2a478288ee57d8e20010aaa4d8b8f082", null ],
+    [ "ArrangeBatchAsync", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html#a569ac5f9a052f801183e5c67030a6dc1", null ],
     [ "Clear", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html#ad53bda90641f8a270c3d4511ec2aa17b", null ],
     [ "Destroy", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html#a0ad6ed36ff7ae7090f0d0d210d569ae7", null ],
     [ "Remove", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_view.html#ae36ca9f5b4160b87c9daaaa4893d5011", null ],

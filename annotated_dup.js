@@ -12,6 +12,7 @@ var annotated_dup =
         [ "Boot", "class_c_o_r_e_1_1_examples_1_1_boot.html", "class_c_o_r_e_1_1_examples_1_1_boot" ],
         [ "BootInstallerDI", "class_c_o_r_e_1_1_examples_1_1_boot_installer_d_i.html", "class_c_o_r_e_1_1_examples_1_1_boot_installer_d_i" ],
         [ "ConfigsExample", "class_c_o_r_e_1_1_examples_1_1_configs_example.html", "class_c_o_r_e_1_1_examples_1_1_configs_example" ],
+        [ "CustomTableFieldTemplateItem", "class_c_o_r_e_1_1_examples_1_1_custom_table_field_template_item.html", "class_c_o_r_e_1_1_examples_1_1_custom_table_field_template_item" ],
         [ "CustomUIExample", "class_c_o_r_e_1_1_examples_1_1_custom_u_i_example.html", "class_c_o_r_e_1_1_examples_1_1_custom_u_i_example" ],
         [ "InputsExample", "class_c_o_r_e_1_1_examples_1_1_inputs_example.html", "class_c_o_r_e_1_1_examples_1_1_inputs_example" ],
         [ "LanguageDropdownOptionData", "class_c_o_r_e_1_1_examples_1_1_language_dropdown_option_data.html", "class_c_o_r_e_1_1_examples_1_1_language_dropdown_option_data" ],
@@ -140,6 +141,7 @@ var annotated_dup =
           [ "ConfigList< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g" ],
           [ "ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g" ],
           [ "ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system" ],
+          [ "ConfigVisual< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g" ],
           [ "EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g" ],
           [ "GlobalConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config" ],
           [ "IConfigVaidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator" ],
@@ -152,7 +154,7 @@ var annotated_dup =
         ] ],
         [ "Data", "namespace_c_o_r_e_1_1_shared_1_1_data.html", [
           [ "User", "namespace_c_o_r_e_1_1_shared_1_1_data_1_1_user.html", [
-            [ "UserCustomData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_custom_data.html", null ],
+            [ "UserCustomData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_custom_data.html", "class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_custom_data" ],
             [ "UserData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_data.html", "class_c_o_r_e_1_1_shared_1_1_data_1_1_user_1_1_user_data" ]
           ] ],
           [ "LocationCustomData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_custom_data.html", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_custom_data" ],
@@ -205,8 +207,15 @@ var annotated_dup =
           [ "SceneLoader", "class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader.html", "class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader" ]
         ] ],
         [ "Steam", "namespace_c_o_r_e_1_1_shared_1_1_steam.html", [
+          [ "Debug", "namespace_c_o_r_e_1_1_shared_1_1_steam_1_1_debug.html", [
+            [ "DebugSteamInventory", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory" ]
+          ] ],
+          [ "ResponseData", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_response_data.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_response_data" ],
+          [ "SteamInventoryManager", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_inventory_manager.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_inventory_manager" ],
+          [ "SteamItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_item.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_item" ],
           [ "SteamLoader", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_loader.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_loader" ],
-          [ "SteamManager", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_manager.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_manager" ]
+          [ "SteamManager", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_manager.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_manager" ],
+          [ "SteamPlayerItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item.html", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item" ]
         ] ],
         [ "UI", "namespace_c_o_r_e_1_1_shared_1_1_u_i.html", [
           [ "Custom", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom.html", [
@@ -241,7 +250,7 @@ var annotated_dup =
               [ "CanvasGroupTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions" ],
               [ "Color32Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions" ],
               [ "ColorTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color_transitions" ],
-              [ "CoroutineTransitionComponent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_coroutine_transition_component.html", null ],
+              [ "CoroutineTransitionComponent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_coroutine_transition_component.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_coroutine_transition_component" ],
               [ "GameObjectActiveTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions" ],
               [ "GraphicAlphaTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_graphic_alpha_transitions" ],
               [ "RectTransformTransition", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition" ],
@@ -272,6 +281,7 @@ var annotated_dup =
             [ "CustomScrollRect", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_scroll_rect.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_scroll_rect" ],
             [ "CustomSelectable", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_selectable.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_selectable" ],
             [ "CustomSlider", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_slider.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_slider" ],
+            [ "CustomTableField< T >", "struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_table_field-1-g.html", "struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_table_field-1-g" ],
             [ "CustomTabsView", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_view.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_view" ],
             [ "CustomTabsVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_visual.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_visual" ],
             [ "CustomToggle", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_toggle" ],
@@ -340,6 +350,7 @@ var annotated_dup =
             [ "CodeGeneratorHelper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_code_generator_1_1_code_generator_helper.html", null ]
           ] ],
           [ "Mouse", "namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse.html", [
+            [ "CursorExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions" ],
             [ "CustomCursor", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor" ],
             [ "MouseCatcher", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_mouse_catcher.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_mouse_catcher" ]
           ] ],
@@ -359,11 +370,12 @@ var annotated_dup =
           ] ],
           [ "AssemblyData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data" ],
           [ "CecilExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cecil_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cecil_extensions" ],
+          [ "ClientWarningExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_client_warning_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_client_warning_extensions" ],
           [ "DebugHelper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper" ],
           [ "EnumExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_enum_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_enum_extensions" ],
           [ "Extentions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions" ],
           [ "FileManager", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_manager.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_manager" ],
-          [ "FileTypesExtentions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extentions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extentions" ],
+          [ "FileTypesExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extensions" ],
           [ "Fillters", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_fillters.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_fillters" ],
           [ "GameTime", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_game_time.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_game_time" ],
           [ "Helper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_helper.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_helper" ],
@@ -376,9 +388,11 @@ var annotated_dup =
           [ "ISaveGameBaseComponent", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component" ],
           [ "ISaveGameComponent< TData >", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g" ],
           [ "IScriptableObjectSaveData", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_scriptable_object_save_data.html", null ],
+          [ "ItemSteamTagExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_item_steam_tag_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_item_steam_tag_extensions" ],
           [ "IUpdateListiner", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner.html", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner" ],
           [ "MathHelper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper" ],
           [ "PlayerPrefsSave", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_player_prefs_save.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_player_prefs_save" ],
+          [ "QualityExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_quality_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_quality_extensions" ],
           [ "SceneExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_extensions" ],
           [ "SceneLayers", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_layers.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_layers" ],
           [ "SingletonMonoBehaviour< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g" ],
@@ -395,10 +409,5 @@ var annotated_dup =
         [ "PauseSystem", "class_c_o_r_e_1_1_shared_1_1_pause_system.html", "class_c_o_r_e_1_1_shared_1_1_pause_system" ],
         [ "UpdateData", "struct_c_o_r_e_1_1_shared_1_1_update_data.html", "struct_c_o_r_e_1_1_shared_1_1_update_data" ]
       ] ]
-    ] ],
-    [ "MyLibrary", "namespace_my_library.html", [
-      [ "Example", "class_my_library_1_1_example.html", "class_my_library_1_1_example" ],
-      [ "SecondExample", "class_my_library_1_1_second_example.html", "class_my_library_1_1_second_example" ],
-      [ "SubclassExample", "class_my_library_1_1_subclass_example.html", "class_my_library_1_1_subclass_example" ]
     ] ]
 ];

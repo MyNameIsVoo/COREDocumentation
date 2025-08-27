@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.Dispatcher Class Reference</title>
-<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,9 +32,8 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -107,7 +105,6 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_dispatcher.html',''); ini
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_dispatcher-members.html">List of all members</a>  </div>
@@ -120,29 +117,23 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_dispatcher.html',''); ini
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="class_c_o_r_e_1_1_shared_1_1_dispatcher.png" usemap="#CORE.Shared.Dispatcher_map" alt=""/>
-  <map id="CORE.Shared.Dispatcher_map" name="CORE.Shared.Dispatcher_map">
-<area href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html" alt="CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;" shape="rect" coords="0,56,296,80"/>
-  </map>
-</div></div>
+  <img src="class_c_o_r_e_1_1_shared_1_1_dispatcher.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af7fb036ce40ed5a16474f162426686b5" id="r_af7fb036ce40ed5a16474f162426686b5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7fb036ce40ed5a16474f162426686b5">Enqueue</a> (Action action, bool delayCall=true)</td></tr>
 <tr class="memdesc:af7fb036ce40ed5a16474f162426686b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue an action on the main Thread.  <br /></td></tr>
 <tr class="separator:af7fb036ce40ed5a16474f162426686b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9608d5b3d64bf5d97b6ddf1de7f1d9be" id="r_a9608d5b3d64bf5d97b6ddf1de7f1d9be"><td class="memItemLeft" align="right" valign="top">static new Coroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9608d5b3d64bf5d97b6ddf1de7f1d9be">StartCoroutine</a> (IEnumerator routine)</td></tr>
-<tr class="separator:a9608d5b3d64bf5d97b6ddf1de7f1d9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09b43529efc1bc8e52fbb1a7e8d0423f" id="r_a09b43529efc1bc8e52fbb1a7e8d0423f"><td class="memItemLeft" align="right" valign="top">static new void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09b43529efc1bc8e52fbb1a7e8d0423f">StopCoroutine</a> (Coroutine routine)</td></tr>
-<tr class="separator:a09b43529efc1bc8e52fbb1a7e8d0423f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:aef667d78009f73094892c4fa7db21053" id="r_aef667d78009f73094892c4fa7db21053"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef667d78009f73094892c4fa7db21053">Awake</a> ()</td></tr>
-<tr class="separator:aef667d78009f73094892c4fa7db21053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cbf19b4a68125227f11bd3622fcee51" id="r_a6cbf19b4a68125227f11bd3622fcee51"><td class="memItemLeft" align="right" valign="top">static Coroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cbf19b4a68125227f11bd3622fcee51">StartCoroutineGlobal</a> (IEnumerator routine)</td></tr>
+<tr class="separator:a6cbf19b4a68125227f11bd3622fcee51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00cb6c0f43f9b3980658002d12195f46" id="r_a00cb6c0f43f9b3980658002d12195f46"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00cb6c0f43f9b3980658002d12195f46">StopCoroutineGlobal</a> (Coroutine routine)</td></tr>
+<tr class="separator:a00cb6c0f43f9b3980658002d12195f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a72d86901eb2d62d14dddb13a11124b51" id="r_a72d86901eb2d62d14dddb13a11124b51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d86901eb2d62d14dddb13a11124b51">Awake</a> ()</td></tr>
+<tr class="separator:a72d86901eb2d62d14dddb13a11124b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ddbf8d78f86e74299ce063d609a42a" id="r_a64ddbf8d78f86e74299ce063d609a42a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ddbf8d78f86e74299ce063d609a42a">Update</a> ()</td></tr>
 <tr class="separator:a64ddbf8d78f86e74299ce063d609a42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6a159cd4794c58eebc2db2a5dadf195" id="r_aa6a159cd4794c58eebc2db2a5dadf195"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6a159cd4794c58eebc2db2a5dadf195">OnDestroy</a> ()</td></tr>
@@ -156,19 +147,12 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:aa30b71e625a41a0fca0fe943d7866de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e3d992766ba89d76fde01306ab80d04" id="r_a3e3d992766ba89d76fde01306ab80d04"><td class="memItemLeft" align="right" valign="top">static Thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e3d992766ba89d76fde01306ab80d04">MainThread</a></td></tr>
 <tr class="separator:a3e3d992766ba89d76fde01306ab80d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html">CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;</a></td></tr>
-<tr class="memitem:ae214ddc82400dfd308f67035e93f343e inherit pro_attribs_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g" id="r_ae214ddc82400dfd308f67035e93f343e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#ae214ddc82400dfd308f67035e93f343e">_didAwake</a></td></tr>
-<tr class="separator:ae214ddc82400dfd308f67035e93f343e inherit pro_attribs_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html">CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;</a></td></tr>
-<tr class="memitem:a1220fa03ebd4f80d93ce5f6337e02749 inherit properties_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g" id="r_a1220fa03ebd4f80d93ce5f6337e02749"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#a1220fa03ebd4f80d93ce5f6337e02749">Instance</a><code> [get, private set]</code></td></tr>
-<tr class="separator:a1220fa03ebd4f80d93ce5f6337e02749 inherit properties_class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d1d0a70b87373f246ed759eab00a8ec" id="r_a6d1d0a70b87373f246ed759eab00a8ec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_o_r_e_1_1_shared_1_1_dispatcher.html">Dispatcher</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d1d0a70b87373f246ed759eab00a8ec">Instance</a></td></tr>
+<tr class="separator:a6d1d0a70b87373f246ed759eab00a8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aef667d78009f73094892c4fa7db21053" name="aef667d78009f73094892c4fa7db21053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef667d78009f73094892c4fa7db21053">&#9670;&#160;</a></span>Awake()</h2>
+<a id="a72d86901eb2d62d14dddb13a11124b51" name="a72d86901eb2d62d14dddb13a11124b51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72d86901eb2d62d14dddb13a11124b51">&#9670;&#160;</a></span>Awake()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +161,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void CORE.Shared.Dispatcher.Awake </td>
+          <td class="memname">void CORE.Shared.Dispatcher.Awake </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -185,12 +169,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#a03a4c8836e21996fed1a5461fed84cb8">CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;</a>.</p>
 
 </div>
 </div>
@@ -282,8 +264,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a9608d5b3d64bf5d97b6ddf1de7f1d9be" name="a9608d5b3d64bf5d97b6ddf1de7f1d9be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9608d5b3d64bf5d97b6ddf1de7f1d9be">&#9670;&#160;</a></span>StartCoroutine()</h2>
+<a id="a6cbf19b4a68125227f11bd3622fcee51" name="a6cbf19b4a68125227f11bd3622fcee51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cbf19b4a68125227f11bd3622fcee51">&#9670;&#160;</a></span>StartCoroutineGlobal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,7 +274,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static new Coroutine CORE.Shared.Dispatcher.StartCoroutine </td>
+          <td class="memname">static Coroutine CORE.Shared.Dispatcher.StartCoroutineGlobal </td>
           <td>(</td>
           <td class="paramtype">IEnumerator</td>          <td class="paramname"><span class="paramname"><em>routine</em></span></td><td>)</td>
           <td></td>
@@ -307,8 +289,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a09b43529efc1bc8e52fbb1a7e8d0423f" name="a09b43529efc1bc8e52fbb1a7e8d0423f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09b43529efc1bc8e52fbb1a7e8d0423f">&#9670;&#160;</a></span>StopCoroutine()</h2>
+<a id="a00cb6c0f43f9b3980658002d12195f46" name="a00cb6c0f43f9b3980658002d12195f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00cb6c0f43f9b3980658002d12195f46">&#9670;&#160;</a></span>StopCoroutineGlobal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -317,7 +299,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static new void CORE.Shared.Dispatcher.StopCoroutine </td>
+          <td class="memname">static void CORE.Shared.Dispatcher.StopCoroutineGlobal </td>
           <td>(</td>
           <td class="paramtype">Coroutine</td>          <td class="paramname"><span class="paramname"><em>routine</em></span></td><td>)</td>
           <td></td>
@@ -369,6 +351,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">readonly Queue&lt;Action&gt; CORE.Shared.Dispatcher._executionQueue = new Queue&lt;Action&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d1d0a70b87373f246ed759eab00a8ec" name="a6d1d0a70b87373f246ed759eab00a8ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d1d0a70b87373f246ed759eab00a8ec">&#9670;&#160;</a></span>Instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_dispatcher.html">Dispatcher</a> CORE.Shared.Dispatcher.Instance</td>
         </tr>
       </table>
   </td>

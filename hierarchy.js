@@ -24,16 +24,21 @@ var hierarchy =
       [ "CORE.Shared.UI.Custom.CustomButton", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_button.html", null ]
     ] ],
     [ "CORE.Shared.Utils.CecilExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cecil_extensions.html", null ],
+    [ "CORE.Shared.Utils.ClientWarningExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_client_warning_extensions.html", null ],
     [ "CORE.Shared.Utils.CodeGenerator.CodeGeneratorHelper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_code_generator_1_1_code_generator_helper.html", null ],
     [ "CORE.Shared.Colors.ColorCustom", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html", null ],
     [ "CORE.Shared.Generated.Color.ColorCustomGenerated", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html", null ],
     [ "CORE.Shared.Colors.ColorLibrary", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.html", null ],
     [ "CORE.Shared.Console.CommonConsoleCommands", "class_c_o_r_e_1_1_shared_1_1_console_1_1_common_console_commands.html", null ],
     [ "CORE.Shared.Configs.ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", null ],
+    [ "CORE.Shared.Configs.ConfigVisual< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g.html", null ],
+    [ "CORE.Shared.Utils.Mouse.CursorExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions.html", null ],
+    [ "CORE.Shared.Utils.Mouse.CursorExtensions.CursorInfoStruct", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions_1_1_cursor_info_struct.html", null ],
     [ "CORE.Shared.UI.Custom.Settings.CustomElementSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_custom_element_settings.html", [
       [ "CORE.Shared.UI.Custom.Settings.SpriteSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_sprite_settings.html", null ],
       [ "CORE.Shared.UI.Custom.Settings.TextureSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_texture_settings.html", null ]
     ] ],
+    [ "CORE.Shared.UI.Custom.CustomTableField< T >", "struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_table_field-1-g.html", null ],
     [ "CORE.Shared.UI.Custom.Data.CustomTableItemData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_item_data.html", [
       [ "CORE.Examples.UI.ExampleCustomTableItemData", "class_c_o_r_e_1_1_examples_1_1_u_i_1_1_example_custom_table_item_data.html", null ],
       [ "CORE.Shared.UI.Custom.Data.CustomTableTextItemData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_custom_table_text_item_data.html", null ]
@@ -55,16 +60,13 @@ var hierarchy =
     [ "CORE.Shared.Configs.EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", null ],
     [ "CORE.Shared.Utils.EnumExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_enum_extensions.html", null ],
     [ "CORE.Shared.Utils.Resources.ResourceSettings.AssetData.EnumValue", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data_1_1_enum_value.html", null ],
-    [ "MyLibrary::Example", "class_my_library_1_1_example.html", [
-      [ "MyLibrary::SubclassExample< TemplatedClass >", "class_my_library_1_1_subclass_example.html", null ]
-    ] ],
     [ "CORE.ModTool.Editor.Exporting.ExportData", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_data.html", null ],
     [ "CORE.ModTool.Editor.Exporting.ExportStep", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_step.html", [
       [ "CORE.ModTool.Editor.Exporting.Steps.ValidationStep", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_steps_1_1_validation_step.html", null ]
     ] ],
     [ "CORE.Shared.Utils.Extentions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html", null ],
     [ "CORE.Shared.Utils.FileManager", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_manager.html", null ],
-    [ "CORE.Shared.Utils.FileTypesExtentions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extentions.html", null ],
+    [ "CORE.Shared.Utils.FileTypesExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_types_extensions.html", null ],
     [ "CORE.Shared.Utils.Fillters", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_fillters.html", null ],
     [ "CORE.ModTool.Editor.Exporting.FilteredEnumMaskField", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_filtered_enum_mask_field.html", null ],
     [ "CORE.Shared.Inputs.GameInputSetting", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_game_input_setting.html", null ],
@@ -124,6 +126,9 @@ var hierarchy =
       [ "CORE.Shared.Configs.Settings.Data.ControlInputSetting", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting.html", null ]
     ] ],
     [ "CORE.Shared.Utils.IFixedUpdateListiner", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html", null ],
+    [ "IFormattable", null, [
+      [ "CORE.Shared.Utils.HelperSaveData.SerializableVector2Int", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2_int.html", null ]
+    ] ],
     [ "CORE.Shared.UI.Custom.Interfaces.IImageModifier", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_modifier.html", [
       [ "CORE.Shared.UI.Custom.CustomImage", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_image.html", null ],
       [ "CORE.Shared.UI.Custom.CustomRawImage", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_raw_image.html", null ]
@@ -189,6 +194,8 @@ var hierarchy =
     [ "ISubmitHandler", null, [
       [ "CORE.Shared.UI.Custom.CustomDropdown", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html", null ]
     ] ],
+    [ "CORE.Shared.Utils.ItemSteamTagExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_item_steam_tag_extensions.html", null ],
+    [ "CORE.Shared.Steam.SteamItem.ItemValueData", "struct_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_item_1_1_item_value_data.html", null ],
     [ "CORE.Shared.Utils.IUpdateListiner", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner.html", [
       [ "CORE.Shared.Audio.AudioSystem", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html", null ],
       [ "CORE.Shared.Inputs.InputSystem", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_input_system.html", null ],
@@ -200,6 +207,7 @@ var hierarchy =
       [ "CORE.Shared.Colors.PaletteData", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html", null ],
       [ "CORE.Shared.Colors.PaletteData.ColorData", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html", null ],
       [ "CORE.Shared.UI.Custom.Components.CustomComponentBase", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_custom_component_base.html", null ],
+      [ "CORE.Shared.UI.Custom.Data.TabsItemData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_tabs_item_data.html", null ],
       [ "CORE.Shared.Utils.Resources.ResourceSettings.AssetData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html", null ]
     ] ],
     [ "CORE.Shared.UI.VisualView.IView", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html", [
@@ -262,6 +270,7 @@ var hierarchy =
     [ "CORE.ModTool.Shared.ModUtils", "class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_mod_utils.html", null ],
     [ "MonoBehaviour", null, [
       [ "CORE.Examples.ConfigsExample", "class_c_o_r_e_1_1_examples_1_1_configs_example.html", null ],
+      [ "CORE.Examples.CustomTableFieldTemplateItem", "class_c_o_r_e_1_1_examples_1_1_custom_table_field_template_item.html", null ],
       [ "CORE.Examples.CustomUIExample", "class_c_o_r_e_1_1_examples_1_1_custom_u_i_example.html", null ],
       [ "CORE.Examples.InputsExample", "class_c_o_r_e_1_1_examples_1_1_inputs_example.html", null ],
       [ "CORE.Examples.LoadUnloadResourcesExample", "class_c_o_r_e_1_1_examples_1_1_load_unload_resources_example.html", null ],
@@ -278,12 +287,14 @@ var hierarchy =
       [ "CORE.Shared.BootBase", "class_c_o_r_e_1_1_shared_1_1_boot_base.html", [
         [ "CORE.Examples.Boot", "class_c_o_r_e_1_1_examples_1_1_boot.html", null ]
       ] ],
+      [ "CORE.Shared.Dispatcher", "class_c_o_r_e_1_1_shared_1_1_dispatcher.html", null ],
       [ "CORE.Shared.GameApplication", "class_c_o_r_e_1_1_shared_1_1_game_application.html", null ],
       [ "CORE.Shared.GlobalUpdater", "class_c_o_r_e_1_1_shared_1_1_global_updater.html", null ],
       [ "CORE.Shared.Inputs.InputSystem", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_input_system.html", null ],
       [ "CORE.Shared.Save.SaveComponentsManager", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_components_manager.html", null ],
       [ "CORE.Shared.ScenesLoader.LoaderCallback", "class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_loader_callback.html", null ],
       [ "CORE.Shared.ScenesLoader.SceneLoader.LoadingMonoBehaviour", "class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader_1_1_loading_mono_behaviour.html", null ],
+      [ "CORE.Shared.Steam.Debug.DebugSteamInventory", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html", null ],
       [ "CORE.Shared.Steam.SteamLoader", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_loader.html", null ],
       [ "CORE.Shared.Steam.SteamManager", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_manager.html", null ],
       [ "CORE.Shared.UI.CanvasReference", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_canvas_reference.html", null ],
@@ -298,6 +309,7 @@ var hierarchy =
       [ "CORE.Shared.UI.MaskableSwitchHelper", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_maskable_switch_helper.html", null ],
       [ "CORE.Shared.UI.Other.LoadingIcon", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon.html", null ],
       [ "CORE.Shared.UI.UIComponentScaler", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_component_scaler.html", null ],
+      [ "CORE.Shared.UI.UIScaler", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html", null ],
       [ "CORE.Shared.UI.VisualView.GlobalVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html", null ],
       [ "CORE.Shared.UI.VisualView.Visual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html", [
         [ "CORE.Examples.PlayerVisual", "class_c_o_r_e_1_1_examples_1_1_player_visual.html", null ],
@@ -321,8 +333,6 @@ var hierarchy =
       [ "CORE.Shared.Utils.Resources.ResourceComponent", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_component.html", null ],
       [ "CORE.Shared.Utils.SceneLayers", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_layers.html", null ],
       [ "CORE.Shared.Utils.SingletonMonoBehaviour< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html", [
-        [ "CORE.Shared.Dispatcher", "class_c_o_r_e_1_1_shared_1_1_dispatcher.html", null ],
-        [ "CORE.Shared.UI.UIScaler", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html", null ],
         [ "CORE.Shared.UI.VisualView.ProgressVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_progress_visual.html", null ]
       ] ]
     ] ],
@@ -336,6 +346,7 @@ var hierarchy =
     [ "CORE.ModTool.Editor.Exporting.PackageInstaller", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_package_installer.html", null ],
     [ "CORE.Shared.PauseSystem", "class_c_o_r_e_1_1_shared_1_1_pause_system.html", null ],
     [ "CORE.Shared.Utils.PlayerPrefsSave", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_player_prefs_save.html", null ],
+    [ "CORE.Shared.Utils.Mouse.CursorExtensions.PointStruct", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions_1_1_point_struct.html", null ],
     [ "CORE.Shared.Utils.AssetBundles.Progress", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_progress.html", [
       [ "CORE.Shared.Utils.AssetBundles.DownloadProgress", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_download_progress.html", null ],
       [ "CORE.Shared.Utils.AssetBundles.LoadFileProgress", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_load_file_progress.html", null ]
@@ -348,6 +359,7 @@ var hierarchy =
       [ "CORE.Shared.Utils.Attributes.ReadOnlyAttribute", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_attributes_1_1_read_only_attribute.html", null ]
     ] ],
     [ "CORE.Shared.UI.Custom.PropertyConfiguration", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_property_configuration.html", null ],
+    [ "CORE.Shared.Utils.QualityExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_quality_extensions.html", null ],
     [ "RawImage", null, [
       [ "CORE.Shared.UI.Custom.CustomRawImage", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_raw_image.html", null ]
     ] ],
@@ -362,6 +374,7 @@ var hierarchy =
     [ "CORE.Shared.Generated.Resources.ResourcesGenerated", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html", null ],
     [ "CORE.Shared.Utils.Resources.ResourcesManager", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resources_manager.html", null ],
     [ "CORE.Shared.Generated.Resources.ResourcesPlayerGenerated", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_player_generated.html", null ],
+    [ "CORE.Shared.Steam.ResponseData", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_response_data.html", null ],
     [ "CORE.ModTool.Shared.Verification.Restriction", "class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_restriction.html", [
       [ "CORE.ModTool.Shared.Verification.InheritanceRestriction", "class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_inheritance_restriction.html", null ],
       [ "CORE.ModTool.Shared.Verification.MemberRestriction", "class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_verification_1_1_member_restriction.html", null ],
@@ -398,13 +411,11 @@ var hierarchy =
     [ "ScrollRect", null, [
       [ "CORE.Shared.UI.Custom.CustomScrollRect", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_scroll_rect.html", null ]
     ] ],
-    [ "MyLibrary::SecondExample", "class_my_library_1_1_second_example.html", null ],
     [ "Selectable", null, [
       [ "CORE.Shared.UI.Custom.CustomDropdown", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html", null ],
       [ "CORE.Shared.UI.Custom.CustomSelectable", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_selectable.html", null ]
     ] ],
     [ "CORE.Shared.Utils.HelperSaveData.SerializableVector2", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html", null ],
-    [ "CORE.Shared.Utils.HelperSaveData.SerializableVector2Int", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2_int.html", null ],
     [ "CORE.Shared.Utils.HelperSaveData.SerializableVector3", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector3.html", null ],
     [ "CORE.Shared.Utils.HelperSaveData.SerializableVector4", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector4.html", null ],
     [ "CORE.Shared.GameSettings.Settings", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html", null ],
@@ -412,8 +423,10 @@ var hierarchy =
     [ "Slider", null, [
       [ "CORE.Shared.UI.Custom.CustomSlider", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_slider.html", null ]
     ] ],
+    [ "CORE.Shared.Steam.SteamInventoryManager", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_inventory_manager.html", null ],
+    [ "CORE.Shared.Steam.SteamItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_item.html", null ],
+    [ "CORE.Shared.Steam.SteamPlayerItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item.html", null ],
     [ "CORE.Shared.Utils.StringExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_string_extensions.html", null ],
-    [ "CORE.Shared.UI.Custom.Data.TabsItemData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_tabs_item_data.html", null ],
     [ "CORE.Shared.Configs.Data.TextConfigData", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_text_config_data.html", null ],
     [ "CORE.Shared.Utils.Timer.TimerData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_data.html", [
       [ "CORE.Shared.Utils.Timer.TimerDateData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_date_data.html", null ],

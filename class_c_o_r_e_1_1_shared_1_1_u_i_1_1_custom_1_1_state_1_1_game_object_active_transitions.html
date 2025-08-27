@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.UI.Custom.State.GameObjectActiveTransitions Class Reference</title>
-<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,9 +32,8 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -110,7 +108,9 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.UI.Custom.State.GameObjectActiveTransitions Class Reference</div></div>
 </div><!--header-->
@@ -175,10 +175,22 @@ Properties</h2></td></tr>
 <tr class="memitem:a29cd5f16943d3bab01b3ef975d71cb3e inherit properties_class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection" id="r_a29cd5f16943d3bab01b3ef975d71cb3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection.html#a29cd5f16943d3bab01b3ef975d71cb3e">Target</a><code> [get]</code></td></tr>
 <tr class="separator:a29cd5f16943d3bab01b3ef975d71cb3e inherit properties_class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transition_state_collection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aa2b9f970927a44e1a697b7ddb15c226c" id="r_aa2b9f970927a44e1a697b7ddb15c226c"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b9f970927a44e1a697b7ddb15c226c">Delay</a> (bool value, float duration)</td></tr>
+<tr class="separator:aa2b9f970927a44e1a697b7ddb15c226c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ab3fd527169782a8a6f340667fda6f5ff" id="r_ab3fd527169782a8a6f340667fda6f5ff"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3fd527169782a8a6f340667fda6f5ff">_target</a></td></tr>
 <tr class="separator:ab3fd527169782a8a6f340667fda6f5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ce2c2c02712f3763c61f158cf73ac5e" id="r_a8ce2c2c02712f3763c61f158cf73ac5e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ce2c2c02712f3763c61f158cf73ac5e">_delay</a> = 0.0f</td></tr>
+<tr class="separator:a8ce2c2c02712f3763c61f158cf73ac5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aad55d556944a705b8d2a518d4fbfe025" id="r_aad55d556944a705b8d2a518d4fbfe025"><td class="memItemLeft" align="right" valign="top">static TransitionCoroutines&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions.html">GameObjectActiveTransitions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad55d556944a705b8d2a518d4fbfe025">_transitionCoroutines</a> = new()</td></tr>
+<tr class="separator:aad55d556944a705b8d2a518d4fbfe025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -254,7 +266,58 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa2b9f970927a44e1a697b7ddb15c226c" name="aa2b9f970927a44e1a697b7ddb15c226c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b9f970927a44e1a697b7ddb15c226c">&#9670;&#160;</a></span>Delay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator CORE.Shared.UI.Custom.State.GameObjectActiveTransitions.Delay </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>duration</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8ce2c2c02712f3763c61f158cf73ac5e" name="a8ce2c2c02712f3763c61f158cf73ac5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce2c2c02712f3763c61f158cf73ac5e">&#9670;&#160;</a></span>_delay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CORE.Shared.UI.Custom.State.GameObjectActiveTransitions._delay = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab3fd527169782a8a6f340667fda6f5ff" name="ab3fd527169782a8a6f340667fda6f5ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3fd527169782a8a6f340667fda6f5ff">&#9670;&#160;</a></span>_target</h2>
 
@@ -271,6 +334,28 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad55d556944a705b8d2a518d4fbfe025" name="aad55d556944a705b8d2a518d4fbfe025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad55d556944a705b8d2a518d4fbfe025">&#9670;&#160;</a></span>_transitionCoroutines</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TransitionCoroutines&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_game_object_active_transitions.html">GameObjectActiveTransitions</a>&gt; CORE.Shared.UI.Custom.State.GameObjectActiveTransitions._transitionCoroutines = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

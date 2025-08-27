@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.UI.VisualView.Visual Class Reference</title>
-<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,9 +32,8 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -153,6 +151,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2a97ff335691980d5508e3f95e04537f" id="r_a2a97ff335691980d5508e3f95e04537f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a97ff335691980d5508e3f95e04537f">OnSceneLoaded</a> ()</td></tr>
+<tr class="separator:a2a97ff335691980d5508e3f95e04537f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a6194ba70f618d00f82a4226c4964b8" id="r_a0a6194ba70f618d00f82a4226c4964b8"><td class="memItemLeft" align="right" valign="top">virtual async void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a6194ba70f618d00f82a4226c4964b8">Start</a> ()</td></tr>
 <tr class="separator:a0a6194ba70f618d00f82a4226c4964b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdb651be9790220161043a3bdbd81712" id="r_afdb651be9790220161043a3bdbd81712"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdb651be9790220161043a3bdbd81712">Awake</a> ()</td></tr>
@@ -171,6 +171,9 @@ Properties</h2></td></tr>
 <tr class="memitem:aec097ab9e0aeb92d17bb27aa51fcc0a4" id="r_aec097ab9e0aeb92d17bb27aa51fcc0a4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_generated.html#aeb1f1256981a02489ca95daefb76804b">VisualNames</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec097ab9e0aeb92d17bb27aa51fcc0a4">Name</a><code> [get]</code></td></tr>
 <tr class="memdesc:aec097ab9e0aeb92d17bb27aa51fcc0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the visual, by default it has the value Default. Serves to search for a visual among others.  <br /></td></tr>
 <tr class="separator:aec097ab9e0aeb92d17bb27aa51fcc0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb94f390a2912f232fe54a1be4cfeb0" id="r_aabb94f390a2912f232fe54a1be4cfeb0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb94f390a2912f232fe54a1be4cfeb0">InitializedIfDisable</a> = false<code> [get]</code></td></tr>
+<tr class="memdesc:aabb94f390a2912f232fe54a1be4cfeb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the object is not active when the scene loads but requires it to be initialized.  <br /></td></tr>
+<tr class="separator:aabb94f390a2912f232fe54a1be4cfeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac48beee797e70973b3cf97a71631ecf9" id="r_ac48beee797e70973b3cf97a71631ecf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html">IView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac48beee797e70973b3cf97a71631ecf9">View</a><code> [get, private set]</code></td></tr>
 <tr class="separator:ac48beee797e70973b3cf97a71631ecf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad56763eb6612cc4f295faa04507611d0" id="r_ad56763eb6612cc4f295faa04507611d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad56763eb6612cc4f295faa04507611d0">IsActive</a><code> [get, private set]</code></td></tr>
@@ -385,6 +388,31 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a2a97ff335691980d5508e3f95e04537f" name="a2a97ff335691980d5508e3f95e04537f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a97ff335691980d5508e3f95e04537f">&#9670;&#160;</a></span>OnSceneLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CORE.Shared.UI.VisualView.Visual.OnSceneLoaded </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa4f3cd50a3a4379be675d73b38f033d4" name="aa4f3cd50a3a4379be675d73b38f033d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4f3cd50a3a4379be675d73b38f033d4">&#9670;&#160;</a></span>Show()</h2>
 
@@ -459,6 +487,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Whether the object has been initialized or not. If false then the object has not been activated yet and there is a high probability that the <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html">IView</a> view has not been created yet. To create it manually use the <a class="el" href="#a976a501996e6c94543cf9c3b13459b1c" title="Forces the component to appear even if it is not active.">ForceCreate</a> method. </p>
+
+</div>
+</div>
+<a id="aabb94f390a2912f232fe54a1be4cfeb0" name="aabb94f390a2912f232fe54a1be4cfeb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb94f390a2912f232fe54a1be4cfeb0">&#9670;&#160;</a></span>InitializedIfDisable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool CORE.Shared.UI.VisualView.Visual.InitializedIfDisable = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If the object is not active when the scene loads but requires it to be initialized. </p>
 
 </div>
 </div>

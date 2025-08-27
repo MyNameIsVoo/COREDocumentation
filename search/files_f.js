@@ -22,7 +22,9 @@ var searchData=
   ['statesexamples_2ecs_19',['StatesExamples.cs',['../_states_examples_8cs.html',1,'']]],
   ['staticcollectionpools_2ecs_20',['StaticCollectionPools.cs',['../_static_collection_pools_8cs.html',1,'']]],
   ['staticpool_2ecs_21',['StaticPool.cs',['../_static_pool_8cs.html',1,'']]],
-  ['steamloader_2ecs_22',['SteamLoader.cs',['../_steam_loader_8cs.html',1,'']]],
-  ['steammanager_2ecs_23',['SteamManager.cs',['../_steam_manager_8cs.html',1,'']]],
-  ['subclass_2dexample_2ehpp_24',['subclass-example.hpp',['../subclass-example_8hpp.html',1,'']]]
+  ['steaminventorymanager_2ecs_22',['SteamInventoryManager.cs',['../_steam_inventory_manager_8cs.html',1,'']]],
+  ['steamitem_2ecs_23',['SteamItem.cs',['../_steam_item_8cs.html',1,'']]],
+  ['steamloader_2ecs_24',['SteamLoader.cs',['../_steam_loader_8cs.html',1,'']]],
+  ['steammanager_2ecs_25',['SteamManager.cs',['../_steam_manager_8cs.html',1,'']]],
+  ['steamplayeritem_2ecs_26',['SteamPlayerItem.cs',['../_steam_player_item_8cs.html',1,'']]]
 ];

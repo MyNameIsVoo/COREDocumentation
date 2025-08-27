@@ -1,16 +1,19 @@
 var searchData=
 [
-  ['qualitylevel_0',['QualityLevel',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a6284f978537d00e6883a3dd8186b7c67',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
-  ['qualitylevel_5fcustom_1',['QUALITYLEVEL_CUSTOM',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da236922560437e31293344466a20e0950',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
-  ['qualitylevel_5fhigh_2',['QUALITYLEVEL_HIGH',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da2fb02cf4e97534f0e830388907020df3',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
-  ['qualitylevel_5flow_3',['QUALITYLEVEL_LOW',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da14f335842d4c1dba8994648987c77618',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
-  ['qualitylevel_5fmedium_4',['QUALITYLEVEL_MEDIUM',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da241080f1b2b61db39089c1e9143fa250',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
-  ['qualitylevel_5fultra_5',['QUALITYLEVEL_ULTRA',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da88e5503fe192b65f77f4b11940e65485',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
-  ['qualitypresetsetting_6',['QualityPresetSetting',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html',1,'CORE::Shared::Configs::Settings::Data']]],
-  ['qualitypresetsetting_2ecs_7',['QualityPresetSetting.cs',['../_quality_preset_setting_8cs.html',1,'']]],
-  ['qualitypresetsettings_8',['QualityPresetSettings',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a19fc29a69f05df15aa32ab604c80663a',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
-  ['quarter_9',['Quarter',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a0a55bddef69ee4c9cb2997e781bea407',1,'CORE::Shared::Utils::MathHelper']]],
-  ['queuemodrefresh_10',['QueueModRefresh',['../class_c_o_r_e_1_1_mod_tool_1_1_mod_manager.html#ae0d745b98c2331bc50017c5dfdd31187',1,'CORE::ModTool::ModManager']]],
-  ['quinticblend_11',['QuinticBlend',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a6aa8599a9377c092667a3d812ab47426',1,'CORE::Shared::Utils::MathHelper']]],
-  ['quotes_12',['Quotes',['../class_my_library_1_1_example.html#autotoc_md26',1,'']]]
+  ['quality_0',['Quality',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_item.html#afb97746ad8c7b44278575c42be95a976',1,'CORE.Shared.Steam.SteamItem.Quality'],['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#a37df69ef0f8cbdd034cf7981bf7a94a6',1,'CORE.Shared.Utils.Quality']]],
+  ['quality_5fcommon_1',['QUALITY_COMMON',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca7e1dfb49201d677347ddc9659b8a109a',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
+  ['quality_5fepic_2',['QUALITY_EPIC',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca2e65f4d5de83e893c683377d1e36f791',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
+  ['quality_5flegendary_3',['QUALITY_LEGENDARY',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca5cadb6309300d954af433002fbbc671b',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
+  ['quality_5fmythic_4',['QUALITY_MYTHIC',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eecaf7494f0f783d1870a9a143a19de32993',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
+  ['quality_5frare_5',['QUALITY_RARE',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca9c784813f351f02d8215f2241d416cba',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
+  ['quality_5funcommon_6',['QUALITY_UNCOMMON',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca2f388944ee9f26bed782a14de1ca0e77',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
+  ['qualityextensions_7',['QualityExtensions',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_quality_extensions.html',1,'CORE::Shared::Utils']]],
+  ['qualitylevel_8',['QualityLevel',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a6284f978537d00e6883a3dd8186b7c67',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
+  ['qualitypresetsetting_9',['QualityPresetSetting',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html',1,'CORE::Shared::Configs::Settings::Data']]],
+  ['qualitypresetsetting_2ecs_10',['QualityPresetSetting.cs',['../_quality_preset_setting_8cs.html',1,'']]],
+  ['qualitypresetsettings_11',['QualityPresetSettings',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a19fc29a69f05df15aa32ab604c80663a',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
+  ['quantity_12',['Quantity',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item.html#ae27339747f9aaae5e58dc57c24b5a2fd',1,'CORE::Shared::Steam::SteamPlayerItem']]],
+  ['quarter_13',['Quarter',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a0a55bddef69ee4c9cb2997e781bea407',1,'CORE::Shared::Utils::MathHelper']]],
+  ['queuemodrefresh_14',['QueueModRefresh',['../class_c_o_r_e_1_1_mod_tool_1_1_mod_manager.html#ae0d745b98c2331bc50017c5dfdd31187',1,'CORE::ModTool::ModManager']]],
+  ['quinticblend_15',['QuinticBlend',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a6aa8599a9377c092667a3d812ab47426',1,'CORE::Shared::Utils::MathHelper']]]
 ];

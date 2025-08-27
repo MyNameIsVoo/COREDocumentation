@@ -26,58 +26,11 @@ var NAVTREE =
 [
   [ "CORE Game Developers Toolkit", "index.html", [
     [ "C.O.R.E. - Game Developer's Toolkit", "index.html", "index" ],
-    [ "Customization", "md_doxygen-awesome-css-main_2docs_2customization.html", [
-      [ "CSS-Variables", "md_doxygen-awesome-css-main_2docs_2customization.html#autotoc_md1", [
-        [ "Setup", "md_doxygen-awesome-css-main_2docs_2customization.html#autotoc_md2", null ],
-        [ "Available variables", "md_doxygen-awesome-css-main_2docs_2customization.html#autotoc_md3", null ]
-      ] ],
-      [ "Doxygen generator", "md_doxygen-awesome-css-main_2docs_2customization.html#autotoc_md4", null ],
-      [ "Share your customizations", "md_doxygen-awesome-css-main_2docs_2customization.html#autotoc_md5", null ]
-    ] ],
-    [ "Extensions", "md_doxygen-awesome-css-main_2docs_2extensions.html", [
-      [ "Dark Mode Toggle", "md_doxygen-awesome-css-main_2docs_2extensions.html#extension-dark-mode-toggle", [
-        [ "Installation", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md7", null ],
-        [ "Customizing", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md8", null ]
-      ] ],
-      [ "Fragment Copy Button", "md_doxygen-awesome-css-main_2docs_2extensions.html#extension-copy-button", [
-        [ "Installation", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md9", null ],
-        [ "Customizing", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md10", null ]
-      ] ],
-      [ "Paragraph Linking", "md_doxygen-awesome-css-main_2docs_2extensions.html#extension-para", [
-        [ "Installation", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md11", null ],
-        [ "Customizing", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md12", null ]
-      ] ],
-      [ "Interactive TOC", "md_doxygen-awesome-css-main_2docs_2extensions.html#extension-toc", [
-        [ "Installation", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md13", null ],
-        [ "Customizing", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md14", null ]
-      ] ],
-      [ "Tabs", "md_doxygen-awesome-css-main_2docs_2extensions.html#extension-tabs", [
-        [ "Installation", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md15", null ],
-        [ "Usage", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md16", null ]
-      ] ],
-      [ "Page Navigation", "md_doxygen-awesome-css-main_2docs_2extensions.html#extension-page-navigation", [
-        [ "Installation", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md17", null ],
-        [ "Usage", "md_doxygen-awesome-css-main_2docs_2extensions.html#autotoc_md18", null ]
-      ] ]
-    ] ],
-    [ "Tips & Tricks", "md_doxygen-awesome-css-main_2docs_2tricks.html", [
-      [ "Diagrams with Graphviz", "md_doxygen-awesome-css-main_2docs_2tricks.html#tricks-graphviz", null ],
-      [ "Disable Dark Mode", "md_doxygen-awesome-css-main_2docs_2tricks.html#tricks-darkmode", null ],
-      [ "Choosing Sidebar Width", "md_doxygen-awesome-css-main_2docs_2tricks.html#tricks-sidebar", null ],
-      [ "Formatting Tables", "md_doxygen-awesome-css-main_2docs_2tricks.html#tricks-tables", [
-        [ "Centering", "md_doxygen-awesome-css-main_2docs_2tricks.html#autotoc_md20", null ],
-        [ "Full Width", "md_doxygen-awesome-css-main_2docs_2tricks.html#autotoc_md21", null ]
-      ] ]
-    ] ],
-    [ "Bug List", "bug.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
-    [ "Todo List", "todo.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
       [ "Package Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
+        [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -107,33 +60,33 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_android_assembly_resolver_8cs.html",
-"_when_all_awaiter_8cs.html",
-"class_c_o_r_e_1_1_examples_1_1_timer_example.html#a6682e2d5eff0d1c6821ec9ff67e0c201",
-"class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_filtered_enum_mask_field.html#ab7034da7d601da91f16166d65d4d4dd2",
-"class_c_o_r_e_1_1_mod_tool_1_1_mod_manager.html#a784ae393a0ae2a020096c572bb22eec0",
-"class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.html#ada3527769b616b09ab4500c42b081090",
-"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html#a8704ca98cba8225bdfee549be103ed06",
-"class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g.html#a8852ce1c9dbf7b72738953e46e5a46b7",
-"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a9c530433bc08f104c93b92a1f2fe189aab89de3b4b81c4facfac906edf29aec8c",
-"class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html#ae871f97ceb384f820f832ca5bf8bce8d",
-"class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#ad96502a849383213ae054c27c33873df",
-"class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da754a4312ca64aacf2e76f9f8b69d7bf1",
-"class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a7a7edbefa8fd19c9c3ef625a9d2660f5a0920433c5fc804bd66d2d08502ae4273",
-"class_c_o_r_e_1_1_shared_1_1_global_updater.html#abc0253693e6e5fe19a785db84c0fcc85",
-"class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader_1_1_loading_mono_behaviour.html",
+"_user_data_8cs.html",
+"class_c_o_r_e_1_1_examples_1_1_test_single_config.html#a56a0428207a5c997294e0b0e200d4c2b",
+"class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_filtered_enum_mask_field.html#a3eb1be4f625ad71e4fe8d3450afed711",
+"class_c_o_r_e_1_1_mod_tool_1_1_mod_manager.html#a3dafc033a72ab35001c4d1a7dd9de6ec",
+"class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.html#a73d4687c9f4c2e194f8f3a959ce451db",
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a686ee63e0a501b8fb322a6ae684cf93a",
+"class_c_o_r_e_1_1_shared_1_1_configs_1_1_config.html",
+"class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a6f20a215b392e12dc4fcd4435c79b1d3",
+"class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting.html#ac0eacd59176432c716c51c8561451200",
+"class_c_o_r_e_1_1_shared_1_1_game_application_1_1_result_data.html#a4559e5387f8da9c4475df7b143507ac5",
+"class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a5985febcfe79b9e7963cd8770779d94b",
+"class_c_o_r_e_1_1_shared_1_1_inputs_1_1_game_input_setting.html#adb40d386c613a99b9c70d79eaab0f9db",
+"class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a7a10985556d346def3a3d9d8b6167888",
+"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_canvas_reference.html#a197f09a3cf7d7cf87bb44d604cca5e61",
 "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#ad4ed9d83df0510df2554c3a1bb388af9",
-"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_view.html#ad902fc0c55ab9737d03ca07982c9f1d0",
-"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_color32_transitions.html#a2b62812a915774ac1d59684edacff519",
-"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a6394ec215b8a17af50800f1c701b6e61",
-"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_loading_indicator_modal_view.html#ac195d788c0245273c3e1cd20292e63f5",
-"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view_saved-3-g.html",
-"class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a7844d4473905d50f30ac0bded47f02d9",
-"class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a590f6584010533dee545f7266f3e040d",
-"class_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_extensions.html#a392c00e3142a330d3fb6b137fc19a665",
-"dir_246b55747183767e642072af3855e113.html",
-"interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_mod_support_visual.html#a47d855747a58318db93276c1975b596c",
-"namespace_c_o_r_e_1_1_shared_1_1_utils.html#a35363c7f4bedfdfbb2217a2ae1dfa2dcab9f5c797ebbf55adccdd8539a65a0241",
-"struct_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_layers_1_1_layer.html#a2ed109e341ce39c17315a8d882a0976c"
+"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_tabs_view.html#a78d9e63dc9bf81f84ce5dd237f285cba",
+"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions.html#ac4a3b458cde14edc7c3138a737b1cb15",
+"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html#a08fc47f60ab985a8e80eeaba4b22259ea244823a8801ee0507a7b234197bf24c8",
+"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_info_modal_view.html#a681d8a5b780ffb0692d1e629d58a8fdf",
+"class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view-1-g.html#a75063455b8fd7f3468dd41339951c3ac",
+"class_c_o_r_e_1_1_shared_1_1_utils_1_1_attributes_1_1_read_only_attribute.html",
+"class_c_o_r_e_1_1_shared_1_1_utils_1_1_helper.html#a3f0310601af786f75637257053cde24a",
+"class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html",
+"class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_custom_timer-2-g.html#affa87c35470758c6070051788bbe0ec7",
+"index.html",
+"namespace_c_o_r_e_1_1_shared_1_1_game_settings.html",
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

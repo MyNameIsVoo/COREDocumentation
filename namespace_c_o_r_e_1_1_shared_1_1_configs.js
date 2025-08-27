@@ -7,6 +7,7 @@ var namespace_c_o_r_e_1_1_shared_1_1_configs =
     [ "ConfigList< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g" ],
     [ "ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g" ],
     [ "ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system" ],
+    [ "ConfigVisual< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g" ],
     [ "EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g" ],
     [ "GlobalConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config" ],
     [ "IConfigVaidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator" ],

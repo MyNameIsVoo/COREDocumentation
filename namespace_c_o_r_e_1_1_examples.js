@@ -4,6 +4,7 @@ var namespace_c_o_r_e_1_1_examples =
     [ "Boot", "class_c_o_r_e_1_1_examples_1_1_boot.html", "class_c_o_r_e_1_1_examples_1_1_boot" ],
     [ "BootInstallerDI", "class_c_o_r_e_1_1_examples_1_1_boot_installer_d_i.html", "class_c_o_r_e_1_1_examples_1_1_boot_installer_d_i" ],
     [ "ConfigsExample", "class_c_o_r_e_1_1_examples_1_1_configs_example.html", "class_c_o_r_e_1_1_examples_1_1_configs_example" ],
+    [ "CustomTableFieldTemplateItem", "class_c_o_r_e_1_1_examples_1_1_custom_table_field_template_item.html", "class_c_o_r_e_1_1_examples_1_1_custom_table_field_template_item" ],
     [ "CustomUIExample", "class_c_o_r_e_1_1_examples_1_1_custom_u_i_example.html", "class_c_o_r_e_1_1_examples_1_1_custom_u_i_example" ],
     [ "InputsExample", "class_c_o_r_e_1_1_examples_1_1_inputs_example.html", "class_c_o_r_e_1_1_examples_1_1_inputs_example" ],
     [ "LanguageDropdownOptionData", "class_c_o_r_e_1_1_examples_1_1_language_dropdown_option_data.html", "class_c_o_r_e_1_1_examples_1_1_language_dropdown_option_data" ],

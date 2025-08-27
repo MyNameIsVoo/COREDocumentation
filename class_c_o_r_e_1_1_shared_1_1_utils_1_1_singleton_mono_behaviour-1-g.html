@@ -6,7 +6,6 @@
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CORE Game Developers Toolkit: CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt; Class Template Reference</title>
-<link rel="icon" href="CoreLogoSmall.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,9 +32,8 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="CoreLogoSmall.png"/></td>
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.42</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,10 +104,11 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_
 
 <div class="header">
   <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
@@ -123,16 +122,26 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_
  <div class="center">
   <img src="class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.png" usemap="#CORE.Shared.Utils.SingletonMonoBehaviour_3C_20T_20_3E_map" alt=""/>
   <map id="CORE.Shared.Utils.SingletonMonoBehaviour_3C_20T_20_3E_map" name="CORE.Shared.Utils.SingletonMonoBehaviour_3C_20T_20_3E_map">
-<area href="class_c_o_r_e_1_1_shared_1_1_dispatcher.html" alt="CORE.Shared.Dispatcher" shape="rect" coords="0,112,296,136"/>
-<area href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html" title="A singletone that scale components based on global settings. There are plans to move away from this i..." alt="CORE.Shared.UI.UIScaler" shape="rect" coords="306,112,602,136"/>
-<area href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_progress_visual.html" title="The visual that is responsible for displaying a message when loading the first scene of the applicati..." alt="CORE.Shared.UI.VisualView.ProgressVisual" shape="rect" coords="612,112,908,136"/>
+<area href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_progress_visual.html" title="The visual that is responsible for displaying a message when loading the first scene of the applicati..." alt="CORE.Shared.UI.VisualView.ProgressVisual" shape="rect" coords="0,112,296,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab331ee1cdf8dcc63c827400dd04d66f2" id="r_ab331ee1cdf8dcc63c827400dd04d66f2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab331ee1cdf8dcc63c827400dd04d66f2">Initialize</a> ()</td></tr>
+<tr class="memdesc:ab331ee1cdf8dcc63c827400dd04d66f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicitly initialize the singleton if needed before accessing Instance.  <br /></td></tr>
+<tr class="separator:ab331ee1cdf8dcc63c827400dd04d66f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a03a4c8836e21996fed1a5461fed84cb8" id="r_a03a4c8836e21996fed1a5461fed84cb8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03a4c8836e21996fed1a5461fed84cb8">Awake</a> ()</td></tr>
 <tr class="separator:a03a4c8836e21996fed1a5461fed84cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17b00a58fed8820b04d266d248c6c290" id="r_a17b00a58fed8820b04d266d248c6c290"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17b00a58fed8820b04d266d248c6c290">OnSingletonInitialized</a> ()</td></tr>
+<tr class="separator:a17b00a58fed8820b04d266d248c6c290"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac40fc010c52f10006ebcbcb823eb1dba" id="r_ac40fc010c52f10006ebcbcb823eb1dba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40fc010c52f10006ebcbcb823eb1dba">OnApplicationQuit</a> ()</td></tr>
+<tr class="separator:ac40fc010c52f10006ebcbcb823eb1dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa527c65b36e64b98adfcd5fbe8ff6bd7" id="r_aa527c65b36e64b98adfcd5fbe8ff6bd7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa527c65b36e64b98adfcd5fbe8ff6bd7">OnDestroy</a> ()</td></tr>
+<tr class="separator:aa527c65b36e64b98adfcd5fbe8ff6bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -141,18 +150,25 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a1220fa03ebd4f80d93ce5f6337e02749" id="r_a1220fa03ebd4f80d93ce5f6337e02749"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1220fa03ebd4f80d93ce5f6337e02749">Instance</a><code> [get, private set]</code></td></tr>
+<tr class="memitem:a1220fa03ebd4f80d93ce5f6337e02749" id="r_a1220fa03ebd4f80d93ce5f6337e02749"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1220fa03ebd4f80d93ce5f6337e02749">Instance</a><code> [get]</code></td></tr>
 <tr class="separator:a1220fa03ebd4f80d93ce5f6337e02749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b2d2c1148bfdd864776c783986b08b" id="r_ac2b2d2c1148bfdd864776c783986b08b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b2d2c1148bfdd864776c783986b08b">InstanceExists</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac2b2d2c1148bfdd864776c783986b08b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safe way to check if singleton instance exists.  <br /></td></tr>
+<tr class="separator:ac2b2d2c1148bfdd864776c783986b08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a0877b8c74c45b07179556ce9b77fe70f" id="r_a0877b8c74c45b07179556ce9b77fe70f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0877b8c74c45b07179556ce9b77fe70f">Init</a> ()</td></tr>
-<tr class="separator:a0877b8c74c45b07179556ce9b77fe70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad23b85511bd1617091e7b293d804c627" id="r_ad23b85511bd1617091e7b293d804c627"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad23b85511bd1617091e7b293d804c627">DestroyDuplicate</a> ()</td></tr>
+<tr class="separator:ad23b85511bd1617091e7b293d804c627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a94ab224500020e5909736cf648fc6e02" id="r_a94ab224500020e5909736cf648fc6e02"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94ab224500020e5909736cf648fc6e02">_instance</a></td></tr>
 <tr class="separator:a94ab224500020e5909736cf648fc6e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e1905f9016cc6f50279aa775c3fac4" id="r_ab5e1905f9016cc6f50279aa775c3fac4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5e1905f9016cc6f50279aa775c3fac4">_isApplicationQuitting</a> = false</td></tr>
+<tr class="separator:ab5e1905f9016cc6f50279aa775c3fac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6dab5e1065a5be4e465cab6a038f3c4" id="r_ab6dab5e1065a5be4e465cab6a038f3c4"><td class="memItemLeft" align="right" valign="top">static readonly object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6dab5e1065a5be4e465cab6a038f3c4">_lock</a> = new object()</td></tr>
+<tr class="separator:ab6dab5e1065a5be4e465cab6a038f3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a03a4c8836e21996fed1a5461fed84cb8" name="a03a4c8836e21996fed1a5461fed84cb8"></a>
@@ -178,12 +194,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_dispatcher.html#aef667d78009f73094892c4fa7db21053">CORE.Shared.Dispatcher</a>, <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_u_i_scaler.html#a6d21bd81409af05126e86c0e633a2750">CORE.Shared.UI.UIScaler</a>, and <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_progress_visual.html#ad00e868dffeec147997e8342182be8f4">CORE.Shared.UI.VisualView.ProgressVisual</a>.</p>
+<p>Reimplemented in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_progress_visual.html#ad00e868dffeec147997e8342182be8f4">CORE.Shared.UI.VisualView.ProgressVisual</a>.</p>
 
 </div>
 </div>
-<a id="a0877b8c74c45b07179556ce9b77fe70f" name="a0877b8c74c45b07179556ce9b77fe70f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0877b8c74c45b07179556ce9b77fe70f">&#9670;&#160;</a></span>Init()</h2>
+<a id="ad23b85511bd1617091e7b293d804c627" name="ad23b85511bd1617091e7b293d804c627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad23b85511bd1617091e7b293d804c627">&#9670;&#160;</a></span>DestroyDuplicate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +208,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;.Init </td>
+          <td class="memname">void CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;.DestroyDuplicate </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -200,7 +216,109 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab331ee1cdf8dcc63c827400dd04d66f2" name="ab331ee1cdf8dcc63c827400dd04d66f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab331ee1cdf8dcc63c827400dd04d66f2">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;.Initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Explicitly initialize the singleton if needed before accessing Instance. </p>
+
+</div>
+</div>
+<a id="ac40fc010c52f10006ebcbcb823eb1dba" name="ac40fc010c52f10006ebcbcb823eb1dba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac40fc010c52f10006ebcbcb823eb1dba">&#9670;&#160;</a></span>OnApplicationQuit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;.OnApplicationQuit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa527c65b36e64b98adfcd5fbe8ff6bd7" name="aa527c65b36e64b98adfcd5fbe8ff6bd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa527c65b36e64b98adfcd5fbe8ff6bd7">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17b00a58fed8820b04d266d248c6c290" name="a17b00a58fed8820b04d266d248c6c290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17b00a58fed8820b04d266d248c6c290">&#9670;&#160;</a></span>OnSingletonInitialized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;.OnSingletonInitialized </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -252,6 +370,50 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab5e1905f9016cc6f50279aa775c3fac4" name="ab5e1905f9016cc6f50279aa775c3fac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e1905f9016cc6f50279aa775c3fac4">&#9670;&#160;</a></span>_isApplicationQuitting</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;._isApplicationQuitting = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6dab5e1065a5be4e465cab6a038f3c4" name="ab6dab5e1065a5be4e465cab6a038f3c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6dab5e1065a5be4e465cab6a038f3c4">&#9670;&#160;</a></span>_lock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly object CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;._lock = new object()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a1220fa03ebd4f80d93ce5f6337e02749" name="a1220fa03ebd4f80d93ce5f6337e02749"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1220fa03ebd4f80d93ce5f6337e02749">&#9670;&#160;</a></span>Instance</h2>
@@ -268,10 +430,34 @@ Static Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span><span class="mlabel private-set">private set</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2b2d2c1148bfdd864776c783986b08b" name="ac2b2d2c1148bfdd864776c783986b08b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b2d2c1148bfdd864776c783986b08b">&#9670;&#160;</a></span>InstanceExists</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Utils.SingletonMonoBehaviour&lt; T &gt;.InstanceExists</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Safe way to check if singleton instance exists. </p>
 
 </div>
 </div>

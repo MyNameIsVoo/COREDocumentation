@@ -1,0 +1,25 @@
+var class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory =
+[
+    [ "ConsumeFirstItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a6dc7d0b6749b11e20f5d8ce93af49941", null ],
+    [ "DropRandomLoot", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a3706d13507146fbc01854bdc50199b91", null ],
+    [ "ExchangeItems", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a4dd30fca88ac562142ba9c8ca51a1591", null ],
+    [ "FirstInit", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a2db4a466be0cd71ea10073de3704fa91", null ],
+    [ "GetAllItems", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#ad04066ee397f1e5fe06e7407698ad223", null ],
+    [ "GetItemDefinitionIDs", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a92c7a65c6af3b2eaa3218d1414f16146", null ],
+    [ "GetItemDefinitionProperty", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a0b3ae0e55297459d25c75d8ed70d51cd", null ],
+    [ "GetItemProperties", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a2ea6d36d52ded94ef78bb0dbf64c5908", null ],
+    [ "GetResultTimestamp", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#acc5b19a0c67704ea68efdbda95b2f5a5", null ],
+    [ "GrantItemsToPlayer", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a37e11e5ffe8c928e312a2653ab8a6ea0", null ],
+    [ "GrantPromoItems", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#af86ab40aa7fd55e57194c94d6ad77d6d", null ],
+    [ "LoadItemDefinitions", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#abaa05d0d4001373d15b4e77362e1c233", null ],
+    [ "PrintInventoryDetails", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a7016b4902dcb9d5acdd2cd6390e60e55", null ],
+    [ "RequestEligiblePromoItemDefinitionsIDs", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a270bd5e7a3dd7efbcedbb78ec97bdd24", null ],
+    [ "SendItemDropHeartbeat", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#aadb03372314fdc6419d49e9a0f5eb610", null ],
+    [ "_inventoryLog", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a35d647ec2f5d80e84b7bf579a771ebfd", null ],
+    [ "ItemId", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a7a10985556d346def3a3d9d8b6167888", null ],
+    [ "PromoItemId", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a2c63d02641cb4157e73c3f72b1efb01a", null ],
+    [ "DebugItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#ad68eb91c199f0554abbc6328ff792b6d", null ],
+    [ "DebugPromoItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a5d6b8ecc01badab4212697bd67e56744", null ],
+    [ "GeneratorDebugItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#a85b64abaca3f83e38e5e5b6c01d8983a", null ],
+    [ "HasLoadedItemDefinitions", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_debug_1_1_debug_steam_inventory.html#aa06dbefd23947b6ecf4b6b86d5ccd57a", null ]
+];

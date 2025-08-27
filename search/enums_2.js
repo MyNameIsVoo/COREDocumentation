@@ -1,7 +1,7 @@
 var searchData=
 [
   ['canvasgrouptypes_0',['CanvasGroupTypes',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_canvas_group_transitions.html#ac4a3b458cde14edc7c3138a737b1cb15',1,'CORE::Shared::UI::Custom::State::CanvasGroupTransitions']]],
-  ['color_1',['Color',['../namespace_my_library.html#a79a9f4bbb675f6c082b09249c5a95ced',1,'MyLibrary']]],
+  ['clientwarning_1',['ClientWarning',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#ab08f3ed90027a0f185acf2830e8d37c6',1,'CORE::Shared::Utils']]],
   ['colorenums_2',['ColorEnums',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eec',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
   ['colormode_3',['ColorMode',['../namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings.html#aef3b70f78e49576bedd1bf4adfdf08e7',1,'CORE::Shared::UI::Custom::Settings']]],
   ['colortweenmode_4',['ColorTweenMode',['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#aea373a3d192811237e508fede64184f6',1,'CORE::Shared::Utils']]],

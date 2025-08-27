@@ -7,6 +7,7 @@ var dir_468bdec08ecadc2e93847b5eee87db43 =
     [ "ConfigList.cs", "_config_list_8cs.html", "_config_list_8cs" ],
     [ "ConfigSingle.cs", "_config_single_8cs.html", "_config_single_8cs" ],
     [ "ConfigSystem.cs", "_config_system_8cs.html", "_config_system_8cs" ],
+    [ "ConfigVisual.cs", "_config_visual_8cs.html", "_config_visual_8cs" ],
     [ "EnumData.cs", "_enum_data_8cs.html", "_enum_data_8cs" ],
     [ "GlobalConfig.cs", "_global_config_8cs.html", "_global_config_8cs" ],
     [ "InputConfig.cs", "_input_config_8cs.html", "_input_config_8cs" ],

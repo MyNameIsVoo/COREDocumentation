@@ -5,7 +5,8 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_tra
       [ "AnchoredPosition", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560ba8003fc7cad117854fd830e9889799ba4", null ],
       [ "LocalPosition", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560ba107d0e78d1f9f4caca4fb205b6217ac7", null ],
       [ "LocalEulerAngles", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560ba91ab5a8482716d3c66d795cee4673d4c", null ],
-      [ "DeltaSize", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560baf2af45ffe76c076628a6442a16f4270e", null ]
+      [ "DeltaSize", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560baf2af45ffe76c076628a6442a16f4270e", null ],
+      [ "LocalScale", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a7cc8fbeb32717fe091b6fa0f6a6e560badef36d603bd15822a70484fc22572a61", null ]
     ] ],
     [ "RectTransformTransition", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#ac732dbd3ed8cf098503f75aabacb8707", null ],
     [ "ApplyState", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_rect_transform_transition.html#a8e26ec88620683d4868deb3680fca0ce", null ],

@@ -1,5 +1,6 @@
 var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_text_item_visual =
 [
+    [ "Clear", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_text_item_visual.html#a0e9f88a9973b7d58129f6891475465b6", null ],
     [ "Create", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_text_item_visual.html#aa6afb444f84f161e0e301175f1d6497e", null ],
     [ "SetData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_text_item_visual.html#af9e25ca3917f9435169ecb5130b26468", null ],
     [ "_textItemView", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_table_1_1_custom_table_text_item_visual.html#a84187f9fb70fda34cb3dc87943098746", null ],
