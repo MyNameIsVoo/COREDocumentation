@@ -51,13 +51,14 @@ var searchData=
   ['highlighted_48',['Highlighted',['../class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a497d64432bdc884d7621e1b2137fde4ba128f36ec46f7ca11bafb48cd2022a54c',1,'CORE.Shared.Audio.Data.AudioSelectionData.Highlighted'],['../namespace_c_o_r_e_1_1_shared_1_1_utils.html#a35363c7f4bedfdfbb2217a2ae1dfa2dca128f36ec46f7ca11bafb48cd2022a54c',1,'CORE.Shared.Utils.Highlighted']]],
   ['horizontalgradient_49',['HorizontalGradient',['../namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings.html#aef3b70f78e49576bedd1bf4adfdf08e7a8ea1a74b1d796ef52dcb01e066720d07',1,'CORE::Shared::UI::Custom::Settings']]],
   ['hot_20to_20save_50',['Hot to save?',['../index.html#autotoc_md15',1,'']]],
-  ['how_20to_20add_51',['How to add',['../index.html#autotoc_md11',1,'How to add?'],['../index.html#autotoc_md21',1,'How to add?']]],
-  ['how_20to_20create_20vvm_52',['How to create VVM?',['../index.html#autotoc_md19',1,'']]],
-  ['how_20to_20create_20your_20own_20mod_53',['How to create your own mod',['../index.html#autotoc_md7',1,'']]],
-  ['how_20to_20load_54',['How to load?',['../index.html#autotoc_md17',1,'']]],
-  ['how_20to_20subscribe_55',['How to subscribe',['../index.html#autotoc_md25',1,'How to subscribe?'],['../index.html#autotoc_md27',1,'How to subscribe?']]],
-  ['how_20to_20use_56',['How To Use?',['../index.html#autotoc_md42',1,'']]],
-  ['href_20https_3a_20assetstore_20unity_20com_20packages_20slug_20311902_20c_20o_20r_20e_20game_20developer_20s_20toolkit_20a_57',['Why choose &lt;a href=&quot;https://assetstore.unity.com/packages/slug/311902&quot; &gt;C.O.R.E. - Game Developer&apos;s Toolkit&lt;/a&gt;?',['../index.html#autotoc_md1',1,'']]],
-  ['https_3a_20assetstore_20unity_20com_20packages_20slug_20311902_20c_20o_20r_20e_20game_20developer_20s_20toolkit_20a_58',['Why choose &lt;a href=&quot;https://assetstore.unity.com/packages/slug/311902&quot; &gt;C.O.R.E. - Game Developer&apos;s Toolkit&lt;/a&gt;?',['../index.html#autotoc_md1',1,'']]],
-  ['hud_5fhealth_59',['HUD_HEALTH',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca241988380db293d60fece4fa26c5401f',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]]
+  ['how_20does_20it_20work_20general_20architecture_20strong_51',['&lt;strong&gt;How does it work? (General Architecture)&lt;/strong&gt;',['../index.html#autotoc_md45',1,'']]],
+  ['how_20to_20add_52',['How to add',['../index.html#autotoc_md11',1,'How to add?'],['../index.html#autotoc_md21',1,'How to add?']]],
+  ['how_20to_20create_20vvm_53',['How to create VVM?',['../index.html#autotoc_md19',1,'']]],
+  ['how_20to_20create_20your_20own_20mod_54',['How to create your own mod',['../index.html#autotoc_md7',1,'']]],
+  ['how_20to_20load_55',['How to load?',['../index.html#autotoc_md17',1,'']]],
+  ['how_20to_20subscribe_56',['How to subscribe',['../index.html#autotoc_md25',1,'How to subscribe?'],['../index.html#autotoc_md27',1,'How to subscribe?']]],
+  ['how_20to_20use_57',['How To Use?',['../index.html#autotoc_md47',1,'']]],
+  ['href_20https_3a_20assetstore_20unity_20com_20packages_20slug_20311902_20c_20o_20r_20e_20game_20developer_20s_20toolkit_20a_58',['Why choose &lt;a href=&quot;https://assetstore.unity.com/packages/slug/311902&quot; &gt;C.O.R.E. - Game Developer&apos;s Toolkit&lt;/a&gt;?',['../index.html#autotoc_md1',1,'']]],
+  ['https_3a_20assetstore_20unity_20com_20packages_20slug_20311902_20c_20o_20r_20e_20game_20developer_20s_20toolkit_20a_59',['Why choose &lt;a href=&quot;https://assetstore.unity.com/packages/slug/311902&quot; &gt;C.O.R.E. - Game Developer&apos;s Toolkit&lt;/a&gt;?',['../index.html#autotoc_md1',1,'']]],
+  ['hud_5fhealth_60',['HUD_HEALTH',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca241988380db293d60fece4fa26c5401f',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]]
 ];

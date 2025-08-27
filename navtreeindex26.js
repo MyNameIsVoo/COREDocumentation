@@ -1,5 +1,10 @@
 var NAVTREEINDEX26 =
 {
+"namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data.html":[1,0,0,2,2,2,0],
+"namespace_c_o_r_e_1_1_shared_1_1_console.html":[1,0,0,2,3],
+"namespace_c_o_r_e_1_1_shared_1_1_d_i.html":[1,0,0,2,5],
+"namespace_c_o_r_e_1_1_shared_1_1_data.html":[1,0,0,2,4],
+"namespace_c_o_r_e_1_1_shared_1_1_data_1_1_user.html":[1,0,0,2,4,0],
 "namespace_c_o_r_e_1_1_shared_1_1_game_settings.html":[1,0,0,2,6],
 "namespace_c_o_r_e_1_1_shared_1_1_generated.html":[1,0,0,2,7],
 "namespace_c_o_r_e_1_1_shared_1_1_generated.html#aeb1f1256981a02489ca95daefb76804b":[1,0,0,2,7,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX26 =
 "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#affd4b677335250c6221cfb76ec04f00e":[2,0,0,2,1,0,2],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html":[1,0,0,2,2,8],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html":[2,0,0,2,2,8],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d":[1,0,0,2,2,8,0],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d":[2,0,0,2,2,8,0],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a1b353493e33d23005e85f89bb2d5cf84":[1,0,0,2,2,8,3],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a1b353493e33d23005e85f89bb2d5cf84":[2,0,0,2,2,8,3],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a21ff4e9f5e3550c1ca33844339d91f9f":[1,0,0,2,2,8,6],
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a21ff4e9f5e3550c1ca33844339d91f9f":[2,0,0,2,2,8,6]
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d":[1,0,0,2,2,8,0]
 };

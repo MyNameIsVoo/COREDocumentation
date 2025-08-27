@@ -50,24 +50,30 @@ var index =
       ] ],
       [ "State Machine", "index.html#autotoc_md39", null ],
       [ "Utils", "index.html#autotoc_md40", null ],
-      [ "Localization", "index.html#autotoc_md41", null ]
+      [ "Localization", "index.html#autotoc_md41", null ],
+      [ "Steam Inventory", "index.html#autotoc_md42", [
+        [ "A Powerful Toolkit for Managing In-Game Items", "index.html#autotoc_md43", null ],
+        [ "What is it for?", "index.html#autotoc_md44", null ],
+        [ "How does it work? (General Architecture)", "index.html#autotoc_md45", null ],
+        [ "Basic Workflow Example", "index.html#autotoc_md46", null ]
+      ] ]
     ] ],
-    [ "How To Use?", "index.html#autotoc_md42", null ],
-    [ "Dependencies", "index.html#autotoc_md43", null ],
-    [ "Examples", "index.html#autotoc_md44", [
-      [ "Game Example", "index.html#autotoc_md45", [
-        [ "Try working with Asset Bundles", "index.html#autotoc_md46", null ]
+    [ "How To Use?", "index.html#autotoc_md47", null ],
+    [ "Dependencies", "index.html#autotoc_md48", null ],
+    [ "Examples", "index.html#autotoc_md49", [
+      [ "Game Example", "index.html#autotoc_md50", [
+        [ "Try working with Asset Bundles", "index.html#autotoc_md51", null ]
       ] ],
-      [ "Game Mods for Example", "index.html#autotoc_md47", null ],
-      [ "Tower Defence Example", "index.html#autotoc_md48", null ]
+      [ "Game Mods for Example", "index.html#autotoc_md52", null ],
+      [ "Tower Defence Example", "index.html#autotoc_md53", null ]
     ] ],
-    [ "Build Project", "index.html#autotoc_md49", null ],
-    [ "Compatibility", "index.html#autotoc_md50", null ],
-    [ "Platform", "index.html#autotoc_md51", null ],
-    [ "Tutorials TODO", "index.html#autotoc_md52", null ],
-    [ "ToDo", "index.html#autotoc_md53", null ],
-    [ "Contacts", "index.html#autotoc_md54", null ],
-    [ "Bug-reports", "index.html#autotoc_md55", null ],
-    [ "Refund policy", "index.html#autotoc_md56", null ],
-    [ "Updates", "index.html#autotoc_md57", null ]
+    [ "Build Project", "index.html#autotoc_md54", null ],
+    [ "Compatibility", "index.html#autotoc_md55", null ],
+    [ "Platform", "index.html#autotoc_md56", null ],
+    [ "Tutorials TODO", "index.html#autotoc_md57", null ],
+    [ "ToDo", "index.html#autotoc_md58", null ],
+    [ "Contacts", "index.html#autotoc_md59", null ],
+    [ "Bug-reports", "index.html#autotoc_md60", null ],
+    [ "Refund policy", "index.html#autotoc_md61", null ],
+    [ "Updates", "index.html#autotoc_md62", null ]
 ];

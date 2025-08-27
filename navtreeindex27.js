@@ -1,5 +1,10 @@
 var NAVTREEINDEX27 =
 {
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d":[2,0,0,2,2,8,0],
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a1b353493e33d23005e85f89bb2d5cf84":[1,0,0,2,2,8,3],
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a1b353493e33d23005e85f89bb2d5cf84":[2,0,0,2,2,8,3],
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a21ff4e9f5e3550c1ca33844339d91f9f":[1,0,0,2,2,8,6],
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a21ff4e9f5e3550c1ca33844339d91f9f":[2,0,0,2,2,8,6],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514":[1,0,0,2,2,8,2],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514":[2,0,0,2,2,8,2],
 "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a86b8f734c34c133b000037c218be1a5b":[1,0,0,2,2,8,5],

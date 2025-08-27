@@ -85,8 +85,8 @@ var NAVTREEINDEX =
 "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html",
 "class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_custom_timer-2-g.html#affa87c35470758c6070051788bbe0ec7",
 "index.html",
-"namespace_c_o_r_e_1_1_shared_1_1_game_settings.html",
-"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514"
+"namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data.html",
+"struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
