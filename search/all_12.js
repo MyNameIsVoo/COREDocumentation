@@ -9,11 +9,16 @@ var searchData=
   ['quality_5funcommon_6',['QUALITY_UNCOMMON',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eeca2f388944ee9f26bed782a14de1ca0e77',1,'CORE::Shared::Generated::Color::ColorCustomGenerated']]],
   ['qualityextensions_7',['QualityExtensions',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_quality_extensions.html',1,'CORE::Shared::Utils']]],
   ['qualitylevel_8',['QualityLevel',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a6284f978537d00e6883a3dd8186b7c67',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
-  ['qualitypresetsetting_9',['QualityPresetSetting',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html',1,'CORE::Shared::Configs::Settings::Data']]],
-  ['qualitypresetsetting_2ecs_10',['QualityPresetSetting.cs',['../_quality_preset_setting_8cs.html',1,'']]],
-  ['qualitypresetsettings_11',['QualityPresetSettings',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a19fc29a69f05df15aa32ab604c80663a',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
-  ['quantity_12',['Quantity',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item.html#ae27339747f9aaae5e58dc57c24b5a2fd',1,'CORE::Shared::Steam::SteamPlayerItem']]],
-  ['quarter_13',['Quarter',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a0a55bddef69ee4c9cb2997e781bea407',1,'CORE::Shared::Utils::MathHelper']]],
-  ['queuemodrefresh_14',['QueueModRefresh',['../class_c_o_r_e_1_1_mod_tool_1_1_mod_manager.html#ae0d745b98c2331bc50017c5dfdd31187',1,'CORE::ModTool::ModManager']]],
-  ['quinticblend_15',['QuinticBlend',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a6aa8599a9377c092667a3d812ab47426',1,'CORE::Shared::Utils::MathHelper']]]
+  ['qualitylevel_5fcustom_9',['QUALITYLEVEL_CUSTOM',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da236922560437e31293344466a20e0950',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
+  ['qualitylevel_5fhigh_10',['QUALITYLEVEL_HIGH',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da2fb02cf4e97534f0e830388907020df3',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
+  ['qualitylevel_5flow_11',['QUALITYLEVEL_LOW',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da14f335842d4c1dba8994648987c77618',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
+  ['qualitylevel_5fmedium_12',['QUALITYLEVEL_MEDIUM',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da241080f1b2b61db39089c1e9143fa250',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
+  ['qualitylevel_5fultra_13',['QUALITYLEVEL_ULTRA',['../class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2da88e5503fe192b65f77f4b11940e65485',1,'CORE::Shared::Generated::Localization::LocalizationTextGenerated']]],
+  ['qualitypresetsetting_14',['QualityPresetSetting',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html',1,'CORE::Shared::Configs::Settings::Data']]],
+  ['qualitypresetsetting_2ecs_15',['QualityPresetSetting.cs',['../_quality_preset_setting_8cs.html',1,'']]],
+  ['qualitypresetsettings_16',['QualityPresetSettings',['../class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a19fc29a69f05df15aa32ab604c80663a',1,'CORE::Shared::Configs::Data::GraphicSettingsData']]],
+  ['quantity_17',['Quantity',['../class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item.html#ae27339747f9aaae5e58dc57c24b5a2fd',1,'CORE::Shared::Steam::SteamPlayerItem']]],
+  ['quarter_18',['Quarter',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a0a55bddef69ee4c9cb2997e781bea407',1,'CORE::Shared::Utils::MathHelper']]],
+  ['queuemodrefresh_19',['QueueModRefresh',['../class_c_o_r_e_1_1_mod_tool_1_1_mod_manager.html#ae0d745b98c2331bc50017c5dfdd31187',1,'CORE::ModTool::ModManager']]],
+  ['quinticblend_20',['QuinticBlend',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html#a6aa8599a9377c092667a3d812ab47426',1,'CORE::Shared::Utils::MathHelper']]]
 ];

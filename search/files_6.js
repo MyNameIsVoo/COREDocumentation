@@ -12,6 +12,8 @@ var searchData=
   ['globalmodvisual_2ecs_9',['GlobalModVisual.cs',['../_global_mod_visual_8cs.html',1,'']]],
   ['globalupdater_2ecs_10',['GlobalUpdater.cs',['../_global_updater_8cs.html',1,'']]],
   ['globalvisual_2ecs_11',['GlobalVisual.cs',['../_global_visual_8cs.html',1,'']]],
-  ['graphicalphatransitions_2ecs_12',['GraphicAlphaTransitions.cs',['../_graphic_alpha_transitions_8cs.html',1,'']]],
-  ['graphicsettingsdata_2ecs_13',['GraphicSettingsData.cs',['../_graphic_settings_data_8cs.html',1,'']]]
+  ['googlesheetslocalizationconfig_2ecs_12',['GoogleSheetsLocalizationConfig.cs',['../_google_sheets_localization_config_8cs.html',1,'']]],
+  ['googlesheetslocalizationimporter_2ecs_13',['GoogleSheetsLocalizationImporter.cs',['../_google_sheets_localization_importer_8cs.html',1,'']]],
+  ['graphicalphatransitions_2ecs_14',['GraphicAlphaTransitions.cs',['../_graphic_alpha_transitions_8cs.html',1,'']]],
+  ['graphicsettingsdata_2ecs_15',['GraphicSettingsData.cs',['../_graphic_settings_data_8cs.html',1,'']]]
 ];

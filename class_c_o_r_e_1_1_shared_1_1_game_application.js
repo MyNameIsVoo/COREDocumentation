@@ -5,6 +5,7 @@ var class_c_o_r_e_1_1_shared_1_1_game_application =
     [ "Awake", "class_c_o_r_e_1_1_shared_1_1_game_application.html#afd73de7f7d4252e22400664067b732c7", null ],
     [ "FuncResponse", "class_c_o_r_e_1_1_shared_1_1_game_application.html#a6faf5bdc414b99efc6c109b130f984d4", null ],
     [ "OnApplicationQuit", "class_c_o_r_e_1_1_shared_1_1_game_application.html#afe758d2bf5e7303a6046f3868548cc73", null ],
+    [ "_mutex", "class_c_o_r_e_1_1_shared_1_1_game_application.html#a3115c73d26d23b95d59cad80b85a4061", null ],
     [ "AppQuit", "class_c_o_r_e_1_1_shared_1_1_game_application.html#a43a1779d2d5845d70c4402d155d9e768", null ],
     [ "HasBeenInitted", "class_c_o_r_e_1_1_shared_1_1_game_application.html#a3731b163e7521dad30c379d6e35db64c", null ],
     [ "OnAllSystemsInitted", "class_c_o_r_e_1_1_shared_1_1_game_application.html#abda6fcfe8bd57aa0a653275653873f8f", null ],

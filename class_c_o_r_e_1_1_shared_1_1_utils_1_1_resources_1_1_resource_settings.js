@@ -9,7 +9,7 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings =
     [ "GetBundleDatas", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#afab41a3dc9e09b5fce5af6f91cc29abf", null ],
     [ "GetData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#a64e7b854f889658374567b6d9f2dca52", null ],
     [ "GetUIVisualPaths", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#aa8e8b6f2545d50fd54444d7be16372ae", null ],
-    [ "Initiialize", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#a9284fa878bbdcd3703cd984aa7b2d580", null ],
+    [ "Initialize", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#ab55bdc82b8a2b266ee23007984d8e043", null ],
     [ "InitPlayerResources", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#a0ad65b8f99df3e596d957b692f12be1e", null ],
     [ "OnValidate", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#a805e9a5d0f2ff73394fe4e4d7ff4c73d", null ],
     [ "_playerResourcesData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings.html#a82f2b72122d05ec94636835d6db6757c", null ],

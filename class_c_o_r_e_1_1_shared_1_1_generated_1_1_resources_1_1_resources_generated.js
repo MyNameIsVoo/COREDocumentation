@@ -4,6 +4,12 @@ var class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated
       [ "GoblinsDanceBattle", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43ae1bf09379c0579f6cdc64f7a29de576d", null ],
       [ "GoblinsDenRegular", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a3ea86cba2a21349a1aa3df82893fcb33", null ],
       [ "MouseSingleClick", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a4163c4c9c2f34d2337be1dceb9414486", null ],
+      [ "FrozenLandscape", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43ae43b2c9d0208ada981a9bcd099486a2f", null ],
+      [ "MtBerkooFullVoid", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a448c4f5c25149bf81ad2066859b64804", null ],
+      [ "NordicLandscapeAmbientEdit", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a3ec34e2712c8b917e3d7fbe2503669fa", null ],
+      [ "NordicLandscapeGrand", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a4dad07b5eba7cfe272a9689fe29f757b", null ],
+      [ "NordicTitle", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a3fd56b0865e71babaa9e3c50b1e8a69d", null ],
+      [ "Notification", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a96d008db67fc0b5551a926842bbb6a71", null ],
       [ "Total", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#ab6b4690258c22faa94a68c1e28058a43a96b0141273eabab320119c467cdcaf17", null ]
     ] ],
     [ "AudioGroups", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a76e05a82c058f2f50960be0dd9de6fcd", [
@@ -37,10 +43,7 @@ var class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated
       [ "UI_LoadingIndicator_Modal_Prefab", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a7133620b16677d3b829021041cdbe72da5a30fdcd7998a607ff71dcbb86abc554", null ],
       [ "Total", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a7133620b16677d3b829021041cdbe72da96b0141273eabab320119c467cdcaf17", null ]
     ] ],
-    [ "ScreenPrefabs", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a751c4ace8ab008ed326100b79e31eb85", [
-      [ "UI_Default_Screen_Prefab", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a751c4ace8ab008ed326100b79e31eb85a592178ac39aefae0149b16f80fd540e8", null ],
-      [ "Total", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a751c4ace8ab008ed326100b79e31eb85a96b0141273eabab320119c467cdcaf17", null ]
-    ] ],
+    [ "ScreenPrefabs", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a751c4ace8ab008ed326100b79e31eb85", null ],
     [ "GetAudioAudioClips", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a99a757c9663d0d44506881cfe3a7e3cf", null ],
     [ "GetAudioAudioGroups", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a805d2d3464affe331661f1ca212c5d00", null ],
     [ "GetAudioAudioVersion", "class_c_o_r_e_1_1_shared_1_1_generated_1_1_resources_1_1_resources_generated.html#a6e69956173628eb1adf4155fe454686c", null ],

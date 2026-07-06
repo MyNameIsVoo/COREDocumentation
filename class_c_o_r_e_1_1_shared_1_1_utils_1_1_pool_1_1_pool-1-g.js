@@ -1,0 +1,26 @@
+var class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool_1_g =
+[
+    [ "Handle", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g_1_1_handle.html", null ],
+    [ "Clear", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#aa1ec39e6a5a9caf2679242b542d308dc", null ],
+    [ "Dispose", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a2eb220e26a0d62561c963e3e28271c3c", null ],
+    [ "Get", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a0999cd49fc7cd099238c686e9ce25417", null ],
+    [ "Get", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a3c658233579d96772d1959b4a648fea3", null ],
+    [ "Get", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a35903c66c9bb9f6acb85ff9d2b791adc", null ],
+    [ "Get", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#ad2dfdef700a4f898b99f6ca7f98fefb6", null ],
+    [ "Handle", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#ae42797616cf82bb1fbe2423beb252271", null ],
+    [ "Pool", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#affd6993e42e45bf540aa40d7ae000bf2", null ],
+    [ "Pool", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#ade06d54124c712b088e2bdb05f3e437a", null ],
+    [ "Release", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#ade786d0769a49dc6b4ca6203ba4cc109", null ],
+    [ "Release", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a762594e85c47550ed836b7526b565096", null ],
+    [ "_createNew", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#ad21c9fb51f6f164ff150cab1c120d1da", null ],
+    [ "_object", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#abf72431e35419c46bae6fc25b15bb4d6", null ],
+    [ "_onClear", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a9e176ef0d4f6098cfb311973939d23c9", null ],
+    [ "_onGet", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a2582a23a7845660b7e0f753841958602", null ],
+    [ "_onRelease", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a03e57b75baf5b82ec41009706db89a31", null ],
+    [ "_pool", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a8ed03f47e6b59df390f454309b973f3a", null ],
+    [ "_stack", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a4bdd455ca5842e0e724666f4bee5f015", null ],
+    [ "NoOp", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a0e5371346ef7f21f3a630b91cf7d98d4", null ],
+    [ "ActiveCount", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a2a1d0cca7365d0766221f17652e23fdb", null ],
+    [ "PooledCount", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#aecaa058967ff4f8d21472b797e9d0f7f", null ],
+    [ "TotalCount", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html#a320b291abca8a7b619fabfe61f88be7c", null ]
+];

@@ -1,7 +1,8 @@
 var struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data_1_g =
 [
     [ "EnumData", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a0e9c85458c55ad1632598c061725c50d", null ],
-    [ "Equals", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a9ad7e712457ef01d6f62a6d0739a73eb", null ],
+    [ "Equals", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a3c42f147851bb00fa5398ef4afceb1dc", null ],
+    [ "Equals", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#ae82ba7e760b958e8fe0812b8b619c2b1", null ],
     [ "GetHashCode", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a7228acaa982f32a6bbad220f68926514", null ],
     [ "ToString", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#a1b353493e33d23005e85f89bb2d5cf84", null ],
     [ "Enum", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html#ab44cbb25fd1dd60390d107d74e0707d2", null ],

@@ -108,6 +108,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_l
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader-members.html">List of all members</a>  </div>
@@ -118,6 +119,8 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_l
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader_1_1_loading_mono_behaviour.html">LoadingMonoBehaviour</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader_1_1_scenes_extensions.html">ScenesExtensions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -141,8 +144,14 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:acb63996572a65224b8ec3d2834799581" id="r_acb63996572a65224b8ec3d2834799581"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb63996572a65224b8ec3d2834799581">Load</a> (<a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a> scene, LoadSceneMode loadSceneMode=LoadSceneMode.Single, <a class="el" href="#a892376a1548983de23abf069aa63544a">TransactionTypes</a> transactionType=<a class="el" href="#a892376a1548983de23abf069aa63544aa7a1920d61156abc05a60135aefe8bc67">TransactionTypes.Default</a>, UnityAction&lt; Scene, LoadSceneMode &gt; onSceneLoaded=null, bool forceLoad=false)</td></tr>
-<tr class="separator:acb63996572a65224b8ec3d2834799581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6817fc0df4abbf5b519819fdd9981ca2" id="r_a6817fc0df4abbf5b519819fdd9981ca2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6817fc0df4abbf5b519819fdd9981ca2">Dispose</a> ()</td></tr>
+<tr class="separator:a6817fc0df4abbf5b519819fdd9981ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddd7140fd10a2e122d5f97a50ea83e1" id="r_a2ddd7140fd10a2e122d5f97a50ea83e1"><td class="memItemLeft" align="right" valign="top">static async UniTask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ddd7140fd10a2e122d5f97a50ea83e1">LoadDelay</a> (<a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a> scene, LoadSceneMode loadSceneMode=LoadSceneMode.Single, <a class="el" href="#a892376a1548983de23abf069aa63544a">TransactionTypes</a> transactionType=<a class="el" href="#a892376a1548983de23abf069aa63544aa7a1920d61156abc05a60135aefe8bc67">TransactionTypes.Default</a>, UnityAction&lt; Scene, LoadSceneMode &gt; onSceneLoaded=null, bool forceLoad=false, float delaySeconds=1f, bool preload=false)</td></tr>
+<tr class="separator:a2ddd7140fd10a2e122d5f97a50ea83e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4363e1743b59c0e3514ad95fa19a41e" id="r_af4363e1743b59c0e3514ad95fa19a41e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4363e1743b59c0e3514ad95fa19a41e">Load</a> (<a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a> scene, LoadSceneMode loadSceneMode=LoadSceneMode.Single, <a class="el" href="#a892376a1548983de23abf069aa63544a">TransactionTypes</a> transactionType=<a class="el" href="#a892376a1548983de23abf069aa63544aa7a1920d61156abc05a60135aefe8bc67">TransactionTypes.Default</a>, UnityAction&lt; Scene, LoadSceneMode &gt; onSceneLoaded=null, bool forceLoad=false, bool preload=false)</td></tr>
+<tr class="separator:af4363e1743b59c0e3514ad95fa19a41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245426a34583eb2e5eef93a0400608a8" id="r_a245426a34583eb2e5eef93a0400608a8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a245426a34583eb2e5eef93a0400608a8">ActivatePreloadedScene</a> ()</td></tr>
+<tr class="separator:a245426a34583eb2e5eef93a0400608a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b26e57de60ce30b83d8899750afaf7" id="r_a99b26e57de60ce30b83d8899750afaf7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99b26e57de60ce30b83d8899750afaf7">UnloadSceneAsync</a> (<a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a> scene, UnityAction&lt; Scene &gt; onSceneUnloaded=null)</td></tr>
 <tr class="separator:a99b26e57de60ce30b83d8899750afaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a4021aa1a0678e5756ab582be7d502b" id="r_a0a4021aa1a0678e5756ab582be7d502b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a4021aa1a0678e5756ab582be7d502b">GetLoadingProgress</a> ()</td></tr>
@@ -163,15 +172,24 @@ Properties</h2></td></tr>
 <tr class="memdesc:a4d038e290e00097ff1c20e8bca26c017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target scene of transition.  <br /></td></tr>
 <tr class="separator:a4d038e290e00097ff1c20e8bca26c017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:aa60899536e68341db9ad46c5ca6dcfb0" id="r_aa60899536e68341db9ad46c5ca6dcfb0"><td class="memItemLeft" align="right" valign="top">static Action&lt; <a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa60899536e68341db9ad46c5ca6dcfb0">OnSceneUnloadedEvent</a></td></tr>
+<tr class="separator:aa60899536e68341db9ad46c5ca6dcfb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
+<tr class="memitem:aefeaaa511576472dc0eb5edce631cc0f" id="r_aefeaaa511576472dc0eb5edce631cc0f"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefeaaa511576472dc0eb5edce631cc0f">SceneLoader</a> ()</td></tr>
+<tr class="separator:aefeaaa511576472dc0eb5edce631cc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35e5703cab2053c84d83c6c817027b5d" id="r_a35e5703cab2053c84d83c6c817027b5d"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35e5703cab2053c84d83c6c817027b5d">LoadSceneAsync</a> (<a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a> scene)</td></tr>
 <tr class="separator:a35e5703cab2053c84d83c6c817027b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8067af4a1c9f1129f4d8b04184062e" id="r_a9d8067af4a1c9f1129f4d8b04184062e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d8067af4a1c9f1129f4d8b04184062e">OnSceneUnloaded</a> (Scene scene)</td></tr>
+<tr class="separator:a9d8067af4a1c9f1129f4d8b04184062e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a66f2bd7a100de510e41f36caf294d1e1" id="r_a66f2bd7a100de510e41f36caf294d1e1"><td class="memItemLeft" align="right" valign="top">static AsyncOperation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66f2bd7a100de510e41f36caf294d1e1">asyncOperation</a></td></tr>
-<tr class="separator:a66f2bd7a100de510e41f36caf294d1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e0c54cfebad0cd3e8092f3c52a236aa" id="r_a9e0c54cfebad0cd3e8092f3c52a236aa"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a>, AsyncOperation &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e0c54cfebad0cd3e8092f3c52a236aa">asyncOperations</a> = new(2)</td></tr>
+<tr class="separator:a9e0c54cfebad0cd3e8092f3c52a236aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91fd9dea96a6954db55739771b2e0a3a" id="r_a91fd9dea96a6954db55739771b2e0a3a"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91fd9dea96a6954db55739771b2e0a3a">onLoaderCallback</a></td></tr>
 <tr class="separator:a91fd9dea96a6954db55739771b2e0a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -217,7 +235,83 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aefeaaa511576472dc0eb5edce631cc0f" name="aefeaaa511576472dc0eb5edce631cc0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefeaaa511576472dc0eb5edce631cc0f">&#9670;&#160;</a></span>SceneLoader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static CORE.Shared.ScenesLoader.SceneLoader.SceneLoader </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a245426a34583eb2e5eef93a0400608a8" name="a245426a34583eb2e5eef93a0400608a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a245426a34583eb2e5eef93a0400608a8">&#9670;&#160;</a></span>ActivatePreloadedScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.ScenesLoader.SceneLoader.ActivatePreloadedScene </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6817fc0df4abbf5b519819fdd9981ca2" name="a6817fc0df4abbf5b519819fdd9981ca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6817fc0df4abbf5b519819fdd9981ca2">&#9670;&#160;</a></span>Dispose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.ScenesLoader.SceneLoader.Dispose </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0a4021aa1a0678e5756ab582be7d502b" name="a0a4021aa1a0678e5756ab582be7d502b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a4021aa1a0678e5756ab582be7d502b">&#9670;&#160;</a></span>GetLoadingProgress()</h2>
 
@@ -243,8 +337,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acb63996572a65224b8ec3d2834799581" name="acb63996572a65224b8ec3d2834799581"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb63996572a65224b8ec3d2834799581">&#9670;&#160;</a></span>Load()</h2>
+<a id="af4363e1743b59c0e3514ad95fa19a41e" name="af4363e1743b59c0e3514ad95fa19a41e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4363e1743b59c0e3514ad95fa19a41e">&#9670;&#160;</a></span>Load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,7 +369,66 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>forceLoad</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>forceLoad</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preload</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ddd7140fd10a2e122d5f97a50ea83e1" name="a2ddd7140fd10a2e122d5f97a50ea83e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ddd7140fd10a2e122d5f97a50ea83e1">&#9670;&#160;</a></span>LoadDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static async UniTask CORE.Shared.ScenesLoader.SceneLoader.LoadDelay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LoadSceneMode</td>          <td class="paramname"><span class="paramname"><em>loadSceneMode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">LoadSceneMode::Single</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a892376a1548983de23abf069aa63544a">TransactionTypes</a></td>          <td class="paramname"><span class="paramname"><em>transactionType</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a892376a1548983de23abf069aa63544aa7a1920d61156abc05a60135aefe8bc67">TransactionTypes::Default</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnityAction&lt; Scene, LoadSceneMode &gt;</td>          <td class="paramname"><span class="paramname"><em>onSceneLoaded</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>forceLoad</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>delaySeconds</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1f</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preload</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -337,6 +490,31 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9d8067af4a1c9f1129f4d8b04184062e" name="a9d8067af4a1c9f1129f4d8b04184062e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8067af4a1c9f1129f4d8b04184062e">&#9670;&#160;</a></span>OnSceneUnloaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.ScenesLoader.SceneLoader.OnSceneUnloaded </td>
+          <td>(</td>
+          <td class="paramtype">Scene</td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a99b26e57de60ce30b83d8899750afaf7" name="a99b26e57de60ce30b83d8899750afaf7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99b26e57de60ce30b83d8899750afaf7">&#9670;&#160;</a></span>UnloadSceneAsync()</h2>
 
@@ -367,8 +545,8 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a66f2bd7a100de510e41f36caf294d1e1" name="a66f2bd7a100de510e41f36caf294d1e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f2bd7a100de510e41f36caf294d1e1">&#9670;&#160;</a></span>asyncOperation</h2>
+<a id="a9e0c54cfebad0cd3e8092f3c52a236aa" name="a9e0c54cfebad0cd3e8092f3c52a236aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e0c54cfebad0cd3e8092f3c52a236aa">&#9670;&#160;</a></span>asyncOperations</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +555,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AsyncOperation CORE.Shared.ScenesLoader.SceneLoader.asyncOperation</td>
+          <td class="memname">readonly Dictionary&lt;<a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a>, AsyncOperation&gt; CORE.Shared.ScenesLoader.SceneLoader.asyncOperations = new(2)</td>
         </tr>
       </table>
   </td>
@@ -501,6 +679,29 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>State of transition between scenes. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="aa60899536e68341db9ad46c5ca6dcfb0" name="aa60899536e68341db9ad46c5ca6dcfb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60899536e68341db9ad46c5ca6dcfb0">&#9670;&#160;</a></span>OnSceneUnloadedEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="#a803e3a285f3bec3e31bd4b16432667cb">Scenes</a>&gt; CORE.Shared.ScenesLoader.SceneLoader.OnSceneUnloadedEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

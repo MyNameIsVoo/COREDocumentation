@@ -6,5 +6,6 @@ var class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data =
     [ "Audio", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#ad4b0a0d0a2de4fb6428fc9c1f628f473", null ],
     [ "Controls", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a31089111b2a41849f60b363b882e90f5", null ],
     [ "Game", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a6ac9e63e581d2e60e55d16a51aff48c7", null ],
-    [ "Graphics", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a0b7a3c8ec06a212c895d9c967045c738", null ]
+    [ "Graphics", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a0b7a3c8ec06a212c895d9c967045c738", null ],
+    [ "RequiredReWrite", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a2282259e68ddd963d0bdab06b82d17c0", null ]
 ];

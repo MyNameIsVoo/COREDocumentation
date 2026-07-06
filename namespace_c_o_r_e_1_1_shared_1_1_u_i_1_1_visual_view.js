@@ -1,5 +1,6 @@
 var namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view =
 [
+    [ "CashedVisualValue< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_cashed_visual_value-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_cashed_visual_value-1-g" ],
     [ "GlobalVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual" ],
     [ "IModSupportVisual", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_mod_support_visual.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_mod_support_visual" ],
     [ "IView", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view" ],

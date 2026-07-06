@@ -253,6 +253,8 @@ Properties</h2></td></tr>
 <tr class="memitem:a3fa9f01f03d071013966b3013524d94c" id="r_a3fa9f01f03d071013966b3013524d94c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fa9f01f03d071013966b3013524d94c">IsInventoryReady</a><code> [get, private set]</code></td></tr>
 <tr class="memdesc:a3fa9f01f03d071013966b3013524d94c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the player's inventory is ready and loaded.  <br /></td></tr>
 <tr class="separator:a3fa9f01f03d071013966b3013524d94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47477c7835dbdceb3ecf322b05032000" id="r_a47477c7835dbdceb3ecf322b05032000"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47477c7835dbdceb3ecf322b05032000">IsActiveChangingItems</a><code> [get, private set]</code></td></tr>
+<tr class="separator:a47477c7835dbdceb3ecf322b05032000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
@@ -262,6 +264,8 @@ Events</h2></td></tr>
 <tr class="memitem:a8408318711c743869c60537fc36b38d4" id="r_a8408318711c743869c60537fc36b38d4"><td class="memItemLeft" align="right" valign="top">Action&lt; List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item.html">SteamPlayerItem</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8408318711c743869c60537fc36b38d4">OnItemAdded</a></td></tr>
 <tr class="memdesc:a8408318711c743869c60537fc36b38d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event triggered when new items are added to the player's inventory.  <br /></td></tr>
 <tr class="separator:a8408318711c743869c60537fc36b38d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09110b83856bca7ee6c46f2771a51c72" id="r_a09110b83856bca7ee6c46f2771a51c72"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_inventory_manager.html">SteamInventoryManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09110b83856bca7ee6c46f2771a51c72">OnInventoryResult</a></td></tr>
+<tr class="separator:a09110b83856bca7ee6c46f2771a51c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -280,18 +284,17 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a21b9f85da63255b1c5bf68f24431acc4" id="r_a21b9f85da63255b1c5bf68f24431acc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_steam_1_1_response_data.html">ResponseData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21b9f85da63255b1c5bf68f24431acc4">GetItemsFromResult</a> (SteamInventoryResult_t resultHandle)</td></tr>
 <tr class="memdesc:a21b9f85da63255b1c5bf68f24431acc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts items from a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_steam.html">Steam</a> inventory result handle.  <br /></td></tr>
 <tr class="separator:a21b9f85da63255b1c5bf68f24431acc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e29946abc41669bdbb6c2db96bb82e" id="r_ab2e29946abc41669bdbb6c2db96bb82e"><td class="memItemLeft" align="right" valign="top">async void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2e29946abc41669bdbb6c2db96bb82e">OnInventoryUpdated</a> (SteamInventoryFullUpdate_t callback)</td></tr>
-<tr class="memdesc:ab2e29946abc41669bdbb6c2db96bb82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback handler for inventory update events.  <br /></td></tr>
-<tr class="separator:ab2e29946abc41669bdbb6c2db96bb82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd1010657ee07aaf44164b56e075688" id="r_a0bd1010657ee07aaf44164b56e075688"><td class="memItemLeft" align="right" valign="top">async void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bd1010657ee07aaf44164b56e075688">OnInventoryFullUpdated</a> (SteamInventoryFullUpdate_t callback)</td></tr>
+<tr class="separator:a0bd1010657ee07aaf44164b56e075688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d7dc1e3f1a0f51307829d43cf3765a7" id="r_a6d7dc1e3f1a0f51307829d43cf3765a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d7dc1e3f1a0f51307829d43cf3765a7">OnInventoryResultUpdated</a> ()</td></tr>
+<tr class="separator:a6d7dc1e3f1a0f51307829d43cf3765a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a384a943fba053b777bd8c5f326c1ccdb" id="r_a384a943fba053b777bd8c5f326c1ccdb"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; SteamItemInstanceID_t, uint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a384a943fba053b777bd8c5f326c1ccdb">GetCurrentInventoryState</a> (SteamInventoryResult_t result)</td></tr>
-<tr class="memdesc:a384a943fba053b777bd8c5f326c1ccdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current inventory state from a result handle.  <br /></td></tr>
 <tr class="separator:a384a943fba053b777bd8c5f326c1ccdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcbc2e0d44bfda95252fa15206cd675e" id="r_afcbc2e0d44bfda95252fa15206cd675e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcbc2e0d44bfda95252fa15206cd675e">DetectChanges</a> (Dictionary&lt; SteamItemInstanceID_t, uint &gt; currentState)</td></tr>
 <tr class="memdesc:afcbc2e0d44bfda95252fa15206cd675e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects changes between current and previous inventory states.  <br /></td></tr>
 <tr class="separator:afcbc2e0d44bfda95252fa15206cd675e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c33e75d8ee705466350ae9bcc2c5da0" id="r_a4c33e75d8ee705466350ae9bcc2c5da0"><td class="memItemLeft" align="right" valign="top">async UniTask&lt; EResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c33e75d8ee705466350ae9bcc2c5da0">WaitForInventoryResult</a> (SteamInventoryResult_t resultHandle, CancellationToken token, int timeout=100)</td></tr>
-<tr class="memdesc:a4c33e75d8ee705466350ae9bcc2c5da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_steam.html">Steam</a> inventory result to complete.  <br /></td></tr>
-<tr class="separator:a4c33e75d8ee705466350ae9bcc2c5da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a98f40a16f47af74e208f358535505" id="r_a18a98f40a16f47af74e208f358535505"><td class="memItemLeft" align="right" valign="top">async UniTask&lt; EResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18a98f40a16f47af74e208f358535505">WaitForInventoryResult</a> (SteamInventoryResult_t resultHandle, CancellationToken token, int timeoutMs=10000)</td></tr>
+<tr class="separator:a18a98f40a16f47af74e208f358535505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a027d723d7236ef8347ec135e3104634e" id="r_a027d723d7236ef8347ec135e3104634e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027d723d7236ef8347ec135e3104634e">AddItems</a> (SteamItemDetails_t[] items, bool invokeOnChanged)</td></tr>
 <tr class="memdesc:a027d723d7236ef8347ec135e3104634e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds items to the player's inventory collection.  <br /></td></tr>
 <tr class="separator:a027d723d7236ef8347ec135e3104634e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,6 +304,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a62b513264745e90d532c4609f63b3f42" id="r_a62b513264745e90d532c4609f63b3f42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62b513264745e90d532c4609f63b3f42">RemoveItems</a> (List&lt; uint &gt; items, bool invokeOnChanged)</td></tr>
 <tr class="memdesc:a62b513264745e90d532c4609f63b3f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes items from the player's inventory collection.  <br /></td></tr>
 <tr class="separator:a62b513264745e90d532c4609f63b3f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7487fb15f98092b4ec0a0f2bcbc8952" id="r_ac7487fb15f98092b4ec0a0f2bcbc8952"><td class="memItemLeft" align="right" valign="top">SteamItemDetails_t[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7487fb15f98092b4ec0a0f2bcbc8952">CombineItems</a> (SteamItemDetails_t[] items)</td></tr>
+<tr class="separator:ac7487fb15f98092b4ec0a0f2bcbc8952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc67a7a8733263519bdfa60a3de228e0" id="r_acc67a7a8733263519bdfa60a3de228e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc67a7a8733263519bdfa60a3de228e0">SetPlayerItems</a> (SteamItemDetails_t[] newItems)</td></tr>
+<tr class="separator:acc67a7a8733263519bdfa60a3de228e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -325,12 +332,16 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a061066091fe6dae44099350fd8a286c5" id="r_a061066091fe6dae44099350fd8a286c5"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; SteamItemInstanceID_t, uint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a061066091fe6dae44099350fd8a286c5">_lastInventoryState</a></td></tr>
 <tr class="memdesc:a061066091fe6dae44099350fd8a286c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary representing the last known state of the inventory for change detection.  <br /></td></tr>
 <tr class="separator:a061066091fe6dae44099350fd8a286c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7d2580ae7da706f2978d7cae535b981" id="r_ac7d2580ae7da706f2978d7cae535b981"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d2580ae7da706f2978d7cae535b981">_isProcessing</a> = false</td></tr>
-<tr class="memdesc:ac7d2580ae7da706f2978d7cae535b981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if the inventory is currently being processed.  <br /></td></tr>
-<tr class="separator:ac7d2580ae7da706f2978d7cae535b981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcba3869d8daa0bff1b8e3234726c81a" id="r_abcba3869d8daa0bff1b8e3234726c81a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcba3869d8daa0bff1b8e3234726c81a">_isInventoryFullProcessing</a> = false</td></tr>
+<tr class="memdesc:abcba3869d8daa0bff1b8e3234726c81a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag indicating if the inventory is currently being processed.  <br /></td></tr>
+<tr class="separator:abcba3869d8daa0bff1b8e3234726c81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9337a6aed4d7d2a30164773841ba7983" id="r_a9337a6aed4d7d2a30164773841ba7983"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9337a6aed4d7d2a30164773841ba7983">_isInventoryResultProcessing</a> = false</td></tr>
+<tr class="separator:a9337a6aed4d7d2a30164773841ba7983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03c64b915c15e48ac1556ed76991988" id="r_ae03c64b915c15e48ac1556ed76991988"><td class="memItemLeft" align="right" valign="top">CancellationTokenSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03c64b915c15e48ac1556ed76991988">_cancellationTokenSource</a> = new CancellationTokenSource()</td></tr>
 <tr class="memdesc:ae03c64b915c15e48ac1556ed76991988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancellation token source for async operations.  <br /></td></tr>
 <tr class="separator:ae03c64b915c15e48ac1556ed76991988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea49b2fb09610df768e81aee7d2f0de4" id="r_aea49b2fb09610df768e81aee7d2f0de4"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea49b2fb09610df768e81aee7d2f0de4">_lastInventoryUpdate</a></td></tr>
+<tr class="separator:aea49b2fb09610df768e81aee7d2f0de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae53e12c87440e3fb595aff04fcefa19e" id="r_ae53e12c87440e3fb595aff04fcefa19e"><td class="memItemLeft" align="right" valign="top">CallResult&lt; SteamInventoryEligiblePromoItemDefIDs_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae53e12c87440e3fb595aff04fcefa19e">_callResultEligiblePromoItems</a></td></tr>
 <tr class="memdesc:ae53e12c87440e3fb595aff04fcefa19e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call result handler for eligible promotional items.  <br /></td></tr>
 <tr class="separator:ae53e12c87440e3fb595aff04fcefa19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -433,6 +444,31 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds items to the player's inventory collection. </p>
+
+</div>
+</div>
+<a id="ac7487fb15f98092b4ec0a0f2bcbc8952" name="ac7487fb15f98092b4ec0a0f2bcbc8952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7487fb15f98092b4ec0a0f2bcbc8952">&#9670;&#160;</a></span>CombineItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SteamItemDetails_t[] CORE.Shared.Steam.SteamInventoryManager.CombineItems </td>
+          <td>(</td>
+          <td class="paramtype">SteamItemDetails_t[]</td>          <td class="paramname"><span class="paramname"><em>items</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -588,8 +624,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Gets the current inventory state from a result handle. </p>
 
 </div>
 </div>
@@ -865,8 +899,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab2e29946abc41669bdbb6c2db96bb82e" name="ab2e29946abc41669bdbb6c2db96bb82e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2e29946abc41669bdbb6c2db96bb82e">&#9670;&#160;</a></span>OnInventoryUpdated()</h2>
+<a id="a0bd1010657ee07aaf44164b56e075688" name="a0bd1010657ee07aaf44164b56e075688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd1010657ee07aaf44164b56e075688">&#9670;&#160;</a></span>OnInventoryFullUpdated()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -875,7 +909,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">async void CORE.Shared.Steam.SteamInventoryManager.OnInventoryUpdated </td>
+          <td class="memname">async void CORE.Shared.Steam.SteamInventoryManager.OnInventoryFullUpdated </td>
           <td>(</td>
           <td class="paramtype">SteamInventoryFullUpdate_t</td>          <td class="paramname"><span class="paramname"><em>callback</em></span></td><td>)</td>
           <td></td>
@@ -888,7 +922,30 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Callback handler for inventory update events. </p>
+</div>
+</div>
+<a id="a6d7dc1e3f1a0f51307829d43cf3765a7" name="a6d7dc1e3f1a0f51307829d43cf3765a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d7dc1e3f1a0f51307829d43cf3765a7">&#9670;&#160;</a></span>OnInventoryResultUpdated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Steam.SteamInventoryManager.OnInventoryResultUpdated </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -939,6 +996,31 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Requests eligible promotional item definitions from <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_steam.html">Steam</a>. </p>
+
+</div>
+</div>
+<a id="acc67a7a8733263519bdfa60a3de228e0" name="acc67a7a8733263519bdfa60a3de228e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc67a7a8733263519bdfa60a3de228e0">&#9670;&#160;</a></span>SetPlayerItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Steam.SteamInventoryManager.SetPlayerItems </td>
+          <td>(</td>
+          <td class="paramtype">SteamItemDetails_t[]</td>          <td class="paramname"><span class="paramname"><em>newItems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1057,8 +1139,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4c33e75d8ee705466350ae9bcc2c5da0" name="a4c33e75d8ee705466350ae9bcc2c5da0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c33e75d8ee705466350ae9bcc2c5da0">&#9670;&#160;</a></span>WaitForInventoryResult()</h2>
+<a id="a18a98f40a16f47af74e208f358535505" name="a18a98f40a16f47af74e208f358535505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a98f40a16f47af74e208f358535505">&#9670;&#160;</a></span>WaitForInventoryResult()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1079,7 +1161,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>timeout</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>timeoutMs</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10000</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1088,8 +1170,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Waits for a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_steam.html">Steam</a> inventory result to complete. </p>
 
 </div>
 </div>
@@ -1190,8 +1270,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7d2580ae7da706f2978d7cae535b981" name="ac7d2580ae7da706f2978d7cae535b981"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7d2580ae7da706f2978d7cae535b981">&#9670;&#160;</a></span>_isProcessing</h2>
+<a id="abcba3869d8daa0bff1b8e3234726c81a" name="abcba3869d8daa0bff1b8e3234726c81a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcba3869d8daa0bff1b8e3234726c81a">&#9670;&#160;</a></span>_isInventoryFullProcessing</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1200,7 +1280,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CORE.Shared.Steam.SteamInventoryManager._isProcessing = false</td>
+          <td class="memname">bool CORE.Shared.Steam.SteamInventoryManager._isInventoryFullProcessing = false</td>
         </tr>
       </table>
   </td>
@@ -1211,6 +1291,28 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Flag indicating if the inventory is currently being processed. </p>
+
+</div>
+</div>
+<a id="a9337a6aed4d7d2a30164773841ba7983" name="a9337a6aed4d7d2a30164773841ba7983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9337a6aed4d7d2a30164773841ba7983">&#9670;&#160;</a></span>_isInventoryResultProcessing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Steam.SteamInventoryManager._isInventoryResultProcessing = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1283,6 +1385,28 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Timestamp of the last inventory update from <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_steam.html">Steam</a>. </p>
+
+</div>
+</div>
+<a id="aea49b2fb09610df768e81aee7d2f0de4" name="aea49b2fb09610df768e81aee7d2f0de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea49b2fb09610df768e81aee7d2f0de4">&#9670;&#160;</a></span>_lastInventoryUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime CORE.Shared.Steam.SteamInventoryManager._lastInventoryUpdate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1504,6 +1628,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a47477c7835dbdceb3ecf322b05032000" name="a47477c7835dbdceb3ecf322b05032000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47477c7835dbdceb3ecf322b05032000">&#9670;&#160;</a></span>IsActiveChangingItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Steam.SteamInventoryManager.IsActiveChangingItems</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel private-set">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3fa9f01f03d071013966b3013524d94c" name="a3fa9f01f03d071013966b3013524d94c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3fa9f01f03d071013966b3013524d94c">&#9670;&#160;</a></span>IsInventoryReady</h2>
 
@@ -1566,6 +1712,20 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Event triggered when the inventory manager's state changes. </p>
+
+</div>
+</div>
+<a id="a09110b83856bca7ee6c46f2771a51c72" name="a09110b83856bca7ee6c46f2771a51c72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09110b83856bca7ee6c46f2771a51c72">&#9670;&#160;</a></span>OnInventoryResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_inventory_manager.html">SteamInventoryManager</a>&gt; CORE.Shared.Steam.SteamInventoryManager.OnInventoryResult</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

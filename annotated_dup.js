@@ -130,6 +130,10 @@ var annotated_dup =
             [ "GraphicSettingsData", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data" ],
             [ "TextConfigData", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_text_config_data.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_text_config_data" ]
           ] ],
+          [ "GoogleSheets", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets.html", [
+            [ "GoogleSheetsLocalizationConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_config" ],
+            [ "GoogleSheetsLocalizationImporter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_importer.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_importer" ]
+          ] ],
           [ "Settings", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_settings.html", [
             [ "Data", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data.html", [
               [ "ControlInputSetting", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting" ],
@@ -142,15 +146,17 @@ var annotated_dup =
           [ "ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g" ],
           [ "ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system" ],
           [ "ConfigVisual< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g" ],
+          [ "DynamicConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_dynamic_config_single-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_dynamic_config_single-1-g" ],
           [ "EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g" ],
           [ "GlobalConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config" ],
-          [ "IConfigVaidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator" ],
+          [ "IConfigValidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_validator.html", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_validator" ],
           [ "InputConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config" ],
           [ "ReferencesConfigResolver", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver" ],
           [ "SettingsConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_config" ]
         ] ],
         [ "Console", "namespace_c_o_r_e_1_1_shared_1_1_console.html", [
-          [ "CommonConsoleCommands", "class_c_o_r_e_1_1_shared_1_1_console_1_1_common_console_commands.html", "class_c_o_r_e_1_1_shared_1_1_console_1_1_common_console_commands" ]
+          [ "CommonConsoleCommands", "class_c_o_r_e_1_1_shared_1_1_console_1_1_common_console_commands.html", "class_c_o_r_e_1_1_shared_1_1_console_1_1_common_console_commands" ],
+          [ "SteamItemsConsoleCommands", "class_c_o_r_e_1_1_shared_1_1_console_1_1_steam_items_console_commands.html", null ]
         ] ],
         [ "Data", "namespace_c_o_r_e_1_1_shared_1_1_data.html", [
           [ "User", "namespace_c_o_r_e_1_1_shared_1_1_data_1_1_user.html", [
@@ -312,6 +318,7 @@ var annotated_dup =
             [ "LoadingIcon", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_loading_icon" ]
           ] ],
           [ "VisualView", "namespace_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view.html", [
+            [ "CashedVisualValue< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_cashed_visual_value-1-g.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_cashed_visual_value-1-g" ],
             [ "GlobalVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual" ],
             [ "IModSupportVisual", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_mod_support_visual.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_mod_support_visual" ],
             [ "IView", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html", "interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view" ],
@@ -354,6 +361,9 @@ var annotated_dup =
             [ "CustomCursor", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_custom_cursor" ],
             [ "MouseCatcher", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_mouse_catcher.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_mouse_catcher" ]
           ] ],
+          [ "Pool", "namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_pool.html", [
+            [ "Pool< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g" ]
+          ] ],
           [ "Resources", "namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html", [
             [ "PlayerResourceSettings", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_player_resource_settings.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_player_resource_settings" ],
             [ "ResourceComponent", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_component.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_component" ],
@@ -369,6 +379,7 @@ var annotated_dup =
             [ "TimerDefaultData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_default_data.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_timer_1_1_timer_default_data" ]
           ] ],
           [ "AssemblyData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_assembly_data" ],
+          [ "CachedValue< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cached_value-1-g.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cached_value-1-g" ],
           [ "CecilExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cecil_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cecil_extensions" ],
           [ "ClientWarningExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_client_warning_extensions.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_client_warning_extensions" ],
           [ "DebugHelper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper.html", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_debug_helper" ],

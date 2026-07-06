@@ -1,5 +1,12 @@
 var NAVTREEINDEX6 =
 {
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a2479d1c3c502c651ae8b4171a28f7884":[1,0,0,2,0,3,8],
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a2479d1c3c502c651ae8b4171a28f7884":[2,0,0,2,0,3,8],
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a526cc339228c8cc1359d9e88102e378e":[1,0,0,2,0,3,4],
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a526cc339228c8cc1359d9e88102e378e":[2,0,0,2,0,3,4],
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a5b195a3cecd994a1719b704b669d3039":[1,0,0,2,0,3,5],
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a5b195a3cecd994a1719b704b669d3039":[2,0,0,2,0,3,5],
+"class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a686ee63e0a501b8fb322a6ae684cf93a":[1,0,0,2,0,3,6],
 "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a686ee63e0a501b8fb322a6ae684cf93a":[2,0,0,2,0,3,6],
 "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a8a639c4371bff636f7de952c2355a328":[1,0,0,2,0,3,7],
 "class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library.html#a8a639c4371bff636f7de952c2355a328":[2,0,0,2,0,3,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX6 =
 "class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html#a9322ddcf19b86df3336ae2a86959593d":[1,0,0,2,1,3,0,1],
 "class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html#a9322ddcf19b86df3336ae2a86959593d":[2,0,0,2,1,3,0,1],
 "class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html#ac6aeba73be7d2750ca15ac72fa4caa98":[1,0,0,2,1,3,0,2],
-"class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html#ac6aeba73be7d2750ca15ac72fa4caa98":[2,0,0,2,1,3,0,2],
-"class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html":[1,0,0,2,1,4],
-"class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html":[2,0,0,2,1,4],
-"class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html#a32049d0851eb8a1b008fd03f3b4b7a88":[1,0,0,2,1,4,0],
-"class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html#a32049d0851eb8a1b008fd03f3b4b7a88":[2,0,0,2,1,4,0],
-"class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html#ac9a350a8c4ac9c7aa36ca884e925b64e":[1,0,0,2,1,4,1],
-"class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html#ac9a350a8c4ac9c7aa36ca884e925b64e":[2,0,0,2,1,4,1],
-"class_c_o_r_e_1_1_shared_1_1_configs_1_1_config.html":[1,0,0,2,2,3]
+"class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html#ac6aeba73be7d2750ca15ac72fa4caa98":[2,0,0,2,1,3,0,2]
 };

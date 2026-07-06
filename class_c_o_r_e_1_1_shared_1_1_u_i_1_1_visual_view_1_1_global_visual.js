@@ -1,5 +1,6 @@
 var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual =
 [
+    [ "ViewDataPair", "struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair.html", "struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair" ],
     [ "AddModVisual", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#ae379591513fc2844b0607ab5eeb5b45a", null ],
     [ "AddModVisual< TVisual >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a81e070ed2d13bedda5333f2177187914", null ],
     [ "AddView< TVisual >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a6c36a5c0b50782ae9c35cc3d21ff7cca", null ],
@@ -7,6 +8,7 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual =
     [ "Awake", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#aa54b937eb91d1c1c14b6292d9725c55d", null ],
     [ "DoUpdate", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a713ae75fec213cb7579762c7429b8d49", null ],
     [ "GetVisual< TVisual >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a4770184cdc3fe312b41af7ba7cbd9fa8", null ],
+    [ "HasVisual< TVisual >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#ab1eb8b3324219a3f39e319c717f92349", null ],
     [ "Hide", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a68b8c0736fca6e57cc0af6375b4fdda1", null ],
     [ "OnDestroy", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a02dce72024a95e63554ffd04db790da9", null ],
     [ "OnGameInitted", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#ab6e5669f6b5329e1d95a176eee1df000", null ],
@@ -18,6 +20,7 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual =
     [ "Show", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#add189621f01ae96bad19db8321b4edfc", null ],
     [ "Show", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#af7f0a7cf91a8636554dca739f9eb295d", null ],
     [ "Start", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a21a7024dd8bc2648215bd5b937d16d35", null ],
+    [ "TryGetVisual< TVisual >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#ac9b70db093a53b77cf1487653ad6498a", null ],
     [ "TryLoadModVisuals< TVisual >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#ab27870ccbf0e6c1dc52d5463c8ea7a07", null ],
     [ "UpdateModVisualsList", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a09227bf2d312cce4e6ade63289c93ed7", null ],
     [ "_awakeQueueViews", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a9973d3ccdf561df027e98e4ace26e7fd", null ],
@@ -26,7 +29,8 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual =
     [ "_modVisuals", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#afe73b91feaf319270b5426b2c3c688cd", null ],
     [ "_screenRoot", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a3017108f1e28e30e4eeab7a07cb0e9bf", null ],
     [ "_versionTexts", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#ae229aa36a955af70db65ad7573a6adff", null ],
-    [ "_views", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#af7862d0024bef22499d1bebbac9ed269", null ],
+    [ "_views", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a8af649a60c34555123e92991ac68c04e", null ],
+    [ "_viewsList", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a94da5813fb09a2c345731d69d35be704", null ],
     [ "_visuals", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#ab75cfec73dd0457c7f6ffbccc9103b3d", null ],
     [ "ModScreenContent", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#a005e6170036043a16b57468986ec4506", null ],
     [ "ModVisuals", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual.html#adb2d13d3e7cc227b1f0e297d8d56eb7a", null ]

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['icloneable_0',['ICloneable',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_cloneable.html',1,'CORE::Shared::Utils']]],
-  ['iconfigvaidator_1',['IConfigVaidator',['../interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html',1,'CORE::Shared::Configs']]],
+  ['iconfigvalidator_1',['IConfigValidator',['../interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_validator.html',1,'CORE::Shared::Configs']]],
   ['icustomtransitionuielement_2',['ICustomTransitionUiElement',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_custom_transition_ui_element.html',1,'CORE::Shared::UI::Custom::Interfaces']]],
   ['ifixedupdatelistiner_3',['IFixedUpdateListiner',['../interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html',1,'CORE::Shared::Utils']]],
   ['iimagemodifier_4',['IImageModifier',['../interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_image_modifier.html',1,'CORE::Shared::UI::Custom::Interfaces']]],

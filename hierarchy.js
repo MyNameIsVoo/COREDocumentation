@@ -23,6 +23,8 @@ var hierarchy =
     [ "Button", null, [
       [ "CORE.Shared.UI.Custom.CustomButton", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_button.html", null ]
     ] ],
+    [ "CORE.Shared.Utils.CachedValue< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cached_value-1-g.html", null ],
+    [ "CORE.Shared.UI.VisualView.CashedVisualValue< T >", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_cashed_visual_value-1-g.html", null ],
     [ "CORE.Shared.Utils.CecilExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_cecil_extensions.html", null ],
     [ "CORE.Shared.Utils.ClientWarningExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_client_warning_extensions.html", null ],
     [ "CORE.Shared.Utils.CodeGenerator.CodeGeneratorHelper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_code_generator_1_1_code_generator_helper.html", null ],
@@ -31,7 +33,6 @@ var hierarchy =
     [ "CORE.Shared.Colors.ColorLibrary", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.html", null ],
     [ "CORE.Shared.Console.CommonConsoleCommands", "class_c_o_r_e_1_1_shared_1_1_console_1_1_common_console_commands.html", null ],
     [ "CORE.Shared.Configs.ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", null ],
-    [ "CORE.Shared.Configs.ConfigVisual< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g.html", null ],
     [ "CORE.Shared.Utils.Mouse.CursorExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions.html", null ],
     [ "CORE.Shared.Utils.Mouse.CursorExtensions.CursorInfoStruct", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions_1_1_cursor_info_struct.html", null ],
     [ "CORE.Shared.UI.Custom.Settings.CustomElementSettings", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_settings_1_1_custom_element_settings.html", [
@@ -57,7 +58,6 @@ var hierarchy =
     ] ],
     [ "CORE.Shared.UI.Custom.CustomDropdown.DropdownOptionDataList", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown_1_1_dropdown_option_data_list.html", null ],
     [ "CORE.ModTool.Editor.Exporting.EditorModPlatformExtensions", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_editor_mod_platform_extensions.html", null ],
-    [ "CORE.Shared.Configs.EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", null ],
     [ "CORE.Shared.Utils.EnumExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_enum_extensions.html", null ],
     [ "CORE.Shared.Utils.Resources.ResourceSettings.AssetData.EnumValue", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data_1_1_enum_value.html", null ],
     [ "CORE.ModTool.Editor.Exporting.ExportData", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_data.html", null ],
@@ -71,6 +71,7 @@ var hierarchy =
     [ "CORE.ModTool.Editor.Exporting.FilteredEnumMaskField", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_filtered_enum_mask_field.html", null ],
     [ "CORE.Shared.Inputs.GameInputSetting", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_game_input_setting.html", null ],
     [ "CORE.Shared.Utils.GameTime", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_game_time.html", null ],
+    [ "CORE.Shared.Configs.GoogleSheets.GoogleSheetsLocalizationImporter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_importer.html", null ],
     [ "CORE.Shared.Utils.Pool.Pool< T >.Handle", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g_1_1_handle.html", null ],
     [ "CORE.Shared.Utils.Helper", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_helper.html", null ],
     [ "CORE.Shared.Utils.HelperSaveData", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data.html", null ],
@@ -86,13 +87,14 @@ var hierarchy =
         [ "CORE.Shared.Configs.Settings.Data.QualityPresetSetting", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html", null ]
       ] ]
     ] ],
-    [ "CORE.Shared.Configs.IConfigVaidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_vaidator.html", [
+    [ "CORE.Shared.Configs.IConfigValidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_validator.html", [
       [ "CORE.Shared.Configs.Config", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config.html", [
         [ "CORE.Shared.Configs.ConfigList< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g.html", [
           [ "CORE.Examples.TestListConfig", "class_c_o_r_e_1_1_examples_1_1_test_list_config.html", null ]
         ] ],
         [ "CORE.Shared.Configs.ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", [
           [ "CORE.Examples.TestSingleConfig", "class_c_o_r_e_1_1_examples_1_1_test_single_config.html", null ],
+          [ "CORE.Shared.Configs.DynamicConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_dynamic_config_single-1-g.html", null ],
           [ "CORE.Shared.Configs.GlobalConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html", null ],
           [ "CORE.Shared.Configs.InputConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config.html", null ],
           [ "CORE.Shared.Configs.SettingsConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_config.html", null ]
@@ -121,9 +123,13 @@ var hierarchy =
     ] ],
     [ "IEquatable", null, [
       [ "CORE.Shared.Audio.AudioLibrary.AudioClipData", "struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_library_1_1_audio_clip_data.html", null ],
+      [ "CORE.Shared.Configs.ConfigVisual< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g.html", null ],
       [ "CORE.Shared.Configs.Data.Settings.Data.RefreshRateHelper", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_refresh_rate_helper.html", null ],
       [ "CORE.Shared.Configs.Data.Settings.Data.ResolutionHelper", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_settings_1_1_data_1_1_resolution_helper.html", null ],
-      [ "CORE.Shared.Configs.Settings.Data.ControlInputSetting", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting.html", null ]
+      [ "CORE.Shared.Configs.EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", null ],
+      [ "CORE.Shared.Configs.Settings.Data.ControlInputSetting", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting.html", null ],
+      [ "CORE.Shared.Utils.HelperSaveData.SerializableVector2", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html", null ],
+      [ "CORE.Shared.Utils.HelperSaveData.SerializableVector3", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector3.html", null ]
     ] ],
     [ "CORE.Shared.Utils.IFixedUpdateListiner", "interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html", null ],
     [ "IFormattable", null, [
@@ -347,6 +353,7 @@ var hierarchy =
     [ "CORE.Shared.PauseSystem", "class_c_o_r_e_1_1_shared_1_1_pause_system.html", null ],
     [ "CORE.Shared.Utils.PlayerPrefsSave", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_player_prefs_save.html", null ],
     [ "CORE.Shared.Utils.Mouse.CursorExtensions.PointStruct", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_cursor_extensions_1_1_point_struct.html", null ],
+    [ "CORE.Shared.Utils.Pool.Pool< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_pool_1_1_pool-1-g.html", null ],
     [ "CORE.Shared.Utils.AssetBundles.Progress", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_progress.html", [
       [ "CORE.Shared.Utils.AssetBundles.DownloadProgress", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_download_progress.html", null ],
       [ "CORE.Shared.Utils.AssetBundles.LoadFileProgress", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_load_file_progress.html", null ]
@@ -393,8 +400,10 @@ var hierarchy =
     ] ],
     [ "CORE.Shared.Utils.SceneExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_scene_extensions.html", null ],
     [ "CORE.Shared.ScenesLoader.SceneLoader", "class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader.html", null ],
+    [ "CORE.Shared.ScenesLoader.SceneLoader.ScenesExtensions", "class_c_o_r_e_1_1_shared_1_1_scenes_loader_1_1_scene_loader_1_1_scenes_extensions.html", null ],
     [ "ScriptableObject", null, [
       [ "CORE.Shared.Colors.PlayerColorLibraryData", "class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html", null ],
+      [ "CORE.Shared.Configs.GoogleSheets.GoogleSheetsLocalizationConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_config.html", null ],
       [ "CORE.Shared.Utils.Resources.PlayerResourceSettings", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_player_resource_settings.html", null ],
       [ "CORE.Shared.Utils.SingletonScriptableObject< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_scriptable_object-1-g.html", [
         [ "CORE.ModTool.Editor.Exporting.ExportSettings", "class_c_o_r_e_1_1_mod_tool_1_1_editor_1_1_exporting_1_1_export_settings.html", null ],
@@ -415,8 +424,6 @@ var hierarchy =
       [ "CORE.Shared.UI.Custom.CustomDropdown", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html", null ],
       [ "CORE.Shared.UI.Custom.CustomSelectable", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_selectable.html", null ]
     ] ],
-    [ "CORE.Shared.Utils.HelperSaveData.SerializableVector2", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html", null ],
-    [ "CORE.Shared.Utils.HelperSaveData.SerializableVector3", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector3.html", null ],
     [ "CORE.Shared.Utils.HelperSaveData.SerializableVector4", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector4.html", null ],
     [ "CORE.Shared.GameSettings.Settings", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html", null ],
     [ "CORE.Shared.GameSettings.SettingsData", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html", null ],
@@ -425,6 +432,7 @@ var hierarchy =
     ] ],
     [ "CORE.Shared.Steam.SteamInventoryManager", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_inventory_manager.html", null ],
     [ "CORE.Shared.Steam.SteamItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_item.html", null ],
+    [ "CORE.Shared.Console.SteamItemsConsoleCommands", "class_c_o_r_e_1_1_shared_1_1_console_1_1_steam_items_console_commands.html", null ],
     [ "CORE.Shared.Steam.SteamPlayerItem", "class_c_o_r_e_1_1_shared_1_1_steam_1_1_steam_player_item.html", null ],
     [ "CORE.Shared.Utils.StringExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_string_extensions.html", null ],
     [ "CORE.Shared.Configs.Data.TextConfigData", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_text_config_data.html", null ],
@@ -480,6 +488,7 @@ var hierarchy =
       [ "CORE.Shared.UI.Modal.InfoModalViewData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_modal_1_1_info_modal_view_data.html", null ],
       [ "CORE.Shared.UI.Other.Timer.TimerScreenData", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_other_1_1_timer_1_1_timer_screen_data.html", null ]
     ] ],
+    [ "CORE.Shared.UI.VisualView.GlobalVisual.ViewDataPair", "struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair.html", null ],
     [ "CORE.Shared.Utils.VisualExtensions", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_visual_extensions.html", null ],
     [ "CORE.ModTool.AndroidAssemblyResolver.WebRequest", "class_c_o_r_e_1_1_mod_tool_1_1_android_assembly_resolver_1_1_web_request.html", null ]
 ];

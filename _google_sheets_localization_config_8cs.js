@@ -1,0 +1,4 @@
+var _google_sheets_localization_config_8cs =
+[
+    [ "CORE.Shared.Configs.GoogleSheets.GoogleSheetsLocalizationConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_config" ]
+];

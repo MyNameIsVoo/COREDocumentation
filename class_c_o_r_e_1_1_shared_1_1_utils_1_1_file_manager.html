@@ -120,10 +120,14 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_utils_1_1_file_manager.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aef8ff239ceb3c7b29c1ee5821c58feb1" id="r_aef8ff239ceb3c7b29c1ee5821c58feb1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a> { <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1aa719b7977a39d032029f3567d4499e0b">PersistentDataPath</a>
+<tr class="memitem:aef8ff239ceb3c7b29c1ee5821c58feb1" id="r_aef8ff239ceb3c7b29c1ee5821c58feb1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a> { <br />
+&#160;&#160;<a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1aa719b7977a39d032029f3567d4499e0b">PersistentDataPath</a>
 , <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1a4ace5426e051f5deae509b9d4333f01c">DataPath</a>
 , <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1aa77b18467b8bf41e263afefa998ba9fe">StreamingAssetsPath</a>
 , <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1addcf50c29294d4414f3f7c1bbc892cb5">Resources</a>
+, <br />
+&#160;&#160;<a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1a90589c47f06eb971d548591f23c285af">Custom</a>
+<br />
  }</td></tr>
 <tr class="separator:aef8ff239ceb3c7b29c1ee5821c58feb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -163,6 +167,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a33e0b80da1c13ac26c43da3c9d43e57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c9a9f2ebda41007f8e8d9437cb941e" id="r_ae8c9a9f2ebda41007f8e8d9437cb941e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8c9a9f2ebda41007f8e8d9437cb941e">Exists</a> (string identifier, string additionalPath, <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a> path)</td></tr>
 <tr class="separator:ae8c9a9f2ebda41007f8e8d9437cb941e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d350bdebe88a85fa73a09359f2fd7f" id="r_a28d350bdebe88a85fa73a09359f2fd7f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28d350bdebe88a85fa73a09359f2fd7f">TryReadJsonsFromPath</a> (string path, <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a> gamePath, out Dictionary&lt; string, Func&lt; JObject &gt; &gt; jsons)</td></tr>
+<tr class="separator:a28d350bdebe88a85fa73a09359f2fd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87f87bc486d15d83873f6f9e6fd26962" id="r_a87f87bc486d15d83873f6f9e6fd26962"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87f87bc486d15d83873f6f9e6fd26962">TryReadJsonsFromResources</a> (string path, out Dictionary&lt; string, Func&lt; JObject &gt; &gt; jsons)</td></tr>
 <tr class="separator:a87f87bc486d15d83873f6f9e6fd26962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14fd92069268eb5a7891a5135785690a" id="r_a14fd92069268eb5a7891a5135785690a"><td class="memItemLeft" align="right" valign="top">static Func&lt; JObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14fd92069268eb5a7891a5135785690a">ToJsons</a> (TextAsset text)</td></tr>
@@ -181,8 +187,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ab9404289e2219efa596a26c43d4edc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a611b0db9909f3a5e1d370ba52c34b913" id="r_a611b0db9909f3a5e1d370ba52c34b913"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a611b0db9909f3a5e1d370ba52c34b913">WriteEncryptedJson&lt; T &gt;</a> (T obj, string fullPath, JsonSerializerSettings settings=null, bool steamCloudsSupports=false)</td></tr>
 <tr class="separator:a611b0db9909f3a5e1d370ba52c34b913"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4358ddd70be849feaa25dc149ad14875" id="r_a4358ddd70be849feaa25dc149ad14875"><td class="memItemLeft" align="right" valign="top">static async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4358ddd70be849feaa25dc149ad14875">WriteFileJSONAsync&lt; T &gt;</a> (T obj, string fileName, string additionalPath=&quot;&quot;, <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a> path=<a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1aa719b7977a39d032029f3567d4499e0b">SaveGamePaths.PersistentDataPath</a>)</td></tr>
-<tr class="separator:a4358ddd70be849feaa25dc149ad14875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4306ad8c9ea58c4008f2f07cd27fdbeb" id="r_a4306ad8c9ea58c4008f2f07cd27fdbeb"><td class="memItemLeft" align="right" valign="top">static async UniTask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4306ad8c9ea58c4008f2f07cd27fdbeb">WriteFileJSONAsync&lt; T &gt;</a> (T obj, string fileName, string additionalPath=&quot;&quot;, <a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a> path=<a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1aa719b7977a39d032029f3567d4499e0b">SaveGamePaths.PersistentDataPath</a>, JsonSerializerSettings settings=null)</td></tr>
+<tr class="separator:a4306ad8c9ea58c4008f2f07cd27fdbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a1b982c3c2c98ad1e8306517988c0bc" id="r_a0a1b982c3c2c98ad1e8306517988c0bc"><td class="memItemLeft" align="right" valign="top">static ArrayList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a1b982c3c2c98ad1e8306517988c0bc">LoadFile</a> (string path, string name)</td></tr>
 <tr class="separator:a0a1b982c3c2c98ad1e8306517988c0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55c04b762aa4e347b940218bff2e4a61" id="r_a55c04b762aa4e347b940218bff2e4a61"><td class="memItemLeft" align="right" valign="top">static List&lt;(string Path, string FolderName)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55c04b762aa4e347b940218bff2e4a61">GetFoldersAtPath</a> (<a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a> path, string additionalPath)</td></tr>
@@ -208,6 +214,10 @@ Static Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a602b499532f8e19232ad972342a6165a" id="r_a602b499532f8e19232ad972342a6165a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a602b499532f8e19232ad972342a6165a">FILE_JSON</a> = &quot;.json&quot;</td></tr>
 <tr class="separator:a602b499532f8e19232ad972342a6165a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1273e91efdcfc666207d4b79bc2a49b" id="r_ad1273e91efdcfc666207d4b79bc2a49b"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1273e91efdcfc666207d4b79bc2a49b">FILE_PNG</a> = &quot;.png&quot;</td></tr>
+<tr class="separator:ad1273e91efdcfc666207d4b79bc2a49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b65918053d482e4b0aae269cded086f" id="r_a1b65918053d482e4b0aae269cded086f"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b65918053d482e4b0aae269cded086f">FILE_TXT</a> = &quot;.txt&quot;</td></tr>
+<tr class="separator:a1b65918053d482e4b0aae269cded086f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a062cb8d45ca7b47686f5d63eb9710aa9" id="r_a062cb8d45ca7b47686f5d63eb9710aa9"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a062cb8d45ca7b47686f5d63eb9710aa9">PathGenerated</a> = &quot;/COREToolkit/Scripts/Shared/CodeGenerated&quot;</td></tr>
 <tr class="separator:a062cb8d45ca7b47686f5d63eb9710aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a234dcb998ce4c8e78c739cdb989076f7" id="r_a234dcb998ce4c8e78c739cdb989076f7"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a234dcb998ce4c8e78c739cdb989076f7">ModToolExportPlugingPath</a> = &quot;Plugins/ModToolExporter&quot;</td></tr>
@@ -265,6 +275,7 @@ Static Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="aef8ff239ceb3c7b29c1ee5821c58feb1a4ace5426e051f5deae509b9d4333f01c" name="aef8ff239ceb3c7b29c1ee5821c58feb1a4ace5426e051f5deae509b9d4333f01c"></a>DataPath&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aef8ff239ceb3c7b29c1ee5821c58feb1aa77b18467b8bf41e263afefa998ba9fe" name="aef8ff239ceb3c7b29c1ee5821c58feb1aa77b18467b8bf41e263afefa998ba9fe"></a>StreamingAssetsPath&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aef8ff239ceb3c7b29c1ee5821c58feb1addcf50c29294d4414f3f7c1bbc892cb5" name="aef8ff239ceb3c7b29c1ee5821c58feb1addcf50c29294d4414f3f7c1bbc892cb5"></a>Resources&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef8ff239ceb3c7b29c1ee5821c58feb1a90589c47f06eb971d548591f23c285af" name="aef8ff239ceb3c7b29c1ee5821c58feb1a90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1296,6 +1307,40 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a28d350bdebe88a85fa73a09359f2fd7f" name="a28d350bdebe88a85fa73a09359f2fd7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d350bdebe88a85fa73a09359f2fd7f">&#9670;&#160;</a></span>TryReadJsonsFromPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Utils.FileManager.TryReadJsonsFromPath </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a></td>          <td class="paramname"><span class="paramname"><em>gamePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out Dictionary&lt; string, Func&lt; JObject &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>jsons</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a87f87bc486d15d83873f6f9e6fd26962" name="a87f87bc486d15d83873f6f9e6fd26962"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87f87bc486d15d83873f6f9e6fd26962">&#9670;&#160;</a></span>TryReadJsonsFromResources()</h2>
 
@@ -1457,8 +1502,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4358ddd70be849feaa25dc149ad14875" name="a4358ddd70be849feaa25dc149ad14875"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4358ddd70be849feaa25dc149ad14875">&#9670;&#160;</a></span>WriteFileJSONAsync&lt; T &gt;()</h2>
+<a id="a4306ad8c9ea58c4008f2f07cd27fdbeb" name="a4306ad8c9ea58c4008f2f07cd27fdbeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4306ad8c9ea58c4008f2f07cd27fdbeb">&#9670;&#160;</a></span>WriteFileJSONAsync&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1467,7 +1512,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static async Task CORE.Shared.Utils.FileManager.WriteFileJSONAsync&lt; T &gt; </td>
+          <td class="memname">static async UniTask CORE.Shared.Utils.FileManager.WriteFileJSONAsync&lt; T &gt; </td>
           <td>(</td>
           <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
@@ -1484,7 +1529,12 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1aa719b7977a39d032029f3567d4499e0b">SaveGamePaths::PersistentDataPath</a></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1">SaveGamePaths</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#aef8ff239ceb3c7b29c1ee5821c58feb1aa719b7977a39d032029f3567d4499e0b">SaveGamePaths::PersistentDataPath</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JsonSerializerSettings</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1618,6 +1668,50 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const string CORE.Shared.Utils.FileManager.FILE_JSON = &quot;.json&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1273e91efdcfc666207d4b79bc2a49b" name="ad1273e91efdcfc666207d4b79bc2a49b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1273e91efdcfc666207d4b79bc2a49b">&#9670;&#160;</a></span>FILE_PNG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string CORE.Shared.Utils.FileManager.FILE_PNG = &quot;.png&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b65918053d482e4b0aae269cded086f" name="a1b65918053d482e4b0aae269cded086f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b65918053d482e4b0aae269cded086f">&#9670;&#160;</a></span>FILE_TXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string CORE.Shared.Utils.FileManager.FILE_TXT = &quot;.txt&quot;</td>
         </tr>
       </table>
   </td>

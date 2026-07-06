@@ -39,6 +39,7 @@ var class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data =
     ] ],
     [ "GraphicSettingsData", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a40926dd60db5766c48cd20e3ccb4ff6d", null ],
     [ "Apply", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#ae693e83369fa31527c5ef24b79a2ae7e", null ],
+    [ "ApplyResolution", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a60e9262fb9ed1a3a9cc504edf9f11ffc", null ],
     [ "CheckIdentity< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#ac82c1a1d2839cdc4551a399e0ea28d85", null ],
     [ "GetQualityGamePreset", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a79cf1730483d4098a10552d163ce2713", null ],
     [ "Migrate", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#adc31d1360f321d24e5d51e14157b0de7", null ],
@@ -46,6 +47,7 @@ var class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data =
     [ "SetData", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#ad05c93c8085e75debf74803c9ceec309", null ],
     [ "SetData< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a4e05dc57e4d4d539b9fe45acb1fbd175", null ],
     [ "Validate", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#abf35f8b3d57af9a8e8146d089d6f1cd9", null ],
+    [ "_displayInfo", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a83d35fd06bb3286c64042a2dccd60e38", null ],
     [ "Brightness", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a2ed6f898c83b2c027d91b2497f43033f", null ],
     [ "BrightnessLeftBorder", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#ad03e68bca6ed669a7df8edb4ceaa4c7e", null ],
     [ "BrightnessRightBorder", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a60a61404d54cc726200c55b10e26194b", null ],
@@ -61,5 +63,6 @@ var class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data =
     [ "Ration", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a8b54556444a4095d16c1fd72e68803e4", null ],
     [ "Resolution", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#aef3f25bebf2e8f06b2cdfe154f67c55c", null ],
     [ "VSync", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a76095b7e8166889b0fc291c597062675", null ],
-    [ "CurrentQualitySettings", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a039c1a60d8d01b6a076cbe0ba0d38013", null ]
+    [ "CurrentQualitySettings", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a039c1a60d8d01b6a076cbe0ba0d38013", null ],
+    [ "GetCurrentDisplayInfo", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html#a1609c34fcf8fcc6150cc5b9bbd469044", null ]
 ];

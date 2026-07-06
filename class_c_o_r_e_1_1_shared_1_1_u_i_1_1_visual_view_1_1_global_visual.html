@@ -104,6 +104,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_g
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -128,6 +129,11 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_g
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair.html">ViewDataPair</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a09227bf2d312cce4e6ade63289c93ed7" id="r_a09227bf2d312cce4e6ade63289c93ed7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09227bf2d312cce4e6ade63289c93ed7">UpdateModVisualsList</a> ()</td></tr>
@@ -146,6 +152,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a713ae75fec213cb7579762c7429b8d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4770184cdc3fe312b41af7ba7cbd9fa8" id="r_a4770184cdc3fe312b41af7ba7cbd9fa8"><td class="memItemLeft" align="right" valign="top">TVisual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4770184cdc3fe312b41af7ba7cbd9fa8">GetVisual&lt; TVisual &gt;</a> ()</td></tr>
 <tr class="separator:a4770184cdc3fe312b41af7ba7cbd9fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1eb8b3324219a3f39e319c717f92349" id="r_ab1eb8b3324219a3f39e319c717f92349"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1eb8b3324219a3f39e319c717f92349">HasVisual&lt; TVisual &gt;</a> ()</td></tr>
+<tr class="separator:ab1eb8b3324219a3f39e319c717f92349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b70db093a53b77cf1487653ad6498a" id="r_ac9b70db093a53b77cf1487653ad6498a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9b70db093a53b77cf1487653ad6498a">TryGetVisual&lt; TVisual &gt;</a> (out TVisual visual)</td></tr>
+<tr class="separator:ac9b70db093a53b77cf1487653ad6498a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c36a5c0b50782ae9c35cc3d21ff7cca" id="r_a6c36a5c0b50782ae9c35cc3d21ff7cca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c36a5c0b50782ae9c35cc3d21ff7cca">AddView&lt; TVisual &gt;</a> (TVisual visual, View&lt; TVisual &gt; view)</td></tr>
 <tr class="separator:a6c36a5c0b50782ae9c35cc3d21ff7cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a222b41e5e339a43b0da5a92c815dff" id="r_a4a222b41e5e339a43b0da5a92c815dff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a222b41e5e339a43b0da5a92c815dff">AddView&lt; TVisual, TViewData &gt;</a> (TVisual visual, View&lt; TVisual, TViewData &gt; view)</td></tr>
@@ -198,8 +208,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab75cfec73dd0457c7f6ffbccc9103b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae229aa36a955af70db65ad7573a6adff" id="r_ae229aa36a955af70db65ad7573a6adff"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae229aa36a955af70db65ad7573a6adff">_versionTexts</a></td></tr>
 <tr class="separator:ae229aa36a955af70db65ad7573a6adff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7862d0024bef22499d1bebbac9ed269" id="r_af7862d0024bef22499d1bebbac9ed269"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html">Visual</a>,(<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html">IView</a> view, <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view_data.html">IViewData</a> viewData)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7862d0024bef22499d1bebbac9ed269">_views</a> = new(0)</td></tr>
-<tr class="separator:af7862d0024bef22499d1bebbac9ed269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8af649a60c34555123e92991ac68c04e" id="r_a8af649a60c34555123e92991ac68c04e"><td class="memItemLeft" align="right" valign="top">readonly Dictionary&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html">Visual</a>, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair.html">ViewDataPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8af649a60c34555123e92991ac68c04e">_views</a> = new(0)</td></tr>
+<tr class="separator:a8af649a60c34555123e92991ac68c04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94da5813fb09a2c345731d69d35be704" id="r_a94da5813fb09a2c345731d69d35be704"><td class="memItemLeft" align="right" valign="top">readonly List&lt; <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair.html">ViewDataPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94da5813fb09a2c345731d69d35be704">_viewsList</a> = new(0)</td></tr>
+<tr class="separator:a94da5813fb09a2c345731d69d35be704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9973d3ccdf561df027e98e4ace26e7fd" id="r_a9973d3ccdf561df027e98e4ace26e7fd"><td class="memItemLeft" align="right" valign="top">readonly Queue&lt; <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html">IView</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9973d3ccdf561df027e98e4ace26e7fd">_awakeQueueViews</a> = new(0)</td></tr>
 <tr class="separator:a9973d3ccdf561df027e98e4ace26e7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc00b1f7b74c7a481ad6abee65196197" id="r_acc00b1f7b74c7a481ad6abee65196197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_global_updater.html">GlobalUpdater</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc00b1f7b74c7a481ad6abee65196197">_globalUpdater</a></td></tr>
@@ -364,6 +376,31 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">TVisual CORE.Shared.UI.VisualView.GlobalVisual.GetVisual&lt; TVisual &gt; </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TVisual</em></td><td>&#160;:</td><td valign="top"><em>Visual</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="ab1eb8b3324219a3f39e319c717f92349" name="ab1eb8b3324219a3f39e319c717f92349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1eb8b3324219a3f39e319c717f92349">&#9670;&#160;</a></span>HasVisual&lt; TVisual &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.UI.VisualView.GlobalVisual.HasVisual&lt; TVisual &gt; </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -667,6 +704,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac9b70db093a53b77cf1487653ad6498a" name="ac9b70db093a53b77cf1487653ad6498a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b70db093a53b77cf1487653ad6498a">&#9670;&#160;</a></span>TryGetVisual&lt; TVisual &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.UI.VisualView.GlobalVisual.TryGetVisual&lt; TVisual &gt; </td>
+          <td>(</td>
+          <td class="paramtype">out TVisual</td>          <td class="paramname"><span class="paramname"><em>visual</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TVisual</em></td><td>&#160;:</td><td valign="top"><em>Visual</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
 <a id="ab27870ccbf0e6c1dc52d5463c8ea7a07" name="ab27870ccbf0e6c1dc52d5463c8ea7a07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab27870ccbf0e6c1dc52d5463c8ea7a07">&#9670;&#160;</a></span>TryLoadModVisuals&lt; TVisual &gt;()</h2>
 
@@ -852,8 +914,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af7862d0024bef22499d1bebbac9ed269" name="af7862d0024bef22499d1bebbac9ed269"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7862d0024bef22499d1bebbac9ed269">&#9670;&#160;</a></span>_views</h2>
+<a id="a8af649a60c34555123e92991ac68c04e" name="a8af649a60c34555123e92991ac68c04e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8af649a60c34555123e92991ac68c04e">&#9670;&#160;</a></span>_views</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -862,7 +924,29 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly Dictionary&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html">Visual</a>, (<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view.html">IView</a> view, <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_i_view_data.html">IViewData</a> viewData)&gt; CORE.Shared.UI.VisualView.GlobalVisual._views = new(0)</td>
+          <td class="memname">readonly Dictionary&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html">Visual</a>, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair.html">ViewDataPair</a>&gt; CORE.Shared.UI.VisualView.GlobalVisual._views = new(0)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94da5813fb09a2c345731d69d35be704" name="a94da5813fb09a2c345731d69d35be704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94da5813fb09a2c345731d69d35be704">&#9670;&#160;</a></span>_viewsList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_global_visual_1_1_view_data_pair.html">ViewDataPair</a>&gt; CORE.Shared.UI.VisualView.GlobalVisual._viewsList = new(0)</td>
         </tr>
       </table>
   </td>

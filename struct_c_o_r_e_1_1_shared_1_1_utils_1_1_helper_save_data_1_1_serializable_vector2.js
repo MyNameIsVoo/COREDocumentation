@@ -1,5 +1,9 @@
 var struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2 =
 [
+    [ "ApproximatelyEquals", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#ab473dc2046587fcd36eaacab603d99bb", null ],
+    [ "Equals", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#ad017fad1a3c1a935baae34a172a2cbfe", null ],
+    [ "Equals", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#a378849545f84934a6a2f5dceee255118", null ],
+    [ "GetHashCode", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#aa63756fc6f80e7d7c4442ea43017f60c", null ],
     [ "operator SerializableVector2", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#a6f5427f7a04af496a77d90593142cea2", null ],
     [ "operator SerializableVector2", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#aa8de547a70a7566983d0884a985ea34e", null ],
     [ "operator Vector2", "struct_c_o_r_e_1_1_shared_1_1_utils_1_1_helper_save_data_1_1_serializable_vector2.html#a3dd1e5f1c70efc50b4071d396829512e", null ],

@@ -1,0 +1,5 @@
+var namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets =
+[
+    [ "GoogleSheetsLocalizationConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_config" ],
+    [ "GoogleSheetsLocalizationImporter", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_importer.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets_1_1_google_sheets_localization_importer" ]
+];
