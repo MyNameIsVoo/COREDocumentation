@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,6 +109,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_grap
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Configs.Data.GraphicSettingsData Class Reference</div></div>
@@ -270,6 +271,21 @@ Properties</h2></td></tr>
 <tr class="separator:a1609c34fcf8fcc6150cc5b9bbd469044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a039c1a60d8d01b6a076cbe0ba0d38013" id="r_a039c1a60d8d01b6a076cbe0ba0d38013"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_quality_preset_setting.html">QualityPresetSetting</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a039c1a60d8d01b6a076cbe0ba0d38013">CurrentQualitySettings</a><code> [get]</code></td></tr>
 <tr class="separator:a039c1a60d8d01b6a076cbe0ba0d38013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a642b130c7db6e3aec74046d7b32f404a" id="r_a642b130c7db6e3aec74046d7b32f404a"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642b130c7db6e3aec74046d7b32f404a">OnValidated</a> ()</td></tr>
+<tr class="memdesc:a642b130c7db6e3aec74046d7b32f404a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The end of <a class="el" href="#abf35f8b3d57af9a8e8146d089d6f1cd9">Validate</a>: clamp or default the game's own fields.  <br /></td></tr>
+<tr class="separator:a642b130c7db6e3aec74046d7b32f404a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2038b1034d34a4be784ee38daacd3f7b" id="r_a2038b1034d34a4be784ee38daacd3f7b"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2038b1034d34a4be784ee38daacd3f7b">OnApplying</a> (ref bool handled)</td></tr>
+<tr class="memdesc:a2038b1034d34a4be784ee38daacd3f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The start of <a class="el" href="#ae693e83369fa31527c5ef24b79a2ae7e">Apply</a>. Set <em>handled</em>  when the game applies the window, frame rate and quality itself (a borderless or transparent window driven by a plugin): then <a class="el" href="namespace_c_o_r_e.html">CORE</a> neither calls <a class="el" href="#a60e9262fb9ed1a3a9cc504edf9f11ffc">ApplyResolution</a> nor touches the frame rate, vSync and quality level.  <br /></td></tr>
+<tr class="separator:a2038b1034d34a4be784ee38daacd3f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2129b6483335a11c183c243044c1582b" id="r_a2129b6483335a11c183c243044c1582b"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2129b6483335a11c183c243044c1582b">OnSetData</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html">GraphicSettingsData</a> settings)</td></tr>
+<tr class="memdesc:a2129b6483335a11c183c243044c1582b"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetData&lt;T&gt;, before <code>OnChanged</code>: copy the game's own fields from <em>settings</em>   <br /></td></tr>
+<tr class="separator:a2129b6483335a11c183c243044c1582b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab75ec149ce970b9b5330fb5044b97bfd" id="r_ab75ec149ce970b9b5330fb5044b97bfd"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75ec149ce970b9b5330fb5044b97bfd">OnCheckIdentity</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html">GraphicSettingsData</a> settings, ref bool identical)</td></tr>
+<tr class="memdesc:ab75ec149ce970b9b5330fb5044b97bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">CheckIdentity&lt;T&gt;: compare the game's own fields, clear <em>identical</em>  on a difference  <br /></td></tr>
+<tr class="separator:ab75ec149ce970b9b5330fb5044b97bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -518,6 +534,118 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2038b1034d34a4be784ee38daacd3f7b" name="a2038b1034d34a4be784ee38daacd3f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2038b1034d34a4be784ee38daacd3f7b">&#9670;&#160;</a></span>OnApplying()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GraphicSettingsData.OnApplying </td>
+          <td>(</td>
+          <td class="paramtype">ref bool</td>          <td class="paramname"><span class="paramname"><em>handled</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The start of <a class="el" href="#ae693e83369fa31527c5ef24b79a2ae7e">Apply</a>. Set <em>handled</em>  when the game applies the window, frame rate and quality itself (a borderless or transparent window driven by a plugin): then <a class="el" href="namespace_c_o_r_e.html">CORE</a> neither calls <a class="el" href="#a60e9262fb9ed1a3a9cc504edf9f11ffc">ApplyResolution</a> nor touches the frame rate, vSync and quality level. </p>
+
+</div>
+</div>
+<a id="ab75ec149ce970b9b5330fb5044b97bfd" name="ab75ec149ce970b9b5330fb5044b97bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75ec149ce970b9b5330fb5044b97bfd">&#9670;&#160;</a></span>OnCheckIdentity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GraphicSettingsData.OnCheckIdentity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html">GraphicSettingsData</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref bool</td>          <td class="paramname"><span class="paramname"><em>identical</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>CheckIdentity&lt;T&gt;: compare the game's own fields, clear <em>identical</em>  on a difference </p>
+
+</div>
+</div>
+<a id="a2129b6483335a11c183c243044c1582b" name="a2129b6483335a11c183c243044c1582b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2129b6483335a11c183c243044c1582b">&#9670;&#160;</a></span>OnSetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GraphicSettingsData.OnSetData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_graphic_settings_data.html">GraphicSettingsData</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>SetData&lt;T&gt;, before <code>OnChanged</code>: copy the game's own fields from <em>settings</em>  </p>
+
+</div>
+</div>
+<a id="a642b130c7db6e3aec74046d7b32f404a" name="a642b130c7db6e3aec74046d7b32f404a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642b130c7db6e3aec74046d7b32f404a">&#9670;&#160;</a></span>OnValidated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GraphicSettingsData.OnValidated </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The end of <a class="el" href="#abf35f8b3d57af9a8e8146d089d6f1cd9">Validate</a>: clamp or default the game's own fields. </p>
 
 </div>
 </div>

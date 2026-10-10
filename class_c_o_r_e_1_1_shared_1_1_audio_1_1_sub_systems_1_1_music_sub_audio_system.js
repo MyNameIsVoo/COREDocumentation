@@ -11,7 +11,6 @@ var class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_syste
     [ "_breakCurrentClip", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#ae42a4648b5666715077ab0ad15b430f3", null ],
     [ "_isActiveChangingVolume", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#a64652261cbf324bb8275b3ab6d357b7d", null ],
     [ "_isActiveMusic", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#a5935d7287dfcb73788da72157e81262f", null ],
-    [ "_isActivePlaying", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#aa2a66199c548fc4eac6560b562224114", null ],
     [ "_randomeMusic", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#ab74a899d67ebc21ec80144a136eac95f", null ],
     [ "MusicVolumeLayer", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#a43b962d29455e40495bdc8fb81b24d23", null ],
     [ "TimeToChangeVolume", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#a4d6493c95453387eb4106e202a415a26", null ],

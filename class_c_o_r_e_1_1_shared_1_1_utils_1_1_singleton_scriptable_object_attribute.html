@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,6 +124,8 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_scrip
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f141f91bf40b3d67001720bae828121" id="r_a6f141f91bf40b3d67001720bae828121"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f141f91bf40b3d67001720bae828121">SingletonScriptableObjectAttribute</a> (string fileName, string directory)</td></tr>
 <tr class="separator:a6f141f91bf40b3d67001720bae828121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d873c50836b2396ad2f8589e8aed67" id="r_ae5d873c50836b2396ad2f8589e8aed67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5d873c50836b2396ad2f8589e8aed67">SingletonScriptableObjectAttribute</a> (string fileName, string directory, string defaultsFileName)</td></tr>
+<tr class="separator:ae5d873c50836b2396ad2f8589e8aed67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -131,15 +133,23 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a895ed4d93b850ae2ca7eeba9f65df57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56bf907c42c68628077b4ec26f71f228" id="r_a56bf907c42c68628077b4ec26f71f228"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56bf907c42c68628077b4ec26f71f228">Directory</a></td></tr>
 <tr class="separator:a56bf907c42c68628077b4ec26f71f228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaea09a981b8b056649965c22c09293e" id="r_afaea09a981b8b056649965c22c09293e"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaea09a981b8b056649965c22c09293e">DefaultsFileName</a></td></tr>
+<tr class="memdesc:afaea09a981b8b056649965c22c09293e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The package's asset loaded when the game has no <a class="el" href="#a895ed4d93b850ae2ca7eeba9f65df57d">FileName</a> of its own: the game's copy, outside the package, is what a package update leaves alone. Null — <a class="el" href="#a895ed4d93b850ae2ca7eeba9f65df57d">FileName</a> is the only asset.  <br /></td></tr>
+<tr class="separator:afaea09a981b8b056649965c22c09293e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a98a833a52e21b9e5dd7a6e73c4268c29" id="r_a98a833a52e21b9e5dd7a6e73c4268c29"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98a833a52e21b9e5dd7a6e73c4268c29">FilePath</a><code> [get]</code></td></tr>
 <tr class="separator:a98a833a52e21b9e5dd7a6e73c4268c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994b04b16a95ab769a70bb61a08b4e50" id="r_a994b04b16a95ab769a70bb61a08b4e50"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a994b04b16a95ab769a70bb61a08b4e50">PackageFileName</a><code> [get]</code></td></tr>
+<tr class="memdesc:a994b04b16a95ab769a70bb61a08b4e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">The asset the package ships: the defaults when there are any, else the file itself.  <br /></td></tr>
+<tr class="separator:a994b04b16a95ab769a70bb61a08b4e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ed76b53432cd0b88ca36e45c0a23c2" id="r_a91ed76b53432cd0b88ca36e45c0a23c2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ed76b53432cd0b88ca36e45c0a23c2">PackageFilePath</a><code> [get]</code></td></tr>
+<tr class="separator:a91ed76b53432cd0b88ca36e45c0a23c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6f141f91bf40b3d67001720bae828121" name="a6f141f91bf40b3d67001720bae828121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f141f91bf40b3d67001720bae828121">&#9670;&#160;</a></span>SingletonScriptableObjectAttribute()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f141f91bf40b3d67001720bae828121">&#9670;&#160;</a></span>SingletonScriptableObjectAttribute() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +169,49 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="ae5d873c50836b2396ad2f8589e8aed67" name="ae5d873c50836b2396ad2f8589e8aed67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d873c50836b2396ad2f8589e8aed67">&#9670;&#160;</a></span>SingletonScriptableObjectAttribute() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CORE.Shared.Utils.SingletonScriptableObjectAttribute.SingletonScriptableObjectAttribute </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>directory</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>defaultsFileName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="afaea09a981b8b056649965c22c09293e" name="afaea09a981b8b056649965c22c09293e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaea09a981b8b056649965c22c09293e">&#9670;&#160;</a></span>DefaultsFileName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly string CORE.Shared.Utils.SingletonScriptableObjectAttribute.DefaultsFileName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The package's asset loaded when the game has no <a class="el" href="#a895ed4d93b850ae2ca7eeba9f65df57d">FileName</a> of its own: the game's copy, outside the package, is what a package update leaves alone. Null — <a class="el" href="#a895ed4d93b850ae2ca7eeba9f65df57d">FileName</a> is the only asset. </p>
+
+</div>
+</div>
 <a id="a56bf907c42c68628077b4ec26f71f228" name="a56bf907c42c68628077b4ec26f71f228"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56bf907c42c68628077b4ec26f71f228">&#9670;&#160;</a></span>Directory</h2>
 
@@ -200,6 +252,52 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">string CORE.Shared.Utils.SingletonScriptableObjectAttribute.FilePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a994b04b16a95ab769a70bb61a08b4e50" name="a994b04b16a95ab769a70bb61a08b4e50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994b04b16a95ab769a70bb61a08b4e50">&#9670;&#160;</a></span>PackageFileName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Utils.SingletonScriptableObjectAttribute.PackageFileName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The asset the package ships: the defaults when there are any, else the file itself. </p>
+
+</div>
+</div>
+<a id="a91ed76b53432cd0b88ca36e45c0a23c2" name="a91ed76b53432cd0b88ca36e45c0a23c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ed76b53432cd0b88ca36e45c0a23c2">&#9670;&#160;</a></span>PackageFilePath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Utils.SingletonScriptableObjectAttribute.PackageFilePath</td>
         </tr>
       </table>
   </td>

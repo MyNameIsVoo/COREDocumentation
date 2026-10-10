@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -113,16 +113,72 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_generated_1_1_input_1_1_i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae496fcb0c1cf1b0255a6a48733e81869" id="r_ae496fcb0c1cf1b0255a6a48733e81869"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869">InputEnums</a> { <br />
-&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a2027c027133e22c8929e2874dc44dd36">CANCEL</a> = 0
-, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869af8fdf3784e02bb1425e337d759817218">DEBUG_UNITY_BREAK</a> = 1
-, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a458186643d2c734524bf222f15b86af9">DEBUG_PAUSE</a> = 2
-, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a40222410c7347ec4b6bcaba3bcb21f3b">JUMP</a> = 3
+<tr class="memitem:a8c285bdcb9273ca99fa5647fe68b3f23" id="r_a8c285bdcb9273ca99fa5647fe68b3f23"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23">InputGroups</a> { <br />
+&#160;&#160;<a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23ab50339a10e1de285ac99d4c3990b8693">NONE</a> = 0
+, <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23a07c80e2a355d91402a00d82b1fa13855">PLAYER</a> = 1 &lt;&lt; 0
+, <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23a71ff71526d15db86eb50fcac245d183b">UI</a> = 1 &lt;&lt; 1
+, <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23adc30ec20708ef7b0f641ef78b7880a15">DEBUG</a> = 1 &lt;&lt; 2
 , <br />
-&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a30fb259cd3623284881f0f6534b49a67">MOVELEFT</a> = 4
-, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a3538afcfe0af4758d084c7c6b25934a5">MOVERIGHT</a> = 5
-, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ac6ddd0f72ff2fd344693b9ca8d483871">ATTACK</a> = 6
-, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a96b0141273eabab320119c467cdcaf17">Total</a> = 7
+&#160;&#160;<a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23a8e3b72508e05135569ace4ed9b96d137">EXAMPLE</a> = 1 &lt;&lt; 3
+, <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23a42ad1ae3b0f533b4f98e75a375f1ee17">VIRTUALCURSOR</a> = 1 &lt;&lt; 4
+, <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23a5fb1f955b45e38e31789286a1790398d">ALL</a> = PLAYER | UI | DEBUG | EXAMPLE | VIRTUALCURSOR
+<br />
+ }</td></tr>
+<tr class="separator:a8c285bdcb9273ca99fa5647fe68b3f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae496fcb0c1cf1b0255a6a48733e81869" id="r_ae496fcb0c1cf1b0255a6a48733e81869"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869">InputEnums</a> { <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a09615e47f229c3d2725c924d0af4a0ce">PLAYER_MOVE</a> = 0
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a40014ab654794ec1005083d26f2177f9">PLAYER_LOOK</a> = 1
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a79bbaf6218481b76244653ea53300e86">PLAYER_ATTACK</a> = 2
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a2dbf128828f3259fe7a4c6917add386b">PLAYER_INTERACT</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ad5c0d44ef779675ed02bdce4790e578d">PLAYER_CROUCH</a> = 4
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a210af30d27ab1323527c1f6add23ee54">PLAYER_JUMP</a> = 5
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a99db333fa670d297b154d4bfbac0d8cd">PLAYER_PREVIOUS</a> = 6
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a7a9730a360c29e9e8f21ffb760fe776e">PLAYER_NEXT</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a8e48097faab0f4cccbb6b834c5a4843e">PLAYER_SPRINT</a> = 8
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a319266c0cf5266d1dfc4cf649b12a590">UI_NAVIGATE</a> = 9
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a5505ff3766b8a82313b8182d95ced0b3">UI_SUBMIT</a> = 10
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ac3a5d84ca8e5ca9bd0416e32d4ff3916">UI_CANCEL</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a3848e518ccdd5a5c7aa70fbefae89e0b">UI_POINT</a> = 12
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ac9ae553030ab54a63c5f0cced52373cf">UI_CLICK</a> = 13
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ae08c360a6fcb8c9647768402a2c958e6">UI_RIGHTCLICK</a> = 14
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a19580c4a9fc60ebd7ba4caebb08ec02b">UI_MIDDLECLICK</a> = 15
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a79f7775c3d16af6996a41b6ad6e0f129">UI_SCROLLWHEEL</a> = 16
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a1654453ce2f56e757391d759d0ab39ac">UI_TRACKEDDEVICEPOSITION</a> = 17
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ab8cfffc877b283110ca4ed5cd6b68eda">UI_TRACKEDDEVICEORIENTATION</a> = 18
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a458186643d2c734524bf222f15b86af9">DEBUG_PAUSE</a> = 19
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a547bb93653ed3239708392228e5632c9">DEBUG_BREAK</a> = 20
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a9224dfb0f302e96300e4e7537db23378">EXAMPLE_BOOST</a> = 21
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a320e8fa73ba8b66694119cd811bfb748">EXAMPLE_MOVE</a> = 22
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a3aeb3cb47cdb1ea60a480b23a5ff8b64">EXAMPLE_ZOOM</a> = 23
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a2f95abfb1b1679b66abe6c80c9586eda">UI_SUBMITNORTH</a> = 24
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a99c7394fa2c7d464f367f0baf9f18f33">UI_SUBMITWEST</a> = 25
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ad17de797d19ece84d1376fa58b45916d">UI_SUBMITEAST</a> = 26
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869afec0195d004f100eb23be756f5905a4a">UI_DPADUP</a> = 27
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869aff8d4e471ac4b22996bfd34803d2a098">UI_DPADDOWN</a> = 28
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ad4e6e069d3e10529f2c8d830cfd9cb90">UI_DPADLEFT</a> = 29
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ad723c6d7fa09ca6cdad71305eb906f99">UI_DPADRIGHT</a> = 30
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a111c6788a62a73d2db793848d6cce5f2">UI_LEFTSHOULDER</a> = 31
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869af24a63f042fa2ec20c494aec6b98ec6e">UI_RIGHTSHOULDER</a> = 32
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a34458342702d4bd50a2b8dec2b76d881">UI_LEFTTRIGGER</a> = 33
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a2ab32c4046f6bcc48d2606c0621dc4e4">UI_RIGHTTRIGGER</a> = 34
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a1e4def4fd8d0e14b4378fc1649d78b20">UI_SCROLL</a> = 35
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ab146f195949d7d1e8383680621190b19">UI_RIGHTSTICKUP</a> = 36
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869abcb908946417f3717a53ccdf550dce81">UI_RIGHTSTICKDOWN</a> = 37
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a1cc5d70aea62e82fa9e01a854a59550c">UI_LEFTSTICKPRESS</a> = 38
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a00ce58a57a6cde87185831dd924de7d5">UI_RIGHTSTICKPRESS</a> = 39
+, <br />
+&#160;&#160;<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a174a936ae4e9a7a947eeed76cc64dd1a">VIRTUALCURSOR_SUBMIT</a> = 40
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869ae9478e798033e76ce145a7e5903f16d2">VIRTUALCURSOR_MOVE</a> = 41
+, <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869a96b0141273eabab320119c467cdcaf17">Total</a> = 42
 <br />
  }</td></tr>
 <tr class="separator:ae496fcb0c1cf1b0255a6a48733e81869"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +189,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:abcb7523489d2b87ad52175043c8e14ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51383b7ba8e605b8fb63589fecf931a6" id="r_a51383b7ba8e605b8fb63589fecf931a6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51383b7ba8e605b8fb63589fecf931a6">HasInputEnums</a> (string value)</td></tr>
 <tr class="separator:a51383b7ba8e605b8fb63589fecf931a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569df1941a1d9282991692e0c6c31d41" id="r_a569df1941a1d9282991692e0c6c31d41"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23">InputGroups</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a569df1941a1d9282991692e0c6c31d41">GetInputGroups</a> (<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869">InputEnums</a> @enum)</td></tr>
+<tr class="separator:a569df1941a1d9282991692e0c6c31d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ce380d9ead76f1941a38acc48fda1d0" id="r_a7ce380d9ead76f1941a38acc48fda1d0"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ce380d9ead76f1941a38acc48fda1d0">GetActionMapName</a> (<a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23">InputGroups</a> @enum)</td></tr>
+<tr class="separator:a7ce380d9ead76f1941a38acc48fda1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43e4387bd36eb7b57b4babda449b2020" id="r_a43e4387bd36eb7b57b4babda449b2020"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43e4387bd36eb7b57b4babda449b2020">GetActionName</a> (<a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869">InputEnums</a> @enum)</td></tr>
+<tr class="separator:a43e4387bd36eb7b57b4babda449b2020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ae496fcb0c1cf1b0255a6a48733e81869" name="ae496fcb0c1cf1b0255a6a48733e81869"></a>
@@ -147,19 +209,127 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a2027c027133e22c8929e2874dc44dd36" name="ae496fcb0c1cf1b0255a6a48733e81869a2027c027133e22c8929e2874dc44dd36"></a>CANCEL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869af8fdf3784e02bb1425e337d759817218" name="ae496fcb0c1cf1b0255a6a48733e81869af8fdf3784e02bb1425e337d759817218"></a>DEBUG_UNITY_BREAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a09615e47f229c3d2725c924d0af4a0ce" name="ae496fcb0c1cf1b0255a6a48733e81869a09615e47f229c3d2725c924d0af4a0ce"></a>PLAYER_MOVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a40014ab654794ec1005083d26f2177f9" name="ae496fcb0c1cf1b0255a6a48733e81869a40014ab654794ec1005083d26f2177f9"></a>PLAYER_LOOK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a79bbaf6218481b76244653ea53300e86" name="ae496fcb0c1cf1b0255a6a48733e81869a79bbaf6218481b76244653ea53300e86"></a>PLAYER_ATTACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a2dbf128828f3259fe7a4c6917add386b" name="ae496fcb0c1cf1b0255a6a48733e81869a2dbf128828f3259fe7a4c6917add386b"></a>PLAYER_INTERACT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ad5c0d44ef779675ed02bdce4790e578d" name="ae496fcb0c1cf1b0255a6a48733e81869ad5c0d44ef779675ed02bdce4790e578d"></a>PLAYER_CROUCH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a210af30d27ab1323527c1f6add23ee54" name="ae496fcb0c1cf1b0255a6a48733e81869a210af30d27ab1323527c1f6add23ee54"></a>PLAYER_JUMP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a99db333fa670d297b154d4bfbac0d8cd" name="ae496fcb0c1cf1b0255a6a48733e81869a99db333fa670d297b154d4bfbac0d8cd"></a>PLAYER_PREVIOUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a7a9730a360c29e9e8f21ffb760fe776e" name="ae496fcb0c1cf1b0255a6a48733e81869a7a9730a360c29e9e8f21ffb760fe776e"></a>PLAYER_NEXT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a8e48097faab0f4cccbb6b834c5a4843e" name="ae496fcb0c1cf1b0255a6a48733e81869a8e48097faab0f4cccbb6b834c5a4843e"></a>PLAYER_SPRINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a319266c0cf5266d1dfc4cf649b12a590" name="ae496fcb0c1cf1b0255a6a48733e81869a319266c0cf5266d1dfc4cf649b12a590"></a>UI_NAVIGATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a5505ff3766b8a82313b8182d95ced0b3" name="ae496fcb0c1cf1b0255a6a48733e81869a5505ff3766b8a82313b8182d95ced0b3"></a>UI_SUBMIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ac3a5d84ca8e5ca9bd0416e32d4ff3916" name="ae496fcb0c1cf1b0255a6a48733e81869ac3a5d84ca8e5ca9bd0416e32d4ff3916"></a>UI_CANCEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a3848e518ccdd5a5c7aa70fbefae89e0b" name="ae496fcb0c1cf1b0255a6a48733e81869a3848e518ccdd5a5c7aa70fbefae89e0b"></a>UI_POINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ac9ae553030ab54a63c5f0cced52373cf" name="ae496fcb0c1cf1b0255a6a48733e81869ac9ae553030ab54a63c5f0cced52373cf"></a>UI_CLICK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ae08c360a6fcb8c9647768402a2c958e6" name="ae496fcb0c1cf1b0255a6a48733e81869ae08c360a6fcb8c9647768402a2c958e6"></a>UI_RIGHTCLICK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a19580c4a9fc60ebd7ba4caebb08ec02b" name="ae496fcb0c1cf1b0255a6a48733e81869a19580c4a9fc60ebd7ba4caebb08ec02b"></a>UI_MIDDLECLICK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a79f7775c3d16af6996a41b6ad6e0f129" name="ae496fcb0c1cf1b0255a6a48733e81869a79f7775c3d16af6996a41b6ad6e0f129"></a>UI_SCROLLWHEEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a1654453ce2f56e757391d759d0ab39ac" name="ae496fcb0c1cf1b0255a6a48733e81869a1654453ce2f56e757391d759d0ab39ac"></a>UI_TRACKEDDEVICEPOSITION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ab8cfffc877b283110ca4ed5cd6b68eda" name="ae496fcb0c1cf1b0255a6a48733e81869ab8cfffc877b283110ca4ed5cd6b68eda"></a>UI_TRACKEDDEVICEORIENTATION&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a458186643d2c734524bf222f15b86af9" name="ae496fcb0c1cf1b0255a6a48733e81869a458186643d2c734524bf222f15b86af9"></a>DEBUG_PAUSE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a40222410c7347ec4b6bcaba3bcb21f3b" name="ae496fcb0c1cf1b0255a6a48733e81869a40222410c7347ec4b6bcaba3bcb21f3b"></a>JUMP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a30fb259cd3623284881f0f6534b49a67" name="ae496fcb0c1cf1b0255a6a48733e81869a30fb259cd3623284881f0f6534b49a67"></a>MOVELEFT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a3538afcfe0af4758d084c7c6b25934a5" name="ae496fcb0c1cf1b0255a6a48733e81869a3538afcfe0af4758d084c7c6b25934a5"></a>MOVERIGHT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ac6ddd0f72ff2fd344693b9ca8d483871" name="ae496fcb0c1cf1b0255a6a48733e81869ac6ddd0f72ff2fd344693b9ca8d483871"></a>ATTACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a547bb93653ed3239708392228e5632c9" name="ae496fcb0c1cf1b0255a6a48733e81869a547bb93653ed3239708392228e5632c9"></a>DEBUG_BREAK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a9224dfb0f302e96300e4e7537db23378" name="ae496fcb0c1cf1b0255a6a48733e81869a9224dfb0f302e96300e4e7537db23378"></a>EXAMPLE_BOOST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a320e8fa73ba8b66694119cd811bfb748" name="ae496fcb0c1cf1b0255a6a48733e81869a320e8fa73ba8b66694119cd811bfb748"></a>EXAMPLE_MOVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a3aeb3cb47cdb1ea60a480b23a5ff8b64" name="ae496fcb0c1cf1b0255a6a48733e81869a3aeb3cb47cdb1ea60a480b23a5ff8b64"></a>EXAMPLE_ZOOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a2f95abfb1b1679b66abe6c80c9586eda" name="ae496fcb0c1cf1b0255a6a48733e81869a2f95abfb1b1679b66abe6c80c9586eda"></a>UI_SUBMITNORTH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a99c7394fa2c7d464f367f0baf9f18f33" name="ae496fcb0c1cf1b0255a6a48733e81869a99c7394fa2c7d464f367f0baf9f18f33"></a>UI_SUBMITWEST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ad17de797d19ece84d1376fa58b45916d" name="ae496fcb0c1cf1b0255a6a48733e81869ad17de797d19ece84d1376fa58b45916d"></a>UI_SUBMITEAST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869afec0195d004f100eb23be756f5905a4a" name="ae496fcb0c1cf1b0255a6a48733e81869afec0195d004f100eb23be756f5905a4a"></a>UI_DPADUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869aff8d4e471ac4b22996bfd34803d2a098" name="ae496fcb0c1cf1b0255a6a48733e81869aff8d4e471ac4b22996bfd34803d2a098"></a>UI_DPADDOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ad4e6e069d3e10529f2c8d830cfd9cb90" name="ae496fcb0c1cf1b0255a6a48733e81869ad4e6e069d3e10529f2c8d830cfd9cb90"></a>UI_DPADLEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ad723c6d7fa09ca6cdad71305eb906f99" name="ae496fcb0c1cf1b0255a6a48733e81869ad723c6d7fa09ca6cdad71305eb906f99"></a>UI_DPADRIGHT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a111c6788a62a73d2db793848d6cce5f2" name="ae496fcb0c1cf1b0255a6a48733e81869a111c6788a62a73d2db793848d6cce5f2"></a>UI_LEFTSHOULDER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869af24a63f042fa2ec20c494aec6b98ec6e" name="ae496fcb0c1cf1b0255a6a48733e81869af24a63f042fa2ec20c494aec6b98ec6e"></a>UI_RIGHTSHOULDER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a34458342702d4bd50a2b8dec2b76d881" name="ae496fcb0c1cf1b0255a6a48733e81869a34458342702d4bd50a2b8dec2b76d881"></a>UI_LEFTTRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a2ab32c4046f6bcc48d2606c0621dc4e4" name="ae496fcb0c1cf1b0255a6a48733e81869a2ab32c4046f6bcc48d2606c0621dc4e4"></a>UI_RIGHTTRIGGER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a1e4def4fd8d0e14b4378fc1649d78b20" name="ae496fcb0c1cf1b0255a6a48733e81869a1e4def4fd8d0e14b4378fc1649d78b20"></a>UI_SCROLL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ab146f195949d7d1e8383680621190b19" name="ae496fcb0c1cf1b0255a6a48733e81869ab146f195949d7d1e8383680621190b19"></a>UI_RIGHTSTICKUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869abcb908946417f3717a53ccdf550dce81" name="ae496fcb0c1cf1b0255a6a48733e81869abcb908946417f3717a53ccdf550dce81"></a>UI_RIGHTSTICKDOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a1cc5d70aea62e82fa9e01a854a59550c" name="ae496fcb0c1cf1b0255a6a48733e81869a1cc5d70aea62e82fa9e01a854a59550c"></a>UI_LEFTSTICKPRESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a00ce58a57a6cde87185831dd924de7d5" name="ae496fcb0c1cf1b0255a6a48733e81869a00ce58a57a6cde87185831dd924de7d5"></a>UI_RIGHTSTICKPRESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a174a936ae4e9a7a947eeed76cc64dd1a" name="ae496fcb0c1cf1b0255a6a48733e81869a174a936ae4e9a7a947eeed76cc64dd1a"></a>VIRTUALCURSOR_SUBMIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869ae9478e798033e76ce145a7e5903f16d2" name="ae496fcb0c1cf1b0255a6a48733e81869ae9478e798033e76ce145a7e5903f16d2"></a>VIRTUALCURSOR_MOVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae496fcb0c1cf1b0255a6a48733e81869a96b0141273eabab320119c467cdcaf17" name="ae496fcb0c1cf1b0255a6a48733e81869a96b0141273eabab320119c467cdcaf17"></a>Total&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
+<a id="a8c285bdcb9273ca99fa5647fe68b3f23" name="a8c285bdcb9273ca99fa5647fe68b3f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c285bdcb9273ca99fa5647fe68b3f23">&#9670;&#160;</a></span>InputGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23">CORE.Shared.Generated.Input.InputKeyGenerated.InputGroups</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8c285bdcb9273ca99fa5647fe68b3f23ab50339a10e1de285ac99d4c3990b8693" name="a8c285bdcb9273ca99fa5647fe68b3f23ab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c285bdcb9273ca99fa5647fe68b3f23a07c80e2a355d91402a00d82b1fa13855" name="a8c285bdcb9273ca99fa5647fe68b3f23a07c80e2a355d91402a00d82b1fa13855"></a>PLAYER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c285bdcb9273ca99fa5647fe68b3f23a71ff71526d15db86eb50fcac245d183b" name="a8c285bdcb9273ca99fa5647fe68b3f23a71ff71526d15db86eb50fcac245d183b"></a>UI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c285bdcb9273ca99fa5647fe68b3f23adc30ec20708ef7b0f641ef78b7880a15" name="a8c285bdcb9273ca99fa5647fe68b3f23adc30ec20708ef7b0f641ef78b7880a15"></a>DEBUG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c285bdcb9273ca99fa5647fe68b3f23a8e3b72508e05135569ace4ed9b96d137" name="a8c285bdcb9273ca99fa5647fe68b3f23a8e3b72508e05135569ace4ed9b96d137"></a>EXAMPLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c285bdcb9273ca99fa5647fe68b3f23a42ad1ae3b0f533b4f98e75a375f1ee17" name="a8c285bdcb9273ca99fa5647fe68b3f23a42ad1ae3b0f533b4f98e75a375f1ee17"></a>VIRTUALCURSOR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c285bdcb9273ca99fa5647fe68b3f23a5fb1f955b45e38e31789286a1790398d" name="a8c285bdcb9273ca99fa5647fe68b3f23a5fb1f955b45e38e31789286a1790398d"></a>ALL&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7ce380d9ead76f1941a38acc48fda1d0" name="a7ce380d9ead76f1941a38acc48fda1d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ce380d9ead76f1941a38acc48fda1d0">&#9670;&#160;</a></span>GetActionMapName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Generated.Input.InputKeyGenerated.GetActionMapName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23">InputGroups</a> @</td>          <td class="paramname"><span class="paramname"><em>enum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43e4387bd36eb7b57b4babda449b2020" name="a43e4387bd36eb7b57b4babda449b2020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e4387bd36eb7b57b4babda449b2020">&#9670;&#160;</a></span>GetActionName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Generated.Input.InputKeyGenerated.GetActionName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869">InputEnums</a> @</td>          <td class="paramname"><span class="paramname"><em>enum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abcb7523489d2b87ad52175043c8e14ff" name="abcb7523489d2b87ad52175043c8e14ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcb7523489d2b87ad52175043c8e14ff">&#9670;&#160;</a></span>GetInputEnums()</h2>
 
@@ -173,6 +343,31 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static <a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869">InputEnums</a> CORE.Shared.Generated.Input.InputKeyGenerated.GetInputEnums </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a569df1941a1d9282991692e0c6c31d41" name="a569df1941a1d9282991692e0c6c31d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569df1941a1d9282991692e0c6c31d41">&#9670;&#160;</a></span>GetInputGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="#a8c285bdcb9273ca99fa5647fe68b3f23">InputGroups</a> CORE.Shared.Generated.Input.InputKeyGenerated.GetInputGroups </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae496fcb0c1cf1b0255a6a48733e81869">InputEnums</a> @</td>          <td class="paramname"><span class="paramname"><em>enum</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

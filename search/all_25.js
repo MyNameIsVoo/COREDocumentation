@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['изменено_0',['Изменено',['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html#autotoc_md1030',1,'Изменено'],['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html#autotoc_md1034',1,'Изменено'],['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html#autotoc_md1038',1,'Изменено']]],
+  ['исправления_1',['Исправления',['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html#autotoc_md1021',1,'']]],
+  ['исправлено_2',['Исправлено',['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html#autotoc_md1031',1,'Исправлено'],['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html#autotoc_md1035',1,'Исправлено'],['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html#autotoc_md1039',1,'Исправлено']]],
+  ['изменений_3',['Список изменений',['../md__d_1_2_unity_projects_2_unity6_2_c_o_r_e_game_developers_toolkit___build_in_2_assets_2_c_o_r_63c9c0dd4c86dec86e683ce5bbf4f76f.html',1,'']]]
+];

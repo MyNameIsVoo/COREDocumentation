@@ -2,6 +2,8 @@ var class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings =
 [
     [ "Apply", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html#ac530914e7881fd05bd0fe6091a08d3f3", null ],
     [ "Init", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html#ab958e7b693cc4966bc3e3033ee58894f", null ],
+    [ "OnReading", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html#abca1a2da2d6ef2cdec99b3de32544236", null ],
+    [ "Save", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html#acf2ac409bbe880ba6e131f3337dd70a1", null ],
     [ "SaveSettings", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html#a6384ab53565b98b461189ef50a259c01", null ],
     [ "_settings", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html#a1522cf89aa20ff0ad63877f575ac16a0", null ],
     [ "FileName", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings.html#ae3a5d2c66fe2052a9dce985d9411fb47", null ],

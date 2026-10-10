@@ -13,6 +13,7 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_a
     ] ],
     [ "Combine", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#ac1b68e6bc628e9c1c8138128a69d4521", null ],
     [ "IsEqual", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#af5b2ae7e5fb7ecc7246025094c981af9", null ],
+    [ "SameEnumValues", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#affbfac1b7d7aa076d37dee756b4a6899", null ],
     [ "_name", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#ae7437cfa6f66dee585412d6ed29f615d", null ],
     [ "Bundle", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a7047e961a7196b4b1209aad8ee6570c8", null ],
     [ "DirectorySavePath", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_resources_1_1_resource_settings_1_1_asset_data.html#a37de40c2f45cd3c69dbb938b7883a5a9", null ],

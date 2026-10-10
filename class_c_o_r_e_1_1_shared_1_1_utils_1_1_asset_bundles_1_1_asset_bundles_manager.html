@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -115,6 +115,9 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1
   <div class="headertitle"><div class="title">CORE.Shared.Utils.AssetBundles.AssetBundlesManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Where the bundles are read from. The one place the path is defined: the runtime and the editor's bundle build both take it from here.  
+ <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -163,6 +166,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a1a73d1a8ee3797aeaa04c352ff42a7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077b2e455cbcd7d4aec11d5e0b64ec7a" id="r_a077b2e455cbcd7d4aec11d5e0b64ec7a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b2e455cbcd7d4aec11d5e0b64ec7a">RemoveBundle</a> (string bundleName)</td></tr>
 <tr class="separator:a077b2e455cbcd7d4aec11d5e0b64ec7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8041c86e0e5662b853b8e52181fbf7" id="r_a3d8041c86e0e5662b853b8e52181fbf7"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8041c86e0e5662b853b8e52181fbf7">GetBundlesFolder</a> (string platform)</td></tr>
+<tr class="memdesc:a3d8041c86e0e5662b853b8e52181fbf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project-relative folder the bundles of a platform must be built to: <code>Assets/StreamingAssets/Bundles/&lt;platform&gt;</code>.  <br /></td></tr>
+<tr class="separator:a3d8041c86e0e5662b853b8e52181fbf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -171,16 +177,27 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a801a759f6ab691b7dbfcd8f7d7588121" id="r_a801a759f6ab691b7dbfcd8f7d7588121"><td class="memItemLeft" align="right" valign="top">static LoadAssetDelegate&lt; string, Type, AssetBundle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a801a759f6ab691b7dbfcd8f7d7588121">OnTryLoadAsset</a></td></tr>
 <tr class="memdesc:a801a759f6ab691b7dbfcd8f7d7588121"><td class="mdescLeft">&#160;</td><td class="mdescRight">When requesting an asset from bundles, we will first try to load them from external resources such as mods and only then from internal ones.  <br /></td></tr>
 <tr class="separator:a801a759f6ab691b7dbfcd8f7d7588121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38240f432599a6a251b0a18172b819ea" id="r_a38240f432599a6a251b0a18172b819ea"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38240f432599a6a251b0a18172b819ea">BundlesFolderName</a> = &quot;Bundles&quot;</td></tr>
+<tr class="memdesc:a38240f432599a6a251b0a18172b819ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Folder under StreamingAssets holding a subfolder of bundles per platform.  <br /></td></tr>
+<tr class="separator:a38240f432599a6a251b0a18172b819ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24cd2d445b9bc1488dab3d86fe93f222" id="r_a24cd2d445b9bc1488dab3d86fe93f222"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24cd2d445b9bc1488dab3d86fe93f222">StreamingAssetsFolder</a> = &quot;Assets/StreamingAssets&quot;</td></tr>
+<tr class="separator:a24cd2d445b9bc1488dab3d86fe93f222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aa99f67b6582512ba7129d3edf1ae0630" id="r_aa99f67b6582512ba7129d3edf1ae0630"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa99f67b6582512ba7129d3edf1ae0630">BundlesPath</a><code> [get]</code></td></tr>
-<tr class="separator:aa99f67b6582512ba7129d3edf1ae0630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb0cbd75244cee113f67e1dfac4f9ad7" id="r_afb0cbd75244cee113f67e1dfac4f9ad7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb0cbd75244cee113f67e1dfac4f9ad7">IsActiveLoadingBundles</a><code> [get, private set]</code></td></tr>
 <tr class="memdesc:afb0cbd75244cee113f67e1dfac4f9ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that bundles are currently being initialized.  <br /></td></tr>
 <tr class="separator:afb0cbd75244cee113f67e1dfac4f9ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad492de4ae58d41aeafe74d8875a027c5" id="r_ad492de4ae58d41aeafe74d8875a027c5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad492de4ae58d41aeafe74d8875a027c5">HasBeenLoaded</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:ad492de4ae58d41aeafe74d8875a027c5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#a29aeb204fc9ec25b077a82895a28b6a0">Init</a> has finished: the bundles are loaded (or are not required) and assets can be read.  <br /></td></tr>
+<tr class="separator:ad492de4ae58d41aeafe74d8875a027c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af56e90feff92f2ca41c8a4f0220a2328" id="r_af56e90feff92f2ca41c8a4f0220a2328"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_progress.html">Progress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af56e90feff92f2ca41c8a4f0220a2328">LoadingProgress</a><code> [get, private set]</code></td></tr>
 <tr class="separator:af56e90feff92f2ca41c8a4f0220a2328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af671935be653a0440bed3cedf721784f" id="r_af671935be653a0440bed3cedf721784f"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af671935be653a0440bed3cedf721784f">CurrentPlatform</a><code> [get]</code></td></tr>
+<tr class="memdesc:af671935be653a0440bed3cedf721784f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The platform folder name bundles are read from on this platform (a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154a" title="Enumeration of all valid Unity build targets.">ValidBuildTarget</a> name); empty where <a class="el" href="namespace_c_o_r_e.html">CORE</a> does not load bundles.  <br /></td></tr>
+<tr class="separator:af671935be653a0440bed3cedf721784f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa99f67b6582512ba7129d3edf1ae0630" id="r_aa99f67b6582512ba7129d3edf1ae0630"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa99f67b6582512ba7129d3edf1ae0630">BundlesPath</a><code> [get]</code></td></tr>
+<tr class="separator:aa99f67b6582512ba7129d3edf1ae0630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -194,6 +211,9 @@ Static Private Member Functions</h2></td></tr>
 <tr class="separator:a606eb39136f91fd259aee8d878836279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fdb6eddfa649209cb8b59cc9f41a4fd" id="r_a3fdb6eddfa649209cb8b59cc9f41a4fd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fdb6eddfa649209cb8b59cc9f41a4fd">UnloadAsset&lt; T &gt;</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager_1_1_asset_data.html">AssetData</a> assetData, bool unloadFromMemory)</td></tr>
 <tr class="separator:a3fdb6eddfa649209cb8b59cc9f41a4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a4198f36e040d70ff48e16f3c5e09d6" id="r_a2a4198f36e040d70ff48e16f3c5e09d6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a4198f36e040d70ff48e16f3c5e09d6">CanLoadBundles</a> ()</td></tr>
+<tr class="memdesc:a2a4198f36e040d70ff48e16f3c5e09d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs one clear error instead of a failed load per bundle when there is nothing to load from.  <br /></td></tr>
+<tr class="separator:a2a4198f36e040d70ff48e16f3c5e09d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -208,7 +228,9 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:a3329e29b81ed300921ca599fd4cd8a39" id="r_a3329e29b81ed300921ca599fd4cd8a39"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3329e29b81ed300921ca599fd4cd8a39">_currentPlatform</a> = &quot;&quot;</td></tr>
 <tr class="separator:a3329e29b81ed300921ca599fd4cd8a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Where the bundles are read from. The one place the path is defined: the runtime and the editor's bundle build both take it from here. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a783587ca4436a7d4dc05d15c034eefbb" name="a783587ca4436a7d4dc05d15c034eefbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a783587ca4436a7d4dc05d15c034eefbb">&#9670;&#160;</a></span>AssetBundlesManager()</h2>
 
@@ -285,6 +307,33 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2a4198f36e040d70ff48e16f3c5e09d6" name="a2a4198f36e040d70ff48e16f3c5e09d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a4198f36e040d70ff48e16f3c5e09d6">&#9670;&#160;</a></span>CanLoadBundles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Utils.AssetBundles.AssetBundlesManager.CanLoadBundles </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Logs one clear error instead of a failed load per bundle when there is nothing to load from. </p>
+
+</div>
+</div>
 <a id="a2dc36a7139118c323fff86f770180461" name="a2dc36a7139118c323fff86f770180461"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2dc36a7139118c323fff86f770180461">&#9670;&#160;</a></span>CleanBundlesCache()</h2>
 
@@ -309,6 +358,39 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clearing bundles and unloading them from memory and cache. </p>
+
+</div>
+</div>
+<a id="a3d8041c86e0e5662b853b8e52181fbf7" name="a3d8041c86e0e5662b853b8e52181fbf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8041c86e0e5662b853b8e52181fbf7">&#9670;&#160;</a></span>GetBundlesFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Utils.AssetBundles.AssetBundlesManager.GetBundlesFolder </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>platform</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Project-relative folder the bundles of a platform must be built to: <code>Assets/StreamingAssets/Bundles/&lt;platform&gt;</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">platform</td><td>A <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154a" title="Enumeration of all valid Unity build targets.">ValidBuildTarget</a> name, e.g. <code>StandaloneWindows</code></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1003,6 +1085,30 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a38240f432599a6a251b0a18172b819ea" name="a38240f432599a6a251b0a18172b819ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38240f432599a6a251b0a18172b819ea">&#9670;&#160;</a></span>BundlesFolderName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string CORE.Shared.Utils.AssetBundles.AssetBundlesManager.BundlesFolderName = &quot;Bundles&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Folder under StreamingAssets holding a subfolder of bundles per platform. </p>
+
+</div>
+</div>
 <a id="ade619d0a1462e79181e76bf792262fa2" name="ade619d0a1462e79181e76bf792262fa2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade619d0a1462e79181e76bf792262fa2">&#9670;&#160;</a></span>OnLoaded</h2>
 
@@ -1049,6 +1155,28 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a24cd2d445b9bc1488dab3d86fe93f222" name="a24cd2d445b9bc1488dab3d86fe93f222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24cd2d445b9bc1488dab3d86fe93f222">&#9670;&#160;</a></span>StreamingAssetsFolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string CORE.Shared.Utils.AssetBundles.AssetBundlesManager.StreamingAssetsFolder = &quot;Assets/StreamingAssets&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="aa99f67b6582512ba7129d3edf1ae0630" name="aa99f67b6582512ba7129d3edf1ae0630"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa99f67b6582512ba7129d3edf1ae0630">&#9670;&#160;</a></span>BundlesPath</h2>
@@ -1069,6 +1197,54 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af671935be653a0440bed3cedf721784f" name="af671935be653a0440bed3cedf721784f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af671935be653a0440bed3cedf721784f">&#9670;&#160;</a></span>CurrentPlatform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Utils.AssetBundles.AssetBundlesManager.CurrentPlatform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The platform folder name bundles are read from on this platform (a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils.html#ad5456b57856896165318f448e213154a" title="Enumeration of all valid Unity build targets.">ValidBuildTarget</a> name); empty where <a class="el" href="namespace_c_o_r_e.html">CORE</a> does not load bundles. </p>
+
+</div>
+</div>
+<a id="ad492de4ae58d41aeafe74d8875a027c5" name="ad492de4ae58d41aeafe74d8875a027c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad492de4ae58d41aeafe74d8875a027c5">&#9670;&#160;</a></span>HasBeenLoaded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Utils.AssetBundles.AssetBundlesManager.HasBeenLoaded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span><span class="mlabel private-set">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#a29aeb204fc9ec25b077a82895a28b6a0">Init</a> has finished: the bundles are loaded (or are not required) and assets can be read. </p>
 
 </div>
 </div>
@@ -1118,8 +1294,9 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Utils/AssetBundles/<a class="el" href="_asset_bundles_manager_8cs.html">AssetBundlesManager.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Utils/AssetBundles/<a class="el" href="_asset_bundles_manager_8_paths_8cs.html">AssetBundlesManager.Paths.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

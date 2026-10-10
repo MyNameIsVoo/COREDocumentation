@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -133,6 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e33734adf2593af773b62b31947f5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb57a38bcb8dd94b609b9922d1dcd9a3" id="r_adb57a38bcb8dd94b609b9922d1dcd9a3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb57a38bcb8dd94b609b9922d1dcd9a3">OnPointerClick</a> (PointerEventData eventData)</td></tr>
 <tr class="separator:adb57a38bcb8dd94b609b9922d1dcd9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a1756f79c544ea06e8ecd58e298e39" id="r_ad3a1756f79c544ea06e8ecd58e298e39"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3a1756f79c544ea06e8ecd58e298e39">OnSubmit</a> (BaseEventData eventData)</td></tr>
+<tr class="memdesc:ad3a1756f79c544ea06e8ecd58e298e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Submit — Enter on a selected button, A of a gamepad, a <code>UIInputButton</code> shortcut — clicks like the mouse: <a class="el" href="#a6bbc9b8d8e6269e7c9788142ebe68bd1">EventClick</a> fires too, not only <code>onClick</code>.  <br /></td></tr>
+<tr class="separator:ad3a1756f79c544ea06e8ecd58e298e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -174,6 +177,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0d7a9c3d4543814ad7a896409fdb65cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8d3ce1d5ba53b3b7abfe6dc6102f423" id="r_ab8d3ce1d5ba53b3b7abfe6dc6102f423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_component.html">AudioComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8d3ce1d5ba53b3b7abfe6dc6102f423">_audio</a></td></tr>
 <tr class="separator:ab8d3ce1d5ba53b3b7abfe6dc6102f423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786cad4bc39b0773109fdbf489fac40f" id="r_a786cad4bc39b0773109fdbf489fac40f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a786cad4bc39b0773109fdbf489fac40f">_soundState</a></td></tr>
+<tr class="separator:a786cad4bc39b0773109fdbf489fac40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b1bef05b50ea93bc6da054a72a559c" id="r_ae9b1bef05b50ea93bc6da054a72a559c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9b1bef05b50ea93bc6da054a72a559c">_submitting</a></td></tr>
+<tr class="separator:ae9b1bef05b50ea93bc6da054a72a559c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="acc5b2e449322cffeb30b99bf782cefb7" name="acc5b2e449322cffeb30b99bf782cefb7"></a>
@@ -297,6 +304,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad3a1756f79c544ea06e8ecd58e298e39" name="ad3a1756f79c544ea06e8ecd58e298e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a1756f79c544ea06e8ecd58e298e39">&#9670;&#160;</a></span>OnSubmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void CORE.Shared.UI.Custom.CustomButton.OnSubmit </td>
+          <td>(</td>
+          <td class="paramtype">BaseEventData</td>          <td class="paramname"><span class="paramname"><em>eventData</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Submit — Enter on a selected button, A of a gamepad, a <code>UIInputButton</code> shortcut — clicks like the mouse: <a class="el" href="#a6bbc9b8d8e6269e7c9788142ebe68bd1">EventClick</a> fires too, not only <code>onClick</code>. </p>
+
+</div>
+</div>
 <a id="a6e33734adf2593af773b62b31947f5cf" name="a6e33734adf2593af773b62b31947f5cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e33734adf2593af773b62b31947f5cf">&#9670;&#160;</a></span>SetMaskableWithoutRecursively()</h2>
 
@@ -350,6 +376,50 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool CORE.Shared.UI.Custom.CustomButton._maskable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a786cad4bc39b0773109fdbf489fac40f" name="a786cad4bc39b0773109fdbf489fac40f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a786cad4bc39b0773109fdbf489fac40f">&#9670;&#160;</a></span>_soundState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.UI.Custom.CustomButton._soundState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9b1bef05b50ea93bc6da054a72a559c" name="ae9b1bef05b50ea93bc6da054a72a559c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9b1bef05b50ea93bc6da054a72a559c">&#9670;&#160;</a></span>_submitting</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.UI.Custom.CustomButton._submitting</td>
         </tr>
       </table>
   </td>

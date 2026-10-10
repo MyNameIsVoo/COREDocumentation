@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,19 +104,127 @@ $(function(){initNavTree('namespace_c_o_r_e_1_1_shared_1_1_localize.html',''); i
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Localize Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_localize_1_1_i_legacy_localization_upgrade.html">ILegacyLocalizationUpgrade</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component with serialized legacy localization (a <code>LocalizeEnums</code> number, a <code>LocalizedText</code> reference) that can rewrite it as a <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html" title="A key of a localized string: the value of the Key column of a localization table. Serialized as the k...">LocKey</a>. The migration calls it on every prefab and scene and saves them.  <a href="interface_c_o_r_e_1_1_shared_1_1_localize_1_1_i_legacy_localization_upgrade.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_language_info.html">LanguageInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A language known to <a class="el" href="namespace_c_o_r_e.html">CORE</a>: its code (the column name in localization tables), names and platform ids.  <a href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_language_info.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html">Languages</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The catalog of languages: lookups by code, SystemLanguage and <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_steam.html">Steam</a> language name. A code missing from the catalog still works everywhere — it only has no names.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_language_settings.html">LanguageSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project-wide localization settings (<code>Resources/LanguageSettings</code>): the fallback language and the font of each language. The languages a game ships are <code>GlobalConfig.GameLanguages</code>; the texts are the CSV tables.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_language_settings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html">LegacyLocalization</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GameToolkit-Localization era of <a class="el" href="namespace_c_o_r_e.html">CORE</a> (<code>LocalizedText</code> assets, the <code>LocalizeEnums</code> enum). Everything that keeps it working is marked <code>[Obsolete(<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#aac5820a9ec33a9602affcdb7dc934a1f">LegacyLocalization.Message</a>)]</code> and is deleted in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">RemovedIn</a>, together with <code>ThirdParty/Localization</code>; every piece of it references this class, so finding its usages finds all of it. Migrate with <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a4c5c835f0ccbf9f3d91cb3beb58007a1">MigrateMenu</a>.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization_manifest.html">LegacyLocalizationManifest</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">What <a class="el" href="namespace_c_o_r_e.html">CORE</a> itself shipped for the legacy localization. A package update never deletes files, so these stay in a project after updating; the migration deletes them (their texts ship in <code>Core.csv</code> / <code>Examples.csv</code>).  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization_manifest.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A text in one language, for data that carries its own translations instead of a table key (the name and description of a mod, texts of downloaded content).  <a href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_texts.html">LocaleTexts</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_asset_source.html">LocalizationAssetSource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A localized asset of the project, as code generation records it: one file of one language.  <a href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_asset_source.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_csv.html">LocalizationCsv</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads and writes localization tables: RFC 4180 CSV (quoted fields, doubled quotes, line breaks inside quotes). The separator is detected from the header — comma, semicolon (Excel with a regional list separator) or tab.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_csv.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_formatter.html">LocalizationFormatter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the placeholders of a localized string: </p><ul>
+<li>
+<code>{0}</code>, <code>{1:N0}</code> — positional arguments, with an optional .NET format; </li>
+<li>
+<code>{name}</code> — a named argument; </li>
+<li>
+<code>{count:plural:one=# item|other=# items}</code> — the form of the CLDR category of the number (<code>zero one two few many other</code>, or an exact <code>=0</code>); <code>#</code> is the number, a form may hold placeholders; </li>
+<li>
+<code>{{</code> and <code>}}</code> — literal braces. </li>
+</ul>
+<p>A placeholder without an argument stays in the text as it is.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_formatter.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager.html">LocalizationManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The legacy side of the localization, removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">LegacyLocalization.RemovedIn</a>: the old API returning LocalizedText, <code>LocalizedText</code> assets not yet migrated to tables, and the sync with <code>GameToolkit.Localization.Localization.Instance</code> both ways.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_table_source.html">LocalizationTableSource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A localization table of the project, as code generation records it: a CSV asset inside an asset bundle.  <a href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_table_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localizator.html">Localizator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helps in localizing some objects.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localizator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localized_audio_source.html">LocalizedAudioSource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts the clip of a <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html" title="A key of a localized asset — a sprite, an audio clip, any asset that differs per language....">LocAssetKey</a> in the current language on the AudioSource of its object (voice-over, a localized jingle) and swaps it on every language change. A source with no output mixer group is routed into the group of its <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localized_audio_source.html#abf7e7a133f32daf1b9005b7c73e32ca3">Bus</a> (the backend's mixer), so the player's volume of that bus applies. One-shots without a source of their own go through <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#a5317b60f5f70b3dbb8023ec3e445e7d8" title="Plays a clip that is not in the catalog — a localized clip — through a bus.">IAudioService.PlayClip</a>.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localized_audio_source.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localized_sprite.html">LocalizedSprite</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the sprite of a <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html" title="A key of a localized asset — a sprite, an audio clip, any asset that differs per language....">LocAssetKey</a> in the current language on the <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_image_component.html" title="Controls the image in the app CustomImage">ImageComponent</a>, Image or SpriteRenderer of its object, and follows every language change.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localized_sprite.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A key of a localized asset — a sprite, an audio clip, any asset that differs per language. The asset of a language is the file <code>&lt;Group&gt;/&lt;language&gt;/&lt;Key&gt;.*</code> under a <code><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_localize.html">Localize</a></code> path (<code>Localization/Sprites/ru/Logo.png</code>). Serialized as the key itself; generated constants live in <code>LocAssets.&lt;Group&gt;.&lt;Key&gt;</code>. Compared case-insensitively.  <a href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_type_attribute.html">LocAssetTypeAttribute</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limits the inspector picker of a <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html" title="A key of a localized asset — a sprite, an audio clip, any asset that differs per language....">LocAssetKey</a> field to the keys of one asset type.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_type_attribute.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A key of a localized string: the value of the <code>Key</code> column of a localization table. Serialized as the key itself, so renaming or removing another key never changes what a field points at. Keys are compared case-insensitively. <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_generated.html">Generated</a> constants live in <code>LocKeys.&lt;Table&gt;.&lt;Key&gt;</code>.  <a href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key_json_converter.html">LocKeyJsonConverter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html" title="A key of a localized string: the value of the Key column of a localization table. Serialized as the k...">LocKey</a> or <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html" title="A key of a localized asset — a sprite, an audio clip, any asset that differs per language....">LocAssetKey</a> in json as the key itself — <code>"Title": "Button_Play"</code> — so a config field can be typed by the key.  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key_json_converter.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_plural_rules.html">PluralRules</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">CLDR cardinal plural rules for the languages of the <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html" title="The catalog of languages: lookups by code, SystemLanguage and Steam language name....">Languages</a> catalog. A language without a rule of its own uses the English one (1 → one, everything else → other).  <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_plural_rules.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a952f94ff79bc4b5e613bbafef1c2ebbb" id="r_a952f94ff79bc4b5e613bbafef1c2ebbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbb">PluralCategory</a> { <br />
+&#160;&#160;<a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbbad7ed4ee1df437474d005188535f74875">Zero</a>
+, <a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbba06c2cea18679d64399783748fa367bdd">One</a>
+, <a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbbaaada29daee1d64ed0fe907043855cb7e">Two</a>
+, <a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbba8ecfbf4cc4349add09296102925c898c">Few</a>
+, <br />
+&#160;&#160;<a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbba5ae7fb3197b6fd8c723c7766a5680e2e">Many</a>
+, <a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbba6311ae17c1ee52b36e68aaf4ad066387">Other</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a952f94ff79bc4b5e613bbafef1c2ebbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">CLDR plural categories used in <code>{count:plural:one=…|few=…|many=…|other=…}</code>.  <a href="#a952f94ff79bc4b5e613bbafef1c2ebbb">More...</a><br /></td></tr>
+<tr class="separator:a952f94ff79bc4b5e613bbafef1c2ebbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a952f94ff79bc4b5e613bbafef1c2ebbb" name="a952f94ff79bc4b5e613bbafef1c2ebbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a952f94ff79bc4b5e613bbafef1c2ebbb">&#9670;&#160;</a></span>PluralCategory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a952f94ff79bc4b5e613bbafef1c2ebbb">CORE.Shared.Localize.PluralCategory</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>CLDR plural categories used in <code>{count:plural:one=…|few=…|many=…|other=…}</code>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a952f94ff79bc4b5e613bbafef1c2ebbbad7ed4ee1df437474d005188535f74875" name="a952f94ff79bc4b5e613bbafef1c2ebbbad7ed4ee1df437474d005188535f74875"></a>Zero&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a952f94ff79bc4b5e613bbafef1c2ebbba06c2cea18679d64399783748fa367bdd" name="a952f94ff79bc4b5e613bbafef1c2ebbba06c2cea18679d64399783748fa367bdd"></a>One&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a952f94ff79bc4b5e613bbafef1c2ebbbaaada29daee1d64ed0fe907043855cb7e" name="a952f94ff79bc4b5e613bbafef1c2ebbbaaada29daee1d64ed0fe907043855cb7e"></a>Two&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a952f94ff79bc4b5e613bbafef1c2ebbba8ecfbf4cc4349add09296102925c898c" name="a952f94ff79bc4b5e613bbafef1c2ebbba8ecfbf4cc4349add09296102925c898c"></a>Few&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a952f94ff79bc4b5e613bbafef1c2ebbba5ae7fb3197b6fd8c723c7766a5680e2e" name="a952f94ff79bc4b5e613bbafef1c2ebbba5ae7fb3197b6fd8c723c7766a5680e2e"></a>Many&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a952f94ff79bc4b5e613bbafef1c2ebbba6311ae17c1ee52b36e68aaf4ad066387" name="a952f94ff79bc4b5e613bbafef1c2ebbba6311ae17c1ee52b36e68aaf4ad066387"></a>Other&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -108,12 +108,24 @@ $(function(){initNavTree('class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.ModTool.Shared.Data.ModData Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The GameToolkit-era texts of a mod, removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">LegacyLocalization.RemovedIn</a>. Mods and export settings saved before keep <code>Name</code>/<code>Author</code>/<code>Description</code> as LocaleItem&lt;T&gt; arrays: they are read into the new fields on load (JSON and Unity serialization), and are written back on save so a game on an older <a class="el" href="namespace_c_o_r_e.html">CORE</a> still shows the mod's texts.  
+ <a href="#details">More...</a></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CORE.ModTool.Shared.Data.ModData:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -122,24 +134,35 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a1f2331e13442f5ebe38c8926ad5bd787" id="r_a1f2331e13442f5ebe38c8926ad5bd787"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f2331e13442f5ebe38c8926ad5bd787">GetName</a> (string language=null)</td></tr>
+<tr class="memdesc:a1f2331e13442f5ebe38c8926ad5bd787"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name in the language (the current one by default), with the fallback languages.  <br /></td></tr>
+<tr class="separator:a1f2331e13442f5ebe38c8926ad5bd787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a13b36f7d6af87a06e347725279fc27" id="r_a3a13b36f7d6af87a06e347725279fc27"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a13b36f7d6af87a06e347725279fc27">GetAuthor</a> (string language=null)</td></tr>
+<tr class="separator:a3a13b36f7d6af87a06e347725279fc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2d051a6ebc0d22a72fc6b38630ffdbf" id="r_ac2d051a6ebc0d22a72fc6b38630ffdbf"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2d051a6ebc0d22a72fc6b38630ffdbf">GetDescription</a> (string language=null)</td></tr>
+<tr class="separator:ac2d051a6ebc0d22a72fc6b38630ffdbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a464c7e02988704ca4153617f3a66e31f" id="r_a464c7e02988704ca4153617f3a66e31f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464c7e02988704ca4153617f3a66e31f">Clone</a> (<a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.html">ModData</a> data)</td></tr>
 <tr class="separator:a464c7e02988704ca4153617f3a66e31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acff64dfefbe3f1acaa67c1c5074b8735" id="r_acff64dfefbe3f1acaa67c1c5074b8735"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acff64dfefbe3f1acaa67c1c5074b8735">PrepareForSave</a> (bool fullPathSave=false)</td></tr>
 <tr class="separator:acff64dfefbe3f1acaa67c1c5074b8735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe4f3e682e21396f57bc30f0c7740a6" id="r_a6fe4f3e682e21396f57bc30f0c7740a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe4f3e682e21396f57bc30f0c7740a6">LoadData</a> ()</td></tr>
 <tr class="separator:a6fe4f3e682e21396f57bc30f0c7740a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73cd0217c135113de7fa19f12ae412be" id="r_a73cd0217c135113de7fa19f12ae412be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73cd0217c135113de7fa19f12ae412be">OnBeforeSerialize</a> ()</td></tr>
+<tr class="separator:a73cd0217c135113de7fa19f12ae412be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10189b6e32cd0400fdccd20b640eaaa7" id="r_a10189b6e32cd0400fdccd20b640eaaa7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10189b6e32cd0400fdccd20b640eaaa7">OnAfterDeserialize</a> ()</td></tr>
+<tr class="separator:a10189b6e32cd0400fdccd20b640eaaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0d92397445751aeb071b46c19993f593" id="r_a0d92397445751aeb071b46c19993f593"><td class="memItemLeft" align="right" valign="top">LocaleItem&lt; string &gt;[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d92397445751aeb071b46c19993f593">Name</a></td></tr>
-<tr class="memdesc:a0d92397445751aeb071b46c19993f593"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">Mod</a> name in different languages.  <br /></td></tr>
-<tr class="separator:a0d92397445751aeb071b46c19993f593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae51a89c4ca096bceea8082e12a35262" id="r_aae51a89c4ca096bceea8082e12a35262"><td class="memItemLeft" align="right" valign="top">LocaleItem&lt; string &gt;[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae51a89c4ca096bceea8082e12a35262">Author</a></td></tr>
-<tr class="memdesc:aae51a89c4ca096bceea8082e12a35262"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">Mod</a> author in different languages.  <br /></td></tr>
-<tr class="separator:aae51a89c4ca096bceea8082e12a35262"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5936bca84909a3ac876fce44144f7155" id="r_a5936bca84909a3ac876fce44144f7155"><td class="memItemLeft" align="right" valign="top">LocaleItem&lt; string &gt;[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5936bca84909a3ac876fce44144f7155">Description</a></td></tr>
-<tr class="memdesc:a5936bca84909a3ac876fce44144f7155"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">Mod</a> description in different languages.  <br /></td></tr>
-<tr class="separator:a5936bca84909a3ac876fce44144f7155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e99e0ff6a61362ca30b78b372cc3c1f" id="r_a7e99e0ff6a61362ca30b78b372cc3c1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e99e0ff6a61362ca30b78b372cc3c1f">Names</a></td></tr>
+<tr class="memdesc:a7e99e0ff6a61362ca30b78b372cc3c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">Mod</a> name in different languages.  <br /></td></tr>
+<tr class="separator:a7e99e0ff6a61362ca30b78b372cc3c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f992440f49ac73109262cd15997363" id="r_af9f992440f49ac73109262cd15997363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9f992440f49ac73109262cd15997363">Authors</a></td></tr>
+<tr class="memdesc:af9f992440f49ac73109262cd15997363"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">Mod</a> author in different languages.  <br /></td></tr>
+<tr class="separator:af9f992440f49ac73109262cd15997363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a237552bb34a2afca091b5312c6beb4b0" id="r_a237552bb34a2afca091b5312c6beb4b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a237552bb34a2afca091b5312c6beb4b0">Descriptions</a></td></tr>
+<tr class="memdesc:a237552bb34a2afca091b5312c6beb4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_mod.html">Mod</a> description in different languages.  <br /></td></tr>
+<tr class="separator:a237552bb34a2afca091b5312c6beb4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6acb8f846b6cac54deb5a7eb9b2bdcf" id="r_ac6acb8f846b6cac54deb5a7eb9b2bdcf"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6acb8f846b6cac54deb5a7eb9b2bdcf">Version</a></td></tr>
 <tr class="separator:ac6acb8f846b6cac54deb5a7eb9b2bdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d7bb3723fa3cacd6913899be03c4c5" id="r_a69d7bb3723fa3cacd6913899be03c4c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599b">ModPlatform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69d7bb3723fa3cacd6913899be03c4c5">Platforms</a> = (<a class="el" href="namespace_c_o_r_e_1_1_mod_tool_1_1_shared.html#af636dc583a6719eef3e7bdb20a15599b">ModPlatform</a>)(-1)</td></tr>
@@ -163,15 +186,15 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adf744726d420821fad8750bf586fd99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8943d8d56ded7461e77f0db62486436" id="r_ae8943d8d56ded7461e77f0db62486436"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8943d8d56ded7461e77f0db62486436">UnityVersion</a></td></tr>
 <tr class="separator:ae8943d8d56ded7461e77f0db62486436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d92397445751aeb071b46c19993f593" id="r_a0d92397445751aeb071b46c19993f593"><td class="memItemLeft" align="right" valign="top">LocaleItem&lt; string &gt;[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d92397445751aeb071b46c19993f593">Name</a></td></tr>
+<tr class="separator:a0d92397445751aeb071b46c19993f593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae51a89c4ca096bceea8082e12a35262" id="r_aae51a89c4ca096bceea8082e12a35262"><td class="memItemLeft" align="right" valign="top">LocaleItem&lt; string &gt;[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae51a89c4ca096bceea8082e12a35262">Author</a></td></tr>
+<tr class="separator:aae51a89c4ca096bceea8082e12a35262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5936bca84909a3ac876fce44144f7155" id="r_a5936bca84909a3ac876fce44144f7155"><td class="memItemLeft" align="right" valign="top">LocaleItem&lt; string &gt;[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5936bca84909a3ac876fce44144f7155">Description</a></td></tr>
+<tr class="separator:a5936bca84909a3ac876fce44144f7155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a3f28f97c3ce41fdd6e26d20e9867c8a6" id="r_a3f28f97c3ce41fdd6e26d20e9867c8a6"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f28f97c3ce41fdd6e26d20e9867c8a6">NameLocalized</a><code> [get]</code></td></tr>
-<tr class="separator:a3f28f97c3ce41fdd6e26d20e9867c8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a647940cfc4365c7bfafd5d1f73bbb0af" id="r_a647940cfc4365c7bfafd5d1f73bbb0af"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647940cfc4365c7bfafd5d1f73bbb0af">AuthorLocalized</a><code> [get]</code></td></tr>
-<tr class="separator:a647940cfc4365c7bfafd5d1f73bbb0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a924af81ac996ec4fe30ccb64363fb68f" id="r_a924af81ac996ec4fe30ccb64363fb68f"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a924af81ac996ec4fe30ccb64363fb68f">DescriptionLocalized</a><code> [get]</code></td></tr>
-<tr class="separator:a924af81ac996ec4fe30ccb64363fb68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78c177005fde19f330571480bbf3b8b0" id="r_a78c177005fde19f330571480bbf3b8b0"><td class="memItemLeft" align="right" valign="top">List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78c177005fde19f330571480bbf3b8b0">Assets</a><code> [get]</code></td></tr>
 <tr class="separator:a78c177005fde19f330571480bbf3b8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ceac89c150ba43cee8e86d0177be1ff" id="r_a6ceac89c150ba43cee8e86d0177be1ff"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ceac89c150ba43cee8e86d0177be1ff">Icon</a><code> [get]</code></td></tr>
@@ -184,11 +207,37 @@ Properties</h2></td></tr>
 <tr class="separator:a2588195f2b1fb3d4009fe3d967a6a2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbffb6eaeaa027c01d1caaec50769fe6" id="r_afbffb6eaeaa027c01d1caaec50769fe6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbffb6eaeaa027c01d1caaec50769fe6">OutputResourcesPath</a><code> [get]</code></td></tr>
 <tr class="separator:afbffb6eaeaa027c01d1caaec50769fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f28f97c3ce41fdd6e26d20e9867c8a6" id="r_a3f28f97c3ce41fdd6e26d20e9867c8a6"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f28f97c3ce41fdd6e26d20e9867c8a6">NameLocalized</a><code> [get]</code></td></tr>
+<tr class="separator:a3f28f97c3ce41fdd6e26d20e9867c8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647940cfc4365c7bfafd5d1f73bbb0af" id="r_a647940cfc4365c7bfafd5d1f73bbb0af"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647940cfc4365c7bfafd5d1f73bbb0af">AuthorLocalized</a><code> [get]</code></td></tr>
+<tr class="separator:a647940cfc4365c7bfafd5d1f73bbb0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924af81ac996ec4fe30ccb64363fb68f" id="r_a924af81ac996ec4fe30ccb64363fb68f"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a924af81ac996ec4fe30ccb64363fb68f">DescriptionLocalized</a><code> [get]</code></td></tr>
+<tr class="separator:a924af81ac996ec4fe30ccb64363fb68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:afd2d9ab4f577345e162b7bb97ed489af" id="r_afd2d9ab4f577345e162b7bb97ed489af"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd2d9ab4f577345e162b7bb97ed489af">CloneLegacy</a> (<a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.html">ModData</a> data)</td></tr>
+<tr class="separator:afd2d9ab4f577345e162b7bb97ed489af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba988f87d5ae91afbba575dad64a65c" id="r_a9ba988f87d5ae91afbba575dad64a65c"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba988f87d5ae91afbba575dad64a65c">PrepareLegacyForSave</a> ()</td></tr>
+<tr class="separator:a9ba988f87d5ae91afbba575dad64a65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb12c632d77085692d48557b23197b20" id="r_adb12c632d77085692d48557b23197b20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb12c632d77085692d48557b23197b20">OnJsonDeserialized</a> (StreamingContext context)</td></tr>
+<tr class="separator:adb12c632d77085692d48557b23197b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac364d8187be10cd0261050d002e9d25a" id="r_ac364d8187be10cd0261050d002e9d25a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac364d8187be10cd0261050d002e9d25a">UpgradeLegacy</a> ()</td></tr>
+<tr class="memdesc:ac364d8187be10cd0261050d002e9d25a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the new texts from the legacy ones where the new ones are empty.  <br /></td></tr>
+<tr class="separator:ac364d8187be10cd0261050d002e9d25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2d9ab4f577345e162b7bb97ed489af" id="r_afd2d9ab4f577345e162b7bb97ed489af"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd2d9ab4f577345e162b7bb97ed489af">CloneLegacy</a> (<a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.html">ModData</a> data)</td></tr>
+<tr class="separator:afd2d9ab4f577345e162b7bb97ed489af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba988f87d5ae91afbba575dad64a65c" id="r_a9ba988f87d5ae91afbba575dad64a65c"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba988f87d5ae91afbba575dad64a65c">PrepareLegacyForSave</a> ()</td></tr>
+<tr class="separator:a9ba988f87d5ae91afbba575dad64a65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:ae5b12af568f075c72bc35a2e2582f5b4" id="r_ae5b12af568f075c72bc35a2e2582f5b4"><td class="memItemLeft" align="right" valign="top">static LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5b12af568f075c72bc35a2e2582f5b4">GetLocalizedText</a> (LocaleItem&lt; string &gt;[] items)</td></tr>
-<tr class="separator:ae5b12af568f075c72bc35a2e2582f5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188272775ca16d1503754e4aa2df9da9" id="r_a188272775ca16d1503754e4aa2df9da9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a188272775ca16d1503754e4aa2df9da9">Upgrade</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[] texts, LocaleItem&lt; string &gt;[] legacy)</td></tr>
+<tr class="separator:a188272775ca16d1503754e4aa2df9da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af781066731cda9710c9aaa9571c28d29" id="r_af781066731cda9710c9aaa9571c28d29"><td class="memItemLeft" align="right" valign="top">static LocaleItem&lt; string &gt;[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af781066731cda9710c9aaa9571c28d29">ToLegacy</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[] texts)</td></tr>
+<tr class="separator:af781066731cda9710c9aaa9571c28d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291655d9c943a38427d2833fc6ae546f" id="r_a291655d9c943a38427d2833fc6ae546f"><td class="memItemLeft" align="right" valign="top">static LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291655d9c943a38427d2833fc6ae546f">ToLocalizedText</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[] texts)</td></tr>
+<tr class="separator:a291655d9c943a38427d2833fc6ae546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -198,14 +247,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0b364f8546ce47b1a6979361a64c1ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33758e44df0185809d0c4f6dc9340378" id="r_a33758e44df0185809d0c4f6dc9340378"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data_1_1_image_data.html">ImageData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33758e44df0185809d0c4f6dc9340378">_images</a></td></tr>
 <tr class="separator:a33758e44df0185809d0c4f6dc9340378"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3988d5117932e0b4bcf3ba6827bff864" id="r_a3988d5117932e0b4bcf3ba6827bff864"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3988d5117932e0b4bcf3ba6827bff864">_nameLocalized</a></td></tr>
-<tr class="separator:a3988d5117932e0b4bcf3ba6827bff864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35620dcaf0861290cc3e3ad2c1fbb3c0" id="r_a35620dcaf0861290cc3e3ad2c1fbb3c0"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35620dcaf0861290cc3e3ad2c1fbb3c0">_authorLocalized</a></td></tr>
-<tr class="separator:a35620dcaf0861290cc3e3ad2c1fbb3c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aca18c01ff429bc612997d759cec83d" id="r_a9aca18c01ff429bc612997d759cec83d"><td class="memItemLeft" align="right" valign="top">LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9aca18c01ff429bc612997d759cec83d">_descriptionLocalized</a></td></tr>
-<tr class="separator:a9aca18c01ff429bc612997d759cec83d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The GameToolkit-era texts of a mod, removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">LegacyLocalization.RemovedIn</a>. Mods and export settings saved before keep <code>Name</code>/<code>Author</code>/<code>Description</code> as LocaleItem&lt;T&gt; arrays: they are read into the new fields on load (JSON and Unity serialization), and are written back on save so a game on an older <a class="el" href="namespace_c_o_r_e.html">CORE</a> still shows the mod's texts. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a464c7e02988704ca4153617f3a66e31f" name="a464c7e02988704ca4153617f3a66e31f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a464c7e02988704ca4153617f3a66e31f">&#9670;&#160;</a></span>Clone()</h2>
 
@@ -223,8 +268,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae5b12af568f075c72bc35a2e2582f5b4" name="ae5b12af568f075c72bc35a2e2582f5b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5b12af568f075c72bc35a2e2582f5b4">&#9670;&#160;</a></span>GetLocalizedText()</h2>
+<a id="afd2d9ab4f577345e162b7bb97ed489af" name="afd2d9ab4f577345e162b7bb97ed489af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2d9ab4f577345e162b7bb97ed489af">&#9670;&#160;</a></span>CloneLegacy() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,18 +278,96 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static LocalizedText CORE.ModTool.Shared.Data.ModData.GetLocalizedText </td>
+          <td class="memname">partial void CORE.ModTool.Shared.Data.ModData.CloneLegacy </td>
           <td>(</td>
-          <td class="paramtype">LocaleItem&lt; string &gt;[]</td>          <td class="paramname"><span class="paramname"><em>items</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.html">ModData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd2d9ab4f577345e162b7bb97ed489af" name="afd2d9ab4f577345e162b7bb97ed489af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2d9ab4f577345e162b7bb97ed489af">&#9670;&#160;</a></span>CloneLegacy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.ModTool.Shared.Data.ModData.CloneLegacy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_data_1_1_mod_data.html">ModData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a13b36f7d6af87a06e347725279fc27" name="a3a13b36f7d6af87a06e347725279fc27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a13b36f7d6af87a06e347725279fc27">&#9670;&#160;</a></span>GetAuthor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.ModTool.Shared.Data.ModData.GetAuthor </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2d051a6ebc0d22a72fc6b38630ffdbf" name="ac2d051a6ebc0d22a72fc6b38630ffdbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d051a6ebc0d22a72fc6b38630ffdbf">&#9670;&#160;</a></span>GetDescription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.ModTool.Shared.Data.ModData.GetDescription </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f2331e13442f5ebe38c8926ad5bd787" name="a1f2331e13442f5ebe38c8926ad5bd787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f2331e13442f5ebe38c8926ad5bd787">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.ModTool.Shared.Data.ModData.GetName </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The name in the language (the current one by default), with the fallback languages. </p>
 
 </div>
 </div>
@@ -261,6 +384,65 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10189b6e32cd0400fdccd20b640eaaa7" name="a10189b6e32cd0400fdccd20b640eaaa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10189b6e32cd0400fdccd20b640eaaa7">&#9670;&#160;</a></span>OnAfterDeserialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.ModTool.Shared.Data.ModData.OnAfterDeserialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73cd0217c135113de7fa19f12ae412be" name="a73cd0217c135113de7fa19f12ae412be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73cd0217c135113de7fa19f12ae412be">&#9670;&#160;</a></span>OnBeforeSerialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.ModTool.Shared.Data.ModData.OnBeforeSerialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb12c632d77085692d48557b23197b20" name="adb12c632d77085692d48557b23197b20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb12c632d77085692d48557b23197b20">&#9670;&#160;</a></span>OnJsonDeserialized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.ModTool.Shared.Data.ModData.OnJsonDeserialized </td>
+          <td>(</td>
+          <td class="paramtype">StreamingContext</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -282,6 +464,162 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9ba988f87d5ae91afbba575dad64a65c" name="a9ba988f87d5ae91afbba575dad64a65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba988f87d5ae91afbba575dad64a65c">&#9670;&#160;</a></span>PrepareLegacyForSave() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.ModTool.Shared.Data.ModData.PrepareLegacyForSave </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ba988f87d5ae91afbba575dad64a65c" name="a9ba988f87d5ae91afbba575dad64a65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba988f87d5ae91afbba575dad64a65c">&#9670;&#160;</a></span>PrepareLegacyForSave() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.ModTool.Shared.Data.ModData.PrepareLegacyForSave </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af781066731cda9710c9aaa9571c28d29" name="af781066731cda9710c9aaa9571c28d29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af781066731cda9710c9aaa9571c28d29">&#9670;&#160;</a></span>ToLegacy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LocaleItem&lt; string &gt;[] CORE.ModTool.Shared.Data.ModData.ToLegacy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[]</td>          <td class="paramname"><span class="paramname"><em>texts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a291655d9c943a38427d2833fc6ae546f" name="a291655d9c943a38427d2833fc6ae546f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291655d9c943a38427d2833fc6ae546f">&#9670;&#160;</a></span>ToLocalizedText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LocalizedText CORE.ModTool.Shared.Data.ModData.ToLocalizedText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[]</td>          <td class="paramname"><span class="paramname"><em>texts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a188272775ca16d1503754e4aa2df9da9" name="a188272775ca16d1503754e4aa2df9da9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188272775ca16d1503754e4aa2df9da9">&#9670;&#160;</a></span>Upgrade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[] CORE.ModTool.Shared.Data.ModData.Upgrade </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a>[]</td>          <td class="paramname"><span class="paramname"><em>texts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocaleItem&lt; string &gt;[]</td>          <td class="paramname"><span class="paramname"><em>legacy</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac364d8187be10cd0261050d002e9d25a" name="ac364d8187be10cd0261050d002e9d25a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac364d8187be10cd0261050d002e9d25a">&#9670;&#160;</a></span>UpgradeLegacy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.ModTool.Shared.Data.ModData.UpgradeLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fills the new texts from the legacy ones where the new ones are empty. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a60c2485f1e06a0d0393db6c78619fb35" name="a60c2485f1e06a0d0393db6c78619fb35"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60c2485f1e06a0d0393db6c78619fb35">&#9670;&#160;</a></span>_assets</h2>
@@ -294,50 +632,6 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">List&lt;string&gt; CORE.ModTool.Shared.Data.ModData._assets = new()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a35620dcaf0861290cc3e3ad2c1fbb3c0" name="a35620dcaf0861290cc3e3ad2c1fbb3c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35620dcaf0861290cc3e3ad2c1fbb3c0">&#9670;&#160;</a></span>_authorLocalized</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">LocalizedText CORE.ModTool.Shared.Data.ModData._authorLocalized</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9aca18c01ff429bc612997d759cec83d" name="a9aca18c01ff429bc612997d759cec83d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9aca18c01ff429bc612997d759cec83d">&#9670;&#160;</a></span>_descriptionLocalized</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">LocalizedText CORE.ModTool.Shared.Data.ModData._descriptionLocalized</td>
         </tr>
       </table>
   </td>
@@ -393,28 +687,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3988d5117932e0b4bcf3ba6827bff864" name="a3988d5117932e0b4bcf3ba6827bff864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3988d5117932e0b4bcf3ba6827bff864">&#9670;&#160;</a></span>_nameLocalized</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">LocalizedText CORE.ModTool.Shared.Data.ModData._nameLocalized</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aae51a89c4ca096bceea8082e12a35262" name="aae51a89c4ca096bceea8082e12a35262"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae51a89c4ca096bceea8082e12a35262">&#9670;&#160;</a></span>Author</h2>
 
@@ -423,6 +695,20 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">LocaleItem&lt;string&gt; [] CORE.ModTool.Shared.Data.ModData.Author</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9f992440f49ac73109262cd15997363" name="af9f992440f49ac73109262cd15997363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f992440f49ac73109262cd15997363">&#9670;&#160;</a></span>Authors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a> [] CORE.ModTool.Shared.Data.ModData.Authors</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -455,6 +741,20 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">LocaleItem&lt;string&gt; [] CORE.ModTool.Shared.Data.ModData.Description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a237552bb34a2afca091b5312c6beb4b0" name="a237552bb34a2afca091b5312c6beb4b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a237552bb34a2afca091b5312c6beb4b0">&#9670;&#160;</a></span>Descriptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a> [] CORE.ModTool.Shared.Data.ModData.Descriptions</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -501,6 +801,20 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">LocaleItem&lt;string&gt; [] CORE.ModTool.Shared.Data.ModData.Name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e99e0ff6a61362ca30b78b372cc3c1f" name="a7e99e0ff6a61362ca30b78b372cc3c1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e99e0ff6a61362ca30b78b372cc3c1f">&#9670;&#160;</a></span>Names</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_locale_text.html">LocaleText</a> [] CORE.ModTool.Shared.Data.ModData.Names</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -798,8 +1112,9 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/ModTool/Shared/Data/<a class="el" href="_mod_data_8cs.html">ModData.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/ModTool/Shared/Data/<a class="el" href="_mod_data_8_legacy_8cs.html">ModData.Legacy.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

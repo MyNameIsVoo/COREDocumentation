@@ -7,6 +7,8 @@ var class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data =
     [ "InitNew", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#abd4bae02370d0aed652f96f8693bd4bf", null ],
     [ "SetData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#a2b948c070a244d57a03b9523b9a69e37", null ],
     [ "SetData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#a37e80e3670e6283454b5f4c26110f8d2", null ],
+    [ "SyncFreeIds", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#af94e6bc035e7fb63453101e20acd9da6", null ],
+    [ "_freeIdSet", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#ad473f89f3c9587b0f15c3277f49a7c63", null ],
     [ "_rnd", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#a8bbb36ada1cce6d463ec9119024825c2", null ],
     [ "CreationTime", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#a6468190a7b21beef11d6ee36b63205e2", null ],
     [ "CustomData", "class_c_o_r_e_1_1_shared_1_1_data_1_1_location_data.html#ac3ee058604e71d954d740f5469bc0e87", null ],

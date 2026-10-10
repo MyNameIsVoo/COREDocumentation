@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -114,6 +114,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_d_i_1_1_di_container_installer.html">DiContainerInstaller</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_d_i_1_1_di_container_ref.html">DiContainerRef</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_d_i_1_1_player_project_context.html">PlayerProjectContext</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The game's part of the project context. Put it on the root of a prefab at <code>Resources/PlayerProjectContext.prefab</code> (any <code><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html">Resources</a></code> folder): <a class="el" href="namespace_c_o_r_e.html">CORE</a> instantiates the prefab under its own <code>ProjectContext</code> before the container is built, so everything in it lives for the whole game, is injected and gets <code>Awake</code> after injection — the same as <a class="el" href="namespace_c_o_r_e.html">CORE</a>'s services. <a class="el" href="namespace_c_o_r_e.html">CORE</a>'s <code>ProjectContext.prefab</code> itself is never edited: an update overwrites it.  <a href="class_c_o_r_e_1_1_shared_1_1_d_i_1_1_player_project_context.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>PlayerProjectContextLoader</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches the game's <a class="el" href="class_c_o_r_e_1_1_shared_1_1_d_i_1_1_player_project_context.html" title="The game&#39;s part of the project context. Put it on the root of a prefab at Resources/PlayerProjectCont...">PlayerProjectContext</a> prefab to <a class="el" href="namespace_c_o_r_e.html">CORE</a>'s <code>ProjectContext</code> between its creation and the install: the prefab becomes a child of the context root, its objects are injected with <a class="el" href="namespace_c_o_r_e.html">CORE</a>'s, and its installers run after <a class="el" href="namespace_c_o_r_e.html">CORE</a>'s. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_d_i_1_1_project_installer.html">ProjectInstaller</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>

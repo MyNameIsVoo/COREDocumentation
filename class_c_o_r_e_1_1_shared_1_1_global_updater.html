@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -133,6 +133,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af971e0294ae7af548d5b4be072edee33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c2fedce6f1653bbb442547c3752f133" id="r_a7c2fedce6f1653bbb442547c3752f133"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c2fedce6f1653bbb442547c3752f133">UnsubscribeFixedUpdate</a> (<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html">IFixedUpdateListiner</a> updateListiner)</td></tr>
 <tr class="separator:a7c2fedce6f1653bbb442547c3752f133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac657268cbf691266643418d704213f0" id="r_aac657268cbf691266643418d704213f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac657268cbf691266643418d704213f0">SubscribeLateUpdate</a> (<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html">ILateUpdateListiner</a> updateListiner, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html">UpdateData</a> data)</td></tr>
+<tr class="memdesc:aac657268cbf691266643418d704213f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribes to <code>LateUpdate</code>, ordered by <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html#a7f8a8ee27f192ecd998b514fff00c150" title="The priority of the function call, the lower it is, the first the function will be called.">UpdateData.Order</a> like the other lists (since v1.3).  <br /></td></tr>
+<tr class="separator:aac657268cbf691266643418d704213f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae45deea9d95d1340a0b56e90e4838a80" id="r_ae45deea9d95d1340a0b56e90e4838a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45deea9d95d1340a0b56e90e4838a80">UnsubscribeLateUpdate</a> (<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html">ILateUpdateListiner</a> updateListiner)</td></tr>
+<tr class="separator:ae45deea9d95d1340a0b56e90e4838a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -142,6 +147,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a0bd27bbbec324e2b9f67e583ab88ce0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af97b8229126bd6075421b8af919df153" id="r_af97b8229126bd6075421b8af919df153"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af97b8229126bd6075421b8af919df153">FixedUpdate</a> ()</td></tr>
 <tr class="separator:af97b8229126bd6075421b8af919df153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed879edf784057021dc4fb62bde3bc8e" id="r_aed879edf784057021dc4fb62bde3bc8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed879edf784057021dc4fb62bde3bc8e">LateUpdate</a> ()</td></tr>
+<tr class="separator:aed879edf784057021dc4fb62bde3bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc0253693e6e5fe19a785db84c0fcc85" id="r_abc0253693e6e5fe19a785db84c0fcc85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc0253693e6e5fe19a785db84c0fcc85">OnGameInitted</a> ()</td></tr>
 <tr class="separator:abc0253693e6e5fe19a785db84c0fcc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -151,6 +158,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0a023d72617fb9465c59eb09185aa1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60da686a31a531dce7576ddf3e78d4bd" id="r_a60da686a31a531dce7576ddf3e78d4bd"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html">IFixedUpdateListiner</a>, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html">UpdateData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60da686a31a531dce7576ddf3e78d4bd">_fixedUpdateListiners</a> = new()</td></tr>
 <tr class="separator:a60da686a31a531dce7576ddf3e78d4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec488aee5a70e255dea1be6f05d9c517" id="r_aec488aee5a70e255dea1be6f05d9c517"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html">ILateUpdateListiner</a>, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html">UpdateData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec488aee5a70e255dea1be6f05d9c517">_lateUpdateListiners</a> = new()</td></tr>
+<tr class="separator:aec488aee5a70e255dea1be6f05d9c517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The system responsible for updating application components. </p>
@@ -191,6 +200,31 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void CORE.Shared.GlobalUpdater.FixedUpdate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed879edf784057021dc4fb62bde3bc8e" name="aed879edf784057021dc4fb62bde3bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed879edf784057021dc4fb62bde3bc8e">&#9670;&#160;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.GlobalUpdater.LateUpdate </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -251,6 +285,29 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aac657268cbf691266643418d704213f0" name="aac657268cbf691266643418d704213f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac657268cbf691266643418d704213f0">&#9670;&#160;</a></span>SubscribeLateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.GlobalUpdater.SubscribeLateUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html">ILateUpdateListiner</a></td>          <td class="paramname"><span class="paramname"><em>updateListiner</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html">UpdateData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subscribes to <code>LateUpdate</code>, ordered by <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html#a7f8a8ee27f192ecd998b514fff00c150" title="The priority of the function call, the lower it is, the first the function will be called.">UpdateData.Order</a> like the other lists (since v1.3). </p>
+
+</div>
+</div>
 <a id="aef202972d57b439a1cb90624fc3f3f35" name="aef202972d57b439a1cb90624fc3f3f35"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef202972d57b439a1cb90624fc3f3f35">&#9670;&#160;</a></span>SubscribeUpdate()</h2>
 
@@ -282,6 +339,23 @@ Private Attributes</h2></td></tr>
           <td class="memname">void CORE.Shared.GlobalUpdater.UnsubscribeFixedUpdate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html">IFixedUpdateListiner</a></td>          <td class="paramname"><span class="paramname"><em>updateListiner</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae45deea9d95d1340a0b56e90e4838a80" name="ae45deea9d95d1340a0b56e90e4838a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae45deea9d95d1340a0b56e90e4838a80">&#9670;&#160;</a></span>UnsubscribeLateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.GlobalUpdater.UnsubscribeLateUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html">ILateUpdateListiner</a></td>          <td class="paramname"><span class="paramname"><em>updateListiner</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -343,6 +417,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Dictionary&lt;<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_fixed_update_listiner.html">IFixedUpdateListiner</a>, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html">UpdateData</a>&gt; CORE.Shared.GlobalUpdater._fixedUpdateListiners = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec488aee5a70e255dea1be6f05d9c517" name="aec488aee5a70e255dea1be6f05d9c517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec488aee5a70e255dea1be6f05d9c517">&#9670;&#160;</a></span>_lateUpdateListiners</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html">ILateUpdateListiner</a>, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_update_data.html">UpdateData</a>&gt; CORE.Shared.GlobalUpdater._lateUpdateListiners = new()</td>
         </tr>
       </table>
   </td>

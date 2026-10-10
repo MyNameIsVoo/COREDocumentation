@@ -11,5 +11,6 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour_1_g =
     [ "_isApplicationQuitting", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#ab5e1905f9016cc6f50279aa775c3fac4", null ],
     [ "_lock", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#ab6dab5e1065a5be4e465cab6a038f3c4", null ],
     [ "Instance", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#a1220fa03ebd4f80d93ce5f6337e02749", null ],
-    [ "InstanceExists", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#ac2b2d2c1148bfdd864776c783986b08b", null ]
+    [ "InstanceExists", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#ac2b2d2c1148bfdd864776c783986b08b", null ],
+    [ "IsApplicationQuitting", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_singleton_mono_behaviour-1-g.html#a9f252abade9c53de2f781327810783e1", null ]
 ];

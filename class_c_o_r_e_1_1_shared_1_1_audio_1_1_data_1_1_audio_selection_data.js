@@ -8,10 +8,14 @@ var class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data =
       [ "Disabled", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a497d64432bdc884d7621e1b2137fde4bab9f5c797ebbf55adccdd8539a65a0241", null ]
     ] ],
     [ "ToAudioClipData", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a312d17699f8d49405582e12d672b57c2", null ],
+    [ "ToPlayOptions", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a5becd7db3222112c5517b99199063565", null ],
+    [ "UpgradeLegacyAudio", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#ad254ab1b4059a7675e24977880bf8666", null ],
     [ "Clip", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#ace75f04ae9e5a466ab2f03775082c0c8", null ],
     [ "Groups", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#ac8b0a524fe90218bde619196dcf672af", null ],
+    [ "Key", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a495a6aa2c1ea398b51a36879f487a6ab", null ],
     [ "Loop", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a0b55dd390689c7678464852309cfb40c", null ],
     [ "OverrideVolume", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a550b5567b4499577bfaa6d50b856a845", null ],
     [ "State", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a6253166fbc762c8abdae5d9c90022559", null ],
-    [ "Version", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#aa5ca4671a2296969ff3eb96c1022c906", null ]
+    [ "Version", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#aa5ca4671a2296969ff3eb96c1022c906", null ],
+    [ "HasLegacyAudio", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#a1bacc69721a3095c183f8cb904ee5fae", null ]
 ];

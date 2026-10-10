@@ -5,7 +5,13 @@ var namespace_c_o_r_e_1_1_shared_1_1_configs =
     [ "GoogleSheets", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets.html", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_google_sheets" ],
     [ "Settings", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_settings.html", "namespace_c_o_r_e_1_1_shared_1_1_configs_1_1_settings" ],
     [ "Config", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config" ],
+    [ "ConfigChoicesAttribute", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_choices_attribute.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_choices_attribute" ],
+    [ "ConfigColorAttribute", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_color_attribute.html", null ],
+    [ "ConfigEnumAttribute", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_enum_attribute.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_enum_attribute" ],
+    [ "ConfigFileNames", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_file_names.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_file_names" ],
+    [ "ConfigFragments", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_fragments.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_fragments" ],
     [ "ConfigList< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_list-1-g" ],
+    [ "ConfigReferenceAttribute", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_attribute.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_reference_attribute" ],
     [ "ConfigSingle< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_single-1-g" ],
     [ "ConfigSystem", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_system" ],
     [ "ConfigVisual< T >", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_config_visual-1-g" ],
@@ -13,7 +19,7 @@ var namespace_c_o_r_e_1_1_shared_1_1_configs =
     [ "EnumData< T >", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g.html", "struct_c_o_r_e_1_1_shared_1_1_configs_1_1_enum_data-1-g" ],
     [ "GlobalConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config" ],
     [ "IConfigValidator", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_validator.html", "interface_c_o_r_e_1_1_shared_1_1_configs_1_1_i_config_validator" ],
-    [ "InputConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_input_config" ],
+    [ "LocalizationKeyAttribute", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_localization_key_attribute.html", null ],
     [ "ReferencesConfigResolver", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_references_config_resolver" ],
     [ "SettingsConfig", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_config.html", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_config" ]
 ];

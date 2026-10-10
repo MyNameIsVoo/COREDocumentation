@@ -4,7 +4,6 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions =
     [ "AddElement< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a879c92643cf32399ac6886801020213c", null ],
     [ "Deactivate", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a3a19a0c4a3d8ae1e8f743489cd240004", null ],
     [ "IsBetween", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a7ad298fe10b66c37bdcec8911e25607f", null ],
-    [ "IsEquals", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a916e16c91253412a8c01b57d06f29937", null ],
     [ "IsIdentity< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#a9136ecb99b6dd67373c9e6ad27231737", null ],
     [ "IsNearZero", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#ac3a70faeed71bdb5ccde450cd5ed1dbe", null ],
     [ "IsNotEmpty< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_extentions.html#aa914f29bc9e59507f2d7e496f9bbb927", null ],

@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -133,9 +133,19 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aff5d8b6d94621b5ca22de648a8b1a46f" id="r_aff5d8b6d94621b5ca22de648a8b1a46f"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eec">ColorCustomGenerated.ColorEnums</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff5d8b6d94621b5ca22de648a8b1a46f">ColorEnum</a></td></tr>
 <tr class="separator:aff5d8b6d94621b5ca22de648a8b1a46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abffaa7143b28e94e4943a235df6e7754" id="r_abffaa7143b28e94e4943a235df6e7754"><td class="memItemLeft" align="right" valign="top">readonly bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abffaa7143b28e94e4943a235df6e7754">HasColorEnum</a></td></tr>
+<tr class="memdesc:abffaa7143b28e94e4943a235df6e7754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the generated enum has a member for this colour: false until code generation has run for its palette.  <br /></td></tr>
+<tr class="separator:abffaa7143b28e94e4943a235df6e7754"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:ac199c33a8d4ab61bbc85be5bf58d094e" id="r_ac199c33a8d4ab61bbc85be5bf58d094e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac199c33a8d4ab61bbc85be5bf58d094e">Hash</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac199c33a8d4ab61bbc85be5bf58d094e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hash of the colour in its palette (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html#a9322ddcf19b86df3336ae2a86959593d">PaletteData.ColorData.Hash</a>): the same in every project, unlike the generated enum number.  <br /></td></tr>
+<tr class="separator:ac199c33a8d4ab61bbc85be5bf58d094e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4650bbd40e104423b63f7d5ee1227178" id="r_a4650bbd40e104423b63f7d5ee1227178"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4650bbd40e104423b63f7d5ee1227178">Name</a><code> [get]</code></td></tr>
+<tr class="separator:a4650bbd40e104423b63f7d5ee1227178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692bd4cabc62e3b969fca3fb23e1b2d0" id="r_a692bd4cabc62e3b969fca3fb23e1b2d0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a692bd4cabc62e3b969fca3fb23e1b2d0">PaletteName</a><code> [get]</code></td></tr>
+<tr class="separator:a692bd4cabc62e3b969fca3fb23e1b2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae747598759229567485b0d3fafeffadc" id="r_ae747598759229567485b0d3fafeffadc"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae747598759229567485b0d3fafeffadc">MainColor</a><code> [get]</code></td></tr>
 <tr class="separator:ae747598759229567485b0d3fafeffadc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4737ed84e1ab89ea548b07777cfa2041" id="r_a4737ed84e1ab89ea548b07777cfa2041"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4737ed84e1ab89ea548b07777cfa2041">AlternativeColor</a><code> [get]</code></td></tr>
@@ -335,6 +345,22 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abffaa7143b28e94e4943a235df6e7754" name="abffaa7143b28e94e4943a235df6e7754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abffaa7143b28e94e4943a235df6e7754">&#9670;&#160;</a></span>HasColorEnum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly bool CORE.Shared.Colors.ColorCustom.HasColorEnum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether the generated enum has a member for this colour: false until code generation has run for its palette. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a4737ed84e1ab89ea548b07777cfa2041" name="a4737ed84e1ab89ea548b07777cfa2041"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4737ed84e1ab89ea548b07777cfa2041">&#9670;&#160;</a></span>AlternativeColor</h2>
@@ -358,6 +384,30 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac199c33a8d4ab61bbc85be5bf58d094e" name="ac199c33a8d4ab61bbc85be5bf58d094e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac199c33a8d4ab61bbc85be5bf58d094e">&#9670;&#160;</a></span>Hash</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Colors.ColorCustom.Hash</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hash of the colour in its palette (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data_1_1_color_data.html#a9322ddcf19b86df3336ae2a86959593d">PaletteData.ColorData.Hash</a>): the same in every project, unlike the generated enum number. </p>
+
+</div>
+</div>
 <a id="ae747598759229567485b0d3fafeffadc" name="ae747598759229567485b0d3fafeffadc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae747598759229567485b0d3fafeffadc">&#9670;&#160;</a></span>MainColor</h2>
 
@@ -369,6 +419,50 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Color CORE.Shared.Colors.ColorCustom.MainColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4650bbd40e104423b63f7d5ee1227178" name="a4650bbd40e104423b63f7d5ee1227178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4650bbd40e104423b63f7d5ee1227178">&#9670;&#160;</a></span>Name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Colors.ColorCustom.Name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a692bd4cabc62e3b969fca3fb23e1b2d0" name="a692bd4cabc62e3b969fca3fb23e1b2d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692bd4cabc62e3b969fca3fb23e1b2d0">&#9670;&#160;</a></span>PaletteName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Colors.ColorCustom.PaletteName</td>
         </tr>
       </table>
   </td>

@@ -21,5 +21,6 @@ var searchData=
   ['modtoolsettings_18',['ModToolSettings',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_mod_tool_settings.html',1,'CORE::ModTool::Shared']]],
   ['modutils_19',['ModUtils',['../class_c_o_r_e_1_1_mod_tool_1_1_shared_1_1_mod_utils.html',1,'CORE::ModTool::Shared']]],
   ['mousecatcher_20',['MouseCatcher',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_mouse_1_1_mouse_catcher.html',1,'CORE::Shared::Utils::Mouse']]],
-  ['musicsubaudiosystem_21',['MusicSubAudioSystem',['../class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html',1,'CORE::Shared::Audio::SubSystems']]]
+  ['musicplayer_21',['MusicPlayer',['../class_c_o_r_e_1_1_shared_1_1_audio_1_1_music_player.html',1,'CORE::Shared::Audio']]],
+  ['musicsubaudiosystem_22',['MusicSubAudioSystem',['../class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html',1,'CORE::Shared::Audio::SubSystems']]]
 ];

@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,6 +106,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library-members.html">List of all members</a>  </div>
@@ -113,11 +114,22 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.
 </div><!--header-->
 <div class="contents">
 
-<p>The color library in the project. Stores all colors that are loaded from the settings.  
+<p>The color library in the project. Stores all colors that are loaded from the settings (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a>) and the palettes added on top of them (<a class="el" href="#ac2a2c3e305d8177ae429658439c03eef" title="Adds palettes that are not in ColorLibraryData — a plugin&#39;s PlayerColorLibraryData....">AddPalettes</a> — every <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html" title="Represents a user&#39;s custom color palette data: palettes a plugin or a game ships beside ColorLibraryD...">PlayerColorLibraryData</a> under a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html">Resources</a> folder, a plugin's own colours). A colour is found by its generated enum tag or by its palette hash (<a class="el" href="#a31ea6e6d5fae5e6c17e66ff925e2ce71" title="The colour with this palette hash, from the data or an added palette.">TryGetColor(string, out ColorCustom)</a>); the hash is the same in every project, the tag is not.  
  <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac2a2c3e305d8177ae429658439c03eef" id="r_ac2a2c3e305d8177ae429658439c03eef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2a2c3e305d8177ae429658439c03eef">AddPalettes</a> (IEnumerable&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html">PaletteData</a> &gt; palettes)</td></tr>
+<tr class="memdesc:ac2a2c3e305d8177ae429658439c03eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds palettes that are not in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a> — a plugin's <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html" title="Represents a user&#39;s custom color palette data: palettes a plugin or a game ships beside ColorLibraryD...">PlayerColorLibraryData</a>. A palette the data already has (same hash) is skipped, so a palette copied into the library later is never doubled.  <br /></td></tr>
+<tr class="separator:ac2a2c3e305d8177ae429658439c03eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2b1325c66a70d67a24c56924c623c5" id="r_a0f2b1325c66a70d67a24c56924c623c5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f2b1325c66a70d67a24c56924c623c5">Refresh</a> ()</td></tr>
+<tr class="memdesc:a0f2b1325c66a70d67a24c56924c623c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the colours again: <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a> first, then the added palettes it does not have.  <br /></td></tr>
+<tr class="separator:a0f2b1325c66a70d67a24c56924c623c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31ea6e6d5fae5e6c17e66ff925e2ce71" id="r_a31ea6e6d5fae5e6c17e66ff925e2ce71"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31ea6e6d5fae5e6c17e66ff925e2ce71">TryGetColor</a> (string hash, out <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> color)</td></tr>
+<tr class="memdesc:a31ea6e6d5fae5e6c17e66ff925e2ce71"><td class="mdescLeft">&#160;</td><td class="mdescRight">The colour with this palette hash, from the data or an added palette.  <br /></td></tr>
+<tr class="separator:a31ea6e6d5fae5e6c17e66ff925e2ce71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2046a9eeccdebdb9738655aeb87aaa7" id="r_af2046a9eeccdebdb9738655aeb87aaa7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2046a9eeccdebdb9738655aeb87aaa7">HasColor</a> (string hash)</td></tr>
+<tr class="separator:af2046a9eeccdebdb9738655aeb87aaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a297dec577bc585c0c2ef197fdeb397be" id="r_a297dec577bc585c0c2ef197fdeb397be"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a297dec577bc585c0c2ef197fdeb397be">Init</a> ()</td></tr>
 <tr class="memdesc:a297dec577bc585c0c2ef197fdeb397be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize on project startup.  <br /></td></tr>
 <tr class="separator:a297dec577bc585c0c2ef197fdeb397be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,24 +142,33 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a8cb6294dbdf93faac4d5583b5150d49d" id="r_a8cb6294dbdf93faac4d5583b5150d49d"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cb6294dbdf93faac4d5583b5150d49d">Colors</a> = Array.Empty&lt;<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>&gt;()</td></tr>
-<tr class="separator:a8cb6294dbdf93faac4d5583b5150d49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9128413cffb6bd47d1f8127d45be3a23" id="r_a9128413cffb6bd47d1f8127d45be3a23"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9128413cffb6bd47d1f8127d45be3a23">NoneColor</a></td></tr>
 <tr class="memdesc:a9128413cffb6bd47d1f8127d45be3a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default color.  <br /></td></tr>
 <tr class="separator:a9128413cffb6bd47d1f8127d45be3a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a1d2e03c705eceb5b5b4dd655ba85ebd2" id="r_a1d2e03c705eceb5b5b4dd655ba85ebd2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d2e03c705eceb5b5b4dd655ba85ebd2">Colors</a> = Array.Empty&lt;<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>&gt;()<code> [get, private set]</code></td></tr>
+<tr class="separator:a1d2e03c705eceb5b5b4dd655ba85ebd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a05c912c45cf610b554932a78a0ffb4ba" id="r_a05c912c45cf610b554932a78a0ffb4ba"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05c912c45cf610b554932a78a0ffb4ba">ColorLibrary</a> ()</td></tr>
 <tr class="separator:a05c912c45cf610b554932a78a0ffb4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c9182bb0738fe98f9320b919153e4fc" id="r_a5c9182bb0738fe98f9320b919153e4fc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c9182bb0738fe98f9320b919153e4fc">Collect</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html">PaletteData</a> palette, List&lt; <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> &gt; colors, Dictionary&lt; string, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> &gt; byHash, HashSet&lt; string &gt; paletteHashes)</td></tr>
+<tr class="separator:a5c9182bb0738fe98f9320b919153e4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a35f3a44695dc0de858eb5c71ee5d1b71" id="r_a35f3a44695dc0de858eb5c71ee5d1b71"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35f3a44695dc0de858eb5c71ee5d1b71">Key</a> = &quot;Color&quot;</td></tr>
 <tr class="separator:a35f3a44695dc0de858eb5c71ee5d1b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a156703cfe9360d896c2461d05ee1fe95" id="r_a156703cfe9360d896c2461d05ee1fe95"><td class="memItemLeft" align="right" valign="top">static readonly List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html">PaletteData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a156703cfe9360d896c2461d05ee1fe95">_addedPalettes</a> = new()</td></tr>
+<tr class="separator:a156703cfe9360d896c2461d05ee1fe95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0c4a485e5bb31174ac66ac9fec35d2" id="r_afb0c4a485e5bb31174ac66ac9fec35d2"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; string, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb0c4a485e5bb31174ac66ac9fec35d2">_byHash</a> = new()</td></tr>
+<tr class="separator:afb0c4a485e5bb31174ac66ac9fec35d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The color library in the project. Stores all colors that are loaded from the settings. </p>
+<div class="textblock"><p>The color library in the project. Stores all colors that are loaded from the settings (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a>) and the palettes added on top of them (<a class="el" href="#ac2a2c3e305d8177ae429658439c03eef" title="Adds palettes that are not in ColorLibraryData — a plugin&#39;s PlayerColorLibraryData....">AddPalettes</a> — every <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html" title="Represents a user&#39;s custom color palette data: palettes a plugin or a game ships beside ColorLibraryD...">PlayerColorLibraryData</a> under a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html">Resources</a> folder, a plugin's own colours). A colour is found by its generated enum tag or by its palette hash (<a class="el" href="#a31ea6e6d5fae5e6c17e66ff925e2ce71" title="The colour with this palette hash, from the data or an added palette.">TryGetColor(string, out ColorCustom)</a>); the hash is the same in every project, the tag is not. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a05c912c45cf610b554932a78a0ffb4ba" name="a05c912c45cf610b554932a78a0ffb4ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05c912c45cf610b554932a78a0ffb4ba">&#9670;&#160;</a></span>ColorLibrary()</h2>
@@ -175,6 +196,72 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac2a2c3e305d8177ae429658439c03eef" name="ac2a2c3e305d8177ae429658439c03eef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a2c3e305d8177ae429658439c03eef">&#9670;&#160;</a></span>AddPalettes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Colors.ColorLibrary.AddPalettes </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html">PaletteData</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>palettes</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds palettes that are not in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a> — a plugin's <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html" title="Represents a user&#39;s custom color palette data: palettes a plugin or a game ships beside ColorLibraryD...">PlayerColorLibraryData</a>. A palette the data already has (same hash) is skipped, so a palette copied into the library later is never doubled. </p>
+
+</div>
+</div>
+<a id="a5c9182bb0738fe98f9320b919153e4fc" name="a5c9182bb0738fe98f9320b919153e4fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c9182bb0738fe98f9320b919153e4fc">&#9670;&#160;</a></span>Collect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Colors.ColorLibrary.Collect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html">PaletteData</a></td>          <td class="paramname"><span class="paramname"><em>palette</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Dictionary&lt; string, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>byHash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HashSet&lt; string &gt;</td>          <td class="paramname"><span class="paramname"><em>paletteHashes</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c3b0b392ce161b3a87f6481d2a929ee" name="a9c3b0b392ce161b3a87f6481d2a929ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c3b0b392ce161b3a87f6481d2a929ee">&#9670;&#160;</a></span>GetColor()</h2>
 
@@ -226,7 +313,7 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a7c85e2ecfb93e56748107b9b2e641a4c" name="a7c85e2ecfb93e56748107b9b2e641a4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c85e2ecfb93e56748107b9b2e641a4c">&#9670;&#160;</a></span>HasColor()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c85e2ecfb93e56748107b9b2e641a4c">&#9670;&#160;</a></span>HasColor() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,6 +325,31 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">static bool CORE.Shared.Colors.ColorLibrary.HasColor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_color_1_1_color_custom_generated.html#a1880e522b9d83a37cb5b5faf37167eec">ColorCustomGenerated.ColorEnums</a></td>          <td class="paramname"><span class="paramname"><em>colorEnum</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2046a9eeccdebdb9738655aeb87aaa7" name="af2046a9eeccdebdb9738655aeb87aaa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2046a9eeccdebdb9738655aeb87aaa7">&#9670;&#160;</a></span>HasColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Colors.ColorLibrary.HasColor </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>hash</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -277,9 +389,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8cb6294dbdf93faac4d5583b5150d49d" name="a8cb6294dbdf93faac4d5583b5150d49d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cb6294dbdf93faac4d5583b5150d49d">&#9670;&#160;</a></span>Colors</h2>
+<a id="a0f2b1325c66a70d67a24c56924c623c5" name="a0f2b1325c66a70d67a24c56924c623c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2b1325c66a70d67a24c56924c623c5">&#9670;&#160;</a></span>Refresh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,12 +399,93 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> [] CORE.Shared.Colors.ColorLibrary.Colors = Array.Empty&lt;<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>&gt;()</td>
+          <td class="memname">static void CORE.Shared.Colors.ColorLibrary.Refresh </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads the colours again: <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a> first, then the added palettes it does not have. </p>
+
+</div>
+</div>
+<a id="a31ea6e6d5fae5e6c17e66ff925e2ce71" name="a31ea6e6d5fae5e6c17e66ff925e2ce71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31ea6e6d5fae5e6c17e66ff925e2ce71">&#9670;&#160;</a></span>TryGetColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Colors.ColorLibrary.TryGetColor </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>hash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a></td>          <td class="paramname"><span class="paramname"><em>color</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The colour with this palette hash, from the data or an added palette. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a156703cfe9360d896c2461d05ee1fe95" name="a156703cfe9360d896c2461d05ee1fe95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a156703cfe9360d896c2461d05ee1fe95">&#9670;&#160;</a></span>_addedPalettes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html">PaletteData</a>&gt; CORE.Shared.Colors.ColorLibrary._addedPalettes = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb0c4a485e5bb31174ac66ac9fec35d2" name="afb0c4a485e5bb31174ac66ac9fec35d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb0c4a485e5bb31174ac66ac9fec35d2">&#9670;&#160;</a></span>_byHash</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>&gt; CORE.Shared.Colors.ColorLibrary._byHash = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -343,6 +535,29 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default color. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a1d2e03c705eceb5b5b4dd655ba85ebd2" name="a1d2e03c705eceb5b5b4dd655ba85ebd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2e03c705eceb5b5b4dd655ba85ebd2">&#9670;&#160;</a></span>Colors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a> [] CORE.Shared.Colors.ColorLibrary.Colors = Array.Empty&lt;<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html">ColorCustom</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span><span class="mlabel private-set">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -1,0 +1,28 @@
+var class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar =
+[
+    [ "Group", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar_1_1_group.html", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar_1_1_group" ],
+    [ "Item", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar_1_1_item.html", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar_1_1_item" ],
+    [ "KitSidebar", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#ab631ef48f768d5c183c7010ca31741ba", null ],
+    [ "AddGroup", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a444f048e39adee9925de9ddc3b783e57", null ],
+    [ "AddItem", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#aba7628fd2a16933ba1008781e08c6b83", null ],
+    [ "ClearItems", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#acfb25823320f6476b2e1c4a9372cbddb", null ],
+    [ "Find", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#adfcdc91e2a94295a4a97db1af223f563", null ],
+    [ "IsFolded", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#ac1cf650d04e45439a7e251f495f16e1e", null ],
+    [ "OnKeyDown", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a158c2ba6c292b8808dfe4318bfcd0f7c", null ],
+    [ "Remember", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a9b13d2044de497cb68804dc70cbf14ab", null ],
+    [ "Select", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a099d40439d2973e9d25db361eaafe8db", null ],
+    [ "_current", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#aa80a7159ab46da67d52d0bf4e562d96a", null ],
+    [ "_folded", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#acc15b8312e632c9be7ce60f463131c34", null ],
+    [ "_groups", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a82770c4f8f644440189ddfdac0b8f596", null ],
+    [ "_items", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a0b59e77d596a8fa1b8ae78a853c20dc0", null ],
+    [ "_prefsKey", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a65a70877f649b0a23ba351c85716aa5f", null ],
+    [ "_scroll", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a9163e3da165408c2476b9af26de0eea2", null ],
+    [ "_selected", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#af9314c325d83a5b5e8eab66e00ed4fbf", null ],
+    [ "_unfoldAll", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a8baaddb3e0806e784e57d27accbc8798", null ],
+    [ "PrefsPrefix", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#ad2d030b875e2e42f4dfeda4ef0b193cb", null ],
+    [ "UssClass", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#acc7fddb47f95af746e8603ae4ee8c32b", null ],
+    [ "Body", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a8f4c1641c1e107d1d97eda1d0412a490", null ],
+    [ "SelectedId", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a26da3120dd59cfbd0c4d63174009506c", null ],
+    [ "UnfoldAll", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#a81855864acd36121bb38db816a6a435d", null ],
+    [ "Selected", "class_c_o_r_e_1_1_editor_kit_1_1_kit_sidebar.html#ac045f40a943cee0390905d6fcf6a7da7", null ]
+];

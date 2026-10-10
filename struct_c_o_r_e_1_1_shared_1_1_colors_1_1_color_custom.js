@@ -8,6 +8,10 @@ var struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom =
     [ "_overrideAlpha", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#adb0fe493ee6e65dcd05109615753a10d", null ],
     [ "_paletteData", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aa3b794bb6f12e237332db19dc265daf0", null ],
     [ "ColorEnum", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#aff5d8b6d94621b5ca22de648a8b1a46f", null ],
+    [ "HasColorEnum", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#abffaa7143b28e94e4943a235df6e7754", null ],
     [ "AlternativeColor", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#a4737ed84e1ab89ea548b07777cfa2041", null ],
-    [ "MainColor", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#ae747598759229567485b0d3fafeffadc", null ]
+    [ "Hash", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#ac199c33a8d4ab61bbc85be5bf58d094e", null ],
+    [ "MainColor", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#ae747598759229567485b0d3fafeffadc", null ],
+    [ "Name", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#a4650bbd40e104423b63f7d5ee1227178", null ],
+    [ "PaletteName", "struct_c_o_r_e_1_1_shared_1_1_colors_1_1_color_custom.html#a692bd4cabc62e3b969fca3fb23e1b2d0", null ]
 ];

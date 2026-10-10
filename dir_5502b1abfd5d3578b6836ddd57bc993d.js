@@ -1,8 +1,30 @@
 var dir_5502b1abfd5d3578b6836ddd57bc993d =
 [
     [ "Data", "dir_9d999ed40f89db6c8ba374d77b5442d8.html", "dir_9d999ed40f89db6c8ba374d77b5442d8" ],
+    [ "FMOD", "dir_02f6b70b45147d944b3c7d05c6882ce6.html", "dir_02f6b70b45147d944b3c7d05c6882ce6" ],
+    [ "Legacy", "dir_b4549a83f2a9768253b9ae84c12d7309.html", "dir_b4549a83f2a9768253b9ae84c12d7309" ],
     [ "SubSystems", "dir_d23762cf4c7c0991431b92f41978864e.html", "dir_d23762cf4c7c0991431b92f41978864e" ],
+    [ "Unity", "dir_bc105125a3203ada0d93296694c1b660.html", "dir_bc105125a3203ada0d93296694c1b660" ],
+    [ "AudioBackendAsset.cs", "_audio_backend_asset_8cs.html", "_audio_backend_asset_8cs" ],
+    [ "AudioBus.cs", "_audio_bus_8cs.html", "_audio_bus_8cs" ],
+    [ "AudioCatalog.cs", "_audio_catalog_8cs.html", "_audio_catalog_8cs" ],
+    [ "AudioCatalog.Generation.cs", "_audio_catalog_8_generation_8cs.html", null ],
     [ "AudioComponent.cs", "_audio_component_8cs.html", "_audio_component_8cs" ],
+    [ "AudioComponent.Legacy.cs", "_audio_component_8_legacy_8cs.html", "_audio_component_8_legacy_8cs" ],
+    [ "AudioFollowEnd.cs", "_audio_follow_end_8cs.html", "_audio_follow_end_8cs" ],
+    [ "AudioHandle.cs", "_audio_handle_8cs.html", "_audio_handle_8cs" ],
+    [ "AudioIdJsonConverter.cs", "_audio_id_json_converter_8cs.html", "_audio_id_json_converter_8cs" ],
+    [ "AudioKey.cs", "_audio_key_8cs.html", "_audio_key_8cs" ],
     [ "AudioLibrary.cs", "_audio_library_8cs.html", "_audio_library_8cs" ],
-    [ "AudioSystem.cs", "_audio_system_8cs.html", "_audio_system_8cs" ]
+    [ "AudioMath.cs", "_audio_math_8cs.html", "_audio_math_8cs" ],
+    [ "AudioPlayOptions.cs", "_audio_play_options_8cs.html", "_audio_play_options_8cs" ],
+    [ "AudioProjectSettings.cs", "_audio_project_settings_8cs.html", "_audio_project_settings_8cs" ],
+    [ "AudioService.cs", "_audio_service_8cs.html", "_audio_service_8cs" ],
+    [ "AudioService.Runtime.cs", "_audio_service_8_runtime_8cs.html", "_audio_service_8_runtime_8cs" ],
+    [ "AudioService.Settings.cs", "_audio_service_8_settings_8cs.html", "_audio_service_8_settings_8cs" ],
+    [ "AudioSystem.cs", "_audio_system_8cs.html", "_audio_system_8cs" ],
+    [ "IAudioBackend.cs", "_i_audio_backend_8cs.html", "_i_audio_backend_8cs" ],
+    [ "IAudioService.cs", "_i_audio_service_8cs.html", "_i_audio_service_8cs" ],
+    [ "IMusicPlayer.cs", "_i_music_player_8cs.html", "_i_music_player_8cs" ],
+    [ "MusicPlayer.cs", "_music_player_8cs.html", "_music_player_8cs" ]
 ];

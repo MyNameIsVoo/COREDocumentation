@@ -1,0 +1,4 @@
+var interface_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_i_u_i_navigation_context_listener =
+[
+    [ "OnNavigationContextChanged", "interface_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_i_u_i_navigation_context_listener.html#ad2dc12255922dc63cd0c84c8982f51e9", null ]
+];

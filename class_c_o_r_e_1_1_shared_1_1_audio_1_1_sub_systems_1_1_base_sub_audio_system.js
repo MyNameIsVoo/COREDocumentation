@@ -4,6 +4,8 @@ var class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system
     [ "Apply", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#af40134e22c835fcbc1af53b478b630f3", null ],
     [ "ChangeAudioSourceVolume", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#a167902b1820d43f4e7f318d109e2f3c6", null ],
     [ "PlayClip", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#aef652535f783b6493b274424ff620bef", null ],
+    [ "PlayOneShot", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#a21852fc4df22ab62e26010a06141db81", null ],
+    [ "PlayOnSource", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#ac7b4a3fd71cf86fd6786b7df19f7f880", null ],
     [ "StopAll", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#aa409b8762d8755ebdc39a095179d4f11", null ],
     [ "StopClip", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#a503593909b1e2f53091ca1774b029c94", null ],
     [ "Update", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html#a55cb0a7b7e85ac27747452bf9f5a5846", null ],

@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,6 +109,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Configs.Data.GameSettingsData Class Reference</div></div>
 </div><!--header-->
@@ -204,8 +205,26 @@ Properties</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a9c748f04ec9a12597c885a7234a71cee" id="r_a9c748f04ec9a12597c885a7234a71cee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab1e69de3890b7ba482f911063bfa8421">Language</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c748f04ec9a12597c885a7234a71cee">GetSteamLanguage</a> ()</td></tr>
-<tr class="separator:a9c748f04ec9a12597c885a7234a71cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d9270f642ff9e72a8f07147d4e23524" id="r_a3d9270f642ff9e72a8f07147d4e23524"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d9270f642ff9e72a8f07147d4e23524">OnValidated</a> ()</td></tr>
+<tr class="memdesc:a3d9270f642ff9e72a8f07147d4e23524"><td class="mdescLeft">&#160;</td><td class="mdescRight">The end of <a class="el" href="#a7f8ec20c1255a6212a48bfa287d0c736">Validate</a>: clamp or default the game's own fields.  <br /></td></tr>
+<tr class="separator:a3d9270f642ff9e72a8f07147d4e23524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1dafda175d9693e2779fae684a838e" id="r_a9f1dafda175d9693e2779fae684a838e"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f1dafda175d9693e2779fae684a838e">OnApplying</a> ()</td></tr>
+<tr class="memdesc:a9f1dafda175d9693e2779fae684a838e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The end of <a class="el" href="#abaf3ed08252f99177aa40a977a871f99">Apply</a>, before <code>OnApplied</code>: apply the game's own fields.  <br /></td></tr>
+<tr class="separator:a9f1dafda175d9693e2779fae684a838e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae2ae5e139d96002e4a0e85f815d2741" id="r_aae2ae5e139d96002e4a0e85f815d2741"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae2ae5e139d96002e4a0e85f815d2741">OnSetData</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html">GameSettingsData</a> settings)</td></tr>
+<tr class="memdesc:aae2ae5e139d96002e4a0e85f815d2741"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetData&lt;T&gt;, before <code>OnChanged</code>: copy the game's own fields from <em>settings</em>   <br /></td></tr>
+<tr class="separator:aae2ae5e139d96002e4a0e85f815d2741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd98956bb41831f26d664c8e3f14a1c" id="r_a1dd98956bb41831f26d664c8e3f14a1c"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd98956bb41831f26d664c8e3f14a1c">OnCheckIdentity</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html">GameSettingsData</a> settings, ref bool identical)</td></tr>
+<tr class="memdesc:a1dd98956bb41831f26d664c8e3f14a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">CheckIdentity&lt;T&gt;: compare the game's own fields, clear <em>identical</em>  on a difference  <br /></td></tr>
+<tr class="separator:a1dd98956bb41831f26d664c8e3f14a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a2536d47e155c8e510f52fc540c237367" id="r_a2536d47e155c8e510f52fc540c237367"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2536d47e155c8e510f52fc540c237367">GetSteamLanguage</a> ()</td></tr>
+<tr class="separator:a2536d47e155c8e510f52fc540c237367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac022d0da7eb83f8e0e97e08b3b818b02" id="r_ac022d0da7eb83f8e0e97e08b3b818b02"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac022d0da7eb83f8e0e97e08b3b818b02">IsShipped</a> (string language)</td></tr>
+<tr class="memdesc:ac022d0da7eb83f8e0e97e08b3b818b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The game ships the language (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#a2b1b7370083e5285ab49f58122b268fd">GlobalConfig.GameLanguages</a>) and the tables have it. Before the bundles are loaded the tables are not readable yet — then the config alone decides.  <br /></td></tr>
+<tr class="separator:ac022d0da7eb83f8e0e97e08b3b818b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents general application settings. </p>
@@ -244,8 +263,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c748f04ec9a12597c885a7234a71cee" name="a9c748f04ec9a12597c885a7234a71cee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c748f04ec9a12597c885a7234a71cee">&#9670;&#160;</a></span>GetSteamLanguage()</h2>
+<a id="a2536d47e155c8e510f52fc540c237367" name="a2536d47e155c8e510f52fc540c237367"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2536d47e155c8e510f52fc540c237367">&#9670;&#160;</a></span>GetSteamLanguage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +273,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ab1e69de3890b7ba482f911063bfa8421">Language</a> CORE.Shared.Configs.Data.GameSettingsData.GetSteamLanguage </td>
+          <td class="memname">static string CORE.Shared.Configs.Data.GameSettingsData.GetSteamLanguage </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -262,10 +281,37 @@ Private Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac022d0da7eb83f8e0e97e08b3b818b02" name="ac022d0da7eb83f8e0e97e08b3b818b02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac022d0da7eb83f8e0e97e08b3b818b02">&#9670;&#160;</a></span>IsShipped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Configs.Data.GameSettingsData.IsShipped </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The game ships the language (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#a2b1b7370083e5285ab49f58122b268fd">GlobalConfig.GameLanguages</a>) and the tables have it. Before the bundles are loaded the tables are not readable yet — then the config alone decides. </p>
 
 </div>
 </div>
@@ -300,6 +346,118 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f1dafda175d9693e2779fae684a838e" name="a9f1dafda175d9693e2779fae684a838e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f1dafda175d9693e2779fae684a838e">&#9670;&#160;</a></span>OnApplying()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GameSettingsData.OnApplying </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The end of <a class="el" href="#abaf3ed08252f99177aa40a977a871f99">Apply</a>, before <code>OnApplied</code>: apply the game's own fields. </p>
+
+</div>
+</div>
+<a id="a1dd98956bb41831f26d664c8e3f14a1c" name="a1dd98956bb41831f26d664c8e3f14a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd98956bb41831f26d664c8e3f14a1c">&#9670;&#160;</a></span>OnCheckIdentity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GameSettingsData.OnCheckIdentity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html">GameSettingsData</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref bool</td>          <td class="paramname"><span class="paramname"><em>identical</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>CheckIdentity&lt;T&gt;: compare the game's own fields, clear <em>identical</em>  on a difference </p>
+
+</div>
+</div>
+<a id="aae2ae5e139d96002e4a0e85f815d2741" name="aae2ae5e139d96002e4a0e85f815d2741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae2ae5e139d96002e4a0e85f815d2741">&#9670;&#160;</a></span>OnSetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GameSettingsData.OnSetData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_game_settings_data.html">GameSettingsData</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>SetData&lt;T&gt;, before <code>OnChanged</code>: copy the game's own fields from <em>settings</em>  </p>
+
+</div>
+</div>
+<a id="a3d9270f642ff9e72a8f07147d4e23524" name="a3d9270f642ff9e72a8f07147d4e23524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d9270f642ff9e72a8f07147d4e23524">&#9670;&#160;</a></span>OnValidated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.GameSettingsData.OnValidated </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The end of <a class="el" href="#a7f8ec20c1255a6212a48bfa287d0c736">Validate</a>: clamp or default the game's own fields. </p>
 
 </div>
 </div>

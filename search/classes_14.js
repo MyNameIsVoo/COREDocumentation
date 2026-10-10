@@ -10,9 +10,16 @@ var searchData=
   ['viewsaved_2d3_2dg_7',['ViewSaved-3-g',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view_saved-3-g.html',1,'CORE::Shared::UI::VisualView']]],
   ['viewsavedbase_2d2_2dg_8',['ViewSavedBase-2-g',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view_saved_base-2-g.html',1,'CORE::Shared::UI::VisualView']]],
   ['viewsavedbase_2d3_2dg_9',['ViewSavedBase-3-g',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_view_saved_base-3-g.html',1,'CORE::Shared::UI::VisualView']]],
-  ['visual_10',['Visual',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html',1,'CORE::Shared::UI::VisualView']]],
-  ['visualextensions_11',['VisualExtensions',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_visual_extensions.html',1,'CORE::Shared::Utils']]],
-  ['visualsaved_12',['VisualSaved',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual_saved.html',1,'CORE::Shared::UI::VisualView']]],
-  ['vvmexampleview_13',['VVMExampleView',['../class_c_o_r_e_1_1_examples_1_1_v_v_m_example_view.html',1,'CORE::Examples']]],
-  ['vvmexamplevisual_14',['VVMExampleVisual',['../class_c_o_r_e_1_1_examples_1_1_v_v_m_example_visual.html',1,'CORE::Examples']]]
+  ['virtualcursoractions_10',['VirtualCursorActions',['../struct_c_o_r_e_1_1_shared_1_1_inputs_1_1_game_input_actions_1_1_virtual_cursor_actions.html',1,'CORE::Shared::Inputs::GameInputActions']]],
+  ['virtualcursormagnet_11',['VirtualCursorMagnet',['../class_c_o_r_e_1_1_shared_1_1_inputs_1_1_virtual_cursors_1_1_virtual_cursor_magnet.html',1,'CORE::Shared::Inputs::VirtualCursors']]],
+  ['virtualcursormagnetsettings_12',['VirtualCursorMagnetSettings',['../class_c_o_r_e_1_1_shared_1_1_inputs_1_1_virtual_cursor_magnet_settings.html',1,'CORE::Shared::Inputs']]],
+  ['virtualcursorservice_13',['VirtualCursorService',['../class_c_o_r_e_1_1_shared_1_1_inputs_1_1_virtual_cursors_1_1_virtual_cursor_service.html',1,'CORE::Shared::Inputs::VirtualCursors']]],
+  ['virtualcursorsettings_14',['VirtualCursorSettings',['../class_c_o_r_e_1_1_shared_1_1_inputs_1_1_virtual_cursor_settings.html',1,'CORE::Shared::Inputs']]],
+  ['virtualcursorspriteentry_15',['VirtualCursorSpriteEntry',['../class_c_o_r_e_1_1_shared_1_1_inputs_1_1_virtual_cursor_sprite_entry.html',1,'CORE::Shared::Inputs']]],
+  ['virtualcursorview_16',['VirtualCursorView',['../class_c_o_r_e_1_1_shared_1_1_inputs_1_1_virtual_cursors_1_1_virtual_cursor_view.html',1,'CORE::Shared::Inputs::VirtualCursors']]],
+  ['visual_17',['Visual',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual.html',1,'CORE::Shared::UI::VisualView']]],
+  ['visualextensions_18',['VisualExtensions',['../class_c_o_r_e_1_1_shared_1_1_utils_1_1_visual_extensions.html',1,'CORE::Shared::Utils']]],
+  ['visualsaved_19',['VisualSaved',['../class_c_o_r_e_1_1_shared_1_1_u_i_1_1_visual_view_1_1_visual_saved.html',1,'CORE::Shared::UI::VisualView']]],
+  ['vvmexampleview_20',['VVMExampleView',['../class_c_o_r_e_1_1_examples_1_1_v_v_m_example_view.html',1,'CORE::Examples']]],
+  ['vvmexamplevisual_21',['VVMExampleVisual',['../class_c_o_r_e_1_1_examples_1_1_v_v_m_example_visual.html',1,'CORE::Examples']]]
 ];

@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -124,6 +124,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ab958e7b693cc4966bc3e3033ee58894f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac530914e7881fd05bd0fe6091a08d3f3" id="r_ac530914e7881fd05bd0fe6091a08d3f3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac530914e7881fd05bd0fe6091a08d3f3">Apply</a> ()</td></tr>
 <tr class="separator:ac530914e7881fd05bd0fe6091a08d3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf2ac409bbe880ba6e131f3337dd70a1" id="r_acf2ac409bbe880ba6e131f3337dd70a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf2ac409bbe880ba6e131f3337dd70a1">Save</a> ()</td></tr>
+<tr class="memdesc:acf2ac409bbe880ba6e131f3337dd70a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the settings to disk without applying them again — after a change already applied (a volume slider).  <br /></td></tr>
+<tr class="separator:acf2ac409bbe880ba6e131f3337dd70a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -144,6 +147,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:abdea2b09e24d0834f62fd4ed3cfd9e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the settings have been loaded from the file and initialized.  <br /></td></tr>
 <tr class="separator:abdea2b09e24d0834f62fd4ed3cfd9e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa828d2a69cd21afbdb0b055848ed8a26" id="r_aa828d2a69cd21afbdb0b055848ed8a26"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html">SettingsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa828d2a69cd21afbdb0b055848ed8a26">DefaultSettings</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:aa828d2a69cd21afbdb0b055848ed8a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">The game's default settings: SettingsConfig.Config — <code>settings.json</code> with every <code>settings.&lt;part&gt;.json</code> fragment applied — copied into a <a class="el" href="class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html">SettingsData</a>. A new player starts from it and every Reset returns to it.  <br /></td></tr>
 <tr class="separator:aa828d2a69cd21afbdb0b055848ed8a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
@@ -157,6 +161,9 @@ Events</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a6384ab53565b98b461189ef50a259c01" id="r_a6384ab53565b98b461189ef50a259c01"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6384ab53565b98b461189ef50a259c01">SaveSettings</a> ()</td></tr>
 <tr class="separator:a6384ab53565b98b461189ef50a259c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abca1a2da2d6ef2cdec99b3de32544236" id="r_abca1a2da2d6ef2cdec99b3de32544236"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abca1a2da2d6ef2cdec99b3de32544236">OnReading</a> (ref <a class="el" href="class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html">SettingsData</a> settings)</td></tr>
+<tr class="memdesc:abca1a2da2d6ef2cdec99b3de32544236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extension point of the game, implemented in another part of this partial class (same assembly): called before <a class="el" href="#ae3a5d2c66fe2052a9dce985d9411fb47">FileName</a> is read, sets <em>settings</em>  to take the player's settings from elsewhere — the file of an older game version. The file is then not read; set <a class="el" href="class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a2282259e68ddd963d0bdab06b82d17c0">SettingsData.RequiredReWrite</a> to write the settings to <a class="el" href="#ae3a5d2c66fe2052a9dce985d9411fb47">FileName</a> right away. Unimplemented, it is compiled away.  <br /></td></tr>
+<tr class="separator:abca1a2da2d6ef2cdec99b3de32544236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -213,6 +220,60 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abca1a2da2d6ef2cdec99b3de32544236" name="abca1a2da2d6ef2cdec99b3de32544236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abca1a2da2d6ef2cdec99b3de32544236">&#9670;&#160;</a></span>OnReading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.GameSettings.Settings.OnReading </td>
+          <td>(</td>
+          <td class="paramtype">ref <a class="el" href="class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html">SettingsData</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extension point of the game, implemented in another part of this partial class (same assembly): called before <a class="el" href="#ae3a5d2c66fe2052a9dce985d9411fb47">FileName</a> is read, sets <em>settings</em>  to take the player's settings from elsewhere — the file of an older game version. The file is then not read; set <a class="el" href="class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a2282259e68ddd963d0bdab06b82d17c0">SettingsData.RequiredReWrite</a> to write the settings to <a class="el" href="#ae3a5d2c66fe2052a9dce985d9411fb47">FileName</a> right away. Unimplemented, it is compiled away. </p>
+
+</div>
+</div>
+<a id="acf2ac409bbe880ba6e131f3337dd70a1" name="acf2ac409bbe880ba6e131f3337dd70a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2ac409bbe880ba6e131f3337dd70a1">&#9670;&#160;</a></span>Save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.GameSettings.Settings.Save </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes the settings to disk without applying them again — after a change already applied (a volume slider). </p>
 
 </div>
 </div>
@@ -350,6 +411,8 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The game's default settings: SettingsConfig.Config — <code>settings.json</code> with every <code>settings.&lt;part&gt;.json</code> fragment applied — copied into a <a class="el" href="class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html">SettingsData</a>. A new player starts from it and every Reset returns to it. </p>
 
 </div>
 </div>

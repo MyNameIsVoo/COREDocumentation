@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -169,14 +169,26 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_invoke_keys_listiner.html">IInvokeKeysListiner</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html">ILateUpdateListiner</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_c_o_r_e_1_1_shared_1_1_global_updater.html" title="The system responsible for updating application components.">GlobalUpdater</a> in <code>LateUpdate</code>, after every <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner.html">IUpdateListiner</a> of the frame (since v1.3).  <a href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_late_update_listiner.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html">ISaveData&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for components that should be saved.  <a href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_data-1-g.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html">ISaveGameBaseComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for scene system components to be saved to file.  <a href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_callbacks.html">ISaveGameCallbacks</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_save.html">Save</a> hooks of a registered save component or of an entity of a <a class="el" href="class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html" title="Saves every registered entity of one kind (buildings, units, items) as one SaveGameCollectionData&lt;TDa...">CORE.Shared.Save.SaveGameCollection&lt;TComponent,TData&gt;</a>  <a href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_callbacks.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html">ISaveGameComponent&lt; TData &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for scene components to be saved to file.  <a href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_component-1-g.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_file_component.html">ISaveGameFileComponent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A save component that says which file of the slot it writes to and when it loads. <a class="el" href="class_c_o_r_e_1_1_shared_1_1_save_1_1_save_system.html">CORE.Shared.Save.SaveSystem</a> calls <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html#ab7021569ec7e2bedd63c1aedf4954fbb">ISaveGameBaseComponent.LoadData</a> of such a component itself, in <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_file_component.html#aba6eba2ae4a88ec638090b388d0ffeb0" title="Lower loads first; equal priorities load in registration order.">LoadPriority</a> order; a plain <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_base_component.html" title="Interface for scene system components to be saved to file.">ISaveGameBaseComponent</a> still gets its data only through <code>OnLoadingComplete</code>.  <a href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_file_component.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_references.html">ISaveGameReferences</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Second phase of a load: called after every component of the load got its data, to restore references by id.  <a href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_references.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_scriptable_object_save_data.html">IScriptableObjectSaveData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +198,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><b>ITweenValue</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner.html">IUpdateListiner</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>LineEndings</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line ending normalization for generated source files. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_utils_1_1_math_helper.html">MathHelper</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>

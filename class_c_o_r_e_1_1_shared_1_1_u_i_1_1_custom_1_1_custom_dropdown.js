@@ -27,6 +27,8 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown =
     [ "OnPointerClick", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a4ab1ee3d32d513e1f554b5c68dbb0fee", null ],
     [ "OnSelectItem", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#ae9bd61020ce99ba0c58e9f50ae6efa5b", null ],
     [ "OnSubmit", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a5c0eec3491cbb81fe576441627daad02", null ],
+    [ "RaiseListHidden", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#ae91cc2322bd522dcf3c50257f7a8bdd3", null ],
+    [ "RaiseListShown", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#aa6bb49ea72434cdbc6feea5ae545bb4c", null ],
     [ "RefreshShownValue", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#aa2e0ded964b49c186845bd7c99bc55c0", null ],
     [ "SetAlpha", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a96b6106a4d953cf9e7c1c2d0ceeba8d2", null ],
     [ "SetMaskableWithoutRecursively", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a6083cda8d39c457e4db0089c89b02b11", null ],
@@ -61,9 +63,13 @@ var class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown =
     [ "Placeholder", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a668ef3517e532d2b83a2114336393652", null ],
     [ "Template", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a8f612ff200e2aaa28b5743877f104268", null ],
     [ "IsExpanded", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a31f806dbd62e9a3fc4b10372551275b3", null ],
+    [ "ListItems", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a16f74a08d1941888beb52ae6ab798afd", null ],
+    [ "ListObject", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a41ba17b5ba384b62c06fcf16d3c12c6f", null ],
     [ "Maskable", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a59534ad0582bd3a05cea9d91b4b2fea6", null ],
     [ "Options", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a01e6a662c79b4bb9ce967d937fe8ac12", null ],
     [ "ShowHideTransitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a4c9c2915550a7f50f94224ba32b15272", null ],
     [ "Transitions", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#af4ef0877d4dd4af0340eb78a39f919ec", null ],
-    [ "Value", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#aa3c341dc8009ba4ed58e28d9a911c738", null ]
+    [ "Value", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#aa3c341dc8009ba4ed58e28d9a911c738", null ],
+    [ "ListHidden", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a523a91a01209d64abd092bda43c2246a", null ],
+    [ "ListShown", "class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html#a681d17404d8e38f809bb72e692d62884", null ]
 ];

@@ -18,6 +18,7 @@ var dir_c4ce5201c4cde8ee470ccda6ff8e78af =
     [ "GameInterfaces.cs", "_game_interfaces_8cs.html", "_game_interfaces_8cs" ],
     [ "GameTime.cs", "_game_time_8cs.html", "_game_time_8cs" ],
     [ "Helper.cs", "_helper_8cs.html", "_helper_8cs" ],
+    [ "LineEndings.cs", "_line_endings_8cs.html", null ],
     [ "MathHelper.cs", "_math_helper_8cs.html", "_math_helper_8cs" ],
     [ "PlayerPrefsHelper.cs", "_player_prefs_helper_8cs.html", "_player_prefs_helper_8cs" ],
     [ "SceneLayers.cs", "_scene_layers_8cs.html", "_scene_layers_8cs" ],

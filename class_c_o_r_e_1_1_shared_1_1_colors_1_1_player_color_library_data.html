@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,14 +104,16 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_l
 
 <div class="header">
   <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Colors.PlayerColorLibraryData Class Reference<span class="mlabels"><span class="mlabel sealed">sealed</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Represents a user's custom color palette data.  
+<p>Represents a user's custom color palette data: palettes a plugin or a game ships beside <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a>. Every asset of this type under a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html">Resources</a> folder is added to the <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.html" title="The color library in the project. Stores all colors that are loaded from the settings (ColorLibraryDa...">ColorLibrary</a> when the editor loads and when the game starts, so its colours are found by hash before anything is generated; adding a palette to the data itself (and generating) gives it enum tags on top.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CORE.Shared.Colors.PlayerColorLibraryData:</div>
@@ -122,21 +124,35 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_l
   <img src="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:acf04ef19fbb4099f15629578f3f0255d" id="r_acf04ef19fbb4099f15629578f3f0255d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html">PlayerColorLibraryData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf04ef19fbb4099f15629578f3f0255d">FindAll</a> ()</td></tr>
+<tr class="memdesc:acf04ef19fbb4099f15629578f3f0255d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every asset of this type under a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html">Resources</a> folder.  <br /></td></tr>
+<tr class="separator:acf04ef19fbb4099f15629578f3f0255d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d54effe38a04402ab3aadf41caea33" id="r_a86d54effe38a04402ab3aadf41caea33"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86d54effe38a04402ab3aadf41caea33">Register</a> ()</td></tr>
+<tr class="memdesc:a86d54effe38a04402ab3aadf41caea33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the palettes of every asset to the <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.html" title="The color library in the project. Stores all colors that are loaded from the settings (ColorLibraryDa...">ColorLibrary</a>; finds the assets again.  <br /></td></tr>
+<tr class="separator:a86d54effe38a04402ab3aadf41caea33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac9a350a8c4ac9c7aa36ca884e925b64e" id="r_ac9a350a8c4ac9c7aa36ca884e925b64e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_palette_data.html">PaletteData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9a350a8c4ac9c7aa36ca884e925b64e">Palettes</a></td></tr>
 <tr class="separator:ac9a350a8c4ac9c7aa36ca884e925b64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a32049d0851eb8a1b008fd03f3b4b7a88" id="r_a32049d0851eb8a1b008fd03f3b4b7a88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32049d0851eb8a1b008fd03f3b4b7a88">Initialize</a> ()</td></tr>
-<tr class="separator:a32049d0851eb8a1b008fd03f3b4b7a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a3770e71879a07bf0dca498f5cb4fbe23" id="r_a3770e71879a07bf0dca498f5cb4fbe23"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3770e71879a07bf0dca498f5cb4fbe23">Initialize</a> ()</td></tr>
+<tr class="separator:a3770e71879a07bf0dca498f5cb4fbe23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a7d5b91862d43a56bf927790acff33e5e" id="r_a7d5b91862d43a56bf927790acff33e5e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html">PlayerColorLibraryData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d5b91862d43a56bf927790acff33e5e">_loaded</a></td></tr>
+<tr class="separator:a7d5b91862d43a56bf927790acff33e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Represents a user's custom color palette data. </p>
+<div class="textblock"><p>Represents a user's custom color palette data: palettes a plugin or a game ships beside <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library_data.html" title="Represents the color palette data in a project.">ColorLibraryData</a>. Every asset of this type under a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html">Resources</a> folder is added to the <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.html" title="The color library in the project. Stores all colors that are loaded from the settings (ColorLibraryDa...">ColorLibrary</a> when the editor loads and when the game starts, so its colours are found by hash before anything is generated; adding a palette to the data itself (and generating) gives it enum tags on top. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a32049d0851eb8a1b008fd03f3b4b7a88" name="a32049d0851eb8a1b008fd03f3b4b7a88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32049d0851eb8a1b008fd03f3b4b7a88">&#9670;&#160;</a></span>Initialize()</h2>
+<a id="acf04ef19fbb4099f15629578f3f0255d" name="acf04ef19fbb4099f15629578f3f0255d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf04ef19fbb4099f15629578f3f0255d">&#9670;&#160;</a></span>FindAll()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,7 +161,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CORE.Shared.Colors.PlayerColorLibraryData.Initialize </td>
+          <td class="memname">static <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html">PlayerColorLibraryData</a>[] CORE.Shared.Colors.PlayerColorLibraryData.FindAll </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -153,14 +169,90 @@ Private Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Every asset of this type under a <a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils_1_1_resources.html">Resources</a> folder. </p>
+
+</div>
+</div>
+<a id="a3770e71879a07bf0dca498f5cb4fbe23" name="a3770e71879a07bf0dca498f5cb4fbe23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3770e71879a07bf0dca498f5cb4fbe23">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Colors.PlayerColorLibraryData.Initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<a id="a86d54effe38a04402ab3aadf41caea33" name="a86d54effe38a04402ab3aadf41caea33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d54effe38a04402ab3aadf41caea33">&#9670;&#160;</a></span>Register()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Colors.PlayerColorLibraryData.Register </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds the palettes of every asset to the <a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_color_library.html" title="The color library in the project. Stores all colors that are loaded from the settings (ColorLibraryDa...">ColorLibrary</a>; finds the assets again. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7d5b91862d43a56bf927790acff33e5e" name="a7d5b91862d43a56bf927790acff33e5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5b91862d43a56bf927790acff33e5e">&#9670;&#160;</a></span>_loaded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_colors_1_1_player_color_library_data.html">PlayerColorLibraryData</a> [] CORE.Shared.Colors.PlayerColorLibraryData._loaded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac9a350a8c4ac9c7aa36ca884e925b64e" name="ac9a350a8c4ac9c7aa36ca884e925b64e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9a350a8c4ac9c7aa36ca884e925b64e">&#9670;&#160;</a></span>Palettes</h2>
 

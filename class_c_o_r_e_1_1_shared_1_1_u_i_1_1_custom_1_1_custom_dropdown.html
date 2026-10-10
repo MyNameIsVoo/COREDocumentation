@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -109,6 +109,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -117,18 +118,17 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom
   <div class="headertitle"><div class="title">CORE.Shared.UI.Custom.CustomDropdown Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The options list as others see it (since v1.3): when it opens and closes, its object and its items — gamepad navigation (<code>UIInputDropdownNavigation</code>) builds a layer on it.  
+ <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CORE.Shared.UI.Custom.CustomDropdown:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.png" usemap="#CORE.Shared.UI.Custom.CustomDropdown_map" alt=""/>
-  <map id="CORE.Shared.UI.Custom.CustomDropdown_map" name="CORE.Shared.UI.Custom.CustomDropdown_map">
-<area href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html" alt="CORE.Shared.UI.Custom.Interfaces.IMaskableHelper" shape="rect" coords="1520,0,1890,24"/>
-<area href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_custom_transition_ui_element.html" alt="CORE.Shared.UI.Custom.Interfaces.ICustomTransitionUiElement" shape="rect" coords="1900,0,2270,24"/>
-  </map>
-</div></div>
+  <img src="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -201,15 +201,28 @@ Properties</h2></td></tr>
 <tr class="memitem:aa3c341dc8009ba4ed58e28d9a911c738" id="r_aa3c341dc8009ba4ed58e28d9a911c738"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3c341dc8009ba4ed58e28d9a911c738">Value</a><code> [get, set]</code></td></tr>
 <tr class="separator:aa3c341dc8009ba4ed58e28d9a911c738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59534ad0582bd3a05cea9d91b4b2fea6" id="r_a59534ad0582bd3a05cea9d91b4b2fea6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59534ad0582bd3a05cea9d91b4b2fea6">Maskable</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a59534ad0582bd3a05cea9d91b4b2fea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically toggles the mask on all child components.  <br /></td></tr>
 <tr class="separator:a59534ad0582bd3a05cea9d91b4b2fea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f806dbd62e9a3fc4b10372551275b3" id="r_a31f806dbd62e9a3fc4b10372551275b3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31f806dbd62e9a3fc4b10372551275b3">IsExpanded</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a31f806dbd62e9a3fc4b10372551275b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4ef0877d4dd4af0340eb78a39f919ec" id="r_af4ef0877d4dd4af0340eb78a39f919ec"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html">Transitions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ef0877d4dd4af0340eb78a39f919ec">Transitions</a><code> [get]</code></td></tr>
-<tr class="memdesc:af4ef0877d4dd4af0340eb78a39f919ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">All states of the component that can be on it.  <br /></td></tr>
 <tr class="separator:af4ef0877d4dd4af0340eb78a39f919ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c9c2915550a7f50f94224ba32b15272" id="r_a4c9c2915550a7f50f94224ba32b15272"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html">Transitions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c9c2915550a7f50f94224ba32b15272">ShowHideTransitions</a><code> [get]</code></td></tr>
 <tr class="separator:a4c9c2915550a7f50f94224ba32b15272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ba17b5ba384b62c06fcf16d3c12c6f" id="r_a41ba17b5ba384b62c06fcf16d3c12c6f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41ba17b5ba384b62c06fcf16d3c12c6f">ListObject</a><code> [get]</code></td></tr>
+<tr class="memdesc:a41ba17b5ba384b62c06fcf16d3c12c6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The open list, null while closed.  <br /></td></tr>
+<tr class="separator:a41ba17b5ba384b62c06fcf16d3c12c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f74a08d1941888beb52ae6ab798afd" id="r_a16f74a08d1941888beb52ae6ab798afd"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown_item_visual.html">CustomDropdownItemVisual</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16f74a08d1941888beb52ae6ab798afd">ListItems</a><code> [get]</code></td></tr>
+<tr class="memdesc:a16f74a08d1941888beb52ae6ab798afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The items of the open list, in order (the multi-select items first).  <br /></td></tr>
+<tr class="separator:a16f74a08d1941888beb52ae6ab798afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a681d17404d8e38f809bb72e692d62884" id="r_a681d17404d8e38f809bb72e692d62884"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html">CustomDropdown</a>, GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a681d17404d8e38f809bb72e692d62884">ListShown</a></td></tr>
+<tr class="memdesc:a681d17404d8e38f809bb72e692d62884"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list is built and shown: its root object, its items in <a class="el" href="#a16f74a08d1941888beb52ae6ab798afd" title="The items of the open list, in order (the multi-select items first).">ListItems</a>.  <br /></td></tr>
+<tr class="separator:a681d17404d8e38f809bb72e692d62884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523a91a01209d64abd092bda43c2246a" id="r_a523a91a01209d64abd092bda43c2246a"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html">CustomDropdown</a>, GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a523a91a01209d64abd092bda43c2246a">ListHidden</a></td></tr>
+<tr class="memdesc:a523a91a01209d64abd092bda43c2246a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list starts closing (it fades out and is destroyed after).  <br /></td></tr>
+<tr class="separator:a523a91a01209d64abd092bda43c2246a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -243,6 +256,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a14f58deb840ac159402b8f7c7b64136a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9bd61020ce99ba0c58e9f50ae6efa5b" id="r_ae9bd61020ce99ba0c58e9f50ae6efa5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9bd61020ce99ba0c58e9f50ae6efa5b">OnSelectItem</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown_item_visual.html">CustomDropdownItemVisual</a> item, bool value)</td></tr>
 <tr class="separator:ae9bd61020ce99ba0c58e9f50ae6efa5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6bb49ea72434cdbc6feea5ae545bb4c" id="r_aa6bb49ea72434cdbc6feea5ae545bb4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6bb49ea72434cdbc6feea5ae545bb4c">RaiseListShown</a> ()</td></tr>
+<tr class="separator:aa6bb49ea72434cdbc6feea5ae545bb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae91cc2322bd522dcf3c50257f7a8bdd3" id="r_ae91cc2322bd522dcf3c50257f7a8bdd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae91cc2322bd522dcf3c50257f7a8bdd3">RaiseListHidden</a> ()</td></tr>
+<tr class="separator:ae91cc2322bd522dcf3c50257f7a8bdd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -284,16 +301,18 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ae909c064571e5e2330a5734d98743221" id="r_ae909c064571e5e2330a5734d98743221"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae909c064571e5e2330a5734d98743221">NothingOption</a> = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocalizationTextGenerated.LocalizeEnums.NOTHING)</td></tr>
+<tr class="memitem:ae909c064571e5e2330a5734d98743221" id="r_ae909c064571e5e2330a5734d98743221"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae909c064571e5e2330a5734d98743221">NothingOption</a> = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocKeys.Core.Nothing)</td></tr>
 <tr class="separator:ae909c064571e5e2330a5734d98743221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01b3564bd41425336796b6ce76906808" id="r_a01b3564bd41425336796b6ce76906808"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b3564bd41425336796b6ce76906808">EverythingOption</a> = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocalizationTextGenerated.LocalizeEnums.EVERYTHING)</td></tr>
+<tr class="memitem:a01b3564bd41425336796b6ce76906808" id="r_a01b3564bd41425336796b6ce76906808"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b3564bd41425336796b6ce76906808">EverythingOption</a> = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocKeys.Core.Everything)</td></tr>
 <tr class="separator:a01b3564bd41425336796b6ce76906808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a373a7ac56a383b0d56d1b1a88ecf7d67" id="r_a373a7ac56a383b0d56d1b1a88ecf7d67"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a373a7ac56a383b0d56d1b1a88ecf7d67">MixedOption</a> = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocalizationTextGenerated.LocalizeEnums.MIXED)</td></tr>
+<tr class="memitem:a373a7ac56a383b0d56d1b1a88ecf7d67" id="r_a373a7ac56a383b0d56d1b1a88ecf7d67"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a373a7ac56a383b0d56d1b1a88ecf7d67">MixedOption</a> = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocKeys.Core.Mixed)</td></tr>
 <tr class="separator:a373a7ac56a383b0d56d1b1a88ecf7d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc861dc5ec99398916f7d311c431c062" id="r_abc861dc5ec99398916f7d311c431c062"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc861dc5ec99398916f7d311c431c062">NoOptionData</a> = new()</td></tr>
 <tr class="separator:abc861dc5ec99398916f7d311c431c062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The options list as others see it (since v1.3): when it opens and closes, its object and its items — gamepad navigation (<code>UIInputDropdownNavigation</code>) builds a layer on it. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7c40a7bbbf0e3cd2aae0e7ef0d1a15c7" name="a7c40a7bbbf0e3cd2aae0e7ef0d1a15c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c40a7bbbf0e3cd2aae0e7ef0d1a15c7">&#9670;&#160;</a></span>CustomDropdown()</h2>
 
@@ -921,6 +940,56 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae91cc2322bd522dcf3c50257f7a8bdd3" name="ae91cc2322bd522dcf3c50257f7a8bdd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91cc2322bd522dcf3c50257f7a8bdd3">&#9670;&#160;</a></span>RaiseListHidden()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.UI.Custom.CustomDropdown.RaiseListHidden </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6bb49ea72434cdbc6feea5ae545bb4c" name="aa6bb49ea72434cdbc6feea5ae545bb4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6bb49ea72434cdbc6feea5ae545bb4c">&#9670;&#160;</a></span>RaiseListShown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.UI.Custom.CustomDropdown.RaiseListShown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa2e0ded964b49c186845bd7c99bc55c0" name="aa2e0ded964b49c186845bd7c99bc55c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2e0ded964b49c186845bd7c99bc55c0">&#9670;&#160;</a></span>RefreshShownValue()</h2>
 
@@ -977,8 +1046,6 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html#a6db702ad3a9deccb2be290e9fda6cc92">CORE.Shared.UI.Custom.Interfaces.IMaskableHelper</a>.</p>
 
 </div>
 </div>
@@ -1450,7 +1517,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a> CORE.Shared.UI.Custom.CustomDropdown.EverythingOption = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocalizationTextGenerated.LocalizeEnums.EVERYTHING)</td>
+          <td class="memname">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a> CORE.Shared.UI.Custom.CustomDropdown.EverythingOption = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocKeys.Core.Everything)</td>
         </tr>
       </table>
   </td>
@@ -1472,7 +1539,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a> CORE.Shared.UI.Custom.CustomDropdown.MixedOption = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocalizationTextGenerated.LocalizeEnums.MIXED)</td>
+          <td class="memname">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a> CORE.Shared.UI.Custom.CustomDropdown.MixedOption = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocKeys.Core.Mixed)</td>
         </tr>
       </table>
   </td>
@@ -1530,7 +1597,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a> CORE.Shared.UI.Custom.CustomDropdown.NothingOption = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocalizationTextGenerated.LocalizeEnums.NOTHING)</td>
+          <td class="memname">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a> CORE.Shared.UI.Custom.CustomDropdown.NothingOption = new <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_data_1_1_dropdown_option_data.html">DropdownOptionData</a>(LocKeys.Core.Nothing)</td>
         </tr>
       </table>
   </td>
@@ -1607,6 +1674,54 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a16f74a08d1941888beb52ae6ab798afd" name="a16f74a08d1941888beb52ae6ab798afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f74a08d1941888beb52ae6ab798afd">&#9670;&#160;</a></span>ListItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown_item_visual.html">CustomDropdownItemVisual</a>&gt; CORE.Shared.UI.Custom.CustomDropdown.ListItems</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The items of the open list, in order (the multi-select items first). </p>
+
+</div>
+</div>
+<a id="a41ba17b5ba384b62c06fcf16d3c12c6f" name="a41ba17b5ba384b62c06fcf16d3c12c6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ba17b5ba384b62c06fcf16d3c12c6f">&#9670;&#160;</a></span>ListObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject CORE.Shared.UI.Custom.CustomDropdown.ListObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The open list, null while closed. </p>
+
+</div>
+</div>
 <a id="a59534ad0582bd3a05cea9d91b4b2fea6" name="a59534ad0582bd3a05cea9d91b4b2fea6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59534ad0582bd3a05cea9d91b4b2fea6">&#9670;&#160;</a></span>Maskable</h2>
 
@@ -1626,10 +1741,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Automatically toggles the mask on all child components. </p>
-
-<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html#a165bb3f80128d25d44b94793a40f7631">CORE.Shared.UI.Custom.Interfaces.IMaskableHelper</a>.</p>
 
 </div>
 </div>
@@ -1697,10 +1808,6 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>All states of the component that can be on it. </p>
-
-<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_custom_transition_ui_element.html#a18d0d46b2a9c21a3f77dd8d68af1a31b">CORE.Shared.UI.Custom.Interfaces.ICustomTransitionUiElement</a>.</p>
-
 </div>
 </div>
 <a id="aa3c341dc8009ba4ed58e28d9a911c738" name="aa3c341dc8009ba4ed58e28d9a911c738"></a>
@@ -1725,8 +1832,42 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="a523a91a01209d64abd092bda43c2246a" name="a523a91a01209d64abd092bda43c2246a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523a91a01209d64abd092bda43c2246a">&#9670;&#160;</a></span>ListHidden</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html">CustomDropdown</a>, GameObject&gt; CORE.Shared.UI.Custom.CustomDropdown.ListHidden</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The list starts closing (it fades out and is destroyed after). </p>
+
+</div>
+</div>
+<a id="a681d17404d8e38f809bb72e692d62884" name="a681d17404d8e38f809bb72e692d62884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681d17404d8e38f809bb72e692d62884">&#9670;&#160;</a></span>ListShown</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_dropdown.html">CustomDropdown</a>, GameObject&gt; CORE.Shared.UI.Custom.CustomDropdown.ListShown</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The list is built and shown: its root object, its items in <a class="el" href="#a16f74a08d1941888beb52ae6ab798afd" title="The items of the open list, in order (the multi-select items first).">ListItems</a>. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/UI/Custom/<a class="el" href="_custom_dropdown_8cs.html">CustomDropdown.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/UI/Custom/<a class="el" href="_custom_dropdown_8_events_8cs.html">CustomDropdown.Events.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

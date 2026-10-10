@@ -1,0 +1,25 @@
+var class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context =
+[
+    [ "RequestBack", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#ac8784b821b1a160db042355f8f94094d", null ],
+    [ "ResolveAction", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a027c07177e4b331b3478272768ac4475", null ],
+    [ "ResolveAction", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#ac23af165593db8fd5be8d686a8216a19", null ],
+    [ "ToString", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a6ed859ae9cc8b225c8ed758d04c21cd0", null ],
+    [ "_input", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a0f6008f68e1edfbe4fff5183ff18679e", null ],
+    [ "AccentColor", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#aabf680a346585d8ce189c823a1eaa732", null ],
+    [ "AreGamepadPromptsActive", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a165a21840cba04ee57585ab793979821", null ],
+    [ "GamepadFamily", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a0b0464838747990603300d08bff999f4", null ],
+    [ "GamepadInputGate", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a4ad60146796f8bd2b99cabd20d7d76bc", null ],
+    [ "GroupSelectionInput", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#ae14cb8371b33c64e9287bf7abec1388f", null ],
+    [ "HighlightSelectable", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#aad543e3d3517631e0039626fe978bd04", null ],
+    [ "Hints", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a14e14950fce16cda0db12e646de5bb81", null ],
+    [ "Index", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#af4ce1d8eac84b58d9138f8f8b03f2909", null ],
+    [ "IsAvailable", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#aee904116e1bac98b03967f49f137ca4d", null ],
+    [ "IsPrimary", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#af1ee5b1f9c5e94a636b2eeed1e33d8ce", null ],
+    [ "Mode", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#ae716a8c9e60991a1ffd74bfd39dd02d4", null ],
+    [ "Navigation", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#ab78e73f0b80f5c5d6edf2344902bac78", null ],
+    [ "NavigationInput", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a7a56fe22b2826ee8206ede3c989e5dc8", null ],
+    [ "UIBindings", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#accf969aed2f891601f05b6a1fa9d85de", null ],
+    [ "BackRequested", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#a42b41b2cd20a483f5b770754a74c6061", null ],
+    [ "GamepadFamilyChanged", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#aea4cbabce4388a7f26654bf551efc85d", null ],
+    [ "ModeChanged", "class_c_o_r_e_1_1_shared_1_1_inputs_1_1_navigation_1_1_u_i_navigation_context.html#ab1959c2d8e011c08dd6fcaf6f03675f6", null ]
+];

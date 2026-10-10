@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -103,6 +103,11 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_ga
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
+<a href="class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_game_base_component_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Save.Data.SaveGameBaseComponentData Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
@@ -117,12 +122,152 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_ga
  <div class="center">
   <img src="class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_game_base_component_data.png" usemap="#CORE.Shared.Save.Data.SaveGameBaseComponentData_map" alt=""/>
   <map id="CORE.Shared.Save.Data.SaveGameBaseComponentData_map" name="CORE.Shared.Save.Data.SaveGameBaseComponentData_map">
-<area href="class_c_o_r_e_1_1_examples_1_1_saved_data_class_1_1_data.html" alt="CORE.Examples.SavedDataClass.Data" shape="rect" coords="0,56,337,80"/>
+<area href="class_c_o_r_e_1_1_examples_1_1_example_world_1_1_data.html" alt="CORE.Examples.ExampleWorld.Data" shape="rect" coords="0,56,359,80"/>
+<area href="class_c_o_r_e_1_1_examples_1_1_saved_data_class_1_1_data.html" alt="CORE.Examples.SavedDataClass.Data" shape="rect" coords="369,56,728,80"/>
+<area href="class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_game_collection_data-1-g.html" title="What a SaveGameCollection&lt;TComponent,TData&gt; writes: the data of every entity it holds." alt="CORE.Shared.Save.Data.SaveGameCollectionData&lt; TData &gt;" shape="rect" coords="738,56,1097,80"/>
+<area href="class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_game_component_data.html" title="Basic component for storing data of an entity with an identity — one of many buildings,..." alt="CORE.Shared.Save.Data.SaveGameComponentData" shape="rect" coords="1107,56,1466,80"/>
+<area href="class_c_o_r_e_1_1_examples_1_1_example_building_1_1_data.html" alt="CORE.Examples.ExampleBuilding.Data" shape="rect" coords="922,112,1281,136"/>
+<area href="class_c_o_r_e_1_1_examples_1_1_example_unit_1_1_data.html" alt="CORE.Examples.ExampleUnit.Data" shape="rect" coords="1291,112,1650,136"/>
   </map>
 </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa4dd7c27c1b6dd184c5952cc3adc6270" id="r_aa4dd7c27c1b6dd184c5952cc3adc6270"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4dd7c27c1b6dd184c5952cc3adc6270">SaveKey</a></td></tr>
+<tr class="memdesc:aa4dd7c27c1b6dd184c5952cc3adc6270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Key of the <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_file_component.html" title="A save component that says which file of the slot it writes to and when it loads. CORE....">CORE.Shared.Utils.ISaveGameFileComponent</a> that wrote the data; empty for a plain component.  <br /></td></tr>
+<tr class="separator:aa4dd7c27c1b6dd184c5952cc3adc6270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a642bacc8f0ca0e19f94d6a97252629a6" id="r_a642bacc8f0ca0e19f94d6a97252629a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642bacc8f0ca0e19f94d6a97252629a6">DataVersion</a></td></tr>
+<tr class="memdesc:a642bacc8f0ca0e19f94d6a97252629a6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#a49fc50e55bcb3ba8a0c55179b20581b6" title="Version of the data&#39;s shape. Raise it when the class changes and handle the old shape in Migrate">CurrentDataVersion</a> the data was written with  <br /></td></tr>
+<tr class="separator:a642bacc8f0ca0e19f94d6a97252629a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:adc1efff1c5ee10022e3a7c8fccee0f72" id="r_adc1efff1c5ee10022e3a7c8fccee0f72"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1efff1c5ee10022e3a7c8fccee0f72">Migrate</a> (int fromVersion)</td></tr>
+<tr class="memdesc:adc1efff1c5ee10022e3a7c8fccee0f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after reading when <a class="el" href="#a642bacc8f0ca0e19f94d6a97252629a6" title="CurrentDataVersion the data was written with">DataVersion</a> is lower than <a class="el" href="#a49fc50e55bcb3ba8a0c55179b20581b6" title="Version of the data&#39;s shape. Raise it when the class changes and handle the old shape in Migrate">CurrentDataVersion</a>. Fields the old shape had and the class no longer has are gone by now — read them from a file migration (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_save_1_1_save_migrations.html" title="Migrations of save files. A file stores the CurrentVersion it was written with (Data....">SaveMigrations</a>) or keep them with <code>[JsonExtensionData]</code>.  <br /></td></tr>
+<tr class="separator:adc1efff1c5ee10022e3a7c8fccee0f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a49fc50e55bcb3ba8a0c55179b20581b6" id="r_a49fc50e55bcb3ba8a0c55179b20581b6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49fc50e55bcb3ba8a0c55179b20581b6">CurrentDataVersion</a><code> [get]</code></td></tr>
+<tr class="memdesc:a49fc50e55bcb3ba8a0c55179b20581b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version of the data's shape. Raise it when the class changes and handle the old shape in <a class="el" href="#adc1efff1c5ee10022e3a7c8fccee0f72" title="Called after reading when DataVersion is lower than CurrentDataVersion. Fields the old shape had and ...">Migrate</a>  <br /></td></tr>
+<tr class="separator:a49fc50e55bcb3ba8a0c55179b20581b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9643684910adcf97990ab3fddb908dcc" id="r_a9643684910adcf97990ab3fddb908dcc"><td class="memItemLeft" align="right" valign="top">virtual IEnumerable&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_game_base_component_data.html">SaveGameBaseComponentData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9643684910adcf97990ab3fddb908dcc">NestedData</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9643684910adcf97990ab3fddb908dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_save_1_1_data.html">Data</a> saved inside this one (the items of a collection) — migrated and stamped together with it.  <br /></td></tr>
+<tr class="separator:a9643684910adcf97990ab3fddb908dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basic component for storing data systems. For more information, please see the examples. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="adc1efff1c5ee10022e3a7c8fccee0f72" name="adc1efff1c5ee10022e3a7c8fccee0f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1efff1c5ee10022e3a7c8fccee0f72">&#9670;&#160;</a></span>Migrate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CORE.Shared.Save.Data.SaveGameBaseComponentData.Migrate </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fromVersion</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called after reading when <a class="el" href="#a642bacc8f0ca0e19f94d6a97252629a6" title="CurrentDataVersion the data was written with">DataVersion</a> is lower than <a class="el" href="#a49fc50e55bcb3ba8a0c55179b20581b6" title="Version of the data&#39;s shape. Raise it when the class changes and handle the old shape in Migrate">CurrentDataVersion</a>. Fields the old shape had and the class no longer has are gone by now — read them from a file migration (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_save_1_1_save_migrations.html" title="Migrations of save files. A file stores the CurrentVersion it was written with (Data....">SaveMigrations</a>) or keep them with <code>[JsonExtensionData]</code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a642bacc8f0ca0e19f94d6a97252629a6" name="a642bacc8f0ca0e19f94d6a97252629a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642bacc8f0ca0e19f94d6a97252629a6">&#9670;&#160;</a></span>DataVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CORE.Shared.Save.Data.SaveGameBaseComponentData.DataVersion</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#a49fc50e55bcb3ba8a0c55179b20581b6" title="Version of the data&#39;s shape. Raise it when the class changes and handle the old shape in Migrate">CurrentDataVersion</a> the data was written with </p>
+
+</div>
+</div>
+<a id="aa4dd7c27c1b6dd184c5952cc3adc6270" name="aa4dd7c27c1b6dd184c5952cc3adc6270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4dd7c27c1b6dd184c5952cc3adc6270">&#9670;&#160;</a></span>SaveKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Save.Data.SaveGameBaseComponentData.SaveKey</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Key of the <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_save_game_file_component.html" title="A save component that says which file of the slot it writes to and when it loads. CORE....">CORE.Shared.Utils.ISaveGameFileComponent</a> that wrote the data; empty for a plain component. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a49fc50e55bcb3ba8a0c55179b20581b6" name="a49fc50e55bcb3ba8a0c55179b20581b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49fc50e55bcb3ba8a0c55179b20581b6">&#9670;&#160;</a></span>CurrentDataVersion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int CORE.Shared.Save.Data.SaveGameBaseComponentData.CurrentDataVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Version of the data's shape. Raise it when the class changes and handle the old shape in <a class="el" href="#adc1efff1c5ee10022e3a7c8fccee0f72" title="Called after reading when DataVersion is lower than CurrentDataVersion. Fields the old shape had and ...">Migrate</a> </p>
+
+</div>
+</div>
+<a id="a9643684910adcf97990ab3fddb908dcc" name="a9643684910adcf97990ab3fddb908dcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9643684910adcf97990ab3fddb908dcc">&#9670;&#160;</a></span>NestedData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IEnumerable&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_save_1_1_data_1_1_save_game_base_component_data.html">SaveGameBaseComponentData</a>&gt; CORE.Shared.Save.Data.SaveGameBaseComponentData.NestedData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_save_1_1_data.html">Data</a> saved inside this one (the items of a collection) — migrated and stamped together with it. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Save/Data/<a class="el" href="_save_game_base_component_data_8cs.html">SaveGameBaseComponentData.cs</a></li>
 </ul>
 </div><!-- contents -->

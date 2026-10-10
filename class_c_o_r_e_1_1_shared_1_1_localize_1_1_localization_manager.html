@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,15 +104,28 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Localize.LocalizationManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The legacy side of the localization, removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">LegacyLocalization.RemovedIn</a>: the old API returning LocalizedText, <code>LocalizedText</code> assets not yet migrated to tables, and the sync with <code>GameToolkit.Localization.Localization.Instance</code> both ways.  
+ <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_asset_entry.html">AssetEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d5d230ed7a12db6f468241edc8887f0" id="r_a9d5d230ed7a12db6f468241edc8887f0"><td class="memItemLeft" align="right" valign="top">static LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d5d230ed7a12db6f468241edc8887f0">Localize</a> (Configs.EnumData&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2d">LocalizationTextGenerated.LocalizeEnums</a> &gt; localize)</td></tr>
@@ -122,34 +135,237 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad76c7e4db416e01928ab2d6bb1839db5" id="r_ad76c7e4db416e01928ab2d6bb1839db5"><td class="memItemLeft" align="right" valign="top">static LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad76c7e4db416e01928ab2d6bb1839db5">Localize</a> (string localize)</td></tr>
 <tr class="separator:ad76c7e4db416e01928ab2d6bb1839db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39cd9d6d2b9089a3bed7266f50f47793" id="r_a39cd9d6d2b9089a3bed7266f50f47793"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39cd9d6d2b9089a3bed7266f50f47793">AddLocalizations</a> (List&lt; LocalizedText &gt; localizedTexts)</td></tr>
+<tr class="memdesc:a39cd9d6d2b9089a3bed7266f50f47793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds LocalizedText assets as keys by their names (mods built before tables).  <br /></td></tr>
 <tr class="separator:a39cd9d6d2b9089a3bed7266f50f47793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a276a43daceeec1457e1adc0ccc7fc87b" id="r_a276a43daceeec1457e1adc0ccc7fc87b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a276a43daceeec1457e1adc0ccc7fc87b">RemoveLocalizations</a> (List&lt; LocalizedText &gt; localizedTexts)</td></tr>
 <tr class="separator:a276a43daceeec1457e1adc0ccc7fc87b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9437615348f9ccd9a65e94fe511212c8" id="r_a9437615348f9ccd9a65e94fe511212c8"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9437615348f9ccd9a65e94fe511212c8">GetText</a> (LocalizedText localizedText)</td></tr>
+<tr class="memdesc:a9437615348f9ccd9a65e94fe511212c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text of a LocalizedText in the current language, with the fallback languages.  <br /></td></tr>
+<tr class="separator:a9437615348f9ccd9a65e94fe511212c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbce6b0b0d7d1ca5575990b88b4d6da8" id="r_acbce6b0b0d7d1ca5575990b88b4d6da8"><td class="memItemLeft" align="right" valign="top">static Language&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbce6b0b0d7d1ca5575990b88b4d6da8">ToLegacyLanguage</a> (string language)</td></tr>
+<tr class="separator:acbce6b0b0d7d1ca5575990b88b4d6da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46122f0d45a582413e2f292b87a2eae0" id="r_a46122f0d45a582413e2f292b87a2eae0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46122f0d45a582413e2f292b87a2eae0">HasAsset</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key)</td></tr>
+<tr class="separator:a46122f0d45a582413e2f292b87a2eae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3340155d20ac4b9b8b3f7c67f98b55bd" id="r_a3340155d20ac4b9b8b3f7c67f98b55bd"><td class="memItemLeft" align="right" valign="top">static IReadOnlyList&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3340155d20ac4b9b8b3f7c67f98b55bd">GetAssetLanguages</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key)</td></tr>
+<tr class="memdesc:a3340155d20ac4b9b8b3f7c67f98b55bd"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html" title="The catalog of languages: lookups by code, SystemLanguage and Steam language name....">Languages</a> that have their own asset for the key.  <br /></td></tr>
+<tr class="separator:a3340155d20ac4b9b8b3f7c67f98b55bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb132e10eed8cc72ef28db4a6321871d" id="r_acb132e10eed8cc72ef28db4a6321871d"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb132e10eed8cc72ef28db4a6321871d">GetAsset&lt; T &gt;</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key)</td></tr>
+<tr class="memdesc:acb132e10eed8cc72ef28db4a6321871d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The asset of the key in the current language; null (logged once) if no language has it.  <br /></td></tr>
+<tr class="separator:acb132e10eed8cc72ef28db4a6321871d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0347abb7479e0bf965d592ccf2135460" id="r_a0347abb7479e0bf965d592ccf2135460"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0347abb7479e0bf965d592ccf2135460">GetAsset&lt; T &gt;</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key, string language)</td></tr>
+<tr class="separator:a0347abb7479e0bf965d592ccf2135460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa598227e9758bba3a2a8528193273168" id="r_aa598227e9758bba3a2a8528193273168"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa598227e9758bba3a2a8528193273168">TryGetAsset&lt; T &gt;</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key, out T asset)</td></tr>
+<tr class="separator:aa598227e9758bba3a2a8528193273168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54879cc263a001a52df476adea6ade0a" id="r_a54879cc263a001a52df476adea6ade0a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54879cc263a001a52df476adea6ade0a">TryGetAsset&lt; T &gt;</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key, string language, out T asset)</td></tr>
+<tr class="separator:a54879cc263a001a52df476adea6ade0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c75b6604f61cf9be6d30dab4939d231" id="r_a1c75b6604f61cf9be6d30dab4939d231"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c75b6604f61cf9be6d30dab4939d231">RegisterAsset</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key, string language, <a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a> asset, int priority=<a class="el" href="#a6defe14f109b3dafa33a31d728170241">RuntimeTablePriority</a>, object owner=null)</td></tr>
+<tr class="memdesc:a1c75b6604f61cf9be6d30dab4939d231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an asset of one language at runtime (a mod's, a downloaded one). A higher priority wins over the project's assets (<a class="el" href="#a180ad523672c950e39f9d1489e0e4de3" title="Priority of the project&#39;s tables.">ProjectTablePriority</a>); <a class="el" href="#aec267c69d34ba84604cf9328ae3481bf" title="Removes every table and asset registered with this owner.">UnregisterTables</a> with the same owner removes it.  <br /></td></tr>
+<tr class="separator:a1c75b6604f61cf9be6d30dab4939d231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae68619dfabe2c8572ea61016191f1cee" id="r_ae68619dfabe2c8572ea61016191f1cee"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae68619dfabe2c8572ea61016191f1cee">RegisterAsset</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a> key, string language, Func&lt; Type, <a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a> &gt; loader, int priority=<a class="el" href="#a6defe14f109b3dafa33a31d728170241">RuntimeTablePriority</a>, object owner=null)</td></tr>
+<tr class="memdesc:ae68619dfabe2c8572ea61016191f1cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an asset of one language loaded on demand: <em>loader</em>  gets the requested type.  <br /></td></tr>
+<tr class="separator:ae68619dfabe2c8572ea61016191f1cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30e28f16636d6382ccd93cc68ea158e" id="r_ab30e28f16636d6382ccd93cc68ea158e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab30e28f16636d6382ccd93cc68ea158e">SetLanguage</a> (string language)</td></tr>
+<tr class="separator:ab30e28f16636d6382ccd93cc68ea158e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5863e4f70458889ae156c19ad6aa349" id="r_ac5863e4f70458889ae156c19ad6aa349"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5863e4f70458889ae156c19ad6aa349">GetSystemLanguage</a> ()</td></tr>
+<tr class="memdesc:ac5863e4f70458889ae156c19ad6aa349"><td class="mdescLeft">&#160;</td><td class="mdescRight">The language of the system, if the tables have it; otherwise the fallback language.  <br /></td></tr>
+<tr class="separator:ac5863e4f70458889ae156c19ad6aa349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569ff3eaed71e27d6be644692247e373" id="r_a569ff3eaed71e27d6be644692247e373"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a569ff3eaed71e27d6be644692247e373">HasKey</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key)</td></tr>
+<tr class="separator:a569ff3eaed71e27d6be644692247e373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e5622230abfcd7a52bf2c3091463d4" id="r_ae0e5622230abfcd7a52bf2c3091463d4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0e5622230abfcd7a52bf2c3091463d4">TryGet</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key, out string value)</td></tr>
+<tr class="separator:ae0e5622230abfcd7a52bf2c3091463d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e542b8ba295c96439f3e4e9669c81af" id="r_a9e542b8ba295c96439f3e4e9669c81af"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e542b8ba295c96439f3e4e9669c81af">TryGet</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key, string language, out string value)</td></tr>
+<tr class="memdesc:a9e542b8ba295c96439f3e4e9669c81af"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text of the key in a given language (with that language's fallbacks), e.g. for a language picker.  <br /></td></tr>
+<tr class="separator:a9e542b8ba295c96439f3e4e9669c81af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9bf744dee646313037741b6e843154" id="r_aec9bf744dee646313037741b6e843154"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec9bf744dee646313037741b6e843154">Get</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key)</td></tr>
+<tr class="memdesc:aec9bf744dee646313037741b6e843154"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text of the key in the current language. A missing key is logged once and shown as <code>#Key#</code> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_language_settings.html#a2213678cbb4c6e5de90fea82fd1084d2" title="Shows a missing key as #Key#; off — as an empty string.">LanguageSettings.ShowMissingKeys</a>).  <br /></td></tr>
+<tr class="separator:aec9bf744dee646313037741b6e843154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecae7b11b43b39b7d1f01b3c75e4b0cb" id="r_aecae7b11b43b39b7d1f01b3c75e4b0cb"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecae7b11b43b39b7d1f01b3c75e4b0cb">Get</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key, string language)</td></tr>
+<tr class="separator:aecae7b11b43b39b7d1f01b3c75e4b0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a020c90c3e1c82956a6c0008cf2864e1f" id="r_a020c90c3e1c82956a6c0008cf2864e1f"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a020c90c3e1c82956a6c0008cf2864e1f">Format</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key, params object[] args)</td></tr>
+<tr class="memdesc:a020c90c3e1c82956a6c0008cf2864e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text with its placeholders filled: <code>{0}</code> positional, <code>{0:plural:one=…|other=…}</code> plural forms.  <br /></td></tr>
+<tr class="separator:a020c90c3e1c82956a6c0008cf2864e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa539e92a46230247f514d8a2ced196c7" id="r_aa539e92a46230247f514d8a2ced196c7"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa539e92a46230247f514d8a2ced196c7">Format</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key, IReadOnlyDictionary&lt; string, object &gt; args)</td></tr>
+<tr class="memdesc:aa539e92a46230247f514d8a2ced196c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text with its named placeholders filled: <code>{gold}</code>, <code>{count:plural:one=…|other=…}</code>.  <br /></td></tr>
+<tr class="separator:aa539e92a46230247f514d8a2ced196c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce58b140ec2cda366febdada5193683" id="r_abce58b140ec2cda366febdada5193683"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abce58b140ec2cda366febdada5193683">FormatText</a> (string template, params object[] args)</td></tr>
+<tr class="memdesc:abce58b140ec2cda366febdada5193683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formats a text that is already localized (or comes from data) in the current language.  <br /></td></tr>
+<tr class="separator:abce58b140ec2cda366febdada5193683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a114989b796ce9446f3b0ef842ed4d032" id="r_a114989b796ce9446f3b0ef842ed4d032"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a114989b796ce9446f3b0ef842ed4d032">Reload</a> ()</td></tr>
+<tr class="memdesc:a114989b796ce9446f3b0ef842ed4d032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops every loaded text: the tables are read again on the next lookup and every shown text is refreshed.  <br /></td></tr>
+<tr class="separator:a114989b796ce9446f3b0ef842ed4d032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afddfc2da60ec91aabdc0f4ef25c16dc0" id="r_afddfc2da60ec91aabdc0f4ef25c16dc0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afddfc2da60ec91aabdc0f4ef25c16dc0">HasLanguage</a> (string language)</td></tr>
+<tr class="separator:afddfc2da60ec91aabdc0f4ef25c16dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78323239bf9b05c82f6ea41a9224211" id="r_ad78323239bf9b05c82f6ea41a9224211"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad78323239bf9b05c82f6ea41a9224211">RegisterTable</a> (string name, string csv, int priority=<a class="el" href="#a6defe14f109b3dafa33a31d728170241">RuntimeTablePriority</a>, object owner=null)</td></tr>
+<tr class="memdesc:ad78323239bf9b05c82f6ea41a9224211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a table from CSV text — a mod's localization, downloaded texts. A key of a table with a higher priority wins over the same key of the project's tables (<a class="el" href="#a180ad523672c950e39f9d1489e0e4de3" title="Priority of the project&#39;s tables.">ProjectTablePriority</a>).  <br /></td></tr>
+<tr class="separator:ad78323239bf9b05c82f6ea41a9224211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec267c69d34ba84604cf9328ae3481bf" id="r_aec267c69d34ba84604cf9328ae3481bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec267c69d34ba84604cf9328ae3481bf">UnregisterTables</a> (object owner)</td></tr>
+<tr class="memdesc:aec267c69d34ba84604cf9328ae3481bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes every table and asset registered with this owner.  <br /></td></tr>
+<tr class="separator:aec267c69d34ba84604cf9328ae3481bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a180ad523672c950e39f9d1489e0e4de3" id="r_a180ad523672c950e39f9d1489e0e4de3"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180ad523672c950e39f9d1489e0e4de3">ProjectTablePriority</a> = 0</td></tr>
+<tr class="memdesc:a180ad523672c950e39f9d1489e0e4de3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils.html#a8a2dc021e3a05819ee48c32326ac52f2" title="Priority levels for task execution and scheduling.">Priority</a> of the project's tables.  <br /></td></tr>
+<tr class="separator:a180ad523672c950e39f9d1489e0e4de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6defe14f109b3dafa33a31d728170241" id="r_a6defe14f109b3dafa33a31d728170241"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6defe14f109b3dafa33a31d728170241">RuntimeTablePriority</a> = 100</td></tr>
+<tr class="memdesc:a6defe14f109b3dafa33a31d728170241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default priority of a table registered at runtime: wins over the project's tables.  <br /></td></tr>
+<tr class="separator:a6defe14f109b3dafa33a31d728170241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a076d01473e8f0ae7fe39d0ac60762661" id="r_a076d01473e8f0ae7fe39d0ac60762661"><td class="memItemLeft" align="right" valign="top">static LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a076d01473e8f0ae7fe39d0ac60762661">None</a><code> [get]</code></td></tr>
 <tr class="separator:a076d01473e8f0ae7fe39d0ac60762661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a93aab3b7d782f97f5f13dd3e99d06e" id="r_a6a93aab3b7d782f97f5f13dd3e99d06e"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a93aab3b7d782f97f5f13dd3e99d06e">AssetKeys</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6a93aab3b7d782f97f5f13dd3e99d06e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every asset key the project and the registered sources have.  <br /></td></tr>
+<tr class="separator:a6a93aab3b7d782f97f5f13dd3e99d06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6972753c549bcc12086f74e884bca8f9" id="r_a6972753c549bcc12086f74e884bca8f9"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6972753c549bcc12086f74e884bca8f9">CurrentLanguage</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6972753c549bcc12086f74e884bca8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Code of the current language. Until <a class="el" href="#ab30e28f16636d6382ccd93cc68ea158e">SetLanguage</a> is called — the fallback language.  <br /></td></tr>
+<tr class="separator:a6972753c549bcc12086f74e884bca8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc88afe462df5ca38d107974c89bbaa5" id="r_abc88afe462df5ca38d107974c89bbaa5"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc88afe462df5ca38d107974c89bbaa5">FallbackLanguage</a><code> [get]</code></td></tr>
+<tr class="separator:abc88afe462df5ca38d107974c89bbaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b3eaad1d67417f3b110003dda34456" id="r_a44b3eaad1d67417f3b110003dda34456"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b3eaad1d67417f3b110003dda34456">PseudoLocalization</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a44b3eaad1d67417f3b110003dda34456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows every text pseudo-localized — accented and a third longer — to find hard-coded strings and tight layouts.  <br /></td></tr>
+<tr class="separator:a44b3eaad1d67417f3b110003dda34456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d58a3b5faab911863d009327cffbfa" id="r_af7d58a3b5faab911863d009327cffbfa"><td class="memItemLeft" align="right" valign="top">static IReadOnlyCollection&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7d58a3b5faab911863d009327cffbfa">MissingKeys</a><code> [get]</code></td></tr>
+<tr class="memdesc:af7d58a3b5faab911863d009327cffbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keys asked for and found in no table since the start (or the last <a class="el" href="#a114989b796ce9446f3b0ef842ed4d032" title="Drops every loaded text: the tables are read again on the next lookup and every shown text is refresh...">Reload</a>).  <br /></td></tr>
+<tr class="separator:af7d58a3b5faab911863d009327cffbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb52f8e7946aaf28db1f96433c63ca52" id="r_acb52f8e7946aaf28db1f96433c63ca52"><td class="memItemLeft" align="right" valign="top">static IReadOnlyList&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb52f8e7946aaf28db1f96433c63ca52">AvailableLanguages</a><code> [get]</code></td></tr>
+<tr class="memdesc:acb52f8e7946aaf28db1f96433c63ca52"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html" title="The catalog of languages: lookups by code, SystemLanguage and Steam language name....">Languages</a> that have a column in at least one table, in the order they first appear.  <br /></td></tr>
+<tr class="separator:acb52f8e7946aaf28db1f96433c63ca52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:ab230b5d276578a0f76908ee973e5a88c" id="r_ab230b5d276578a0f76908ee973e5a88c"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab230b5d276578a0f76908ee973e5a88c">OnLanguageChanged</a></td></tr>
+<tr class="memdesc:ab230b5d276578a0f76908ee973e5a88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The language changed, or the set of tables did (a mod was loaded): every shown text must be taken again.  <br /></td></tr>
+<tr class="separator:ab230b5d276578a0f76908ee973e5a88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:aa517d4a6efadb9d3452b42044d9df2ee" id="r_aa517d4a6efadb9d3452b42044d9df2ee"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa517d4a6efadb9d3452b42044d9df2ee">LocalizationManager</a> ()</td></tr>
-<tr class="separator:aa517d4a6efadb9d3452b42044d9df2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e05009e20019b556d50f8dbf707209" id="r_a96e05009e20019b556d50f8dbf707209"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96e05009e20019b556d50f8dbf707209">FillLegacyShim</a> (LocalizedText shim, string key)</td></tr>
+<tr class="separator:a96e05009e20019b556d50f8dbf707209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7365ebd6da956970c73cc3afc8a1ff" id="r_a1d7365ebd6da956970c73cc3afc8a1ff"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d7365ebd6da956970c73cc3afc8a1ff">GetLegacyShimText</a> (string key, string language)</td></tr>
+<tr class="memdesc:a1d7365ebd6da956970c73cc3afc8a1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text of a legacy key in a language. <code><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html" title="The catalog of languages: lookups by code, SystemLanguage and Steam language name....">Languages</a></code> (<a class="el" href="namespace_c_o_r_e.html">CORE</a> 1.1.0's asset with each language's name in that language, for a language picker) is not a key of <code>Core.csv</code>: unless a table of the project has it, it is <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html#a6f8547d43e323a5fdecb3b46ab745947" title="The name a language picker shows: the native name, or the code when the catalog has none.">Languages.GetNativeName</a>.  <br /></td></tr>
+<tr class="separator:a1d7365ebd6da956970c73cc3afc8a1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea8e325f2df4f942702e10c4f3fea2a" id="r_aeea8e325f2df4f942702e10c4f3fea2a"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeea8e325f2df4f942702e10c4f3fea2a">InitializeLegacy</a> ()</td></tr>
+<tr class="separator:aeea8e325f2df4f942702e10c4f3fea2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b605f0259d8fd72cab289cf1881129a" id="r_a1b605f0259d8fd72cab289cf1881129a"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b605f0259d8fd72cab289cf1881129a">ResetLegacy</a> ()</td></tr>
+<tr class="separator:a1b605f0259d8fd72cab289cf1881129a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb97db15250b86a4de260b91146cd844" id="r_acb97db15250b86a4de260b91146cd844"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb97db15250b86a4de260b91146cd844">RefreshLegacyShims</a> ()</td></tr>
+<tr class="memdesc:acb97db15250b86a4de260b91146cd844"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shims of <a class="el" href="#ad76c7e4db416e01928ab2d6bb1839db5">Localize(string)</a> are what a 1.1.0-style caller holds on to (a <code>TextComponent</code>, a modal's data), so they live until the statics reset: a change of the tables refills them in place, and only <a class="el" href="#a1b605f0259d8fd72cab289cf1881129a">ResetLegacy</a> destroys them — HideFlags.DontSave objects are never collected.  <br /></td></tr>
+<tr class="separator:acb97db15250b86a4de260b91146cd844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed2a480ae7e9ed404ee12f7403148a1" id="r_a6ed2a480ae7e9ed404ee12f7403148a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ed2a480ae7e9ed404ee12f7403148a1">DestroyLegacyShims</a> ()</td></tr>
+<tr class="separator:a6ed2a480ae7e9ed404ee12f7403148a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9154864c07a3de9ee162dc2f440edf7" id="r_ae9154864c07a3de9ee162dc2f440edf7"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9154864c07a3de9ee162dc2f440edf7">OnLegacyLanguageChanged</a> (string language)</td></tr>
+<tr class="separator:ae9154864c07a3de9ee162dc2f440edf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe51ab8c8d544dd4f0a08134509eea3" id="r_abfe51ab8c8d544dd4f0a08134509eea3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfe51ab8c8d544dd4f0a08134509eea3">OnLegacyLocaleChanged</a> (object sender, LocaleChangedEventArgs e)</td></tr>
+<tr class="memdesc:abfe51ab8c8d544dd4f0a08134509eea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Someone set <code>Localization.Instance.CurrentLanguage</code> directly (code written before tables): follow it.  <br /></td></tr>
+<tr class="separator:abfe51ab8c8d544dd4f0a08134509eea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1af8bf8a2ba7bf1d60590fb05b2947f" id="r_ac1af8bf8a2ba7bf1d60590fb05b2947f"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1af8bf8a2ba7bf1d60590fb05b2947f">AppendLegacy</a> (Dictionary&lt; string, string &gt; texts, string language)</td></tr>
+<tr class="separator:ac1af8bf8a2ba7bf1d60590fb05b2947f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70df8c6e2d56686d87f32d57e2b5574" id="r_ac70df8c6e2d56686d87f32d57e2b5574"><td class="memItemLeft" align="right" valign="top">static LocalizedText&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70df8c6e2d56686d87f32d57e2b5574">LoadLegacyAsset</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_table_source.html">LocalizationTableSource</a> source)</td></tr>
+<tr class="separator:ac70df8c6e2d56686d87f32d57e2b5574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9a51b9dcfb245587b9edaf43fc5109" id="r_a0f9a51b9dcfb245587b9edaf43fc5109"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f9a51b9dcfb245587b9edaf43fc5109">TryGetLegacyValue</a> (LocalizedText text, string language, out string value)</td></tr>
+<tr class="separator:a0f9a51b9dcfb245587b9edaf43fc5109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d01005729321f842ba5e66e577f243" id="r_ae0d01005729321f842ba5e66e577f243"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0d01005729321f842ba5e66e577f243">LoadAsset&lt; T &gt;</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_asset_entry.html">AssetEntry</a> entry)</td></tr>
+<tr class="separator:ae0d01005729321f842ba5e66e577f243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0e27efb4a6f5da1559547d5064c4b7" id="r_aeb0e27efb4a6f5da1559547d5064c4b7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb0e27efb4a6f5da1559547d5064c4b7">CollectAssets</a> ()</td></tr>
+<tr class="separator:aeb0e27efb4a6f5da1559547d5064c4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac805d81387d72f5ba354a9135201e91" id="r_aac805d81387d72f5ba354a9135201e91"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac805d81387d72f5ba354a9135201e91">AddAsset</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_asset_entry.html">AssetEntry</a> entry)</td></tr>
+<tr class="separator:aac805d81387d72f5ba354a9135201e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae958711397c5275a921de57b95689a86" id="r_ae958711397c5275a921de57b95689a86"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae958711397c5275a921de57b95689a86">ReleaseLoadedAssets</a> ()</td></tr>
+<tr class="memdesc:ae958711397c5275a921de57b95689a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forgets the loaded assets of the previous language: the bundles' cache lets them go, the components take the new ones on <a class="el" href="#ab230b5d276578a0f76908ee973e5a88c" title="The language changed, or the set of tables did (a mod was loaded): every shown text must be taken aga...">OnLanguageChanged</a>.  <br /></td></tr>
+<tr class="separator:ae958711397c5275a921de57b95689a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587f66bf98d5ddc6b334fb1afa998345" id="r_a587f66bf98d5ddc6b334fb1afa998345"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a587f66bf98d5ddc6b334fb1afa998345">UnregisterAssets</a> (object owner)</td></tr>
+<tr class="separator:a587f66bf98d5ddc6b334fb1afa998345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c96505b22982dfa9bce629728fad9b5" id="r_a0c96505b22982dfa9bce629728fad9b5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c96505b22982dfa9bce629728fad9b5">InvalidateAssets</a> ()</td></tr>
+<tr class="separator:a0c96505b22982dfa9bce629728fad9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2c832cc45f97eb5759df054eb7899e" id="r_a6c2c832cc45f97eb5759df054eb7899e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2c832cc45f97eb5759df054eb7899e">ResetAssets</a> ()</td></tr>
+<tr class="separator:a6c2c832cc45f97eb5759df054eb7899e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f56b9eb02af235d98bd085b48e7f9f" id="r_a34f56b9eb02af235d98bd085b48e7f9f"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34f56b9eb02af235d98bd085b48e7f9f">Missing</a> (<a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> key)</td></tr>
+<tr class="separator:a34f56b9eb02af235d98bd085b48e7f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad381048f2ea27c4d5fc5444944439b81" id="r_ad381048f2ea27c4d5fc5444944439b81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad381048f2ea27c4d5fc5444944439b81">ResetOnPlay</a> ()</td></tr>
+<tr class="separator:ad381048f2ea27c4d5fc5444944439b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9154864c07a3de9ee162dc2f440edf7" id="r_ae9154864c07a3de9ee162dc2f440edf7"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9154864c07a3de9ee162dc2f440edf7">OnLegacyLanguageChanged</a> (string language)</td></tr>
+<tr class="separator:ae9154864c07a3de9ee162dc2f440edf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34b84c81a1f61d20adf04331c329c1b" id="r_ac34b84c81a1f61d20adf04331c329c1b"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34b84c81a1f61d20adf04331c329c1b">GetTexts</a> (string language)</td></tr>
+<tr class="memdesc:ac34b84c81a1f61d20adf04331c329c1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every text of a language, merged from all tables and the fallback languages.  <br /></td></tr>
+<tr class="separator:ac34b84c81a1f61d20adf04331c329c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d134e1e48016f9906cff0cde83fe56d" id="r_a3d134e1e48016f9906cff0cde83fe56d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d134e1e48016f9906cff0cde83fe56d">Append</a> (Dictionary&lt; string, string &gt; texts, <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a> table, List&lt; List&lt; string &gt; &gt; rows, string language)</td></tr>
+<tr class="separator:a3d134e1e48016f9906cff0cde83fe56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ceeaec25a365949a27c568ba990b0bf" id="r_a5ceeaec25a365949a27c568ba990b0bf"><td class="memItemLeft" align="right" valign="top">static List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ceeaec25a365949a27c568ba990b0bf">GetLanguageChain</a> (string language)</td></tr>
+<tr class="separator:a5ceeaec25a365949a27c568ba990b0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae683583bd5d18ff45af24d357a0bf4cd" id="r_ae683583bd5d18ff45af24d357a0bf4cd"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae683583bd5d18ff45af24d357a0bf4cd">ReadText</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a> table)</td></tr>
+<tr class="separator:ae683583bd5d18ff45af24d357a0bf4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a4ef08d4f9c1908e4efe4f776674908" id="r_a1a4ef08d4f9c1908e4efe4f776674908"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a4ef08d4f9c1908e4efe4f776674908">EnsureHeader</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a> table)</td></tr>
+<tr class="separator:a1a4ef08d4f9c1908e4efe4f776674908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e92a6aba8e2cfbb5ecfedd164105fec" id="r_a4e92a6aba8e2cfbb5ecfedd164105fec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e92a6aba8e2cfbb5ecfedd164105fec">CollectTables</a> ()</td></tr>
+<tr class="separator:a4e92a6aba8e2cfbb5ecfedd164105fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98511e5d4af459d603308be7551b9d20" id="r_a98511e5d4af459d603308be7551b9d20"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98511e5d4af459d603308be7551b9d20">OnBundlesLoaded</a> ()</td></tr>
+<tr class="separator:a98511e5d4af459d603308be7551b9d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a97aca0795d847a066fcfe2b42c3ab" id="r_a94a97aca0795d847a066fcfe2b42c3ab"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a97aca0795d847a066fcfe2b42c3ab">InvalidateTexts</a> ()</td></tr>
+<tr class="separator:a94a97aca0795d847a066fcfe2b42c3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5bb29233eed83df8674c6c203a1c42" id="r_a7b5bb29233eed83df8674c6c203a1c42"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b5bb29233eed83df8674c6c203a1c42">InvalidateTables</a> ()</td></tr>
+<tr class="memdesc:a7b5bb29233eed83df8674c6c203a1c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forgets the project's tables (not the registered ones) so code generation changes are picked up.  <br /></td></tr>
+<tr class="separator:a7b5bb29233eed83df8674c6c203a1c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f64d03b79b5ff07f859e59aba4fad0" id="r_af7f64d03b79b5ff07f859e59aba4fad0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7f64d03b79b5ff07f859e59aba4fad0">ResetTables</a> ()</td></tr>
+<tr class="separator:af7f64d03b79b5ff07f859e59aba4fad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2eebc40477a7b1f12887c166ba37b03" id="r_af2eebc40477a7b1f12887c166ba37b03"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2eebc40477a7b1f12887c166ba37b03">Pseudo</a> (string value)</td></tr>
+<tr class="separator:af2eebc40477a7b1f12887c166ba37b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81b2798d5103dfeab874fdefafee8d2" id="r_ae81b2798d5103dfeab874fdefafee8d2"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81b2798d5103dfeab874fdefafee8d2">PseudoChar</a> (char c)</td></tr>
+<tr class="separator:ae81b2798d5103dfeab874fdefafee8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea8e325f2df4f942702e10c4f3fea2a" id="r_aeea8e325f2df4f942702e10c4f3fea2a"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeea8e325f2df4f942702e10c4f3fea2a">InitializeLegacy</a> ()</td></tr>
+<tr class="separator:aeea8e325f2df4f942702e10c4f3fea2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b605f0259d8fd72cab289cf1881129a" id="r_a1b605f0259d8fd72cab289cf1881129a"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b605f0259d8fd72cab289cf1881129a">ResetLegacy</a> ()</td></tr>
+<tr class="separator:a1b605f0259d8fd72cab289cf1881129a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb97db15250b86a4de260b91146cd844" id="r_acb97db15250b86a4de260b91146cd844"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb97db15250b86a4de260b91146cd844">RefreshLegacyShims</a> ()</td></tr>
+<tr class="separator:acb97db15250b86a4de260b91146cd844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1af8bf8a2ba7bf1d60590fb05b2947f" id="r_ac1af8bf8a2ba7bf1d60590fb05b2947f"><td class="memItemLeft" align="right" valign="top">static partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1af8bf8a2ba7bf1d60590fb05b2947f">AppendLegacy</a> (Dictionary&lt; string, string &gt; texts, string language)</td></tr>
+<tr class="separator:ac1af8bf8a2ba7bf1d60590fb05b2947f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:a563b041816ddebe0959875bd31ff90b6" id="r_a563b041816ddebe0959875bd31ff90b6"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563b041816ddebe0959875bd31ff90b6">Key</a> = &quot;Localize&quot;</td></tr>
-<tr class="separator:a563b041816ddebe0959875bd31ff90b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7dc392d10a7bcb1f88bf36f66465bae" id="r_ae7dc392d10a7bcb1f88bf36f66465bae"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2d">LocalizationTextGenerated.LocalizeEnums</a>, LocalizedText &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7dc392d10a7bcb1f88bf36f66465bae">_texts</a></td></tr>
-<tr class="separator:ae7dc392d10a7bcb1f88bf36f66465bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa73f7bf7e8e150a9d6060676e9ce3f5a" id="r_aa73f7bf7e8e150a9d6060676e9ce3f5a"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; string, LocalizedText &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa73f7bf7e8e150a9d6060676e9ce3f5a">_unauthorizedTexts</a> = new ()</td></tr>
-<tr class="separator:aa73f7bf7e8e150a9d6060676e9ce3f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a968bee490e7047b6ba4ce3095fe30f0b" id="r_a968bee490e7047b6ba4ce3095fe30f0b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a968bee490e7047b6ba4ce3095fe30f0b">_initializing</a></td></tr>
-<tr class="separator:a968bee490e7047b6ba4ce3095fe30f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8803a192c081230bb20cc324a73124f2" id="r_a8803a192c081230bb20cc324a73124f2"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8803a192c081230bb20cc324a73124f2">LegacyLanguagesKey</a> = &quot;Languages&quot;</td></tr>
+<tr class="separator:a8803a192c081230bb20cc324a73124f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07a292e68559ea458d9e47ba82cd9fe4" id="r_a07a292e68559ea458d9e47ba82cd9fe4"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; string, LocalizedText &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07a292e68559ea458d9e47ba82cd9fe4">_legacyAssets</a> = new(StringComparer.OrdinalIgnoreCase)</td></tr>
+<tr class="separator:a07a292e68559ea458d9e47ba82cd9fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a702344b6e02ff619138d38347c6916af" id="r_a702344b6e02ff619138d38347c6916af"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; string, LocalizedText &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a702344b6e02ff619138d38347c6916af">_legacyRegistered</a> = new(StringComparer.OrdinalIgnoreCase)</td></tr>
+<tr class="separator:a702344b6e02ff619138d38347c6916af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b9b3db4a9a5e2ef7ac2cad09936c28" id="r_ae6b9b3db4a9a5e2ef7ac2cad09936c28"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; string, LocalizedText &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6b9b3db4a9a5e2ef7ac2cad09936c28">_legacyShims</a> = new(StringComparer.OrdinalIgnoreCase)</td></tr>
+<tr class="separator:ae6b9b3db4a9a5e2ef7ac2cad09936c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04dc68635917b0178a2eeb0b16707d84" id="r_a04dc68635917b0178a2eeb0b16707d84"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04dc68635917b0178a2eeb0b16707d84">_legacySubscribed</a></td></tr>
+<tr class="separator:a04dc68635917b0178a2eeb0b16707d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0385095db6aa50b93bdaa48892faef5e" id="r_a0385095db6aa50b93bdaa48892faef5e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0385095db6aa50b93bdaa48892faef5e">_legacySyncing</a></td></tr>
+<tr class="separator:a0385095db6aa50b93bdaa48892faef5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3d081d3c47ea4910c7e04112b351fc" id="r_aec3d081d3c47ea4910c7e04112b351fc"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; string, List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_asset_entry.html">AssetEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec3d081d3c47ea4910c7e04112b351fc">_assets</a> = new(StringComparer.OrdinalIgnoreCase)</td></tr>
+<tr class="separator:aec3d081d3c47ea4910c7e04112b351fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865f029db68881451b80804b448469b1" id="r_a865f029db68881451b80804b448469b1"><td class="memItemLeft" align="right" valign="top">static readonly HashSet&lt;(string Bundle, string Path)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a865f029db68881451b80804b448469b1">_loadedAssets</a> = new()</td></tr>
+<tr class="separator:a865f029db68881451b80804b448469b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84c5356daa8e4c513de05ebb574ff6b" id="r_ae84c5356daa8e4c513de05ebb574ff6b"><td class="memItemLeft" align="right" valign="top">static readonly HashSet&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae84c5356daa8e4c513de05ebb574ff6b">_missingAssets</a> = new(StringComparer.OrdinalIgnoreCase)</td></tr>
+<tr class="separator:ae84c5356daa8e4c513de05ebb574ff6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d5d56d5e317b1cb09793909c236aed6" id="r_a0d5d56d5e317b1cb09793909c236aed6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d5d56d5e317b1cb09793909c236aed6">_assetsCollected</a></td></tr>
+<tr class="separator:a0d5d56d5e317b1cb09793909c236aed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d1ea48ea6e3fa5cdbd7fcfee321a33" id="r_af0d1ea48ea6e3fa5cdbd7fcfee321a33"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0d1ea48ea6e3fa5cdbd7fcfee321a33">_currentLanguage</a></td></tr>
+<tr class="separator:af0d1ea48ea6e3fa5cdbd7fcfee321a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65485af733263eedb11eda71319a0054" id="r_a65485af733263eedb11eda71319a0054"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65485af733263eedb11eda71319a0054">_pseudoLocalization</a></td></tr>
+<tr class="separator:a65485af733263eedb11eda71319a0054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6af0f9ec8d6e541b218115e58c64b7" id="r_a6e6af0f9ec8d6e541b218115e58c64b7"><td class="memItemLeft" align="right" valign="top">static readonly HashSet&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e6af0f9ec8d6e541b218115e58c64b7">_missingKeys</a> = new(StringComparer.OrdinalIgnoreCase)</td></tr>
+<tr class="separator:a6e6af0f9ec8d6e541b218115e58c64b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1ff4ff66cf3a912d22510bce27c107" id="r_a5f1ff4ff66cf3a912d22510bce27c107"><td class="memItemLeft" align="right" valign="top">static readonly List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f1ff4ff66cf3a912d22510bce27c107">_tables</a> = new()</td></tr>
+<tr class="separator:a5f1ff4ff66cf3a912d22510bce27c107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ea8c7b078f6302b9d9daa83e3c68a6" id="r_aa7ea8c7b078f6302b9d9daa83e3c68a6"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; string, Dictionary&lt; string, string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7ea8c7b078f6302b9d9daa83e3c68a6">_texts</a> = new(StringComparer.OrdinalIgnoreCase)</td></tr>
+<tr class="separator:aa7ea8c7b078f6302b9d9daa83e3c68a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeeddad8e9d2ae869e43d1157db734ff" id="r_aeeeddad8e9d2ae869e43d1157db734ff"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeeddad8e9d2ae869e43d1157db734ff">_tablesCollected</a></td></tr>
+<tr class="separator:aeeeddad8e9d2ae869e43d1157db734ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f0601b5077db94def910530c57e4e1" id="r_ab6f0601b5077db94def910530c57e4e1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6f0601b5077db94def910530c57e4e1">_order</a></td></tr>
+<tr class="separator:ab6f0601b5077db94def910530c57e4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa517d4a6efadb9d3452b42044d9df2ee" name="aa517d4a6efadb9d3452b42044d9df2ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa517d4a6efadb9d3452b42044d9df2ee">&#9670;&#160;</a></span>LocalizationManager()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The legacy side of the localization, removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">LegacyLocalization.RemovedIn</a>: the old API returning LocalizedText, <code>LocalizedText</code> assets not yet migrated to tables, and the sync with <code>GameToolkit.Localization.Localization.Instance</code> both ways. </p>
+<p><a class="el" href="namespace_c_o_r_e.html">CORE</a> localization: CSV tables (<code>Key, Comment, en, ru, …</code>) declared under the <code><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_localize.html">Localize</a></code> resource paths, one column per language. Every lookup goes current language → its parent (<code>pt-BR</code> → <code>pt</code>) → <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_language_settings.html#abb9663d678c16259e086c45e1869adbd" title="The language a key falls back to when the current language has no text for it.">LanguageSettings.FallbackLanguage</a>. Tables registered at runtime (mods) override the project's ones key by key, by priority.</p>
+<p>Localized assets: one file per language under <code>&lt;Group&gt;/&lt;language&gt;/</code> of a <code><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_localize.html">Localize</a></code> path. An asset is loaded on demand from its bundle and taken by the same chain as texts: current language → parent → fallback language → any language that has it. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aac805d81387d72f5ba354a9135201e91" name="aac805d81387d72f5ba354a9135201e91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac805d81387d72f5ba354a9135201e91">&#9670;&#160;</a></span>AddAsset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,9 +374,9 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static CORE.Shared.Localize.LocalizationManager.LocalizationManager </td>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.AddAsset </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_asset_entry.html">AssetEntry</a></td>          <td class="paramname"><span class="paramname"><em>entry</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -173,7 +389,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a39cd9d6d2b9089a3bed7266f50f47793" name="a39cd9d6d2b9089a3bed7266f50f47793"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39cd9d6d2b9089a3bed7266f50f47793">&#9670;&#160;</a></span>AddLocalizations()</h2>
 
@@ -193,6 +408,879 @@ Static Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds LocalizedText assets as keys by their names (mods built before tables). </p>
+
+</div>
+</div>
+<a id="a3d134e1e48016f9906cff0cde83fe56d" name="a3d134e1e48016f9906cff0cde83fe56d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d134e1e48016f9906cff0cde83fe56d">&#9670;&#160;</a></span>Append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.Append </td>
+          <td>(</td>
+          <td class="paramtype">Dictionary&lt; string, string &gt;</td>          <td class="paramname"><span class="paramname"><em>texts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a></td>          <td class="paramname"><span class="paramname"><em>table</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; List&lt; string &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>rows</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1af8bf8a2ba7bf1d60590fb05b2947f" name="ac1af8bf8a2ba7bf1d60590fb05b2947f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1af8bf8a2ba7bf1d60590fb05b2947f">&#9670;&#160;</a></span>AppendLegacy() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.AppendLegacy </td>
+          <td>(</td>
+          <td class="paramtype">Dictionary&lt; string, string &gt;</td>          <td class="paramname"><span class="paramname"><em>texts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1af8bf8a2ba7bf1d60590fb05b2947f" name="ac1af8bf8a2ba7bf1d60590fb05b2947f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1af8bf8a2ba7bf1d60590fb05b2947f">&#9670;&#160;</a></span>AppendLegacy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.AppendLegacy </td>
+          <td>(</td>
+          <td class="paramtype">Dictionary&lt; string, string &gt;</td>          <td class="paramname"><span class="paramname"><em>texts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb0e27efb4a6f5da1559547d5064c4b7" name="aeb0e27efb4a6f5da1559547d5064c4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb0e27efb4a6f5da1559547d5064c4b7">&#9670;&#160;</a></span>CollectAssets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.CollectAssets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e92a6aba8e2cfbb5ecfedd164105fec" name="a4e92a6aba8e2cfbb5ecfedd164105fec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e92a6aba8e2cfbb5ecfedd164105fec">&#9670;&#160;</a></span>CollectTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.CollectTables </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ed2a480ae7e9ed404ee12f7403148a1" name="a6ed2a480ae7e9ed404ee12f7403148a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed2a480ae7e9ed404ee12f7403148a1">&#9670;&#160;</a></span>DestroyLegacyShims()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.DestroyLegacyShims </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a4ef08d4f9c1908e4efe4f776674908" name="a1a4ef08d4f9c1908e4efe4f776674908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a4ef08d4f9c1908e4efe4f776674908">&#9670;&#160;</a></span>EnsureHeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.EnsureHeader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a></td>          <td class="paramname"><span class="paramname"><em>table</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96e05009e20019b556d50f8dbf707209" name="a96e05009e20019b556d50f8dbf707209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e05009e20019b556d50f8dbf707209">&#9670;&#160;</a></span>FillLegacyShim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.FillLegacyShim </td>
+          <td>(</td>
+          <td class="paramtype">LocalizedText</td>          <td class="paramname"><span class="paramname"><em>shim</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa539e92a46230247f514d8a2ced196c7" name="aa539e92a46230247f514d8a2ced196c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa539e92a46230247f514d8a2ced196c7">&#9670;&#160;</a></span>Format() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.Format </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IReadOnlyDictionary&lt; string, object &gt;</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text with its named placeholders filled: <code>{gold}</code>, <code>{count:plural:one=…|other=…}</code>. </p>
+
+</div>
+</div>
+<a id="a020c90c3e1c82956a6c0008cf2864e1f" name="a020c90c3e1c82956a6c0008cf2864e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a020c90c3e1c82956a6c0008cf2864e1f">&#9670;&#160;</a></span>Format() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.Format </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text with its placeholders filled: <code>{0}</code> positional, <code>{0:plural:one=…|other=…}</code> plural forms. </p>
+
+</div>
+</div>
+<a id="abce58b140ec2cda366febdada5193683" name="abce58b140ec2cda366febdada5193683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce58b140ec2cda366febdada5193683">&#9670;&#160;</a></span>FormatText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.FormatText </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>template</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Formats a text that is already localized (or comes from data) in the current language. </p>
+
+</div>
+</div>
+<a id="aec9bf744dee646313037741b6e843154" name="aec9bf744dee646313037741b6e843154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec9bf744dee646313037741b6e843154">&#9670;&#160;</a></span>Get() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.Get </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text of the key in the current language. A missing key is logged once and shown as <code>#Key#</code> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_language_settings.html#a2213678cbb4c6e5de90fea82fd1084d2" title="Shows a missing key as #Key#; off — as an empty string.">LanguageSettings.ShowMissingKeys</a>). </p>
+
+</div>
+</div>
+<a id="aecae7b11b43b39b7d1f01b3c75e4b0cb" name="aecae7b11b43b39b7d1f01b3c75e4b0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecae7b11b43b39b7d1f01b3c75e4b0cb">&#9670;&#160;</a></span>Get() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.Get </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb132e10eed8cc72ef28db4a6321871d" name="acb132e10eed8cc72ef28db4a6321871d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb132e10eed8cc72ef28db4a6321871d">&#9670;&#160;</a></span>GetAsset&lt; T &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T CORE.Shared.Localize.LocalizationManager.GetAsset&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The asset of the key in the current language; null (logged once) if no language has it. </p>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a0347abb7479e0bf965d592ccf2135460" name="a0347abb7479e0bf965d592ccf2135460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0347abb7479e0bf965d592ccf2135460">&#9670;&#160;</a></span>GetAsset&lt; T &gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T CORE.Shared.Localize.LocalizationManager.GetAsset&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a3340155d20ac4b9b8b3f7c67f98b55bd" name="a3340155d20ac4b9b8b3f7c67f98b55bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3340155d20ac4b9b8b3f7c67f98b55bd">&#9670;&#160;</a></span>GetAssetLanguages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IReadOnlyList&lt; string &gt; CORE.Shared.Localize.LocalizationManager.GetAssetLanguages </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html" title="The catalog of languages: lookups by code, SystemLanguage and Steam language name....">Languages</a> that have their own asset for the key. </p>
+
+</div>
+</div>
+<a id="a5ceeaec25a365949a27c568ba990b0bf" name="a5ceeaec25a365949a27c568ba990b0bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ceeaec25a365949a27c568ba990b0bf">&#9670;&#160;</a></span>GetLanguageChain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; string &gt; CORE.Shared.Localize.LocalizationManager.GetLanguageChain </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d7365ebd6da956970c73cc3afc8a1ff" name="a1d7365ebd6da956970c73cc3afc8a1ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7365ebd6da956970c73cc3afc8a1ff">&#9670;&#160;</a></span>GetLegacyShimText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.GetLegacyShimText </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text of a legacy key in a language. <code><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html" title="The catalog of languages: lookups by code, SystemLanguage and Steam language name....">Languages</a></code> (<a class="el" href="namespace_c_o_r_e.html">CORE</a> 1.1.0's asset with each language's name in that language, for a language picker) is not a key of <code>Core.csv</code>: unless a table of the project has it, it is <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html#a6f8547d43e323a5fdecb3b46ab745947" title="The name a language picker shows: the native name, or the code when the catalog has none.">Languages.GetNativeName</a>. </p>
+
+</div>
+</div>
+<a id="ac5863e4f70458889ae156c19ad6aa349" name="ac5863e4f70458889ae156c19ad6aa349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5863e4f70458889ae156c19ad6aa349">&#9670;&#160;</a></span>GetSystemLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.GetSystemLanguage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The language of the system, if the tables have it; otherwise the fallback language. </p>
+
+</div>
+</div>
+<a id="a9437615348f9ccd9a65e94fe511212c8" name="a9437615348f9ccd9a65e94fe511212c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9437615348f9ccd9a65e94fe511212c8">&#9670;&#160;</a></span>GetText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.GetText </td>
+          <td>(</td>
+          <td class="paramtype">LocalizedText</td>          <td class="paramname"><span class="paramname"><em>localizedText</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text of a LocalizedText in the current language, with the fallback languages. </p>
+
+</div>
+</div>
+<a id="ac34b84c81a1f61d20adf04331c329c1b" name="ac34b84c81a1f61d20adf04331c329c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34b84c81a1f61d20adf04331c329c1b">&#9670;&#160;</a></span>GetTexts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Dictionary&lt; string, string &gt; CORE.Shared.Localize.LocalizationManager.GetTexts </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Every text of a language, merged from all tables and the fallback languages. </p>
+
+</div>
+</div>
+<a id="a46122f0d45a582413e2f292b87a2eae0" name="a46122f0d45a582413e2f292b87a2eae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46122f0d45a582413e2f292b87a2eae0">&#9670;&#160;</a></span>HasAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.HasAsset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a569ff3eaed71e27d6be644692247e373" name="a569ff3eaed71e27d6be644692247e373"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569ff3eaed71e27d6be644692247e373">&#9670;&#160;</a></span>HasKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.HasKey </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afddfc2da60ec91aabdc0f4ef25c16dc0" name="afddfc2da60ec91aabdc0f4ef25c16dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afddfc2da60ec91aabdc0f4ef25c16dc0">&#9670;&#160;</a></span>HasLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.HasLanguage </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeea8e325f2df4f942702e10c4f3fea2a" name="aeea8e325f2df4f942702e10c4f3fea2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea8e325f2df4f942702e10c4f3fea2a">&#9670;&#160;</a></span>InitializeLegacy() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.InitializeLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeea8e325f2df4f942702e10c4f3fea2a" name="aeea8e325f2df4f942702e10c4f3fea2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea8e325f2df4f942702e10c4f3fea2a">&#9670;&#160;</a></span>InitializeLegacy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.InitializeLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c96505b22982dfa9bce629728fad9b5" name="a0c96505b22982dfa9bce629728fad9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c96505b22982dfa9bce629728fad9b5">&#9670;&#160;</a></span>InvalidateAssets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.InvalidateAssets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b5bb29233eed83df8674c6c203a1c42" name="a7b5bb29233eed83df8674c6c203a1c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b5bb29233eed83df8674c6c203a1c42">&#9670;&#160;</a></span>InvalidateTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.InvalidateTables </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Forgets the project's tables (not the registered ones) so code generation changes are picked up. </p>
+
+</div>
+</div>
+<a id="a94a97aca0795d847a066fcfe2b42c3ab" name="a94a97aca0795d847a066fcfe2b42c3ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a97aca0795d847a066fcfe2b42c3ab">&#9670;&#160;</a></span>InvalidateTexts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.InvalidateTexts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0d01005729321f842ba5e66e577f243" name="ae0d01005729321f842ba5e66e577f243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d01005729321f842ba5e66e577f243">&#9670;&#160;</a></span>LoadAsset&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T CORE.Shared.Localize.LocalizationManager.LoadAsset&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_asset_entry.html">AssetEntry</a></td>          <td class="paramname"><span class="paramname"><em>entry</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="ac70df8c6e2d56686d87f32d57e2b5574" name="ac70df8c6e2d56686d87f32d57e2b5574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70df8c6e2d56686d87f32d57e2b5574">&#9670;&#160;</a></span>LoadLegacyAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static LocalizedText CORE.Shared.Localize.LocalizationManager.LoadLegacyAsset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_table_source.html">LocalizationTableSource</a></td>          <td class="paramname"><span class="paramname"><em>source</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -274,6 +1362,457 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a34f56b9eb02af235d98bd085b48e7f9f" name="a34f56b9eb02af235d98bd085b48e7f9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34f56b9eb02af235d98bd085b48e7f9f">&#9670;&#160;</a></span>Missing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.Missing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98511e5d4af459d603308be7551b9d20" name="a98511e5d4af459d603308be7551b9d20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98511e5d4af459d603308be7551b9d20">&#9670;&#160;</a></span>OnBundlesLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.OnBundlesLoaded </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9154864c07a3de9ee162dc2f440edf7" name="ae9154864c07a3de9ee162dc2f440edf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9154864c07a3de9ee162dc2f440edf7">&#9670;&#160;</a></span>OnLegacyLanguageChanged() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.OnLegacyLanguageChanged </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9154864c07a3de9ee162dc2f440edf7" name="ae9154864c07a3de9ee162dc2f440edf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9154864c07a3de9ee162dc2f440edf7">&#9670;&#160;</a></span>OnLegacyLanguageChanged() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.OnLegacyLanguageChanged </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfe51ab8c8d544dd4f0a08134509eea3" name="abfe51ab8c8d544dd4f0a08134509eea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe51ab8c8d544dd4f0a08134509eea3">&#9670;&#160;</a></span>OnLegacyLocaleChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.OnLegacyLocaleChanged </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>sender</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocaleChangedEventArgs</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Someone set <code>Localization.Instance.CurrentLanguage</code> directly (code written before tables): follow it. </p>
+
+</div>
+</div>
+<a id="af2eebc40477a7b1f12887c166ba37b03" name="af2eebc40477a7b1f12887c166ba37b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2eebc40477a7b1f12887c166ba37b03">&#9670;&#160;</a></span>Pseudo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.Pseudo </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae81b2798d5103dfeab874fdefafee8d2" name="ae81b2798d5103dfeab874fdefafee8d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae81b2798d5103dfeab874fdefafee8d2">&#9670;&#160;</a></span>PseudoChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static char CORE.Shared.Localize.LocalizationManager.PseudoChar </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae683583bd5d18ff45af24d357a0bf4cd" name="ae683583bd5d18ff45af24d357a0bf4cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae683583bd5d18ff45af24d357a0bf4cd">&#9670;&#160;</a></span>ReadText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string CORE.Shared.Localize.LocalizationManager.ReadText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a></td>          <td class="paramname"><span class="paramname"><em>table</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb97db15250b86a4de260b91146cd844" name="acb97db15250b86a4de260b91146cd844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb97db15250b86a4de260b91146cd844">&#9670;&#160;</a></span>RefreshLegacyShims() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.RefreshLegacyShims </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The shims of <a class="el" href="#ad76c7e4db416e01928ab2d6bb1839db5">Localize(string)</a> are what a 1.1.0-style caller holds on to (a <code>TextComponent</code>, a modal's data), so they live until the statics reset: a change of the tables refills them in place, and only <a class="el" href="#a1b605f0259d8fd72cab289cf1881129a">ResetLegacy</a> destroys them — HideFlags.DontSave objects are never collected. </p>
+
+</div>
+</div>
+<a id="acb97db15250b86a4de260b91146cd844" name="acb97db15250b86a4de260b91146cd844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb97db15250b86a4de260b91146cd844">&#9670;&#160;</a></span>RefreshLegacyShims() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.RefreshLegacyShims </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae68619dfabe2c8572ea61016191f1cee" name="ae68619dfabe2c8572ea61016191f1cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68619dfabe2c8572ea61016191f1cee">&#9670;&#160;</a></span>RegisterAsset() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.RegisterAsset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; Type, <a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>loader</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>priority</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a6defe14f109b3dafa33a31d728170241">RuntimeTablePriority</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>owner</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds an asset of one language loaded on demand: <em>loader</em>  gets the requested type. </p>
+
+</div>
+</div>
+<a id="a1c75b6604f61cf9be6d30dab4939d231" name="a1c75b6604f61cf9be6d30dab4939d231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c75b6604f61cf9be6d30dab4939d231">&#9670;&#160;</a></span>RegisterAsset() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.RegisterAsset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a></td>          <td class="paramname"><span class="paramname"><em>asset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>priority</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a6defe14f109b3dafa33a31d728170241">RuntimeTablePriority</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>owner</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds an asset of one language at runtime (a mod's, a downloaded one). A higher priority wins over the project's assets (<a class="el" href="#a180ad523672c950e39f9d1489e0e4de3" title="Priority of the project&#39;s tables.">ProjectTablePriority</a>); <a class="el" href="#aec267c69d34ba84604cf9328ae3481bf" title="Removes every table and asset registered with this owner.">UnregisterTables</a> with the same owner removes it. </p>
+
+</div>
+</div>
+<a id="ad78323239bf9b05c82f6ea41a9224211" name="ad78323239bf9b05c82f6ea41a9224211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad78323239bf9b05c82f6ea41a9224211">&#9670;&#160;</a></span>RegisterTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.RegisterTable </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>csv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>priority</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a6defe14f109b3dafa33a31d728170241">RuntimeTablePriority</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>owner</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a table from CSV text — a mod's localization, downloaded texts. A key of a table with a higher priority wins over the same key of the project's tables (<a class="el" href="#a180ad523672c950e39f9d1489e0e4de3" title="Priority of the project&#39;s tables.">ProjectTablePriority</a>). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner</td><td>What the table belongs to, for <a class="el" href="#aec267c69d34ba84604cf9328ae3481bf" title="Removes every table and asset registered with this owner.">UnregisterTables</a></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae958711397c5275a921de57b95689a86" name="ae958711397c5275a921de57b95689a86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae958711397c5275a921de57b95689a86">&#9670;&#160;</a></span>ReleaseLoadedAssets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.ReleaseLoadedAssets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Forgets the loaded assets of the previous language: the bundles' cache lets them go, the components take the new ones on <a class="el" href="#ab230b5d276578a0f76908ee973e5a88c" title="The language changed, or the set of tables did (a mod was loaded): every shown text must be taken aga...">OnLanguageChanged</a>. </p>
+
+</div>
+</div>
+<a id="a114989b796ce9446f3b0ef842ed4d032" name="a114989b796ce9446f3b0ef842ed4d032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a114989b796ce9446f3b0ef842ed4d032">&#9670;&#160;</a></span>Reload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.Reload </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drops every loaded text: the tables are read again on the next lookup and every shown text is refreshed. </p>
+
+</div>
+</div>
 <a id="a276a43daceeec1457e1adc0ccc7fc87b" name="a276a43daceeec1457e1adc0ccc7fc87b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a276a43daceeec1457e1adc0ccc7fc87b">&#9670;&#160;</a></span>RemoveLocalizations()</h2>
 
@@ -299,9 +1838,414 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6c2c832cc45f97eb5759df054eb7899e" name="a6c2c832cc45f97eb5759df054eb7899e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c2c832cc45f97eb5759df054eb7899e">&#9670;&#160;</a></span>ResetAssets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.ResetAssets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b605f0259d8fd72cab289cf1881129a" name="a1b605f0259d8fd72cab289cf1881129a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b605f0259d8fd72cab289cf1881129a">&#9670;&#160;</a></span>ResetLegacy() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.ResetLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b605f0259d8fd72cab289cf1881129a" name="a1b605f0259d8fd72cab289cf1881129a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b605f0259d8fd72cab289cf1881129a">&#9670;&#160;</a></span>ResetLegacy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static partial void CORE.Shared.Localize.LocalizationManager.ResetLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad381048f2ea27c4d5fc5444944439b81" name="ad381048f2ea27c4d5fc5444944439b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad381048f2ea27c4d5fc5444944439b81">&#9670;&#160;</a></span>ResetOnPlay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.ResetOnPlay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7f64d03b79b5ff07f859e59aba4fad0" name="af7f64d03b79b5ff07f859e59aba4fad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7f64d03b79b5ff07f859e59aba4fad0">&#9670;&#160;</a></span>ResetTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.ResetTables </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab30e28f16636d6382ccd93cc68ea158e" name="ab30e28f16636d6382ccd93cc68ea158e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab30e28f16636d6382ccd93cc68ea158e">&#9670;&#160;</a></span>SetLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.SetLanguage </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbce6b0b0d7d1ca5575990b88b4d6da8" name="acbce6b0b0d7d1ca5575990b88b4d6da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbce6b0b0d7d1ca5575990b88b4d6da8">&#9670;&#160;</a></span>ToLegacyLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Language CORE.Shared.Localize.LocalizationManager.ToLegacyLanguage </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0e5622230abfcd7a52bf2c3091463d4" name="ae0e5622230abfcd7a52bf2c3091463d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0e5622230abfcd7a52bf2c3091463d4">&#9670;&#160;</a></span>TryGet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.TryGet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out string</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e542b8ba295c96439f3e4e9669c81af" name="a9e542b8ba295c96439f3e4e9669c81af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e542b8ba295c96439f3e4e9669c81af">&#9670;&#160;</a></span>TryGet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.TryGet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out string</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text of the key in a given language (with that language's fallbacks), e.g. for a language picker. </p>
+
+</div>
+</div>
+<a id="aa598227e9758bba3a2a8528193273168" name="aa598227e9758bba3a2a8528193273168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa598227e9758bba3a2a8528193273168">&#9670;&#160;</a></span>TryGetAsset&lt; T &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.TryGetAsset&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>asset</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a54879cc263a001a52df476adea6ade0a" name="a54879cc263a001a52df476adea6ade0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54879cc263a001a52df476adea6ade0a">&#9670;&#160;</a></span>TryGetAsset&lt; T &gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.TryGetAsset&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_asset_key.html">LocAssetKey</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out T</td>          <td class="paramname"><span class="paramname"><em>asset</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="_mod_tool_settings_8cs.html#aef19bab18b9814edeef255c43e4f6bbc">Object</a></em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
+<a id="a0f9a51b9dcfb245587b9edaf43fc5109" name="a0f9a51b9dcfb245587b9edaf43fc5109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9a51b9dcfb245587b9edaf43fc5109">&#9670;&#160;</a></span>TryGetLegacyValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool CORE.Shared.Localize.LocalizationManager.TryGetLegacyValue </td>
+          <td>(</td>
+          <td class="paramtype">LocalizedText</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>language</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out string</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a587f66bf98d5ddc6b334fb1afa998345" name="a587f66bf98d5ddc6b334fb1afa998345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587f66bf98d5ddc6b334fb1afa998345">&#9670;&#160;</a></span>UnregisterAssets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.UnregisterAssets </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>owner</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec267c69d34ba84604cf9328ae3481bf" name="aec267c69d34ba84604cf9328ae3481bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec267c69d34ba84604cf9328ae3481bf">&#9670;&#160;</a></span>UnregisterTables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CORE.Shared.Localize.LocalizationManager.UnregisterTables </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>owner</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes every table and asset registered with this owner. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a968bee490e7047b6ba4ce3095fe30f0b" name="a968bee490e7047b6ba4ce3095fe30f0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a968bee490e7047b6ba4ce3095fe30f0b">&#9670;&#160;</a></span>_initializing</h2>
+<a id="aec3d081d3c47ea4910c7e04112b351fc" name="aec3d081d3c47ea4910c7e04112b351fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3d081d3c47ea4910c7e04112b351fc">&#9670;&#160;</a></span>_assets</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,7 +2254,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CORE.Shared.Localize.LocalizationManager._initializing</td>
+          <td class="memname">readonly Dictionary&lt;string, List&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_asset_entry.html">AssetEntry</a>&gt; &gt; CORE.Shared.Localize.LocalizationManager._assets = new(StringComparer.OrdinalIgnoreCase)</td>
         </tr>
       </table>
   </td>
@@ -322,8 +2266,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae7dc392d10a7bcb1f88bf36f66465bae" name="ae7dc392d10a7bcb1f88bf36f66465bae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7dc392d10a7bcb1f88bf36f66465bae">&#9670;&#160;</a></span>_texts</h2>
+<a id="a0d5d56d5e317b1cb09793909c236aed6" name="a0d5d56d5e317b1cb09793909c236aed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5d56d5e317b1cb09793909c236aed6">&#9670;&#160;</a></span>_assetsCollected</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,7 +2276,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly Dictionary&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2d">LocalizationTextGenerated.LocalizeEnums</a>, LocalizedText&gt; CORE.Shared.Localize.LocalizationManager._texts</td>
+          <td class="memname">bool CORE.Shared.Localize.LocalizationManager._assetsCollected</td>
         </tr>
       </table>
   </td>
@@ -344,8 +2288,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa73f7bf7e8e150a9d6060676e9ce3f5a" name="aa73f7bf7e8e150a9d6060676e9ce3f5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa73f7bf7e8e150a9d6060676e9ce3f5a">&#9670;&#160;</a></span>_unauthorizedTexts</h2>
+<a id="af0d1ea48ea6e3fa5cdbd7fcfee321a33" name="af0d1ea48ea6e3fa5cdbd7fcfee321a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d1ea48ea6e3fa5cdbd7fcfee321a33">&#9670;&#160;</a></span>_currentLanguage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -354,7 +2298,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly Dictionary&lt;string, LocalizedText&gt; CORE.Shared.Localize.LocalizationManager._unauthorizedTexts = new ()</td>
+          <td class="memname">string CORE.Shared.Localize.LocalizationManager._currentLanguage</td>
         </tr>
       </table>
   </td>
@@ -366,8 +2310,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a563b041816ddebe0959875bd31ff90b6" name="a563b041816ddebe0959875bd31ff90b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a563b041816ddebe0959875bd31ff90b6">&#9670;&#160;</a></span>Key</h2>
+<a id="a07a292e68559ea458d9e47ba82cd9fe4" name="a07a292e68559ea458d9e47ba82cd9fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a292e68559ea458d9e47ba82cd9fe4">&#9670;&#160;</a></span>_legacyAssets</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -376,7 +2320,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const string CORE.Shared.Localize.LocalizationManager.Key = &quot;Localize&quot;</td>
+          <td class="memname">readonly Dictionary&lt;string, LocalizedText&gt; CORE.Shared.Localize.LocalizationManager._legacyAssets = new(StringComparer.OrdinalIgnoreCase)</td>
         </tr>
       </table>
   </td>
@@ -385,10 +2329,462 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a702344b6e02ff619138d38347c6916af" name="a702344b6e02ff619138d38347c6916af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a702344b6e02ff619138d38347c6916af">&#9670;&#160;</a></span>_legacyRegistered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;string, LocalizedText&gt; CORE.Shared.Localize.LocalizationManager._legacyRegistered = new(StringComparer.OrdinalIgnoreCase)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6b9b3db4a9a5e2ef7ac2cad09936c28" name="ae6b9b3db4a9a5e2ef7ac2cad09936c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6b9b3db4a9a5e2ef7ac2cad09936c28">&#9670;&#160;</a></span>_legacyShims</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;string, LocalizedText&gt; CORE.Shared.Localize.LocalizationManager._legacyShims = new(StringComparer.OrdinalIgnoreCase)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04dc68635917b0178a2eeb0b16707d84" name="a04dc68635917b0178a2eeb0b16707d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04dc68635917b0178a2eeb0b16707d84">&#9670;&#160;</a></span>_legacySubscribed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Localize.LocalizationManager._legacySubscribed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0385095db6aa50b93bdaa48892faef5e" name="a0385095db6aa50b93bdaa48892faef5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0385095db6aa50b93bdaa48892faef5e">&#9670;&#160;</a></span>_legacySyncing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Localize.LocalizationManager._legacySyncing</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a865f029db68881451b80804b448469b1" name="a865f029db68881451b80804b448469b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a865f029db68881451b80804b448469b1">&#9670;&#160;</a></span>_loadedAssets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly HashSet&lt;(string Bundle, string Path)&gt; CORE.Shared.Localize.LocalizationManager._loadedAssets = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae84c5356daa8e4c513de05ebb574ff6b" name="ae84c5356daa8e4c513de05ebb574ff6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84c5356daa8e4c513de05ebb574ff6b">&#9670;&#160;</a></span>_missingAssets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly HashSet&lt;string&gt; CORE.Shared.Localize.LocalizationManager._missingAssets = new(StringComparer.OrdinalIgnoreCase)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e6af0f9ec8d6e541b218115e58c64b7" name="a6e6af0f9ec8d6e541b218115e58c64b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e6af0f9ec8d6e541b218115e58c64b7">&#9670;&#160;</a></span>_missingKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly HashSet&lt;string&gt; CORE.Shared.Localize.LocalizationManager._missingKeys = new(StringComparer.OrdinalIgnoreCase)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6f0601b5077db94def910530c57e4e1" name="ab6f0601b5077db94def910530c57e4e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f0601b5077db94def910530c57e4e1">&#9670;&#160;</a></span>_order</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CORE.Shared.Localize.LocalizationManager._order</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65485af733263eedb11eda71319a0054" name="a65485af733263eedb11eda71319a0054"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65485af733263eedb11eda71319a0054">&#9670;&#160;</a></span>_pseudoLocalization</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Localize.LocalizationManager._pseudoLocalization</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f1ff4ff66cf3a912d22510bce27c107" name="a5f1ff4ff66cf3a912d22510bce27c107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1ff4ff66cf3a912d22510bce27c107">&#9670;&#160;</a></span>_tables</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_localization_manager_1_1_table.html">Table</a>&gt; CORE.Shared.Localize.LocalizationManager._tables = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeeeddad8e9d2ae869e43d1157db734ff" name="aeeeddad8e9d2ae869e43d1157db734ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeeddad8e9d2ae869e43d1157db734ff">&#9670;&#160;</a></span>_tablesCollected</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Localize.LocalizationManager._tablesCollected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7ea8c7b078f6302b9d9daa83e3c68a6" name="aa7ea8c7b078f6302b9d9daa83e3c68a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7ea8c7b078f6302b9d9daa83e3c68a6">&#9670;&#160;</a></span>_texts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;string, Dictionary&lt;string, string&gt; &gt; CORE.Shared.Localize.LocalizationManager._texts = new(StringComparer.OrdinalIgnoreCase)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8803a192c081230bb20cc324a73124f2" name="a8803a192c081230bb20cc324a73124f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8803a192c081230bb20cc324a73124f2">&#9670;&#160;</a></span>LegacyLanguagesKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string CORE.Shared.Localize.LocalizationManager.LegacyLanguagesKey = &quot;Languages&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a180ad523672c950e39f9d1489e0e4de3" name="a180ad523672c950e39f9d1489e0e4de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a180ad523672c950e39f9d1489e0e4de3">&#9670;&#160;</a></span>ProjectTablePriority</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CORE.Shared.Localize.LocalizationManager.ProjectTablePriority = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_utils.html#a8a2dc021e3a05819ee48c32326ac52f2" title="Priority levels for task execution and scheduling.">Priority</a> of the project's tables. </p>
+
+</div>
+</div>
+<a id="a6defe14f109b3dafa33a31d728170241" name="a6defe14f109b3dafa33a31d728170241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6defe14f109b3dafa33a31d728170241">&#9670;&#160;</a></span>RuntimeTablePriority</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CORE.Shared.Localize.LocalizationManager.RuntimeTablePriority = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default priority of a table registered at runtime: wins over the project's tables. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a6a93aab3b7d782f97f5f13dd3e99d06e" name="a6a93aab3b7d782f97f5f13dd3e99d06e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a93aab3b7d782f97f5f13dd3e99d06e">&#9670;&#160;</a></span>AssetKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt;string&gt; CORE.Shared.Localize.LocalizationManager.AssetKeys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Every asset key the project and the registered sources have. </p>
+
+</div>
+</div>
+<a id="acb52f8e7946aaf28db1f96433c63ca52" name="acb52f8e7946aaf28db1f96433c63ca52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb52f8e7946aaf28db1f96433c63ca52">&#9670;&#160;</a></span>AvailableLanguages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;string&gt; CORE.Shared.Localize.LocalizationManager.AvailableLanguages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_languages.html" title="The catalog of languages: lookups by code, SystemLanguage and Steam language name....">Languages</a> that have a column in at least one table, in the order they first appear. </p>
+
+</div>
+</div>
+<a id="a6972753c549bcc12086f74e884bca8f9" name="a6972753c549bcc12086f74e884bca8f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6972753c549bcc12086f74e884bca8f9">&#9670;&#160;</a></span>CurrentLanguage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Localize.LocalizationManager.CurrentLanguage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Code of the current language. Until <a class="el" href="#ab30e28f16636d6382ccd93cc68ea158e">SetLanguage</a> is called — the fallback language. </p>
+
+</div>
+</div>
+<a id="abc88afe462df5ca38d107974c89bbaa5" name="abc88afe462df5ca38d107974c89bbaa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc88afe462df5ca38d107974c89bbaa5">&#9670;&#160;</a></span>FallbackLanguage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string CORE.Shared.Localize.LocalizationManager.FallbackLanguage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7d58a3b5faab911863d009327cffbfa" name="af7d58a3b5faab911863d009327cffbfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d58a3b5faab911863d009327cffbfa">&#9670;&#160;</a></span>MissingKeys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyCollection&lt;string&gt; CORE.Shared.Localize.LocalizationManager.MissingKeys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Keys asked for and found in no table since the start (or the last <a class="el" href="#a114989b796ce9446f3b0ef842ed4d032" title="Drops every loaded text: the tables are read again on the next lookup and every shown text is refresh...">Reload</a>). </p>
+
+</div>
+</div>
 <a id="a076d01473e8f0ae7fe39d0ac60762661" name="a076d01473e8f0ae7fe39d0ac60762661"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a076d01473e8f0ae7fe39d0ac60762661">&#9670;&#160;</a></span>None</h2>
 
@@ -411,8 +2807,60 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a id="a44b3eaad1d67417f3b110003dda34456" name="a44b3eaad1d67417f3b110003dda34456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b3eaad1d67417f3b110003dda34456">&#9670;&#160;</a></span>PseudoLocalization</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Localize.LocalizationManager.PseudoLocalization</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows every text pseudo-localized — accented and a third longer — to find hard-coded strings and tight layouts. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="ab230b5d276578a0f76908ee973e5a88c" name="ab230b5d276578a0f76908ee973e5a88c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab230b5d276578a0f76908ee973e5a88c">&#9670;&#160;</a></span>OnLanguageChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action CORE.Shared.Localize.LocalizationManager.OnLanguageChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The language changed, or the set of tables did (a mod was loaded): every shown text must be taken again. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Localization/Legacy/<a class="el" href="_localization_manager_8_legacy_8cs.html">LocalizationManager.Legacy.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Localization/<a class="el" href="_localization_manager_8_assets_8cs.html">LocalizationManager.Assets.cs</a></li>
 <li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Localization/<a class="el" href="_localization_manager_8cs.html">LocalizationManager.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Localization/<a class="el" href="_localization_manager_8_tables_8cs.html">LocalizationManager.Tables.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

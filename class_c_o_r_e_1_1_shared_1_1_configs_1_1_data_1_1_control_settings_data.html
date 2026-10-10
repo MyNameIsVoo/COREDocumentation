@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,6 +106,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_cont
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_control_settings_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Configs.Data.ControlSettingsData Class Reference</div></div>
 </div><!--header-->
@@ -165,11 +166,32 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2e52b0c3aa8e1e7f5155fccae9e09144" id="r_a2e52b0c3aa8e1e7f5155fccae9e09144"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_settings_1_1_data_1_1_control_input_setting.html">ControlInputSetting</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e52b0c3aa8e1e7f5155fccae9e09144">ControlSettings</a></td></tr>
 <tr class="separator:a2e52b0c3aa8e1e7f5155fccae9e09144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a888ff588d0c717657bbeba571b84a23d" id="r_a888ff588d0c717657bbeba571b84a23d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a888ff588d0c717657bbeba571b84a23d">HapticsEnabled</a> = true</td></tr>
+<tr class="memdesc:a888ff588d0c717657bbeba571b84a23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The player's gamepad vibration choice (since v1.3), read by <code>InputHost.Haptics</code> when <code>InputHapticsSettings.PersistSettings</code> is on.  <br /></td></tr>
+<tr class="separator:a888ff588d0c717657bbeba571b84a23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a79bb79566e4f8d2f518342c9aac45" id="r_a28a79bb79566e4f8d2f518342c9aac45"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a79bb79566e4f8d2f518342c9aac45">HapticsIntensity</a> = 1f</td></tr>
+<tr class="memdesc:a28a79bb79566e4f8d2f518342c9aac45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies every vibration, 0..1 (since v1.3).  <br /></td></tr>
+<tr class="separator:a28a79bb79566e4f8d2f518342c9aac45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data.html">CORE.Shared.Configs.Data.BaseSettingsData</a></td></tr>
 <tr class="memitem:a05cfa104c99c56b10b63bb1bbde9dbf8 inherit pub_attribs_class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data" id="r_a05cfa104c99c56b10b63bb1bbde9dbf8"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data.html#a05cfa104c99c56b10b63bb1bbde9dbf8">OnApplied</a></td></tr>
 <tr class="separator:a05cfa104c99c56b10b63bb1bbde9dbf8 inherit pub_attribs_class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dfa739384b01daa27574b3fb1421cf3 inherit pub_attribs_class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data" id="r_a2dfa739384b01daa27574b3fb1421cf3"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data.html">BaseSettingsData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data.html#a2dfa739384b01daa27574b3fb1421cf3">OnChanged</a></td></tr>
 <tr class="separator:a2dfa739384b01daa27574b3fb1421cf3 inherit pub_attribs_class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a24dd336aba312bd35ab69af05013a374" id="r_a24dd336aba312bd35ab69af05013a374"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24dd336aba312bd35ab69af05013a374">OnValidated</a> ()</td></tr>
+<tr class="memdesc:a24dd336aba312bd35ab69af05013a374"><td class="mdescLeft">&#160;</td><td class="mdescRight">The end of <a class="el" href="#ada3e78af8eed00633aa6866d9daa0cf9">Validate</a>: clamp or default the game's own fields.  <br /></td></tr>
+<tr class="separator:a24dd336aba312bd35ab69af05013a374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5b89f45680a7966d0f0160d4cead76" id="r_acf5b89f45680a7966d0f0160d4cead76"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5b89f45680a7966d0f0160d4cead76">OnApplying</a> ()</td></tr>
+<tr class="memdesc:acf5b89f45680a7966d0f0160d4cead76"><td class="mdescLeft">&#160;</td><td class="mdescRight">The end of <a class="el" href="#aed92b1d3fa5e6d9b88d53e0a26801dbc">Apply</a>, before <code>OnApplied</code>: apply the game's own fields.  <br /></td></tr>
+<tr class="separator:acf5b89f45680a7966d0f0160d4cead76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a885d13e05f6aa8ad313f76556aed9911" id="r_a885d13e05f6aa8ad313f76556aed9911"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a885d13e05f6aa8ad313f76556aed9911">OnSetData</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_control_settings_data.html">ControlSettingsData</a> settings)</td></tr>
+<tr class="memdesc:a885d13e05f6aa8ad313f76556aed9911"><td class="mdescLeft">&#160;</td><td class="mdescRight">SetData&lt;T&gt;, before <code>OnChanged</code>: copy the game's own fields from <em>settings</em>   <br /></td></tr>
+<tr class="separator:a885d13e05f6aa8ad313f76556aed9911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6003483f605b6be105e3209ba28933ac" id="r_a6003483f605b6be105e3209ba28933ac"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6003483f605b6be105e3209ba28933ac">OnCheckIdentity</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_control_settings_data.html">ControlSettingsData</a> settings, ref bool identical)</td></tr>
+<tr class="memdesc:a6003483f605b6be105e3209ba28933ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">CheckIdentity&lt;T&gt;: compare the game's own fields, clear <em>identical</em>  on a difference  <br /></td></tr>
+<tr class="separator:a6003483f605b6be105e3209ba28933ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents user control settings. </p>
@@ -242,6 +264,118 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acf5b89f45680a7966d0f0160d4cead76" name="acf5b89f45680a7966d0f0160d4cead76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5b89f45680a7966d0f0160d4cead76">&#9670;&#160;</a></span>OnApplying()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.ControlSettingsData.OnApplying </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The end of <a class="el" href="#aed92b1d3fa5e6d9b88d53e0a26801dbc">Apply</a>, before <code>OnApplied</code>: apply the game's own fields. </p>
+
+</div>
+</div>
+<a id="a6003483f605b6be105e3209ba28933ac" name="a6003483f605b6be105e3209ba28933ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6003483f605b6be105e3209ba28933ac">&#9670;&#160;</a></span>OnCheckIdentity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.ControlSettingsData.OnCheckIdentity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_control_settings_data.html">ControlSettingsData</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ref bool</td>          <td class="paramname"><span class="paramname"><em>identical</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>CheckIdentity&lt;T&gt;: compare the game's own fields, clear <em>identical</em>  on a difference </p>
+
+</div>
+</div>
+<a id="a885d13e05f6aa8ad313f76556aed9911" name="a885d13e05f6aa8ad313f76556aed9911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a885d13e05f6aa8ad313f76556aed9911">&#9670;&#160;</a></span>OnSetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.ControlSettingsData.OnSetData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_control_settings_data.html">ControlSettingsData</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>SetData&lt;T&gt;, before <code>OnChanged</code>: copy the game's own fields from <em>settings</em>  </p>
+
+</div>
+</div>
+<a id="a24dd336aba312bd35ab69af05013a374" name="a24dd336aba312bd35ab69af05013a374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24dd336aba312bd35ab69af05013a374">&#9670;&#160;</a></span>OnValidated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Configs.Data.ControlSettingsData.OnValidated </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The end of <a class="el" href="#ada3e78af8eed00633aa6866d9daa0cf9">Validate</a>: clamp or default the game's own fields. </p>
+
+</div>
+</div>
 <a id="a30ed7446da8dccd56f68d89055a1a5fb" name="a30ed7446da8dccd56f68d89055a1a5fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30ed7446da8dccd56f68d89055a1a5fb">&#9670;&#160;</a></span>SetData()</h2>
 
@@ -307,6 +441,38 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a888ff588d0c717657bbeba571b84a23d" name="a888ff588d0c717657bbeba571b84a23d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a888ff588d0c717657bbeba571b84a23d">&#9670;&#160;</a></span>HapticsEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Configs.Data.ControlSettingsData.HapticsEnabled = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The player's gamepad vibration choice (since v1.3), read by <code>InputHost.Haptics</code> when <code>InputHapticsSettings.PersistSettings</code> is on. </p>
+
+</div>
+</div>
+<a id="a28a79bb79566e4f8d2f518342c9aac45" name="a28a79bb79566e4f8d2f518342c9aac45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a79bb79566e4f8d2f518342c9aac45">&#9670;&#160;</a></span>HapticsIntensity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CORE.Shared.Configs.Data.ControlSettingsData.HapticsIntensity = 1f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiplies every vibration, 0..1 (since v1.3). </p>
 
 </div>
 </div>

@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,6 +106,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_component
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_component-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Audio.AudioComponent Class Reference</div></div>
@@ -120,28 +121,68 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_component
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_component.png" alt=""/>
- </div></div>
+  <img src="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_component.png" usemap="#CORE.Shared.Audio.AudioComponent_map" alt=""/>
+  <map id="CORE.Shared.Audio.AudioComponent_map" name="CORE.Shared.Audio.AudioComponent_map">
+<area href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_legacy_audio_upgrade.html" title="A component that still carries legacy audio data and rewrites it into AudioKeys." alt="CORE.Shared.Audio.ILegacyAudioUpgrade" shape="rect" coords="269,0,528,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a44b68c120815b8db115fdeefea859f1c" id="r_a44b68c120815b8db115fdeefea859f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b68c120815b8db115fdeefea859f1c">Play</a> (string state)</td></tr>
 <tr class="memdesc:a44b68c120815b8db115fdeefea859f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play audio clip.  <br /></td></tr>
 <tr class="separator:a44b68c120815b8db115fdeefea859f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afecfa99226b734f29d3a231f7157eac3" id="r_afecfa99226b734f29d3a231f7157eac3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afecfa99226b734f29d3a231f7157eac3">UpgradeLegacyAudio</a> ()</td></tr>
+<tr class="memdesc:afecfa99226b734f29d3a231f7157eac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrites the generated-enum clips into <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_key.html" title="A sound: the id of a cue of the audio catalog (a clip file name, an audio.json entry or a runtime reg...">AudioKey</a>s; true if anything changed. Removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_legacy_audio.html#a24f5673467c04294c118875a0c3a018f" title="The version that removes the legacy audio API.">LegacyAudio.RemovedIn</a>.  <br /></td></tr>
+<tr class="separator:afecfa99226b734f29d3a231f7157eac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a155895c138e564cfdc8e0f44318a58a0" id="r_a155895c138e564cfdc8e0f44318a58a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_clip_settings.html">AudioClipSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a155895c138e564cfdc8e0f44318a58a0">AudioClip</a></td></tr>
 <tr class="separator:a155895c138e564cfdc8e0f44318a58a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a0642fd51e774e20255fcbf08d9d781d8" id="r_a0642fd51e774e20255fcbf08d9d781d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0642fd51e774e20255fcbf08d9d781d8">Awake</a> ()</td></tr>
+<tr class="separator:a0642fd51e774e20255fcbf08d9d781d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae492cb9c78f01a7a58345a1adf580c7" id="r_aae492cb9c78f01a7a58345a1adf580c7"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae492cb9c78f01a7a58345a1adf580c7">UpgradeLegacy</a> ()</td></tr>
+<tr class="separator:aae492cb9c78f01a7a58345a1adf580c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae492cb9c78f01a7a58345a1adf580c7" id="r_aae492cb9c78f01a7a58345a1adf580c7"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae492cb9c78f01a7a58345a1adf580c7">UpgradeLegacy</a> ()</td></tr>
+<tr class="separator:aae492cb9c78f01a7a58345a1adf580c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7e7f8c911a11df9ffa2d31a96779debc" id="r_a7e7f8c911a11df9ffa2d31a96779debc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html">AudioSystem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e7f8c911a11df9ffa2d31a96779debc">_audioSystem</a></td></tr>
-<tr class="separator:a7e7f8c911a11df9ffa2d31a96779debc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f54058bfe14d413e707ead1ec61432f" id="r_a0f54058bfe14d413e707ead1ec61432f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html">IAudioService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f54058bfe14d413e707ead1ec61432f">_audio</a></td></tr>
+<tr class="separator:a0f54058bfe14d413e707ead1ec61432f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Attaches to interactive components on the scene that inherit from the Selectable class. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0642fd51e774e20255fcbf08d9d781d8" name="a0642fd51e774e20255fcbf08d9d781d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0642fd51e774e20255fcbf08d9d781d8">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Audio.AudioComponent.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a44b68c120815b8db115fdeefea859f1c" name="a44b68c120815b8db115fdeefea859f1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44b68c120815b8db115fdeefea859f1c">&#9670;&#160;</a></span>Play()</h2>
 
@@ -167,9 +208,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7e7f8c911a11df9ffa2d31a96779debc" name="a7e7f8c911a11df9ffa2d31a96779debc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e7f8c911a11df9ffa2d31a96779debc">&#9670;&#160;</a></span>_audioSystem</h2>
+<a id="aae492cb9c78f01a7a58345a1adf580c7" name="aae492cb9c78f01a7a58345a1adf580c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae492cb9c78f01a7a58345a1adf580c7">&#9670;&#160;</a></span>UpgradeLegacy() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +218,79 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html">AudioSystem</a> CORE.Shared.Audio.AudioComponent._audioSystem</td>
+          <td class="memname">partial void CORE.Shared.Audio.AudioComponent.UpgradeLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae492cb9c78f01a7a58345a1adf580c7" name="aae492cb9c78f01a7a58345a1adf580c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae492cb9c78f01a7a58345a1adf580c7">&#9670;&#160;</a></span>UpgradeLegacy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.Audio.AudioComponent.UpgradeLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afecfa99226b734f29d3a231f7157eac3" name="afecfa99226b734f29d3a231f7157eac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afecfa99226b734f29d3a231f7157eac3">&#9670;&#160;</a></span>UpgradeLegacyAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.Audio.AudioComponent.UpgradeLegacyAudio </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rewrites the generated-enum clips into <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_key.html" title="A sound: the id of a cue of the audio catalog (a clip file name, an audio.json entry or a runtime reg...">AudioKey</a>s; true if anything changed. Removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_legacy_audio.html#a24f5673467c04294c118875a0c3a018f" title="The version that removes the legacy audio API.">LegacyAudio.RemovedIn</a>. </p>
+
+<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_legacy_audio_upgrade.html#ace75c7b5d52e09adc51ad36c03c40a5a">CORE.Shared.Audio.ILegacyAudioUpgrade</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0f54058bfe14d413e707ead1ec61432f" name="a0f54058bfe14d413e707ead1ec61432f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f54058bfe14d413e707ead1ec61432f">&#9670;&#160;</a></span>_audio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html">IAudioService</a> CORE.Shared.Audio.AudioComponent._audio</td>
         </tr>
       </table>
   </td>
@@ -204,8 +316,9 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/<a class="el" href="_audio_component_8cs.html">AudioComponent.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/Audio/<a class="el" href="_audio_component_8_legacy_8cs.html">AudioComponent.Legacy.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

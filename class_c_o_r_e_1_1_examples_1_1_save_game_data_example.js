@@ -2,6 +2,7 @@ var class_c_o_r_e_1_1_examples_1_1_save_game_data_example =
 [
     [ "Awake", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html#a59bd69a7716795c2e25c6e8cfc0f301a", null ],
     [ "Init", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html#ad0c5a1bcea6be8fec5843764fb4b85e7", null ],
+    [ "InitSaveData", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html#aea6b3515356126a001d58e65670b9176", null ],
     [ "OnDeleteButtonClicked", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html#a13cf9941e88b3eba3de3b3c0abac14a6", null ],
     [ "OnDestroy", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html#a0bcd09ca4e95718482332fcc58dae961", null ],
     [ "OnLoadButtonClicked", "class_c_o_r_e_1_1_examples_1_1_save_game_data_example.html#a0e2f83257f192c807d41684ce29c1b5d", null ],

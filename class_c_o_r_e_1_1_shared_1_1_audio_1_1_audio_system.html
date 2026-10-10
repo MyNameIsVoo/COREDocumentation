@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -107,15 +107,15 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.ht
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Audio.AudioSystem Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>The audio system that controls all sounds in the project, as well as volume.  
+<p>The audio API before <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html" title="The sound of the game, whatever engine plays it (AudioProjectSettings.Backend). Inject it:">IAudioService</a>, kept until <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_legacy_audio.html#a24f5673467c04294c118875a0c3a018f" title="The version that removes the legacy audio API.">LegacyAudio.RemovedIn</a>: every call forwards to the injected <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html" title="The sound of the game, whatever engine plays it (AudioProjectSettings.Backend). Inject it:">IAudioService</a>. Its serialized fields are no longer used — the mixer and buses are set up in the Unity backend asset of <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_project_settings.html" title="Project-wide audio settings: the sound engine, which bus a clip of the generated catalog plays throug...">AudioProjectSettings</a>.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CORE.Shared.Audio.AudioSystem:</div>
@@ -148,49 +148,49 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56e055714cec60390be63a2e9c2f40b3" id="r_a56e055714cec60390be63a2e9c2f40b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56e055714cec60390be63a2e9c2f40b3">DoUpdate</a> ()</td></tr>
 <tr class="separator:a56e055714cec60390be63a2e9c2f40b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9616de6b5aa6d5256a06e82342a6720" id="r_ae9616de6b5aa6d5256a06e82342a6720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9616de6b5aa6d5256a06e82342a6720">SetGlobalVolume</a> (<a class="el" href="#abcc1f85d8dee9c92ff0fbb87ec380132">AudioGroups</a> group, float volume)</td></tr>
-<tr class="memdesc:ae9616de6b5aa6d5256a06e82342a6720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global volume.  <br /></td></tr>
+<tr class="memdesc:ae9616de6b5aa6d5256a06e82342a6720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global volume: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#aa2448b7856fee962987c94e7dd9c3181" title="Game-side scale of a bus (0–1, 1 by default), multiplied by the player&#39;s volume from the settings.">IAudioService.SetBusVolume</a>.  <br /></td></tr>
 <tr class="separator:ae9616de6b5aa6d5256a06e82342a6720"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb18202938446dd291ce2e12a59f944" id="r_abeb18202938446dd291ce2e12a59f944"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeb18202938446dd291ce2e12a59f944">PlayClip</a> (<a class="el" href="#abcc1f85d8dee9c92ff0fbb87ec380132">AudioGroups</a> group, AudioLibrary.AudioClipData? clip, float overrideVolume=1f, bool loop=false)</td></tr>
-<tr class="memdesc:abeb18202938446dd291ce2e12a59f944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play audio clip.  <br /></td></tr>
+<tr class="memdesc:abeb18202938446dd291ce2e12a59f944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play audio clip: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#acf0514b975b6a9de37be4b7a0fb192be" title="Plays the key. A one-shot on a muted bus is skipped (invalid handle); a loop starts silent.">IAudioService.Play</a>.  <br /></td></tr>
 <tr class="separator:abeb18202938446dd291ce2e12a59f944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85de148a2559dca9d09bf3f87e81cfd8" id="r_a85de148a2559dca9d09bf3f87e81cfd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85de148a2559dca9d09bf3f87e81cfd8">PlayLocalizedClip</a> (<a class="el" href="#abcc1f85d8dee9c92ff0fbb87ec380132">AudioGroups</a> group, Localize.LocAssetKey key, float volume=1f)</td></tr>
+<tr class="memdesc:a85de148a2559dca9d09bf3f87e81cfd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays the localized clip of the key once: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#a5317b60f5f70b3dbb8023ec3e445e7d8" title="Plays a clip that is not in the catalog — a localized clip — through a bus.">IAudioService.PlayClip</a>.  <br /></td></tr>
+<tr class="separator:a85de148a2559dca9d09bf3f87e81cfd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af077c6d920eb6bebb8c7ae7377058e38" id="r_af077c6d920eb6bebb8c7ae7377058e38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af077c6d920eb6bebb8c7ae7377058e38">StopClip</a> (<a class="el" href="#abcc1f85d8dee9c92ff0fbb87ec380132">AudioGroups</a> group, AudioLibrary.AudioClipData? clip)</td></tr>
-<tr class="memdesc:af077c6d920eb6bebb8c7ae7377058e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop audio clip.  <br /></td></tr>
+<tr class="memdesc:af077c6d920eb6bebb8c7ae7377058e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops every instance of the clip on the group's bus.  <br /></td></tr>
 <tr class="separator:af077c6d920eb6bebb8c7ae7377058e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7c152db92f677b1f06c6bd37e0fb00d" id="r_ad7c152db92f677b1f06c6bd37e0fb00d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7c152db92f677b1f06c6bd37e0fb00d">Apply</a> (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_configs_1_1_data_1_1_base_settings_data.html">BaseSettingsData</a> baseSettingsData)</td></tr>
-<tr class="memdesc:ad7c152db92f677b1f06c6bd37e0fb00d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply global settings to the audio system.  <br /></td></tr>
+<tr class="memdesc:ad7c152db92f677b1f06c6bd37e0fb00d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hears the volumes of a settings screen's copy before Apply: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#ae22ea2a72cc9b4e9203e5af8fbcdeef4" title="Plays with the volumes of settings  — a settings screen&#39;s working copy — instead of the applied ones,...">IAudioService.PreviewSettings</a>. The applied settings themselves end the preview (<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#a62ce6cbc1d173c49b432843829501521" title="Back to the applied volumes (a settings screen closed or cancelled).">IAudioService.EndPreview</a>).  <br /></td></tr>
 <tr class="separator:ad7c152db92f677b1f06c6bd37e0fb00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac487e3f065a654c6f875babc1f9e0157" id="r_ac487e3f065a654c6f875babc1f9e0157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac487e3f065a654c6f875babc1f9e0157">SetActiveListiner</a> (bool isActive)</td></tr>
 <tr class="separator:ac487e3f065a654c6f875babc1f9e0157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa04941c49d62d3d5c0b6a76ac4582855" id="r_aa04941c49d62d3d5c0b6a76ac4582855"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_bus.html">AudioBus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa04941c49d62d3d5c0b6a76ac4582855">ToBus</a> (<a class="el" href="#abcc1f85d8dee9c92ff0fbb87ec380132">AudioGroups</a> group)</td></tr>
+<tr class="separator:aa04941c49d62d3d5c0b6a76ac4582855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a347d9ad8fa23d2c343a1ea8aea5c7" id="r_a69a347d9ad8fa23d2c343a1ea8aea5c7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_key.html">AudioKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a347d9ad8fa23d2c343a1ea8aea5c7">ToKey</a> (AudioLibrary.AudioClipData clip)</td></tr>
+<tr class="memdesc:a69a347d9ad8fa23d2c343a1ea8aea5c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The key of a clip of the generated audio enums: its file name.  <br /></td></tr>
+<tr class="separator:a69a347d9ad8fa23d2c343a1ea8aea5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a8ab98341c373be7098522cfff705336e" id="r_a8ab98341c373be7098522cfff705336e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ab98341c373be7098522cfff705336e">RandomeMusic</a></td></tr>
-<tr class="memdesc:a8ab98341c373be7098522cfff705336e"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the track is finished, a new one will be played in random order.  <br /></td></tr>
+<tr class="memdesc:a8ab98341c373be7098522cfff705336e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not used: set <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_project_settings.html#a0914f3fcabf8198ccdd7db50a26f1433">AudioProjectSettings.PlayMusicOnStart</a>.  <br /></td></tr>
 <tr class="separator:a8ab98341c373be7098522cfff705336e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a915ec69a1e99bfae68a717706468dd80" id="r_a915ec69a1e99bfae68a717706468dd80"><td class="memItemLeft" align="right" valign="top">AudioMixer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915ec69a1e99bfae68a717706468dd80">AudioMixer</a></td></tr>
-<tr class="memdesc:a915ec69a1e99bfae68a717706468dd80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to audio mixer for volume changing.  <br /></td></tr>
+<tr class="memdesc:a915ec69a1e99bfae68a717706468dd80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not used: the mixer of the Unity backend asset.  <br /></td></tr>
 <tr class="separator:a915ec69a1e99bfae68a717706468dd80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8704ca98cba8225bdfee549be103ed06" id="r_a8704ca98cba8225bdfee549be103ed06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system_1_1_audio_group_setting.html">AudioGroupSetting</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8704ca98cba8225bdfee549be103ed06">AudioGroupSettings</a></td></tr>
 <tr class="separator:a8704ca98cba8225bdfee549be103ed06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a58bf413c187127b242c8cc5d8100ee20" id="r_a58bf413c187127b242c8cc5d8100ee20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58bf413c187127b242c8cc5d8100ee20">Awake</a> ()</td></tr>
-<tr class="separator:a58bf413c187127b242c8cc5d8100ee20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ecb26f8c426911915a7be994717efc" id="r_a46ecb26f8c426911915a7be994717efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46ecb26f8c426911915a7be994717efc">OnSettingsLoaded</a> ()</td></tr>
-<tr class="separator:a46ecb26f8c426911915a7be994717efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aefecb6a179eb48ddff9ccbc2d1b627c3" id="r_aefecb6a179eb48ddff9ccbc2d1b627c3"><td class="memItemLeft" align="right" valign="top">AudioListener&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefecb6a179eb48ddff9ccbc2d1b627c3">_listener</a></td></tr>
-<tr class="separator:aefecb6a179eb48ddff9ccbc2d1b627c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c50417651e64334e271653e8702fb3a" id="r_a9c50417651e64334e271653e8702fb3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html">BaseSubAudioSystem</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c50417651e64334e271653e8702fb3a">_subAudioSystems</a></td></tr>
-<tr class="separator:a9c50417651e64334e271653e8702fb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b2b5e1e14ce8f77ab895ca0aadc8dca" id="r_a2b2b5e1e14ce8f77ab895ca0aadc8dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_global_updater.html">GlobalUpdater</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b2b5e1e14ce8f77ab895ca0aadc8dca">_globalUpdater</a></td></tr>
-<tr class="separator:a2b2b5e1e14ce8f77ab895ca0aadc8dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65f7d423c85793188defe7247d04965" id="r_af65f7d423c85793188defe7247d04965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html">IAudioService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af65f7d423c85793188defe7247d04965">_audio</a></td></tr>
+<tr class="separator:af65f7d423c85793188defe7247d04965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The audio system that controls all sounds in the project, as well as volume. </p>
+<div class="textblock"><p>The audio API before <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html" title="The sound of the game, whatever engine plays it (AudioProjectSettings.Backend). Inject it:">IAudioService</a>, kept until <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_legacy_audio.html#a24f5673467c04294c118875a0c3a018f" title="The version that removes the legacy audio API.">LegacyAudio.RemovedIn</a>: every call forwards to the injected <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html" title="The sound of the game, whatever engine plays it (AudioProjectSettings.Backend). Inject it:">IAudioService</a>. Its serialized fields are no longer used — the mixer and buses are set up in the Unity backend asset of <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_project_settings.html" title="Project-wide audio settings: the sound engine, which bus a clip of the generated catalog plays throug...">AudioProjectSettings</a>. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="abcc1f85d8dee9c92ff0fbb87ec380132" name="abcc1f85d8dee9c92ff0fbb87ec380132"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcc1f85d8dee9c92ff0fbb87ec380132">&#9670;&#160;</a></span>AudioGroups</h2>
@@ -228,38 +228,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Apply global settings to the audio system. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">baseSettingsData</td><td>Global audio settings data</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a58bf413c187127b242c8cc5d8100ee20" name="a58bf413c187127b242c8cc5d8100ee20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58bf413c187127b242c8cc5d8100ee20">&#9670;&#160;</a></span>Awake()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CORE.Shared.Audio.AudioSystem.Awake </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Hears the volumes of a settings screen's copy before Apply: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#ae22ea2a72cc9b4e9203e5af8fbcdeef4" title="Plays with the volumes of settings  — a settings screen&#39;s working copy — instead of the applied ones,...">IAudioService.PreviewSettings</a>. The applied settings themselves end the preview (<a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#a62ce6cbc1d173c49b432843829501521" title="Back to the applied volumes (a settings screen closed or cancelled).">IAudioService.EndPreview</a>). </p>
 
 </div>
 </div>
@@ -279,31 +248,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_utils_1_1_i_update_listiner.html#a5a74eb2ace1f8e53dd7ad568239e9e1d">CORE.Shared.Utils.IUpdateListiner</a>.</p>
-
-</div>
-</div>
-<a id="a46ecb26f8c426911915a7be994717efc" name="a46ecb26f8c426911915a7be994717efc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46ecb26f8c426911915a7be994717efc">&#9670;&#160;</a></span>OnSettingsLoaded()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CORE.Shared.Audio.AudioSystem.OnSettingsLoaded </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -336,16 +280,35 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Play audio clip. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">group</td><td><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> clip group</td></tr>
-    <tr><td class="paramname">clip</td><td><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> clip</td></tr>
-    <tr><td class="paramname">overrideVolume</td><td>Overridden audio clip volume. Leave at 1f to use default values</td></tr>
-    <tr><td class="paramname">loop</td><td>If true then the audio clip will be played repeatedly</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Play audio clip: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#acf0514b975b6a9de37be4b7a0fb192be" title="Plays the key. A one-shot on a muted bus is skipped (invalid handle); a loop starts silent.">IAudioService.Play</a>. </p>
+
+</div>
+</div>
+<a id="a85de148a2559dca9d09bf3f87e81cfd8" name="a85de148a2559dca9d09bf3f87e81cfd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85de148a2559dca9d09bf3f87e81cfd8">&#9670;&#160;</a></span>PlayLocalizedClip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Audio.AudioSystem.PlayLocalizedClip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abcc1f85d8dee9c92ff0fbb87ec380132">AudioGroups</a></td>          <td class="paramname"><span class="paramname"><em>group</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Localize.LocAssetKey</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>volume</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1f</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Plays the localized clip of the key once: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#a5317b60f5f70b3dbb8023ec3e445e7d8" title="Plays a clip that is not in the catalog — a localized clip — through a bus.">IAudioService.PlayClip</a>. </p>
 
 </div>
 </div>
@@ -385,14 +348,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set global volume. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">group</td><td><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> mixer group</td></tr>
-    <tr><td class="paramname">volume</td><td>Volume</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Set global volume: <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html#aa2448b7856fee962987c94e7dd9c3181" title="Game-side scale of a bus (0–1, 1 by default), multiplied by the player&#39;s volume from the settings.">IAudioService.SetBusVolume</a>. </p>
 
 </div>
 </div>
@@ -415,20 +371,65 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Stop audio clip. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">group</td><td><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> clip group</td></tr>
-    <tr><td class="paramname">clip</td><td><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> clip</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Stops every instance of the clip on the group's bus. </p>
+
+</div>
+</div>
+<a id="aa04941c49d62d3d5c0b6a76ac4582855" name="aa04941c49d62d3d5c0b6a76ac4582855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa04941c49d62d3d5c0b6a76ac4582855">&#9670;&#160;</a></span>ToBus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_bus.html">AudioBus</a> CORE.Shared.Audio.AudioSystem.ToBus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abcc1f85d8dee9c92ff0fbb87ec380132">AudioGroups</a></td>          <td class="paramname"><span class="paramname"><em>group</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69a347d9ad8fa23d2c343a1ea8aea5c7" name="a69a347d9ad8fa23d2c343a1ea8aea5c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a347d9ad8fa23d2c343a1ea8aea5c7">&#9670;&#160;</a></span>ToKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_key.html">AudioKey</a> CORE.Shared.Audio.AudioSystem.ToKey </td>
+          <td>(</td>
+          <td class="paramtype">AudioLibrary.AudioClipData</td>          <td class="paramname"><span class="paramname"><em>clip</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The key of a clip of the generated audio enums: its file name. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2b2b5e1e14ce8f77ab895ca0aadc8dca" name="a2b2b5e1e14ce8f77ab895ca0aadc8dca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b2b5e1e14ce8f77ab895ca0aadc8dca">&#9670;&#160;</a></span>_globalUpdater</h2>
+<a id="af65f7d423c85793188defe7247d04965" name="af65f7d423c85793188defe7247d04965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af65f7d423c85793188defe7247d04965">&#9670;&#160;</a></span>_audio</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -437,51 +438,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_global_updater.html">GlobalUpdater</a> CORE.Shared.Audio.AudioSystem._globalUpdater</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aefecb6a179eb48ddff9ccbc2d1b627c3" name="aefecb6a179eb48ddff9ccbc2d1b627c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefecb6a179eb48ddff9ccbc2d1b627c3">&#9670;&#160;</a></span>_listener</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">AudioListener CORE.Shared.Audio.AudioSystem._listener</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c50417651e64334e271653e8702fb3a" name="a9c50417651e64334e271653e8702fb3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c50417651e64334e271653e8702fb3a">&#9670;&#160;</a></span>_subAudioSystems</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_base_sub_audio_system.html">BaseSubAudioSystem</a> [] CORE.Shared.Audio.AudioSystem._subAudioSystems</td>
+          <td class="memname"><a class="el" href="interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_service.html">IAudioService</a> CORE.Shared.Audio.AudioSystem._audio</td>
         </tr>
       </table>
   </td>
@@ -519,7 +476,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reference to audio mixer for volume changing. </p>
+<p>Not used: the mixer of the Unity backend asset. </p>
 
 </div>
 </div>
@@ -535,7 +492,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>After the track is finished, a new one will be played in random order. </p>
+<p>Not used: set <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_project_settings.html#a0914f3fcabf8198ccdd7db50a26f1433">AudioProjectSettings.PlayMusicOnStart</a>. </p>
 
 </div>
 </div>

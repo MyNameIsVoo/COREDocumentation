@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,6 +106,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -136,6 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aef652535f783b6493b274424ff620bef" id="r_aef652535f783b6493b274424ff620bef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef652535f783b6493b274424ff620bef">PlayClip</a> (AudioLibrary.AudioClipData? data, float overrideVolume=1f, bool loop=false)</td></tr>
 <tr class="memdesc:aef652535f783b6493b274424ff620bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play audio clip.  <br /></td></tr>
 <tr class="separator:aef652535f783b6493b274424ff620bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21852fc4df22ab62e26010a06141db81" id="r_a21852fc4df22ab62e26010a06141db81"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21852fc4df22ab62e26010a06141db81">PlayOneShot</a> (AudioClip audioClip, float volume=1f)</td></tr>
+<tr class="memdesc:a21852fc4df22ab62e26010a06141db81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a clip that is not in the audio library (a localized one) once on the group's source.  <br /></td></tr>
+<tr class="separator:a21852fc4df22ab62e26010a06141db81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a503593909b1e2f53091ca1774b029c94" id="r_a503593909b1e2f53091ca1774b029c94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a503593909b1e2f53091ca1774b029c94">StopClip</a> (AudioLibrary.AudioClipData? data)</td></tr>
 <tr class="memdesc:a503593909b1e2f53091ca1774b029c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop audio clip.  <br /></td></tr>
 <tr class="separator:a503593909b1e2f53091ca1774b029c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,6 +155,12 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab15542625e2ac9b97db2200cc069fba4" id="r_ab15542625e2ac9b97db2200cc069fba4"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_system.html">AudioSystem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab15542625e2ac9b97db2200cc069fba4">AudioSystem</a></td></tr>
 <tr class="separator:ab15542625e2ac9b97db2200cc069fba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac7b4a3fd71cf86fd6786b7df19f7f880" id="r_ac7b4a3fd71cf86fd6786b7df19f7f880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b4a3fd71cf86fd6786b7df19f7f880">PlayOnSource</a> (AudioLibrary.AudioClipData data, AudioClip audioClip, float overrideVolume, bool loop)</td></tr>
+<tr class="memdesc:ac7b4a3fd71cf86fd6786b7df19f7f880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays the clip as the source's own track and tracks it in <a class="el" href="#a85d5ce89dbcc62765f10407ef22a129a">_currentClips</a>, so it can be stopped by <a class="el" href="#a503593909b1e2f53091ca1774b029c94" title="Stop audio clip.">StopClip</a>/<a class="el" href="#aa409b8762d8755ebdc39a095179d4f11">StopAll</a>. One-shots go through PlayOneShot with a per-shot volume scale instead: they neither retune the shared source nor stay in the list.  <br /></td></tr>
+<tr class="separator:ac7b4a3fd71cf86fd6786b7df19f7f880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -301,6 +311,78 @@ Private Attributes</h2></td></tr>
 </dl>
 
 <p>Reimplemented in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_effects_sub_audio_system.html#aa9e54fc446aeca9f4b7d3177830bfbde">CORE.Shared.Audio.SubSystems.EffectsSubAudioSystem</a>, <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_interface_sub_audio_system.html#a8bd31e9788c64ea3dd7ef7a135a176dc">CORE.Shared.Audio.SubSystems.InterfaceSubAudioSystem</a>, <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_master_sub_audio_system.html#a34017d383b43a38a006a65173ca0d4c3">CORE.Shared.Audio.SubSystems.MasterSubAudioSystem</a>, and <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_sub_systems_1_1_music_sub_audio_system.html#ade7aa87acde19a35c5e798ec818084ba">CORE.Shared.Audio.SubSystems.MusicSubAudioSystem</a>.</p>
+
+</div>
+</div>
+<a id="a21852fc4df22ab62e26010a06141db81" name="a21852fc4df22ab62e26010a06141db81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21852fc4df22ab62e26010a06141db81">&#9670;&#160;</a></span>PlayOneShot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CORE.Shared.Audio.SubSystems.BaseSubAudioSystem.PlayOneShot </td>
+          <td>(</td>
+          <td class="paramtype">AudioClip</td>          <td class="paramname"><span class="paramname"><em>audioClip</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>volume</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1f</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Plays a clip that is not in the audio library (a localized one) once on the group's source. </p>
+
+</div>
+</div>
+<a id="ac7b4a3fd71cf86fd6786b7df19f7f880" name="ac7b4a3fd71cf86fd6786b7df19f7f880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7b4a3fd71cf86fd6786b7df19f7f880">&#9670;&#160;</a></span>PlayOnSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.Audio.SubSystems.BaseSubAudioSystem.PlayOnSource </td>
+          <td>(</td>
+          <td class="paramtype">AudioLibrary.AudioClipData</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AudioClip</td>          <td class="paramname"><span class="paramname"><em>audioClip</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>overrideVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Plays the clip as the source's own track and tracks it in <a class="el" href="#a85d5ce89dbcc62765f10407ef22a129a">_currentClips</a>, so it can be stopped by <a class="el" href="#a503593909b1e2f53091ca1774b029c94" title="Stop audio clip.">StopClip</a>/<a class="el" href="#aa409b8762d8755ebdc39a095179d4f11">StopAll</a>. One-shots go through PlayOneShot with a per-shot volume scale instead: they neither retune the shared source nor stay in the list. </p>
 
 </div>
 </div>

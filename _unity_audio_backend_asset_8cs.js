@@ -1,0 +1,6 @@
+var _unity_audio_backend_asset_8cs =
+[
+    [ "CORE.Shared.Audio.UnityBackend.UnityAudioBackendAsset", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_unity_backend_1_1_unity_audio_backend_asset.html", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_unity_backend_1_1_unity_audio_backend_asset" ],
+    [ "CORE.Shared.Audio.UnityBackend.UnityAudioBackendAsset.BusMapping", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_unity_backend_1_1_unity_audio_backend_asset_1_1_bus_mapping.html", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_unity_backend_1_1_unity_audio_backend_asset_1_1_bus_mapping" ],
+    [ "CORE.Shared.Audio.UnityBackend.UnityAudioBackendAsset.SnapshotMapping", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_unity_backend_1_1_unity_audio_backend_asset_1_1_snapshot_mapping.html", "class_c_o_r_e_1_1_shared_1_1_audio_1_1_unity_backend_1_1_unity_audio_backend_asset_1_1_snapshot_mapping" ]
+];

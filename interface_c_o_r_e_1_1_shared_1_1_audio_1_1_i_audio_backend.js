@@ -1,0 +1,25 @@
+var interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend =
+[
+    [ "CanPlay", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a6563d2c676922a44a7b2602529244f32", null ],
+    [ "CollectVoices", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a682aae1f7e851fc237e46d3ed3fa1218", null ],
+    [ "IsPlaying", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#af286b1cc4faf9b5ae5952e4b163d6a60", null ],
+    [ "Play", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a0762244e4c11ec145587ea6dae00b8bf", null ],
+    [ "PlayClip", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#aa0263cc60fad98950b838f619032adcd", null ],
+    [ "Preload", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a9cf1acbca7e171ecfa810b60ad1b343b", null ],
+    [ "SetBusPaused", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a65bb95f8ccaac47315fd52899f4704cf", null ],
+    [ "SetBusVolume", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#ad3e13dae194235d50f4c33715344291b", null ],
+    [ "SetGlobalParameter", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a3e23f2e2dd7d69e403a896777443f70f", null ],
+    [ "SetListenerActive", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a54ab51ff8eace8961deaa91b8fad4870", null ],
+    [ "SetListenerPose", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#aca5c7df94d5d28be4993b846f3031e76", null ],
+    [ "SetParameter", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#aa9ad6878db4185aefb56e3a64303f507", null ],
+    [ "SetPaused", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a211e4e3a90f06ef0e616c573f386efad", null ],
+    [ "SetSnapshot", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a944a812edcc2f5afa645372380d4e20e", null ],
+    [ "SetVolume", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a4c57c669c0f77270286386841cd50e4a", null ],
+    [ "Stop", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a2b16fee213e2a730954848bc89e8ac45", null ],
+    [ "StopAll", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a6dba429b3ced779eb83a71047de8d54e", null ],
+    [ "Tick", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a5f1eb74c41b3713db16a100b81517c50", null ],
+    [ "TryGetNative< T >", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#ac041b7568016287a152bc3355d5b913c", null ],
+    [ "Unload", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#ad1cc291337008692346e4939fe09795c", null ],
+    [ "UnloadUnused", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a991997e52fe49bb31862ba0cfbaa5345", null ],
+    [ "Name", "interface_c_o_r_e_1_1_shared_1_1_audio_1_1_i_audio_backend.html#a998909b71f79923fdc6c28d30e816d96", null ]
+];

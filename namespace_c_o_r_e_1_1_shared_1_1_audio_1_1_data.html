@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,7 +104,8 @@ $(function(){initNavTree('namespace_c_o_r_e_1_1_shared_1_1_audio_1_1_data.html',
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">CORE.Shared.Audio.Data Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -114,10 +115,56 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_clip_settings.html">AudioClipSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class that stores data for playing an audio clip.  <a href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_clip_settings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_clip_source.html">AudioClipSource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Where a clip of a cue comes from: a bundle path (generated catalog, <code>audio.json</code>) or a loaded clip (registered at runtime — mods, code).  <a href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_clip_source.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue.html">AudioCue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A resolved sound of the <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_catalog.html" title="What an AudioKey resolves to. Three sources, later wins: the generated clips (one cue per clip file,...">AudioCatalog</a>: its clips (one is picked at random per play) and how it plays. Backends that author sounds elsewhere (FMOD events) may get no cue for a key and use the key alone.  <a href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue_config.html">AudioCueConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cue authored in <code>Resources/Configs/audio.json</code> (and its fragments <code>audio.&lt;part&gt;.json</code>): the id is the <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_key.html" title="A sound: the id of a cue of the audio catalog (a clip file name, an audio.json entry or a runtime reg...">AudioKey</a>, <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue_config.html#a6a6a40e2aebfea27b947b8de49d1c641" title="Clip names; one is picked at random per play. Empty: the clip named like the cue.">Clips</a> are clip names of the generated catalog (file names without extension). An id equal to a clip name overrides how that clip plays.  <a href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue_config.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html">AudioSelectionData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_c_o_r_e_1_1_shared_1_1_audio.html">Audio</a> clip playback settings depending on cursor state.  <a href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_selection_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a4cae0caf76b521df237e0284712957ee" id="r_a4cae0caf76b521df237e0284712957ee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cae0caf76b521df237e0284712957ee">AudioRolloff</a> { <a class="el" href="#a4cae0caf76b521df237e0284712957eea2f8e38ec1a5832670c5011a71603c929">Logarithmic</a>
+, <a class="el" href="#a4cae0caf76b521df237e0284712957eea32a843da6ea40ab3b17a3421ccdf671b">Linear</a>
+, <a class="el" href="#a4cae0caf76b521df237e0284712957eea2250e8d84d7f80c0cb6348c9c6f217bf">LogarithmicCutoff</a>
+, <a class="el" href="#a4cae0caf76b521df237e0284712957eea90589c47f06eb971d548591f23c285af">Custom</a>
+ }</td></tr>
+<tr class="memdesc:a4cae0caf76b521df237e0284712957ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the volume of a spatial cue falls with the distance between AudioCue.MinDistance and AudioCue.MaxDistance. Honoured by <a class="el" href="namespace_c_o_r_e.html">CORE</a>'s Unity backend; an FMOD event carries its own attenuation.  <a href="#a4cae0caf76b521df237e0284712957ee">More...</a><br /></td></tr>
+<tr class="separator:a4cae0caf76b521df237e0284712957ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a4cae0caf76b521df237e0284712957ee" name="a4cae0caf76b521df237e0284712957ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cae0caf76b521df237e0284712957ee">&#9670;&#160;</a></span>AudioRolloff</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a4cae0caf76b521df237e0284712957ee">CORE.Shared.Audio.Data.AudioRolloff</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>How the volume of a spatial cue falls with the distance between <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue.html#ac2e84253642d97ec268bb930bb632ccd">AudioCue.MinDistance</a> and <a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue.html#af9690cd34ef6f4721ed4d9434cb9082d">AudioCue.MaxDistance</a>. Honoured by <a class="el" href="namespace_c_o_r_e.html">CORE</a>'s Unity backend; an FMOD event carries its own attenuation. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4cae0caf76b521df237e0284712957eea2f8e38ec1a5832670c5011a71603c929" name="a4cae0caf76b521df237e0284712957eea2f8e38ec1a5832670c5011a71603c929"></a>Logarithmic&#160;</td><td class="fielddoc"><p>Unity's logarithmic curve (<code>MinDistance / distance</code>): never silent, past <code>MaxDistance</code> the sound stays at <code>MinDistance / MaxDistance</code>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4cae0caf76b521df237e0284712957eea32a843da6ea40ab3b17a3421ccdf671b" name="a4cae0caf76b521df237e0284712957eea32a843da6ea40ab3b17a3421ccdf671b"></a>Linear&#160;</td><td class="fielddoc"><p>A straight line from full volume at <code>MinDistance</code> to silence at <code>MaxDistance</code>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4cae0caf76b521df237e0284712957eea2250e8d84d7f80c0cb6348c9c6f217bf" name="a4cae0caf76b521df237e0284712957eea2250e8d84d7f80c0cb6348c9c6f217bf"></a>LogarithmicCutoff&#160;</td><td class="fielddoc"><p>The logarithmic curve, cut to silence at <code>MaxDistance</code>: a looped world sound stops being heard and costs nothing beyond its range. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4cae0caf76b521df237e0284712957eea90589c47f06eb971d548591f23c285af" name="a4cae0caf76b521df237e0284712957eea90589c47f06eb971d548591f23c285af"></a>Custom&#160;</td><td class="fielddoc"><p><a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_data_1_1_audio_cue.html#a1772fd4ea27041c14ce56cda8af829e5" title="The curve of AudioRolloff.Custom: time 0–1 is the distance over MaxDistance, value the volume.">AudioCue.RolloffCurve</a>: time 0–1 is the distance over <code>MaxDistance</code>, value the volume. For cues registered from code (<a class="el" href="class_c_o_r_e_1_1_shared_1_1_audio_1_1_audio_catalog.html#ac7453267dc183f63ea4c3d7f835503f6" title="Adds or overrides a cue until Unregister of its owner.">AudioCatalog.Register(AudioCue, object, int)</a>). </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

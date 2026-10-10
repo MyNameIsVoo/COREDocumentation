@@ -33,7 +33,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.0.93</span>
+   <div id="projectname">CORE Game Developers Toolkit<span id="projectnumber">&#160;v1.3.93</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -113,6 +113,9 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom
   <div class="headertitle"><div class="title">CORE.Shared.UI.Custom.CustomSlider Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The GameToolkit-era postfix and red zone text of the slider, removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">LegacyLocalization.RemovedIn</a>: the serialized <code>LocalizeEnums</code> number becomes the <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html" title="A key of a localized string: the value of the Key column of a localization table. Serialized as the k...">LocKey</a> of the same name.  
+ <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CORE.Shared.UI.Custom.CustomSlider:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -121,8 +124,7 @@ $(function(){initNavTree('class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom
  <div class="center">
   <img src="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_custom_slider.png" usemap="#CORE.Shared.UI.Custom.CustomSlider_map" alt=""/>
   <map id="CORE.Shared.UI.Custom.CustomSlider_map" name="CORE.Shared.UI.Custom.CustomSlider_map">
-<area href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_custom_transition_ui_element.html" alt="CORE.Shared.UI.Custom.Interfaces.ICustomTransitionUiElement" shape="rect" coords="380,0,750,24"/>
-<area href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html" alt="CORE.Shared.UI.Custom.Interfaces.IMaskableHelper" shape="rect" coords="760,0,1130,24"/>
+<area href="interface_c_o_r_e_1_1_shared_1_1_localize_1_1_i_legacy_localization_upgrade.html" title="A component with serialized legacy localization (a LocalizeEnums number, a LocalizedText reference) t..." alt="CORE.Shared.Localize.ILegacyLocalizationUpgrade" shape="rect" coords="951,0,1258,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -136,6 +138,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a842fb509f1e1a38bc7f3f27a6fcd0159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab11a3b44bfecac783d89d1c1e01a2aa" id="r_aab11a3b44bfecac783d89d1c1e01a2aa"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab11a3b44bfecac783d89d1c1e01a2aa">SetValueWithoutNotify</a> (float input)</td></tr>
 <tr class="separator:aab11a3b44bfecac783d89d1c1e01a2aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5c4ac3970693840041f602ef7b62c07" id="r_ae5c4ac3970693840041f602ef7b62c07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5c4ac3970693840041f602ef7b62c07">SetRedZone</a> (float value)</td></tr>
+<tr class="memdesc:ae5c4ac3970693840041f602ef7b62c07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the end of the red zone to <em>value</em>   <br /></td></tr>
+<tr class="separator:ae5c4ac3970693840041f602ef7b62c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ceab1e7971cc7106573c9985d3e79d0" id="r_a3ceab1e7971cc7106573c9985d3e79d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ceab1e7971cc7106573c9985d3e79d0">UpgradeLegacyLocalization</a> ()</td></tr>
+<tr class="memdesc:a3ceab1e7971cc7106573c9985d3e79d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the legacy data into the key fields. Returns whether anything changed.  <br /></td></tr>
+<tr class="separator:a3ceab1e7971cc7106573c9985d3e79d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -149,21 +157,29 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a69a95a86b253202362f03e486d68e459" id="r_a69a95a86b253202362f03e486d68e459"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html">Transitions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a95a86b253202362f03e486d68e459">Transitions</a><code> [get]</code></td></tr>
-<tr class="memdesc:a69a95a86b253202362f03e486d68e459"><td class="mdescLeft">&#160;</td><td class="mdescRight">All states of the component that can be on it.  <br /></td></tr>
 <tr class="separator:a69a95a86b253202362f03e486d68e459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac433e19fbd62a9413ee2ab774da30793" id="r_ac433e19fbd62a9413ee2ab774da30793"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac433e19fbd62a9413ee2ab774da30793">ValueOutputPostfix</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac433e19fbd62a9413ee2ab774da30793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of digits after the decimal point.  <br /></td></tr>
 <tr class="separator:ac433e19fbd62a9413ee2ab774da30793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f8af004bd5f3ed33e6c99665009a21" id="r_a69f8af004bd5f3ed33e6c99665009a21"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f8af004bd5f3ed33e6c99665009a21">RedZoneThreshold</a><code> [get]</code></td></tr>
+<tr class="separator:a69f8af004bd5f3ed33e6c99665009a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e5c7ab933606c1428f9b75e058eb5d3" id="r_a8e5c7ab933606c1428f9b75e058eb5d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e5c7ab933606c1428f9b75e058eb5d3">Maskable</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a8e5c7ab933606c1428f9b75e058eb5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically toggles the mask on all child components.  <br /></td></tr>
 <tr class="separator:a8e5c7ab933606c1428f9b75e058eb5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a0d947bdd3b86252f6f5ced2a369f89c1" id="r_a0d947bdd3b86252f6f5ced2a369f89c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d947bdd3b86252f6f5ced2a369f89c1">OnValueChanged</a> (float value)</td></tr>
 <tr class="separator:a0d947bdd3b86252f6f5ced2a369f89c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43fc32dac554f4a7dba08cb3938d8688" id="r_a43fc32dac554f4a7dba08cb3938d8688"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43fc32dac554f4a7dba08cb3938d8688">OnLocaleChanged</a> (object sender, LocaleChangedEventArgs e)</td></tr>
-<tr class="separator:a43fc32dac554f4a7dba08cb3938d8688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2cbc38a98112649cdc9e3cb2de9612a" id="r_ad2cbc38a98112649cdc9e3cb2de9612a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2cbc38a98112649cdc9e3cb2de9612a">OnLanguageChanged</a> ()</td></tr>
+<tr class="separator:ad2cbc38a98112649cdc9e3cb2de9612a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1529fba586019e29fca5bb3f20198ee9" id="r_a1529fba586019e29fca5bb3f20198ee9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1529fba586019e29fca5bb3f20198ee9">UpdateBoundLabels</a> ()</td></tr>
+<tr class="separator:a1529fba586019e29fca5bb3f20198ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d29af82fad630bc299ab21d5eff11c0" id="r_a0d29af82fad630bc299ab21d5eff11c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d29af82fad630bc299ab21d5eff11c0">UpdateRedZone</a> ()</td></tr>
+<tr class="separator:a0d29af82fad630bc299ab21d5eff11c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c37ae12731f58fffa15590d29d14c3" id="r_aa5c37ae12731f58fffa15590d29d14c3"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c37ae12731f58fffa15590d29d14c3">UpgradeLegacy</a> ()</td></tr>
+<tr class="separator:aa5c37ae12731f58fffa15590d29d14c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c37ae12731f58fffa15590d29d14c3" id="r_aa5c37ae12731f58fffa15590d29d14c3"><td class="memItemLeft" align="right" valign="top">partial void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c37ae12731f58fffa15590d29d14c3">UpgradeLegacy</a> ()</td></tr>
+<tr class="separator:aa5c37ae12731f58fffa15590d29d14c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -172,15 +188,25 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a85ccfba429030be3d989e030375bac1f" id="r_a85ccfba429030be3d989e030375bac1f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85ccfba429030be3d989e030375bac1f">_valuePostfix</a></td></tr>
 <tr class="memdesc:a85ccfba429030be3d989e030375bac1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The string that will be output after the value.  <br /></td></tr>
 <tr class="separator:a85ccfba429030be3d989e030375bac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04af17dd102810e5935a329ce96fced4" id="r_a04af17dd102810e5935a329ce96fced4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2d">LocalizationTextGenerated.LocalizeEnums</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04af17dd102810e5935a329ce96fced4">_valueLocalizedPostfix</a></td></tr>
-<tr class="memdesc:a04af17dd102810e5935a329ce96fced4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The localized text that will be output after the value.  <br /></td></tr>
-<tr class="separator:a04af17dd102810e5935a329ce96fced4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d39ead606480fc335b97330eba7c8c5" id="r_a8d39ead606480fc335b97330eba7c8c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d39ead606480fc335b97330eba7c8c5">_valuePostfixKey</a></td></tr>
+<tr class="memdesc:a8d39ead606480fc335b97330eba7c8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The localized text that will be output after the value.  <br /></td></tr>
+<tr class="separator:a8d39ead606480fc335b97330eba7c8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ecd747533f94e1b0bff04c3d30c63e" id="r_a61ecd747533f94e1b0bff04c3d30c63e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61ecd747533f94e1b0bff04c3d30c63e">_showPostfixOnlyCurrentValue</a></td></tr>
+<tr class="separator:a61ecd747533f94e1b0bff04c3d30c63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa251b684776c8422a0bc06e38722ade3" id="r_aa251b684776c8422a0bc06e38722ade3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html">TextComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa251b684776c8422a0bc06e38722ade3">_minValueLabel</a></td></tr>
 <tr class="separator:aa251b684776c8422a0bc06e38722ade3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e4d738a6f249de5a08c3aa4c4a53a5" id="r_ad9e4d738a6f249de5a08c3aa4c4a53a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html">TextComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e4d738a6f249de5a08c3aa4c4a53a5">_maxValueLabel</a></td></tr>
 <tr class="separator:ad9e4d738a6f249de5a08c3aa4c4a53a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87927e273a046cf7822e3be154d95f18" id="r_a87927e273a046cf7822e3be154d95f18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_components_1_1_text_component.html">TextComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87927e273a046cf7822e3be154d95f18">_currentValueLabel</a></td></tr>
 <tr class="separator:a87927e273a046cf7822e3be154d95f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0eed03f4b0c37e6f7099d0f871a22b5" id="r_af0eed03f4b0c37e6f7099d0f871a22b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0eed03f4b0c37e6f7099d0f871a22b5">_useRedZone</a></td></tr>
+<tr class="separator:af0eed03f4b0c37e6f7099d0f871a22b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac662c99803ee894a0f3ef8b55c1df409" id="r_ac662c99803ee894a0f3ef8b55c1df409"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac662c99803ee894a0f3ef8b55c1df409">_redZoneValue</a></td></tr>
+<tr class="separator:ac662c99803ee894a0f3ef8b55c1df409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf57a026bb24ab826fb912b41ee09824" id="r_adf57a026bb24ab826fb912b41ee09824"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf57a026bb24ab826fb912b41ee09824">_redZoneKey</a></td></tr>
+<tr class="separator:adf57a026bb24ab826fb912b41ee09824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b351d827a8a32ea8e8bf5f4cc58e31" id="r_aa1b351d827a8a32ea8e8bf5f4cc58e31"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1b351d827a8a32ea8e8bf5f4cc58e31">_redZoneReference</a></td></tr>
+<tr class="separator:aa1b351d827a8a32ea8e8bf5f4cc58e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad603542d19f6d59e16a67b6f5e2113e6" id="r_ad603542d19f6d59e16a67b6f5e2113e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad603542d19f6d59e16a67b6f5e2113e6">_maskable</a></td></tr>
 <tr class="separator:ad603542d19f6d59e16a67b6f5e2113e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9abb5bdb19ee39a94b933dc7949b9e90" id="r_a9abb5bdb19ee39a94b933dc7949b9e90"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html">Transitions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9abb5bdb19ee39a94b933dc7949b9e90">_transitions</a> = new ()</td></tr>
@@ -189,8 +215,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a3e705e429fff260839e01b52230a0a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d1da32b4f84923049afec475527bac1" id="r_a9d1da32b4f84923049afec475527bac1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1da32b4f84923049afec475527bac1">_valueOutpiuPostfix</a></td></tr>
 <tr class="separator:a9d1da32b4f84923049afec475527bac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04af17dd102810e5935a329ce96fced4" id="r_a04af17dd102810e5935a329ce96fced4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2d">LocalizationTextGenerated.LocalizeEnums</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04af17dd102810e5935a329ce96fced4">_valueLocalizedPostfix</a></td></tr>
+<tr class="separator:a04af17dd102810e5935a329ce96fced4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcedab385031cf94ba86f53aeb93f39f" id="r_abcedab385031cf94ba86f53aeb93f39f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2d">LocalizationTextGenerated.LocalizeEnums</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcedab385031cf94ba86f53aeb93f39f">_redZoneLocalizedText</a></td></tr>
+<tr class="separator:abcedab385031cf94ba86f53aeb93f39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The GameToolkit-era postfix and red zone text of the slider, removed in <a class="el" href="class_c_o_r_e_1_1_shared_1_1_localize_1_1_legacy_localization.html#a566f461b991034926fa28b608d784665" title="The version that removes the legacy localization.">LegacyLocalization.RemovedIn</a>: the serialized <code>LocalizeEnums</code> number becomes the <a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html" title="A key of a localized string: the value of the Key column of a localization table. Serialized as the k...">LocKey</a> of the same name. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4edcf3f550f01a3af4dd2f109ba93ef1" name="a4edcf3f550f01a3af4dd2f109ba93ef1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4edcf3f550f01a3af4dd2f109ba93ef1">&#9670;&#160;</a></span>Awake()</h2>
 
@@ -317,8 +349,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a43fc32dac554f4a7dba08cb3938d8688" name="a43fc32dac554f4a7dba08cb3938d8688"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43fc32dac554f4a7dba08cb3938d8688">&#9670;&#160;</a></span>OnLocaleChanged()</h2>
+<a id="ad2cbc38a98112649cdc9e3cb2de9612a" name="ad2cbc38a98112649cdc9e3cb2de9612a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2cbc38a98112649cdc9e3cb2de9612a">&#9670;&#160;</a></span>OnLanguageChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,14 +359,10 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CORE.Shared.UI.Custom.CustomSlider.OnLocaleChanged </td>
+          <td class="memname">void CORE.Shared.UI.Custom.CustomSlider.OnLanguageChanged </td>
           <td>(</td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>sender</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">LocaleChangedEventArgs</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -386,7 +414,24 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html#a6db702ad3a9deccb2be290e9fda6cc92">CORE.Shared.UI.Custom.Interfaces.IMaskableHelper</a>.</p>
+</div>
+</div>
+<a id="ae5c4ac3970693840041f602ef7b62c07" name="ae5c4ac3970693840041f602ef7b62c07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5c4ac3970693840041f602ef7b62c07">&#9670;&#160;</a></span>SetRedZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.UI.Custom.CustomSlider.SetRedZone </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Moves the end of the red zone to <em>value</em>  </p>
 
 </div>
 </div>
@@ -404,6 +449,127 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1529fba586019e29fca5bb3f20198ee9" name="a1529fba586019e29fca5bb3f20198ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1529fba586019e29fca5bb3f20198ee9">&#9670;&#160;</a></span>UpdateBoundLabels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.UI.Custom.CustomSlider.UpdateBoundLabels </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d29af82fad630bc299ab21d5eff11c0" name="a0d29af82fad630bc299ab21d5eff11c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d29af82fad630bc299ab21d5eff11c0">&#9670;&#160;</a></span>UpdateRedZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CORE.Shared.UI.Custom.CustomSlider.UpdateRedZone </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5c37ae12731f58fffa15590d29d14c3" name="aa5c37ae12731f58fffa15590d29d14c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c37ae12731f58fffa15590d29d14c3">&#9670;&#160;</a></span>UpgradeLegacy() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.UI.Custom.CustomSlider.UpgradeLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5c37ae12731f58fffa15590d29d14c3" name="aa5c37ae12731f58fffa15590d29d14c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c37ae12731f58fffa15590d29d14c3">&#9670;&#160;</a></span>UpgradeLegacy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partial void CORE.Shared.UI.Custom.CustomSlider.UpgradeLegacy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ceab1e7971cc7106573c9985d3e79d0" name="a3ceab1e7971cc7106573c9985d3e79d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ceab1e7971cc7106573c9985d3e79d0">&#9670;&#160;</a></span>UpgradeLegacyLocalization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.UI.Custom.CustomSlider.UpgradeLegacyLocalization </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Moves the legacy data into the key fields. Returns whether anything changed. </p>
+
+<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_localize_1_1_i_legacy_localization_upgrade.html#a4de351cc5e2a7a23b078c9bb7fc10fbd">CORE.Shared.Localize.ILegacyLocalizationUpgrade</a>.</p>
 
 </div>
 </div>
@@ -540,6 +706,116 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adf57a026bb24ab826fb912b41ee09824" name="adf57a026bb24ab826fb912b41ee09824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf57a026bb24ab826fb912b41ee09824">&#9670;&#160;</a></span>_redZoneKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> CORE.Shared.UI.Custom.CustomSlider._redZoneKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcedab385031cf94ba86f53aeb93f39f" name="abcedab385031cf94ba86f53aeb93f39f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcedab385031cf94ba86f53aeb93f39f">&#9670;&#160;</a></span>_redZoneLocalizedText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_o_r_e_1_1_shared_1_1_generated_1_1_localization_1_1_localization_text_generated.html#af36c6640668fa38410c8be91257f3b2d">LocalizationTextGenerated.LocalizeEnums</a> CORE.Shared.UI.Custom.CustomSlider._redZoneLocalizedText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1b351d827a8a32ea8e8bf5f4cc58e31" name="aa1b351d827a8a32ea8e8bf5f4cc58e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b351d827a8a32ea8e8bf5f4cc58e31">&#9670;&#160;</a></span>_redZoneReference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject CORE.Shared.UI.Custom.CustomSlider._redZoneReference</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac662c99803ee894a0f3ef8b55c1df409" name="ac662c99803ee894a0f3ef8b55c1df409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac662c99803ee894a0f3ef8b55c1df409">&#9670;&#160;</a></span>_redZoneValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CORE.Shared.UI.Custom.CustomSlider._redZoneValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61ecd747533f94e1b0bff04c3d30c63e" name="a61ecd747533f94e1b0bff04c3d30c63e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ecd747533f94e1b0bff04c3d30c63e">&#9670;&#160;</a></span>_showPostfixOnlyCurrentValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.UI.Custom.CustomSlider._showPostfixOnlyCurrentValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9abb5bdb19ee39a94b933dc7949b9e90" name="a9abb5bdb19ee39a94b933dc7949b9e90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9abb5bdb19ee39a94b933dc7949b9e90">&#9670;&#160;</a></span>_transitions</h2>
 
@@ -551,6 +827,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">List&lt;<a class="el" href="class_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_state_1_1_transitions.html">Transitions</a>&gt; CORE.Shared.UI.Custom.CustomSlider._transitions = new ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0eed03f4b0c37e6f7099d0f871a22b5" name="af0eed03f4b0c37e6f7099d0f871a22b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0eed03f4b0c37e6f7099d0f871a22b5">&#9670;&#160;</a></span>_useRedZone</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CORE.Shared.UI.Custom.CustomSlider._useRedZone</td>
         </tr>
       </table>
   </td>
@@ -581,8 +879,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>The localized text that will be output after the value. </p>
 
 </div>
 </div>
@@ -632,6 +928,30 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8d39ead606480fc335b97330eba7c8c5" name="a8d39ead606480fc335b97330eba7c8c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d39ead606480fc335b97330eba7c8c5">&#9670;&#160;</a></span>_valuePostfixKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_o_r_e_1_1_shared_1_1_localize_1_1_loc_key.html">LocKey</a> CORE.Shared.UI.Custom.CustomSlider._valuePostfixKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The localized text that will be output after the value. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a8e5c7ab933606c1428f9b75e058eb5d3" name="a8e5c7ab933606c1428f9b75e058eb5d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e5c7ab933606c1428f9b75e058eb5d3">&#9670;&#160;</a></span>Maskable</h2>
@@ -653,9 +973,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Automatically toggles the mask on all child components. </p>
+</div>
+</div>
+<a id="a69f8af004bd5f3ed33e6c99665009a21" name="a69f8af004bd5f3ed33e6c99665009a21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f8af004bd5f3ed33e6c99665009a21">&#9670;&#160;</a></span>RedZoneThreshold</h2>
 
-<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_maskable_helper.html#a165bb3f80128d25d44b94793a40f7631">CORE.Shared.UI.Custom.Interfaces.IMaskableHelper</a>.</p>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CORE.Shared.UI.Custom.CustomSlider.RedZoneThreshold</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -678,10 +1016,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>All states of the component that can be on it. </p>
-
-<p>Implements <a class="el" href="interface_c_o_r_e_1_1_shared_1_1_u_i_1_1_custom_1_1_interfaces_1_1_i_custom_transition_ui_element.html#a18d0d46b2a9c21a3f77dd8d68af1a31b">CORE.Shared.UI.Custom.Interfaces.ICustomTransitionUiElement</a>.</p>
 
 </div>
 </div>
@@ -709,8 +1043,9 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/UI/Custom/<a class="el" href="_custom_slider_8cs.html">CustomSlider.cs</a></li>
+<li>D:/UnityProjects/Unity6/COREGameDevelopersToolkit_BuildIn/Assets/COREToolkit/Scripts/Shared/UI/Custom/<a class="el" href="_custom_slider_8_legacy_8cs.html">CustomSlider.Legacy.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

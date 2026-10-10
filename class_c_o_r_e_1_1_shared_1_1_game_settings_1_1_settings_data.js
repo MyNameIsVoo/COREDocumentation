@@ -1,6 +1,7 @@
 var class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data =
 [
     [ "Apply", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a57fc8f8a032ee43df33f9cdc9e6c62d2", null ],
+    [ "FromConfig", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a3551d05de84b188f99c38f1123fa1613", null ],
     [ "SetData", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#ad96502a849383213ae054c27c33873df", null ],
     [ "Validate", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#a9664ef8e8b3c867a30244923614db2c1", null ],
     [ "Audio", "class_c_o_r_e_1_1_shared_1_1_game_settings_1_1_settings_data.html#ad4b0a0d0a2de4fb6428fc9c1f628f473", null ],

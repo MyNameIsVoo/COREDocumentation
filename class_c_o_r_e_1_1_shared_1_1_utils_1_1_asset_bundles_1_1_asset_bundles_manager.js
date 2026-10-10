@@ -4,7 +4,9 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manag
     [ "AssetBundlesManager", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a783587ca4436a7d4dc05d15c034eefbb", null ],
     [ "AddAsset", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a1b9643f2737df80e3795e6b1277bba0a", null ],
     [ "AddBundle< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a1a73d1a8ee3797aeaa04c352ff42a7f5", null ],
+    [ "CanLoadBundles", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a2a4198f36e040d70ff48e16f3c5e09d6", null ],
     [ "CleanBundlesCache", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a2dc36a7139118c323fff86f770180461", null ],
+    [ "GetBundlesFolder", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a3d8041c86e0e5662b853b8e52181fbf7", null ],
     [ "Init", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a29aeb204fc9ec25b077a82895a28b6a0", null ],
     [ "LoadAsset< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#afbeffb8d39eab573767666c3f93d13a7", null ],
     [ "LoadAsset< T >", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#ac3d06a905e6810b190440c3386a0ad7b", null ],
@@ -25,9 +27,13 @@ var class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manag
     [ "_bundles", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#aebbcceb88f803ebbd5844c717631242d", null ],
     [ "_bundlesUnauthorized", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#aa0ed0f74a521bd7bb6dc9be7ff627ce1", null ],
     [ "_currentPlatform", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a3329e29b81ed300921ca599fd4cd8a39", null ],
+    [ "BundlesFolderName", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a38240f432599a6a251b0a18172b819ea", null ],
     [ "OnLoaded", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#ade619d0a1462e79181e76bf792262fa2", null ],
     [ "OnTryLoadAsset", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a801a759f6ab691b7dbfcd8f7d7588121", null ],
+    [ "StreamingAssetsFolder", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#a24cd2d445b9bc1488dab3d86fe93f222", null ],
     [ "BundlesPath", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#aa99f67b6582512ba7129d3edf1ae0630", null ],
+    [ "CurrentPlatform", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#af671935be653a0440bed3cedf721784f", null ],
+    [ "HasBeenLoaded", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#ad492de4ae58d41aeafe74d8875a027c5", null ],
     [ "IsActiveLoadingBundles", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#afb0cbd75244cee113f67e1dfac4f9ad7", null ],
     [ "LoadingProgress", "class_c_o_r_e_1_1_shared_1_1_utils_1_1_asset_bundles_1_1_asset_bundles_manager.html#af56e90feff92f2ca41c8a4f0220a2328", null ]
 ];

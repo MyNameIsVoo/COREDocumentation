@@ -1,0 +1,26 @@
+var class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection_2_g =
+[
+    [ "Clear", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a5aaeb0f9f0a866f4c4f470a1f2f6d23b", null ],
+    [ "CollectData", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a4aac5e1a12ef95205c8596d113b87cba", null ],
+    [ "Create", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a7d4bda94ab4b0b1cc7d8101a959fd9cd", null ],
+    [ "Get", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a9d4df33c9c3d93fb50a4ebcea7fbe610", null ],
+    [ "LoadData", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a41aecdf093d055ac49efa807aaff4439", null ],
+    [ "OnAfterLoad", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#ac97a0d0f5fa7151a493ab14283de18c4", null ],
+    [ "OnBeforeSave", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a57e00af68059a3aada993b21aea12682", null ],
+    [ "OnMissing", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a32824434af1505f5af87bccf8ddcd662", null ],
+    [ "Register", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#aead9e6c127d9715aa57157ca0fc919e3", null ],
+    [ "ResolveReferences", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a5a14807abb7a53607354b9ea81dab918", null ],
+    [ "SaveGameCollection", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a2ef30b85cbb84eb9d86b50b0d67f97aa", null ],
+    [ "TryGet", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a820281d4d5eb351e26345da2ac06cc21", null ],
+    [ "Unregister", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#ac4f37de247f0425fde3f6a1a1477860f", null ],
+    [ "_byId", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a032f8a685b007c4e2bedc0f9e1b693ac", null ],
+    [ "_factory", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a35b618bf16df8315836ed2d986e4e3e4", null ],
+    [ "_items", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a55126c4eac0150045e38778345d7dd5f", null ],
+    [ "_registered", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#ae46389735783377a8a35ffe9acfec70b", null ],
+    [ "Count", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a57a9502f72babf7ff0e7d1ef8b61d180", null ],
+    [ "Items", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#ab8409c211ec787d05ae06b760c71772e", null ],
+    [ "LoadPriority", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a921b72978af21b2ad12e4f9bc2b2c92c", null ],
+    [ "ProgressMessage", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#ab0d678a507a8c618e5981031e30e6021", null ],
+    [ "SaveFile", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#a86f28d5131ef8619c615516414e74f83", null ],
+    [ "SaveKey", "class_c_o_r_e_1_1_shared_1_1_save_1_1_save_game_collection-2-g.html#aefeb74ff3e2ed07e8a507812d8e788cf", null ]
+];

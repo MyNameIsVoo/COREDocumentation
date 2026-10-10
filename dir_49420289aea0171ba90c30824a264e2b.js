@@ -4,5 +4,6 @@ var dir_49420289aea0171ba90c30824a264e2b =
     [ "CustomUIGraphicComponent.cs", "_custom_u_i_graphic_component_8cs.html", "_custom_u_i_graphic_component_8cs" ],
     [ "ImageComponent.cs", "_image_component_8cs.html", "_image_component_8cs" ],
     [ "RawImageComponent.cs", "_raw_image_component_8cs.html", "_raw_image_component_8cs" ],
-    [ "TextComponent.cs", "_text_component_8cs.html", "_text_component_8cs" ]
+    [ "TextComponent.cs", "_text_component_8cs.html", "_text_component_8cs" ],
+    [ "TextComponent.Legacy.cs", "_text_component_8_legacy_8cs.html", "_text_component_8_legacy_8cs" ]
 ];

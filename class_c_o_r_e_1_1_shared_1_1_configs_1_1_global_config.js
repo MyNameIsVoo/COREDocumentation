@@ -1,6 +1,7 @@
 var class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config =
 [
     [ "HasLanguage", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#a1dda1f6a9e7b7b9aed7cf2427eda7a9d", null ],
+    [ "HasLanguage", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#a6e624c21c66f1e41719f3a498f9c5d12", null ],
     [ "Validate", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#aed8aa5e6f04b9ff46be32bcab6cc0f68", null ],
     [ "AppId", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#a0bd2fe620459a0e8ace0422407e87338", null ],
     [ "DefaultHeight", "class_c_o_r_e_1_1_shared_1_1_configs_1_1_global_config.html#a61e86540e20f7a6e2925f069e0b0eb4a", null ],
